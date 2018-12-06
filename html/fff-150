@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #150 - New Terrain Experiments | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #150 - New Terrain Experiments
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-08-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello all,
+
+<h4>0.14 dreams</h4>
+<p>
+The 0.13 stabilisation process has been going on much smoother than expected. This was due to the focused bug fixing efforts of majority of the dev team. It seems realistic that we could have a stable 0.13 version within a week or two. Naturally this brings the question what will be in the box for 0.14. We have had a chat about this with kovarex and came up with a specific (yet very rough or high-level) road plan for 0.14 (and subsequently 0.15). However this will be the content of the next FFF where kovarex will present you a more detailed list of things that you might (most probably - as always) expect.
+</p>
+
+<p>
+Apart from bugfixing not much has been happening lately. Rseding is getting ready for his way back home to the US (2 months flew by really fast). Kovarex is still deep down in Multiplayer rewrite. I have been refactoring our webpage from Clojure to Python (to make it more accessible and consistent with the rest of our web applications). In general there is a summer chill atmosphere in the office.   
+</p>
+
+One of the bigger fixes in recent 0.13 releases has been the main loop. Robert (aka Twinsen) writes more about it:
+
+<h4>Main Loop Again</h4>
+<p>
+Something that happened in 0.13.10 is that the game's main loop was partially rewritten. I'll explain a bit how our game loop works.
+</p>
+
+<p>
+For those who don't know, a Game Loop, or Main Loop is a small part of the game's code that is responsible for telling the game when to process the user input, update the game state and render. It tracks the passage of time to control the rate of gameplay. In its simplest theoretical form it looks like this:
+</p>
+
+<pre>while (!exit)
+{
+  processInput();
+  update();
+  render();
+}
+</pre>
+
+<p>
+And as usual, things in Factorio are more complicated. The way we do game updates and rendering is a bit different than most games. They way our previous game loop worked was explained briefly in <a href="https://www.factorio.com//blog/post/fff-70">FFF-70</a>. Our main loop code is about 800 lines, but in it's simplest form the new and old game loops look something like this:
+</p>
+<pre>while (!exit)
+{
+  processInput();
+  if (didGameUpdate)
+    prepare(); //go though all the entities and collect draw orders
+  start update thread(); //update all the entities: update the game state for 0, 1 or more ticks so we get 60 UPS
+  if (didGameUpdate)
+    render();
+  wait for update thread to finish();
+}
+</pre>
+
+<p>
+The nice thing about Factorio is that we can do the rendering in parallel to the game updates. The only thing that needs to be synchronized is what we call <strong>the prepare step</strong>, that goes though entities and asks what sprites need to be drawn (and where). Once that data is collected, <strong>the render step</strong> deals with the actual textures and tells the GPU what to do.
+</p>
+
+<p>
+Another thing that is very different than most games and some people find it hard to understand is that there is at the moment no point in rendering more frames than game updates. This is because our animations and entity movements are part of the game state (for many reasons, but mostly for simplification). So if you call prepare() and render() two times in a row, you and up drawing two absolutely identical frames.
+</p>
+
+<p>
+I won't go into deep technical details (that would mean talking about barriers, thread conditions, vsyncs, and many boring small problems), but our old game loop had a couple of problems:
+<ul>
+<li>it was trying to be too smart and solve too many different edge cases (what do we do when rendering takes too much time, what do we do when we have have update time spikes, how do we synchronise game updates with vsync, etc)</li>
+<li>it did not work well with monitors that refresh faster than 60hz (144hz monitors) so some tweaks and hacks were put in place to make it sort of work </li>
+<li>some of its timings were based on the precision of thread sleep</li>
+<li>the update rates did not average out at a precise 60UPS even on small maps, meaning that in multiplayer games some players would run the game slightly faster than others</li>
+<li>it was tweaked and changed over the years to fix various things to the point where no one could really understand what was happening anymore.</li>
+</ul>
+</p>
+
+<p>           
+Although it still worked fine in most cases, I decided to rewrite it and address the issues above. And on top of that see if I can maybe squeeze more UPS(game updates per second). I took inspiration from <a href="http://gameprogrammingpatterns.com/game-loop.html">some</a> <a href="http://gafferongames.com/game-physics/fix-your-timestep/">articles</a> and also from <a href="http://answers.unity3d.com/storage/temp/22245-overview.png">Unity's game loop</a>. In the end the simplified main loop made its way into 0.13.10.
+</p>
+
+
+<p>
+The result is:
+<ul>
+<li> performance wise almost identical solution (or better - in some special cases we now get 20% more UPS)</li>
+<li> above mentioned problems were solved </li>
+<li> it leaves possibility to free the FPS and UPS, so we can have for example 144 FPS/60 UPS. For example we briefly talked about the possibility of interpolating the position of the player sprite and camera, so very high framerates could make sense sometime in the future. </li>
+</ul>
+</p>
+
+<h4>To eat CPU or not to eat CPU</h4>
+<p>
+Because of the way it was written initially, the loop would eat up 100% of one CPU core. While it was quickly fixed for the headless server, our office was divided into two camps that would argue whether the main game should use as much CPU as possible to squeeze the best performance possible or sleep when possible to conserve CPU. You can <a href="http://gamedev.stackexchange.com/questions/18898/is-it-safe-to-use-sleep-in-game-loop-on-windows">read</a> some <a href="http://gamedev.stackexchange.com/questions/51545/cpu-usage-game-loop-and-sleep?rq=1">more</a> about this problematics. In 0.13.14 there will be a solution which uses much less CPU while sacrificing very little UPS.
+</p>
+
+<h4> New Terrain Experiments </h4>
+
+<p>
+At the moment, our art director (Albert) is back home in Spain, however the work still continues with him communicating with the rest of the team. One of the topics in the gfx world nowadays are new terrains. Jurek has been experimenting with these for some time. Basically we are looking into adding 2 new biomes each with 3 variations. 
+</p>
+
+<p>The biomes would be the tundra/taiga inspired environment with 3 different levels of "snowiness". And also the "red desert" with 3 different levels of "rockiness". The red desert can be considered a hybrid between the Australian outback and Martian landscapes.
+</p>
+
+<p>
+Work on the biome contains working simultaneously on multiple elements, which need to work together giving a good impression:
+</p>
+
+<ul>
+<li> tiles </li>
+<li> doodads (plants, rocks) </li>
+<li> tile patches (decals, holes, rigs, etc.) - these are technically doodads too </li>
+<li> even specific trees for the terrain </li>
+</ul>
+
+<p>
+The biggest challenge is to make the terrain look smooth and "authentic" in different zoom levels. A certain solution might look good when zoomed in, but it reveals repeating patterns when zoomed out.
+Creation of the terrain is kind of a permanent search for the best compromise among different zoom levels. Of course in the final "product" it all needs to come together (probabilities of tiles with different sizes, doodads and tile patches distribution, sizes of biomes, etc.) to give the best feeling. This requires cooperation with dev team as well.  
+</p>
+
+Here you can see proposals for the tile patches in the red desert terrain
+<p style="margin:auto; margin-top:40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-150-red-desert-1.jpg"/>
+</p>
+
+And here you can see some proposed doodads for the same terrain:
+<p style="margin:auto; margin-top:40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-150-red-desert-2.jpg"/>
+</p>
+
+<p>
+The commenting thread is ready at our <a href="https://forums.factorio.com/30521"> forums</a> as usual.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

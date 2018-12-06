@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #178 - Minimal mode and Mini-tutorials | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #178 - Minimal mode and Mini-tutorials
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2017-02-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello, the office has had a very lively atmosphere this week. With some very productive team discussions taking place, we reach another Friday with an optimistic outlook of the weeks to come.
+
+<h4>Minimal mode</h4>
+<p>
+There has for some time been an irritating problem which can arise in the game, specifically in the way we handle mods. With the mod portal's introduction, it became easier and more intuitive to download and install mods directly in the game. This has been really useful for a lot of players, simplifying the old system of manually dropping the mod into the correct file location. 
+</p>
+
+<p>
+However while installation was simple, getting rid of a malfunctioning mod was not addressed in any way. I am sure anyone who has spent some time downloading some more obscure mods has had this error thrown to them before:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-178-old-error.jpg"/>
+</p>
+
+<p>
+Obviously the error is on behalf of the mod, and the course of action is to remove or disable the mod. I've had a lot of feedback over the course of 0.13 and 0.14, and to many users, this appears as simply a game crash. To put it in another way, a new player installs a mod, and it breaks their game. This shines especially poorly on us, as developers proud of supporting our modding community and its content, this looks like our support might not be good as we claim. 
+</p>
+
+<p>
+So the solution is what we call 'Minimal mode', essentially just a lightweight pre-load of the game, so that if there is an error on loading, we have some way to help. With this system in place, when you load a faulty mod, you will be greeted by something like this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-178-new-error.jpg"/>
+</p>
+
+<p>
+As you can see it will directly give the player the option to disable the mod, and allow them to load the game properly so they can delete it in the mod window. We hope this will all around reduce any frustrations which can occur with some mods, as well as reducing the number of emails we receive asking for help on the topic.
+</p>
+
+<h4>Mini-tutorials & Campaign</h4>
+
+<p>
+We mentioned a while ago about a plan for what we call 'Mini-tutorials'. The basic idea is these will be short context aware scenarios that the player will be prompted to try, which will teach the player some topic in a short period of time. For instance, when a player crafts his first rail pieces, he will be prompted to try the rail planner tutorial. 
+</p>
+
+<p>
+We have a short list of priority tutorials planned for 0.15, which is as follows:
+</p>
+<ul>
+<li>Trains</li>
+<ul>
+<li>Rail building & manual locomotive control</li>
+<li>Automated trains, train stops & schedules</li>
+<li>Ghost rail planning</li>
+<li>Basic signals & simple stations</li>
+<li>Advanced signals, chain signals & intersections</li>
+</ul>
+<li>Oil</li>
+<ul>
+<li>Pumpjacks, pipe building & fluid tanker usage</li>
+<li>Basic oil processing & dealing with output products</li>
+<li>Advanced oil processing & cracking</li>
+</ul>
+</ul>
+
+<p>
+These are what we consider the major 'hiccups' in the game flow, and we hope be giving a short non-intrusive tutorial on how these systems work, it can help smooth out the sometimes intimidating complexity of the game. Further subjects we are considering include the following:
+</p>
+
+<ul>
+<li>Construction robots & Blueprints</li>
+<li>Logistic robots</li>
+<li>Nuclear power</li>
+<li>Circuit network</li>
+<li>Advanced belt usage</li>
+<li>Interface & Interactions</li>
+</ul>
+
+<p>
+We are interested to hear all community input on this, are there any topics or specific areas of the game you think would benefit from a short tutorial? Let us know.
+</p>
+
+<p>
+Related to these new mini-tutorials, is the status of the demo/tutorial campaign. When it was written (many years ago), it was designed specifically to act as both a playable campaign, as well as teaching the player the basics of the game. It works to serve its purpose by all means, but fails to teach the more advanced topics clearly enough while remaining fun to play.
+</p>
+
+<p>
+The current plan is to streamline the current demo campaign, into more specifically a tutorial campaign, and then work on a new campaign with a greater focus on gameplay. Within the gameplay campaign we will have the mini-tutorials to explain the more advanced concepts, without worrying about specifically teaching the player in the mission.
+</p>
+
+<h4>Community spotlight</h4>
+
+<p>
+
+Reddit user NiftyManiac has taken Factorio's concept of automation and ran away with it by developing what he calls 'GreyGoo Mk I':
+</p>
+
+<p style="width:840px; margin: 0px auto;">
+<iframe allowfullscreen="1" frameborder="0" height="474" src="https://www.youtube.com/embed/xF--1XdcOeM" width="840"></iframe>
+</p>
+
+<blockquote><i>
+GreyGoo Mk I is a self-expanding factory built out of square cells. Its singular goal is to occupy as much space as possible, and it does this by autonomously traveling the landscape and seeking out ore to fuel its endless thirst for expansion. On one level, it's a way to automatically build mining outposts with no human intervention; on another level, it's the first step to a fully self-replicating factory.
+</i></blockquote>
+
+<p>
+You can read more about how it works <a href="https://imgur.com/a/Ewhsv">here</a>, and as always, let us know what you think on our <a href="https://forums.factorio.com/viewtopic.php?f=38&t=41421">forum</a>.
+</p>
+
+<img src="https://us1.factorio.com/assets/img/blog/fff-178-new-error.jpg" style="display: none;" />
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

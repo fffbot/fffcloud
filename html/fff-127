@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #127 - Steam Status III: Thank You | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #127 - Steam Status III: Thank You
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-02-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hi all,
+ <p>
+   what a week. Let's see what has happened.
+
+<h4> The Launch Week </h4>
+<p>
+The game launch at <a href="http://store.steampowered.com/app/427520">Steam</a> has obviously been a highlight of the week (well not just the week=)). However quite a few other "launches" have happened as well. As for the game, together with Steam launch we have launched the game at <a href="https://www.humblebundle.com/store/p/factorio_storefront">Humble Store</a>.
+Based on how this goes we might add a few other popular retail sites (i.e. GOG, Green Man Gaming). Prior to the appearance of the Game on Steam, we came up with the <a href="https://forums.factorio.com/viewtopic.php?f=3&t=20430">0.12.24</a> (imho a magical release number) which fixed a couple of last minute bugs. This is the version available at Steam.
+</p>
+
+<p>
+Outside of the digital world, there have been quite some news as well. Kovarex's son Robin has been born on Monday early in the morning. As Kovarex reported, the whole process went quite smoothly and fast. The family is back at home from hospital already. And finally, a baby girl called Ema has been born to our artist Vaclav. This has happened some time ago already, however there were quite a few complications and only this week Vaclav has returned to the office. All is fine by now as well with his family. We were thinking of posting some pictures of the babies, but as kovarex rightly noted "All babies look the same". So there is not much point=)
+</p>
+
+<h4> Gameplay Trailer </h4>
+<p>
+You have probably noticed the homepage layout has been changed. This is due to the release of our new <a href="https://www.youtube.com/watch?v=KVvXv1Z6EY8">Gameplay trailer</a>. The Factorio Trailer is focused on giving an impression of the game. Without giving too much explanations of what is going on. Basically it goes for the WOW EFFECT. With the Gameplay Trailer our goal was to introduce the real aspects of the game to new players in a short video (well still keeping a bit of a wow effect=)). Show how the game actually looks, how player progresses in the game, how some common UI work, etc. Albert, Robert and others have poured many, many hours to the video. From the comments on Youtube it seems that it was more than worth it.
+</p>
+
+<h4> Thank you </h4>
+<p>
+Yesterday was pretty intense. Fixing last minute issues at our website, tweaking the Steam page, finishing the Factorio guide (see below), putting everything together, etc. Finally at 8 p.m. we have semi-automatically launched the game.
+Huge relief has replaced the frantic preparations. Everybody, except for Albert who went for vacation, was in the office. There was a bit of champaign and positive atmosphere. This got even stronger after a while when
+positive reviews started to pour in, Steam in-game counter kept going up and discussion at Steam page kicked off. Months of preparation culminated during that evening.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-127-reviews.jpg"/>
+</p>
+
+<p>
+After the launch we just relaxed and basically watched what was happening. And it was great to see the communnity engage so actively in promoting the game. So it feels more than appropriate to use this section for a big THANK YOU to you
+guys for all the support. It is difficult to capture everything, but I will try to list the imho most important stuff (I am a methodical type after all=)). So thank you, especially for:
+<ul>
+<li> Awesome reviews. At this moment there are 630 reviews with rating of 99%. There is literally 2 "not recommended" reviews. That is mind blowing. Makes it a challenge to stay "with our feet on the ground"=) </li>
+<li> Support at reddit. The new Factorio Gameplay Trailer link has stayed at the top of r/Games for nearly full day. Heck, it seems that we have received as much exposure as highly anticipated Superhot. </li>
+<li> Spreading the word to your friends, youtubers, etc. </li>
+<li> Helping out new users at Steam discussions, Reddit, our forums etc. </li>
+</ul>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-127-reddit.jpg"/>
+</p>
+
+<h4> Factorio guide </h4>
+<p>
+In one of the previous releases of <a href="https://www.factorio.com/blog/post/fff-116">FFF</a>, we have mentioned a new third party documentation project called Factorio Strategy Guide. There has been some more development regarding this one. The result is that we (Wube Software) have bought the guide from the original author (<a href="https://www.youtube.com/user/sonoribingudeddo">Xterminator</a>). We have turned the original .pdf document into a free <a href="http://guide.factorio.com">online guide</a>. Albert has spent his last "finishing" hours, before going for a well-deserved vacation, polishing this online document. This is linked from the Steam page as well. The guide should be considered to be very much a work in progress. There are many things that we plan to improve - phrasing, screenshots, general consistency. However we feel it could be of a good value for new players in the current state. That is why we pushed to have it ready for Steam release. There is a chance of integrating this one with Wiki in the future for instance. However at the moment this feels like the most comprehensive introductory resource into the game there is (apart from messing with the game yourself).
+</p>
+
+<h4> Lua API documentation </h4>
+<p>
+There has been one more update in the documentation. This time aimed at the modders community. The Lua API documentation at the wiki has always been a bit messy, not properly updated and often confusing. Couple of weeks ago, Oxyd and Rseding have finished a resolute mini project of making the Lua API documentation autogenerate from the source code. So basically the function bindings in the code are annotated with special-formatted comments (imagine something like java Doxygen) and based on this a comprehensive reference is then generated. You can checkout the result at the <a href="http://lua-api.factorio.com"> Lua API doc page</a>. We will link this website from some appropriate place soon. Another great advantage of this approach is that we can keep clear separation of documentation for different versions. The only drawback is that the feedback for the documentation is now more cumbersome. If you find something that could be improved, sending us an email is probably the best option at the moment. We might make a new topic for this in the modding subforum if necessary.
+</p>
+
+<h4> Funny Stats </h4>
+<p>
+Last couple of days and hours before the Steam release there has been an escalation of sales at our webpage. That was to be expected - people were taking advantage of cheaper price before Steam launch. It was also expected for sales to drop after the release. Still it is rather funny
+to watch the hourly sales stats from yesterday.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-127-funny-stats.jpg"/>
+</p>
+
+<h4> Life goes on </h4>
+<p>
+So this is it. A hectic week is over. The game is launched and it seems to be doing really well. Let's see how it goes=) I have a feeling that our support department (Scott=)) has some rought times ahead. Anyway, Monday seems like a good opportunity to "get back down to Earth" and continue in the 0.13 development, which has suffered a bit in the past two weeks.
+</p>
+
+<p>
+As usual you can post your comment <a href="https://forums.factorio.com/viewtopic.php?t=20522">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

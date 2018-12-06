@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #3 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #3
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-10-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello everyone,</p>
+  <p> this is the third Factorio weekly update. It is scary how fast the week went by. The summer is definitely gone and it has been raining hard for the past two days here in Prague. We spent the weekend by playtesting the 0.7.1. The bugfixes were mostly finished and we were after the balancing. This resulted in two freeplay games in which we both (me and kovarex) managed to build and defend the Rocket Defense in a little bit more than 11 hours. We both used different strategies. Kovarex went after the logistic robots and the beacons, while I tried to keep my factory relatively small and was really focused on researching the rocket defense asap. With the balancing changes we made, the game seems to be well playable again. No more crazy medium biter attacks after 10 minutes. In my game I saw a first medium biter after cca 4 hours and the first big biter after about 9 hours of playing. That seems allright for the regular settings.</p>
+
+  <p> After the weekend we focused on getting the 0.7.1 out. In the end we managed to do that on Tuesday night, after a full day of work on fixing small issues coming mostly from the Lua API refactoring. The 0.7.1 was received rather well. It still has some bugs though. Especially regarding the enemy expansion. There was this funny save where you stand in the middle of your factory and in like 20 seconds out of the blue sky there appears an enemy spawner and two worms right next to you:) So yeah, there will be 0.7.2. We will put in only bug fixes and will try hard to make this one the stable release for 0.7. </p>
+
+  <p> After the hectic release we spent the next day trying to relax a bit and put plans together for the next iteration. More or less the plan is now clear. There are three priorities:
+  <ul>
+    <li> New terrain - Originally we wanted to spend some time on the players' animation. But then a friend of ours came for a visit. He never saw the game before and his first remark was that the terrain is sh*t:) And he is sort of right. On top of
+    that the terrain is omnipresent. We really want to polish the game as much as possible before the Greenlight campaign so we decided to take a shot at the new terrain and some doodads if there is time left. </li>
+    <li> New main campaign - We consider the demo campaign more or less finished. It still needs some UI love but the content is there. However the main campaign (New Hope) is seriously lacking and it hasn't really changed since
+    the Indiegogo. So one of the goals for the next iteration will be to extend this campaign to 5+ meaningful levels. Having multiple levels will also allow us to better explain some concepts (like trains, logistic robots or signals) to the player.</li>
+    <li> New trailer - We cannot start a Greenlight campaign with the current trailer. It is painfully out of date. We have been discussing a lot of ideas and studying existing successful indie game trailers to
+    come up with something entertaining and competitive. The details are not finished yet, but the main theme would be presenting a factory without "scene cuts". All the transitions between the consecutive scenes would be
+    fluent and performed by elements in the factory. For instance - the camera follows the train which takes it to the next part of the factory.</li>
+  </ul>
+  </p>
+
+  <p> Albert has been onto the terrain for couple of days now. We were playing with an idea to use Wang tiles but in the end decided to go with different size variations of tiles for the same terrain. This should break the grid-like feel of the current terrain. Albert developed his own, simple yet clever technique for creating tile variations rather fast. Basically he creates the tileable edge of a single tile and then just changes the inside for every variation. Keeping everything as 3D models allows him to do all sorts of tricks (like changing the height gradient really fast). Some preliminary results look promising.
+      Here is an example of dry dirt terrain with random machines on top of it:
+  </p>
+
+  <p style="margin:10px;">
+      <img src="https://cdn.factorio.com/assets/img/blog/fff-3-terrain.jpg"/>
+  </p>
+
+  <p> As before the link to the post is in the separate topic on the forum. So you can <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1447">post your comments</a> there </p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

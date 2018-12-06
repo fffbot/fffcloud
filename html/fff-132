@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #132 - Side Project | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #132 - Side Project
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-04-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello everyone
+
+<p>
+past week has been a typical "not-that-much-interesting-is-happening" kind of a week here in the Wube office. Everyone is working on his continuous little sub projects. New and new bugs keep appearing in "should-have-been-stable-long-ago" 0.12 branch. The bugs are then fixed and the cycle continues. It is not easy to find interesting topics in times like these, however this week Robert has decided to share his pet project he has been busy with lately. Just to put things into perspective, Robert is the leader (and only member at the moment) of a subteam nick-named Factorio-X which is eXperimenting with pushing our engine to its limits.
+</p>
+
+<h4> Early prototyping </h4>
+
+<p>
+So the deal is, that for a few months now, we have been "secretly" playing with porting the game to the mobile devices! At the moment this is only Android (only phone Robert owns), however if things go well, iOS would be next obvious target. Some friends of ours are pushing hard to make this for more obscure systems, such as Windows Mobile and even Blackberry OS. But let's not get too excited. We definitely want to stay with our feet on the ground.
+</p>
+
+<p>Till now the Factorio-X sub team (well Robert), has been busy working on the technical challenges. This obviously includes porting the internal libraries, further performance optimisations and mainly re-adapting the controls for the mobile in a meaningful way. This is especially tricky, but Robert is IMHO approaching a sweet spot of combination of point-and-click, screen gestures and overall device physical movement mechanisms. Just one example for all - instead of pressing button to manually mine resources / buildings you simply shake your phone as if you were holding a little pick-axe. I have tried it and it is truly rewarding when you actually manage to mine something. Using this "control" is also physically tiring so it really pushes you to automation as soon as possible.
+</p>
+
+<p>
+Below is a very early unofficial preview. Factorio is running on Robert's (he is tired but smiling) phone after he spent full night hacking the Allegro - Android integration. As you can see in the picture, it runs at almost 60 UPS on our pretty big multiplayer factory. 
+</p>
+
+<p style="margin:auto; margin-top:40px; width:900px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-132-mobile.jpg"/>
+</p>
+
+<h4> Rethinking the gameplay </h4>
+<p>
+With the prototype looking promising we felt it is the time to think about how the game mechanics would change. This is where things get interesting. The great thing about the game as it is now, is how immersive it can get. I guess most of you have had some experiences of playing the game till 3 a.m. However on mobile this would be a great disadvantage and potentially a dangerous one. Imagine playing Factorio on your mobile while travelling on the subway just to find yourself couple of hours later being shouted at by the subway attendant who is driving the subway to the depot for the night sleep. 
+</p>
+
+<p>
+The solution that we came with is radical, but very mobile-like in nature. The simulation will run constantly, most of the time in the background. This makes designing your base much more meaningful since it will stay with you for long time. To avoid micromanagement, even more tasks will get automated by newly introduced Personal Factory Assistant (a.k.a. PeFaS). This way you know that your factory is in good hands, while you get along with your day to day activities. You can periodically check what is going on and take control over from PeFaS.
+</p>
+
+<p>
+Notifications will be greatly expanded and integrated with the phone notifications. So you will get an alert when your base is about to be attacked. This will get super handy so you have time to get away from the meeting at work or pull over with your car when driving and properly handle the incoming biters. For the geeky audience we are thinking of using the circuit network to program your own notifications and maybe even feed these back to PeFaS so you can choose to ignore a notification when needed.
+</p>
+
+<h4> The business model </h4>
+
+<p>
+Let's face the facts. We are newbies in the mobile game development industry. So to stay competitive with the mobile revolution coming to the Factorio world we have attended a seminar here in Prague, about latest business model trends in mobile gaming. As a result Tomas has even received the "Certified mobile gaming innovator" diploma. 
+</p>
+
+<p>
+The message from the seminar was clear. On mobile, Free 2 Play is the only option. Even kovarex had to lower his defenses when confronted with convincing graphs and statistics showing success of some of the F2P mobile gaming blockbusters. The question how to integrate F2P into Factorio is still open. We are aware of how sensitive this topic can be in the gaming community and hence our priority is the balanced development of the game on new platform and not simply "milking" the mobile users.
+</p>
+
+<p>
+The most prominent scenario at the moment is simply to tap the F2P model into production statistics. In the beginning player gets a credit to produce let's say 1000 items. When he does that he can choose to buy another credit or simply continue playing by crafting items manually. One thing we want to avoid for sure is making the game annoying for people who decide not to pay. The model would be best described as Pay 2 Automate but not Pay 2 Win or even Pay 2 Play. Of course there might be modules which allow to produce multiple items for a cost of one credit for instance. The pricing for credit packs is not clear yet, but we will come up with something reasonable. After all this is not about the money, but about improving player experience!
+</p>
+
+<p>
+In the end this has turned out to be quite an elaborate disclosure=) Just to make things clear the whole project is in the prototype stage and this gives you a great opportunity to express your opinions and ideas on <a href="https://forums.factorio.com/22924">our forums</a>.
+</p>
+
+<h3>
+Maybe you kept reading all the way here and now you think that we went insane. Well in that case we have a good news for you, because this post is our humble contribution to the April Fools' day=) But user reactions definitely got us thinking about mobile possibilities for the future =)
+</h3>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

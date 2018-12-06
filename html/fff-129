@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #129 - The late game | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #129 - The late game
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-03-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,
+
+<p>
+these Friday Facts are focused solely on our view of gameplay issues in Factorio, and our plans to solve these.
+</p>
+
+<h4>The late game enhancement - Mining</h4>
+<p>
+We played more Factorio these days as we were testing the multiplayer, and as we played I realized again, that once you reach a certain point in the base building, with big smelting setups supplied by trains, several platforms for each resource type, you have to spend more and more time by managing the mines. Once we had 6 copper mines, there were always 1-2 that had to be deconstructed, and rebuilt elsewhere. Even with blueprints for stations, for the mine, for double rail junctions etc. It becomes more and more routine work and the game stagnates. Also the feeling that the mine is a short term thing to be removed just a few hours later isn't good. This basically limits me from building a real megabase. There are 2 solutions to these problems, and I would love to combine them.
+</p>
+<ul>
+<li><b>Resource generation tweaks</b>:
+<p>
+Resource generation would be tweaked, so the richness of the mining sites would grow the further you are from the center of the map, the same way the size of enemy bases grows. This would actually add a lot of strategy to the game, as it would always be questionable, whether it is better to use the nearby mines, or whether to expand deep into enemy territory, and create a defensive position of the mine that will last for a very long time. This would also open new possibilities for difficulty settings, as higher difficulty settings could decrease the starting richness of the mines, but it wouldn't imply the need to just tinker with lot of small mines. This would just mean that you need to go deeper into enemy territory compared to easy settings, to get the same amount of resources.
+</p></li>
+
+<li><b>Long term mining drills</b>
+<p>
+These would be unlocked by late game research, with a high resource cost. Their advantage would be that, in the long run they would be able to squeeze much more resources from the mining site compared to the normal mining drills, mining some kind of &quot;dirty ore&quot;. They would get X times dirty compared to the normal mining. The dirty ore would have to be additionally processed in your base, so it would add infrastructure and logistic challenges if one wants to go this way. In the long run, you could go much further with the scale of the factory, as the complexity is moved from the temporary mine to a long term facility in your base.
+</p>
+</li>
+</ul>
+
+<p>
+With these two combined, the local logistic network with robots, repair packs, walls and turrets that would be re-supplied by a special train from time to time would make sense, as keeping the mine alive would be a long term task that is worth the automation and the bottleneck will be something else other than just the speed of building new mines in the very late game.
+</p>
+
+<h4>The late game enhancement - Resource sinks</h4>
+<p>
+This also brings me to an idea, that once you are building the megabase, the only late game and expensive research is the almost infinite follower robot count research, which kind of sucks as it is the only option. You can actually finish it without reaching the full potential anyway. I was thinking, to just add extra expensive tiers to most of the upgrade technologies, so there is something to research in the long term, and would be a very cheap way for us to improve the late game possibilities.
+</p>
+
+<p>
+The intention is that the player views this as an optional extension of the research, and to give them and their factories some additional work to do, for a substantial bonus. But the problem arises if they don't intend on building a huge factory, but they are simply completionists, so they force themselves to work on it even when they don't enjoy it anymore.
+</p>
+
+<p>
+I can imagine, that one of the solutions could be to allow infinite technologies. You can, for example, research laser turret damage for as long as you would like, but every level is twice as expensive compared to the previous one. This solves the problem, as you can't just &quot;finish all the research&quot;.
+</p>
+
+<h4>Planned balancing changes</h4>
+<p>
+There are lot of changes that will make the trains more viable in 0.13 (<a href="https://www.factorio.com/blog/post/fff-114">better conditions</a>, <a href="https://www.factorio.com/blog/post/fff-113">better rail building</a>, <a href="https://www.factorio.com/blog/post/fff-128">possibly variant of the loader</a>, and even the changes I mentioned in this post should help, but most of them are not planned for 0.13 as it is already quite a big release). On top of it, I'm planning to extend the cargo wagon inventory size. It has 30 slots now, and I'm considering of increasing it to 40-60. The fluid wagon is still planned as well. With all of these changes, trains might actually become more viable and practical in 0.13, which we believe can't be a bad thing.
+</p>
+
+<p>
+The other part that might need some tweaks are the green science pack research costs. The problem is, that once the green science is automated, the researches are unlocked quite fast and the player doesn't have enough time to take advantage of it usually. Then he hits the wall of the blue science, the research stops and it is the time to use all the green science technology to get to blue science. The order of the green research didn't really matter so much at this point. It might help things, if the green research would be more expensive, so the transition is smoother, and the choices matter more.
+</p>
+
+<h4>Upgrade of the smoke visuals</h4>
+<p>
+The motivation for this is to provide some smoke, even when the particle based smoke is turned off in the graphical options for performance reasons. But it could actually be combined with the particle based smoke, to achieve a greater effect.
+</p>
+
+<img src="https://cdn.factorio.com/assets/img/blog/fff-129-smoke-source.gif">
+
+<p>
+As always we would like to know what you have to say on our <a href="https://forums.factorio.com/viewtopic.php?t=21311">forum thread</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

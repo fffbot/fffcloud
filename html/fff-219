@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #219 - Cliffs | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #219 - Cliffs
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen, Albert, TOGoS on 2017-12-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Cliffs - introduction and gameplay <font size = "2">(Twinsen)</font></h4>
+<p>
+Several months ago TOGoS (Dan) half-jokingly mentioned that what Factorio really needed was mountains and cliffs. This was also suggested <a href="https://www.reddit.com/r/factorio/comments/4yjmh8/suggestion_elevations/">many</a> <a href="https://www.reddit.com/r/factorio/comments/257u3a/cliffs/">many</a> <a href="https://www.reddit.com/r/factorio/comments/4g2phz/make_factorio_feel_more_alien/">many</a> <a href="https://forums.factorio.com/viewtopic.php?f=80&t=12771">times</a>.
+Albert immediately got very excited and they started having some discussions about how to make it happen.
+</p>
+
+<p>
+Fast forward a few months, and Ernestas had made some cliff graphics that looked really nice when layered onto pretty much any type of terrain. Fast forward a few more months and add a few months of programming and polishing, and cliffs are almost done, so we will be showing them to you today.
+</p>
+
+<p>
+Cliffs, together with the <a href="https://www.factorio.com/blog/post/fff-207">other map changes</a> TOGoS did, should make the map look much more diverse and interesting <a href="https://cdn.factorio.com/assets/img/blog/fff-200-map-preview-2.png">compared to 0.15</a>. Hopefully it will make exploration more fun, since you will be finding more diverse and unique areas in the world.
+</p>
+
+<p>
+Since cliffs block your path, they can affect gameplay significantly. To not make this annoying, cliffs are never too long and often have gaps. We tried to balance the length so they will be long enough to create interesting combat situations, or with some modifications serve as a natural wall against the biters, but so long that they block your path when you want to get somewhere. Cliffs will also not appear in the starting area, to give you plenty of space for your initial base.
+</p>
+
+<p>
+Finally, in Factorio nothing should stand in the way of automation, so if you don't like cliffs, you can always blow them up using a new mid-game item called "Cliff explosives".
+<p>
+
+<h4>Cliffs - graphics <font size = "2">(Albert)</font></h4>
+Map generation is hard mainly because it is procedurally generated. That means that the computer is mixing all the pieces to create the terrain on the fly. This leads the artists to a very difficult situation,because it is very hard to guess in which conditions the tilesets will be used. </br>
+</br>
+<p>
+<b>Factorio terrain 0.1</b></br> 
+We started the generation of terrain in Factorio with very basic rules, mainly mixing clusters of 32px tiles. But obviously that wasn't enough. 
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-factorio-0.png">
+</p>
+
+<p>
+<b>Factorio terrain 0.3</b></br>
+ With better looking tiles, transitions from one terrain to another, and variations of tiles, terrain looks much better. But this technique was a pain for the artist to generate an interesting and detailed tileset. The 32px grid was killing any attempt to have a natural looking terrain.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-factorio-0-3.png">
+</p>
+
+<p>
+<b>Factorio terrain 0.12</b> </br>
+New technique: Instead of having only variations of 32px tiles, we produce a tileset with different sizes (x32, x64, x128, x256) in order to break this squary sense of grid, and even being able to render more detail in bigger sized tiles. So terrain looks much more natural. The visible tile-grid is almost gone, and we start spreading a new concept for us: the doodads. These are little sprites of plants and rocks randomly spread throughout the map in order to provide more variability and an organic feeling.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-factorio-0-12.png">
+</p>
+
+<b>Factorio terrain 0.15</b> </br>
+Things are getting better, the doodads were optimised and we're able to place much more of them, creating more interesting patterns and mixtures. It is also worth it to mention that the introduction of the high resolution graphics does a lot to help the look of the terrain.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-factorio-0-15.png">
+</p>
+
+<b>Factorio terrain 0.16</b> </br>
+After all those iterations, the next terrain generation integrates a couple of new concepts: the decals which are "just" doodads but ground-related. Decals are meant to generate terrain accidents and details without being oppressed by the rules of "tileability" and size. Basically decals are patches on top of a tileset that are very rich in detail. In combination with the doodads, the absence of the tile-grid and the high-res, we start to have a natural looking terrain. I have to add that the good and fast work of Ernestas, our environment artist, made possible the evolution of this new state of terrain. Now with our new techniques, the creation of a new tileset is very smooth.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-new-world-01.png">
+</p>
+
+Even with all the improvements, terrain still looks too flat, so another addition to 0.16 are the cliffs. Finally we can break the flatness of the Factorio surface, without having to change the mechanics of the game.
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-cliffs-05.png">
+</p>
+
+
+This new feature can add a bit to the fun of designing a factory by taking advantage of the topology of the map.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-cliffs-02.png">
+</p>
+
+Or can lead combat to more interesting situations.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-219-cliffs-03.png">
+</p>
+<p>There are more additions to the terrain, and we will dedicate more time to this subject in future posts.
+</p>
+
+<h4>Cliffs - Programming <font size = "2">(TOGoS)</font></h4>
+<p>After seeing a graphical mock-up, I was tasked to figure out how they would be integrated into the game.</p>
+
+<p>
+We had some thoughts about making them tiles, or even a new kind of terrain layer, but in the end decided the simplest way forward was just to make cliffs entities. The "cliff" entity prototype type has some smart logic in it about how all the different cliff orientations work, and that if a cliff gets destroyed, its neighbours need to be fixed up. There are also some special cases about how they interact with projectiles, but for the most part, cliffs just act as walls.
+</p>
+
+<p>
+The other aspect to cliffs is how to generate them on the map. Since we already have <a href="https://www.factorio.com/blog/post/fff-207">an elevation function</a>, we can just place cliffs wherever we have a steep slope, right?  Well, it is not quite that simple. Because of the way the cliff entities were designed, we can't just place them anywhere,  we need to make sure they get placed many segments in a row. The rows of cliffs also need to be spaced apart (in cases where there's enough of an elevation change to have multiple rows of cliffs), or they don't look good.
+</p>
+
+<p>
+The first approach I took was to look at the change in elevation on each side of each 4x4 tile (the size of one cliff segment) cell. If an edge crossed a certain elevation and was steep enough, then we'd say that edge crossed a cliff, and select an appropriate cliff segment to put in the cell based on which edges crossed the cliff elevation upwards or downwards.</p>
+
+<figure style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-219-cliff-topo-map.png" width="400" height="400"/>
+<figcaption>Cliff segments are placed between cell edges (yellow)
+that cross the cliff line (purple) at a sufficient slope</figcaption>
+</figure>
+
+<p>A couple of problems became apparent:</p>
+<ol>
+<li>Slopes of north-south and east-west cell edges that cross a cliff line aren't necessarily correlated. The result being that cliffs running nearly north-to-south, for example, would often have gaps at points where they crossed a grid line to the east or west.
+</li>
+<li>There was nothing in this algorithm preventing 'impossible' cells, such as one where every edge has a cliff crossing, and we don't have a cliff graphic to represent that situation.
+</li>
+</ol>
+
+<p>
+In the end I removed the slope calculation. We still check that edges cross a threshold elevation, but instead of using slope as the second factor for cliff placement, there's an additional noise layer called 'cliffiness' which applies equally to the north-south and east-west edges. That fact that this noise layer is completely independent of elevation has the added benefit that it's easier to tweak, e.g. to ensure that there are gaps in cliff faces every so often.
+</p>
+
+<p>
+To prevent impossible situations, the cliff generator now builds up map of cliffs for an entire chunk at a time, and then, cell by cell, removes edges marked as cliff-crossing until
+no cell has more than 2 'cliff-crossing' (this concept becoming more and more removed from the original elevation function) edges. Of course edges shared with neighbouring chunks are off-limits to the edge removal algorithm, since they have to match whatever cliffs are generated (independently) for that chunk.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/54341">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #155 - Settling into fall | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #155 - Settling into fall
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2016-09-09, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello, </br>
+Bugfixing for 0.14 has been going quite well this week, and while its still in experimental we've been adding some supplementary features before programming work begins properly on 0.15. With the summer ending, things have been settling back into a nice rhythm here in the office.
+
+<h4>Improvements to scenarios</h4>
+We have been playtesting and bugfixing all number of issues that the team challenge has shown us, the aspect of hosting our own server and constantly having people play has really shed some light on those more difficulties, as well as give us a lot thought for tweaks and optimizations.
+</br>
+</br>
+Some of these changes you might has spotted in the recent change logs, including default team chat, player tags, AFK detection and the latency hiding of god/ghost controllers. A major change we introduced is the sending/saving of the scenarios when you join a server. This means that when you join a server with a custom scenario, you can then play that scenario from the start and host it yourself. We really hope this will generate some greater interest in the development of scenarios. Before it was quite difficult, in that even if you create an amazing scenario, it was often hard for players to actually find and play it. 
+</br>
+<h4>Production challenge results - Week 1</h4>
+We have had a lot of fun here at the office playing on the team challenge server. A lot of wasted hours and late nights in some cases. However we were impressed/embarrassed to find that there are a lot of players who simply demolished us in every round. Their playtime has definitely helped us identify a lot of issues, so special thanks to these top 5 players:
+<ol>
+<li> EricWong
+<li>MotionBlur
+<li>AntiElite
+<li>xenocyber
+<li>NearlyDutch
+</ol>
+
+It's been a really interesting and intense way to play Factorio, and these guys really showed us how high the skill ceiling can be, but surely there are some more players up for the challenge out there.
+We're going to be continuing our updates and fixes of the scenario, with possible extensions for new challenge types and other fun tasks. Below is an example of the entity spawning we worked on so that slower computers would not freeze for a moment while the round was started:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay="" loop="" >
+<source src="https://cdn.factorio.com/assets/img/blog/fff-155-scenario-2.webm" type="video/webm">
+<source src="https://cdn.factorio.com/assets/img/blog/fff-155-scenario.mp4" type="video/mp4">
+</video>
+</p>
+Its also incredibly interesting to see the different ways the teams build their setups, when given identical starting conditions. With the task items quite variable, along with the amount required, the styles and meta-game we've been seeing in just a single week is really exiting.
+</br>
+</br>
+If you'd like to join in, simply find "Official Factorio Team Challenge" in the matching server (version 0.14 required) and click join. At the moment teams are random, so hope that you get some good teammates.
+</br>
+<h4>Circuit network optimizations for 0.15</h4>
+Twinsen here again with more boring circuit network stuff. This time I talk bout how the circuit network got a lot faster for 0.15.<br/>
+The way the circuit network worked before the optimization was something like this:
+<ul>
+<li>Every connected entity that has signals to send would sent the signals every game tick.</li>
+<li>All these signals would get summed together based on how they are connected.</li>
+<li>Finally any entity that reads signals will read from this sum and react accordingly, in every tick,.</li>
+</ul>
+This didn't change since it was added in December 2012. And it worked well, until people started making combinator contraptions with 40,000 lamps and 6,000 combinators, slowing down the game significantly.
+</br>
+</br>
+Because of the way it worked, the circuit network would use almost the same amount of CPU even if nothing was happening(no signals were transmitted), so the first optimization is that, instead of transmitting, summing signals and evaluating circuit conditions every single tick, this is only done once signals are changed. This unfortunately meant that the circuit network code for all the connectable entities had to be partially rewritten, but it lead to UPS increasing 12 times in some circuit network-only saves.
+</br>
+</br>
+Second thing was a simple optimization of the internal structure. Signals in a circuit network were stored as a std::map&lt;SignalID, int32_t&gt;. I sometimes heard opinions about how C++'s std::map is ridiculously slow and unoptimized, but I never really believed it. In my specific case, boost::container::flat_map not only was significantly faster but it also used less than half the memory. Finally this simple change lead to UPS doubling in some circuit network-only save.
+</br>
+</br>
+The final result is that the game will be up to 2478% faster and the memory usage up to 10% lower.<br/>
+For benchmarking, I used a save with a version of <a href="https://forums.factorio.com/17834">Xeteth's Combinator Display</a>(used by Colonelwill's hall of fame). I also used the save used in the <a href="https://www.youtube.com/watch?v=Kry8lbrHjeY">"Early Steam Build" video</a>. So special thanks to the creators of those contraptions.
+</br>
+<h4>New Pump and HD pipes</h4>
+
+A much anticipated feature of the last few Factorio versions has been the idea of a fluid wagon for transporting fluid via railway. Currently the only way of transporting fluids a long distance is through the use of a lot of pipes or  by barreling them up, neither of which is incredibly interesting gameplay wise.
+</br>
+</br>
+However before work can begin on the wagon itself, the small pump had to redesigned, to fit with the developing art style, and to integrate effectively with the gameplay mechanics the wagon will introduce. These past weeks Albert has been working on a new 2x1 pump, which will replace the current 1x1 pump for pipes, which will also be used for filling the fluid wagon at the station. 
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-155-pipes-and-pump.gif" src2="https://cdn.factorio.com/assets/img/blog/fff-154-test-making-mod.gif">
+</p>
+
+Also shown to are the HD pipes, which after a long fight with various technical issues, Vaclav has made ready for integration to version 0.15. For those of you running any older or less powerful machines, you won't have to worry about the new high fidelity graphics leaving you unable to update, as the HD sprites will be completely optional.
+</br>
+</br>
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/viewtopic.php?f=38&t=32406/">our forums</a>.
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #11 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #11
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-12-06, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi there,</p>
+
+ <p> after a hectical sprint, the 0.8.0 release is done. We have continuously reported on the progress, so the content of the release won't be a big surprise.
+ Still, you can checkout the <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=1724"> release notes </a> on our forums. And if you are brave enough you can even try it out. The thing is that considering the circumstances the release will be "very" experimental.
+ We have fixed all the major errors and crashes we came acrros. But still there were plenty of changes under the hood in non-trivial areas (namely the logistic system) so there are a lot of potential places for error.
+ Just a reminder, you need to set "Enable experimental updates" in the "Other settings" for the builtin updater to update your version to 0.8.0. </p>
+
+ <p> After a major release we usually take a day or two off. This time it will be no exception. Moreover it was Kovarex's birthday yesterday, so today in the evening we will have a party in our place. After the headaches
+ are gone, the place is clean again and we recharge our batteries, we will be after the (supposedly found) bugs in 0.8 and planning the 0.9. It is kind of a never ending story:).
+ </p>
+
+ <p> The last bigger feature we worked on for the 0.8 was the Roboport. That is the "home" for the logistic and construction robots, where they can charge, station and which navigates them on the map. This neatly solves some issues there
+ were with the logistic system before:
+ <ul>
+   <li> <strong>Balancing</strong> - Roboport requires quite some energy to charge the robots. So the Logistic Robots will be less overpowered than they have been.</li>
+   <li> <strong>Stationing</strong> - In the past robots without orders kept hanging at the place where they stopped. This was annoying and even caused robots to become a target for enemies after they delivered stuff to the player's inventory.
+                    Now every robot that has nothing to do goes to the roboport to station there. </li>
+   <li> <strong>Area Separation</strong> - Before, all the logistic robots could fly all over the map. From the base to the expansion if necessary. Following the player fighting the enemy bases, etc.
+   This was also less than desirable. Now the connections between the roboports define separate logistic networks which can't be mixed. This way, small independent systems can be setup in the expansions and one large network in the
+   main base for instance.
+   </li>
+ </ul>
+
+ And on top of all that the roboports look really cool:D Albert happily took the break from the terrain and made a great machine in a short amount of time. You can checkout the "making of" animation below.
+ </p>
+
+ <p> Some of the instructional pictures in the demo were getting really outdated. So we replaced them with setups with the current graphics. Below is a side-by-side comparison for the instruction on how to use inserters from some months ago and from now. </p>
+
+ <p> The last picture is the courtesy to Kovarex's grandmother, who made this wonderful cake for his birthday. </p>
+
+  <p style="margin:auto; margin-bottom:20px; margin-top: 20px; width:820px;">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-11-roboport-making-of.gif"/>
+    <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-11-comparison.jpg"/>
+    <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-11-cake.JPG"/>
+  </p>
+
+  <p> The tradition is the commenting thread <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1725">on our forum</a>.</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

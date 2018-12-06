@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #49 - Goodbye holidays | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #49 - Goodbye holidays
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-08-29, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi all,</p>
+
+<p>
+the august is almost over. So is the holiday season (check out a picture from my visit to Beskydy mountains below). It was fun, we charged our (power armor) batteries and now we are ready to take another step and push Factorio forward (looking at you multiplayer!).
+</p>
+
+<h4> Stable candidate </h4>
+<p>
+The 0.10.x has been around for a while. So has been a scary amount of bugs on our forums. But recently things started to turn in our favor. In the past week, we (and especially Kovarex) pushed really hard to fix as many problems as we could. The <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=5592">new 0.10.9</a> indeed contains a lot of bugfixes (which is a lot of potential space for new errors :). Our internal consensus is that we are now quite happy with the current stability of the game. The remaining 1 page of bugs on the forums is something we can live with for now. They are either small or obscure (not happening to many people) issues. So the plan for now is simple:
+<ul>
+<li> Fix any crashes / big issues that will appear in 0.10.9 (programming folklore says that every bugfix creates at least one new bug).  </li>
+<li> Have 0.10.10 (such a nice name :)) as a stable release. </li>
+<li> Move on! (<a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=678">Roadmap</a> has been updated on our forums). </li>
+</ul>
+If no big issues are found in 0.10.9 we can skip the step 2, but that is a very wishful thinking.
+
+Oh and the credit for funniest bug of the week goes imho to Nirahiel's <a href="https://forums.factorio.com/forum/viewtopic.php?f=30&t=5587&p=43192#p43192">blueprint loot bug</a>. I was just holding a big blueprint over already built part of the factory (with the same blueprint) and watching items from transport belts to ground being sucked from across the screen to my player's inventory.
+</p>
+
+<h4> Multiplayer progress </h4>
+<p>
+I was away last week and spent quite a lot of time with the 0.10.x this week so the progress in the Multiplayer branch was slower. Still, Kuba made a nice multiplayer log analyzer tool. And it has already proved useful when figuring out what is wrong with the multiplayer synchronization behavior. Basically, it prints a timeline of events on the y axis. The events are (for now): network tick (grey bar on the right), map tick (grey bar on the left), request for heartbeat (small orange rectangle), map stop. The analyzer is a python script that is crunches the factorio log files and spits out an svg file. This can be simply opened with the browser. Below is a screenshot capturing less than a second of a communication. The ocasional mini-freezes (red vertical bars) cause game stuttering because of waiting for other inputs (and that is annoying and something we are checking out now).
+</p>
+
+<h4> Corporate news </h4>
+<p>
+For a while we were looking into upgrading our image of a "garage company" (using our personal business licenses and operating from the living room of our flat). This time has come now. Next week we have a meeting with an agent who will found a limited liability company for us. Also we have found a suitable, dedicated office space. It is quite a large, pretty (but completely empty) flat not far from our current place. We will be sorting out the administrative stuff next week and hopefully move there by the end of the September. There might be a welcoming party in our "new office", if so we will post some pictures:)
+</p>
+
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-49-beskydy.jpg"/>
+   <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-49-mp-analyzer.jpg"/>
+</p>
+
+<p>
+The comments thread is where you expect it to be - <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=5593">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

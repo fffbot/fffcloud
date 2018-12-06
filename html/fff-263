@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #263 - Trains in blueprints | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #263 - Trains in blueprints
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-10-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h2>Trains in blueprints</h2>
+
+<p>
+Building trains again and again might be a daunting task. Especially when you start making a lot of mining outposts, artillery/supply trains with filtered cargo wagon slots etc.
+</p>
+
+<p>
+So I decided that we should extend blueprints to work with trains as well. The first condition was, that trains are only selected when you explicitly allow it in the checkbox, so they don't get in your way when building rail setups.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-train-blueprint-without-train.png"/>
+</p>
+
+<p>
+Checking the button allows the train that was there to be put into the blueprint (similar to the way tiles work). For the sake of simplicity, we decided that once there is any rail in the blueprint, the train in it will be always buildable (as a ghost obviously), even if there are not rails to support the train at the moment. The train ghost will simply stay there and won't be buildable until rails are placed under it in a way so it can be placed.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-train-blueprint-with-train.png"/>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-rails-blueprint.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-rails-blueprint.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+If I remove the rails from the blueprint, I get a second type of rail blueprint. In this case, all the parts of need to have rails to support it, this is mainly needed as without rails, there is no rail grid forced, so we should make sure, the train ghost won't be created in some wrong position.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-train-blueprint-with-train-only.png"/>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-blueprint.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-blueprint.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+The small touch here is, that the blueprint also contains the schedule. With little-bit of improvisation, I can optimize the mine building a lot in the late game. I create a blueprint of mine train station. The stop will be called "<img src="https://cdn.factorio.com/assets/img/blog/fff-263-iron-ore.png" style="width:16px" /> <i>Mine X</i>".
+</p>
+
+<p>
+Both of the trains in the blueprint will have the "<img src="https://cdn.factorio.com/assets/img/blog/fff-263-iron-ore.png" style="width:16px"/> <i>Mine X</i>" -> "<img src="https://cdn.factorio.com/assets/img/blog/fff-263-iron-ore.png"style="width:16px"/> <i>Smelting</i>" schedule setup. Once I build the blueprint, I just rename the "<img src="https://cdn.factorio.com/assets/img/blog/fff-263-iron-ore.png" style="width:16px"/> <i>Mine X</i>" to whatever I want ("<img src="https://cdn.factorio.com/assets/img/blog/fff-263-iron-ore.png" style="width:16px"/> <i>Mine 12"</i> for example), and the train schedules are updated as well, so I'm almost ready to go.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-station-blueprint.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-263-train-station-blueprint.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+The last tweak I'm considering is to allow blueprints to contain the fuel insertion info similar to how they contain the module insertion info for assembling machines now.
+</p>
+
+<h2>Upgrade planner tweaks</h2>
+
+<p>
+When we showed it, the upgrade planner was <i>Prototype ready</i>, but playtesting uncovered various kind of missing tweaks, and as always the real usability is in the details. Especially since the mod already solves most of these issues, we have to at least be as good as the mod.
+</p>
+
+<p>
+The first problem was, with underground belts. With the <i>naive</i> approach of just upgrading entities that are selected, it happened quite a lot, that I upgraded some belt area, but I didn't notice, that some of the underground belts have only one side marked for upgrade, so the belts get disconnected when the upgrade is executed:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-belts-disconnected-by-upgrade-planner.png"/>
+</p>
+
+<p>
+This was usually discovered half an hour later when I was investigating the reason of some part of factory not producing. When it happened few times in a row, it was quite annoying... So the fix was, to make sure that the upgrade planner always upgrades connected underground belts in pairs if possible:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-upgrade-planner-making-sure-to-upgrade-both-ends-of-underground-belt.png"/>
+</p>
+
+<p>
+Part of the tweak is, that the robot upgrades both part of the underground belt as one action, so the items that are "flowing" underground don't have to be touched.
+</p>
+
+<p>
+The next thing we wanted was to not only upgrade entities, but their also contents, so you can now specify module upgrades in the upgrade planner as well. (Please note, that the upgrade planner/blueprint UI is a work in progress, and this particular screen was not yet addressed by our GUI polishing process).
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-upgrade-planner-can-upgrade-modules.png"/>
+</p>
+
+<p>
+Another feature is to be able to upgrade blueprints with the upgrade planner. The upgrade planner mod could do it as well, but we will be able to integrate it better with our GUI.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-upgrading-blueprint-by-the-upgrade-planner.png"/>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-upgraded-blueprint.png"/>
+</p>
+
+<p>
+You can immediately see, that another tweak might be to also upgrade the blueprint icons as well.
+</p>
+
+<p>
+My thanks goes to <a href="https://github.com/galibert">galibert</a>, who created the original pull request of this feature (giving source access to stranger <b>sometimes</b> helps us) and Rseding91, who fixed the technical problems and added the tweaks mentioned earlier.
+</p>
+
+
+<h2>Finalizing features and latency state (technical)</h2>
+
+<p>
+It has been quite a long time since we described our latency hiding system in <a href="https://www.factorio.com/blog/post/fff-83">FFF-83</a>. Since then, we have had to make a tough choice whether to incorporate a new interaction feature into the latency hiding or not as we developed it. With undo, it was kind of implied, that it needs to be incorporated in the latency state system, since you need accurate instant feedback of what you undid, especially when you are undoing few things in a row, and you don't want to do more steps by accident because of the multiplayer delay. Since there are more and more things in the latency state, and they need to interact with each other in a reasonable way, the amount of possible cases starts to grow, so we have to make sure that the corner cases are covered by tests more than in other areas.
+</p>
+
+<p>
+Let me present you a quite simple case of what you see compared to what is happening in latency state under the hood, this is a simple thing:
+</p>
+
+<table style="border-spacing:10px;border-collapse: separate;">
+<tr>
+  <td>Start</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+</tr>
+<tr>
+  <td>Furnace built</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+</tr>
+<tr>
+  <td>Marked for deconstruction</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-marked-for-deconstruction.png"/></td>
+</tr>
+<tr>
+  <td>Undone</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+</tr>
+</table>
+
+<p>
+But when you play in multiplayer, it might easily happen, that after the last undo step, not even the first command to build the actual furnace is in the game yet as the multiplayer latency might be too big. But as the local simulated state must act as it all was done instantly, it needs to solve different kind of situations:
+</p>
+
+<table style="border-spacing:10px;border-collapse: separate;">
+<tr><td><b>What you see (latency state)</b></td><td></td><td><b>Actual game state<b></td><td></td></tr>
+<tr>
+  <td>Start:</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+  <td>Start:</td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+</tr>
+<tr>
+  <td><i>Fake furnace created</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+  <td><i>Nothing yet</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+</tr>
+<tr>
+  <td><i>Fake furnace created fake marked for deconstruction</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-marked-for-deconstruction.png"/></td>
+  <td><i>Nothing yet</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+</tr>
+<tr>
+  <td>
+    <i>Fake furnaces fake mark for deconstruction fake undone</i>
+ </td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+  <td><i>Nothing yet</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-empty.png"/></td>
+</tr>
+<tr>
+  <td>
+    <i>Now real furnace fake marked for deconstruction</i>
+  </td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+  <td><i>Furnace built in game state</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+</tr>
+<tr>
+<td>
+    <i>Real furnace fake mark for deconstruction undone</i>
+  </td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+  <td><i>Furnace marked for deconstruction in game state</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-marked-for-deconstruction.png"/></td>
+</tr>
+<tr>
+  <td><i>What you see is what you get</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+  <td><i>Furnaces mark for deconstruction undone in game state</i></td>
+  <td><img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-263-stone-furnace-built.png"/></td>
+</tr>
+</table>
+
+<p>
+Doing all of these kind of cases right might make a big difference between <i>Prototype ready</i> and <i>Release ready</i>. With the undo feature itself, I added 42 different tests and I'm not completely finished.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/62811">forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

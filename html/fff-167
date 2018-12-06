@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #167 - Reactors Operational | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #167 - Reactors Operational
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2016-12-02, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,
+</br>
+ Denis has joined us for another month here in the office, a small overlap with Rseding who is flying back to the USA next week. With the festive season upon us, Tomas and Kovarex have both taken some time off for a vacation. 
+
+<h4>Reactor heating and boiling</h4>
+<p>
+As mentioned in a previous <a href="https://www.factorio.com/blog/post/fff-164">FFF</a>, the implementation of the nuclear power will require some changes to the way the boilers currently work. Instead of heating water inside of their fluidboxes, and passing the slightly heated water along, they now output a to a seperate fluidbox. The initial result of this was a unworkable boiler, the small 1x1 size simply didn't play out to make the system intuitive enough.
+</p>
+
+<p>
+So the solution was to increase the size of the boiler. The new size is 3x2, significantly larger than before, and the power output and fuel consumption had to be changed to fit this new size. This means we can say goodbye to the old 1-14-10 ratio of before. What is the new ratio? We haven't calculated it, but this is what a 0.15 set up might look like.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-167-boilers.jpg">
+</p>
+
+<p>
+Kovarex has also made the first working prototype of the nuclear reactor and its associated mechanics. Each reactor has these 'heat connections', which can hookup connect with the heat pipes and boilers. Heat is than transferred through these connections, where it is used to boil the water into steam. This is all subject to change, but below is how a simple early nuclear power station could be set up.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-167-nuclear-setup.jpg">
+</p>
+
+<p>
+This design is of course very inefficient, as the steam engines cannot use all the power available in the steam. Later designs would incorporate the steam turbines and cooling towers, for greater efficiency and power output. The heat pipes will also add a layer of complexity to the puzzle, while the incentive towards larger nuclear power blocks adding to the semi-fractal nature of expanding your designs.
+</p>
+
+<h4>Red desert biome</h4>
+<p>
+Jurek was focused these days on producing a bunch of new rocks and stones with several different sizes, some new bushes and dry trees. One of the best new improvements is the decals system, a new concept that we are testing on this new biome.
+<p/>
+
+<p>
+The theory behind it is that even having different randomized tile sizes for generating a terrain, the grid still is somehow noticeable there, not to mention the restrictions that tileability produces for achieving the desired result.
+
+So we came out with the idea of using big patches (decals) that are working independently off the grid, so by using them we can get a lot of detail for the terrain, and the artists don't have to be concerned about tileability at all. As a side effect, the square grid pattern gets broken and the feeling of the terrain is much better.
+</p>
+<p>
+In the preview we have also the new destroyed railroad, something that Vaclav is working on, he prefers not to show it yet because is not 100% finished, but it is very showable, and fits very nicely in the red desert scene.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-167-red-desert-preview.jpg">
+</p>
+<p>
+The most important thing in this preview, is that after several experiments, we decided not to render anymore in normal-resolution from Blender. Instead we are going to render just in high-resolution and re-scale the output bitmaps to normal-resolution using a bilinear interpolation. This gives a better result than a separate render output, it is sharper and saves us quite some time and many headaches. Next for the red desert will be finding the best rules with Kuba for generating the map, and hopefully that will be all. Honestly I (Albert) can't wait for this moment of procedural fine-tuning joy.
+</p>
+
+<p>
+As always, let us know your thoughts and opinion on our <a href = "https://forums.factorio.com/viewtopic.php?f=38&t=38181">forum</a>
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

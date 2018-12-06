@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #56 - A lot of new stuff | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #56 - A lot of new stuff
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-10-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+we have only 2 weeks left before the 0.11.0 release date. It is scheduled to 31. october. All the things in progress are starting approach the finish line, but as always before the release, it will be tight.There are quite a lot of things we want to deliver and multiplayer (mainly for lan and low ping games until 0.12 don't forget!) is one of those, not even mentioning the backlog of bugfixes we need to go through before the release.
+
+<h4>Gates</h4>
+<p>
+My week was dedicated to the implementation of the gates. It would be shame if we forgot so useful addition in the hassle of the multiplayer stabilisation. The gates are almost finished now, and they make me very happy, so the preview picture of those is the rough visualisation of our new office.
+
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-gates.jpg"/>
+<br/>
+
+We noticed soon , that we also need the gates for the trains, because that would be the biggest hole of the fortification. So here is the preview (not integrated in the game yet) of the graphics plan for the train gate.<br/>
+
+<table style="margin: auto">
+<tr>
+<td>
+Opened:
+</td>
+<td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-train-gates-preview-opened.png"/>
+</td>
+<td>
+       Closed:
+</td>
+<td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-train-gates-preview-closed.png"/>
+</td></tr></table>
+
+The rail gate opens for the trains owned by the same force. There were some complications (as always) that needed to be solved. When the train runs in automatic mode, it is quite simple. As the train runs, it looks ahead along the path and activates all the gates far enough so they can be opened in time. The problem is, when the player is riding the train manually.Take this situation as example (note that I'm using the normal gate graphics ingame as provisional):
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-rail-paths.jpg"/><br/>
+Until the last moment, the gates don't know which way you want to go. So to make sure you don't crash the unopened gate, all gates on all possible paths are opened. You can see few of the gates already opening on the picture, and all of them will open eventually even when the player decides to go straight.
+</p>
+
+<h4>Shadows merging</h4>
+<p>
+One of the problems I had when implementing the gates was, that when the shadows overlap, they make ugly "double shadow" areas. This is best visible on the picture of the tank. The turret needs to be drawn separately, as it can rotate independently, the resulting shadow shows the overlap of those two objects.<br/>
+
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-shadows-merging-problem.jpg"/><br/>
+
+So I had to make a method, where the shadows of some objects can be drawn separately into one picture as 100% black shapes. Once the shadows are merged in the picture, they are drawn on the screen with 50% transparency and tadaaaa ... all the overlaps are gone.
+</p>
+
+<h4>Triangulation</h4>
+<p>
+It was quite annoying to see the visualisation of roboport connections when there were a lot of them on the screen.Mira finished his task of making the connection visualisation as triangulation, instead of drawing a line between every two neighbours. Here is the comparison of the results (you can imagine, that the difference is even much higher in more roboport crowded areas).
+<img src="https://cdn.factorio.com/assets/img/blog/fff-56-triangulation.jpg"/>
+</p>
+
+<h4>Multiplayer</h4>
+<p>
+We tried to play our ongoing multiplayer game for a while, and we found and fixed 3 different synchronisation bugs. One of those was the typical problem (related to enemy expansion planning): When you call method foo(random(), random()), the C++ standard doesn't define the order of evaluation of the parameters, so on different platforms the result values given to the function can be switched. The other desynchronisation was actually quite serious bug that is in our current stable version as well. When you load a save with assembling machine emptying a oil barrel, the fluid accumulated in the assembling machine is lost in the process of loading the game. We hope to finish the ongoing game during next week, so we know that getting through all of the phases of the game in multiplayer is possible. Lets hope it will not work only for us :)
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=6155">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

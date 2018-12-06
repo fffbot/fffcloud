@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #145 - 0.13 experimental is out | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #145 - 0.13 experimental is out
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-07-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello!
+
+<h4>0.13 is here!</h4>
+If you don't want to read the <a href="https://forums.factorio.com/viewtopic.php?f=3&t=27101">changelog</a>, you can either take look at our <a href="http://guide.factorio.com/new-features-013.html">update summary page</a> or check out the video that summarizes it as well:
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 560px; ">
+  <iframe width="560"
+          height="316"
+          frameborder="0"
+          allowfullscreen="1"
+          src="https://www.youtube.com/embed/JCYfO6UPhes">
+  </iframe>
+</p>
+
+We released version 0.12.0 on 17. 07. 2015 so it took us almost a year. We made a lot of changes in that time.The commit count increased from 15967 to 22980, which is more than 40% increase. This means, that we also created a lot of new bugs. We are working as hard as we can to fix the bugs and we'll have 0.13.3 today, which means we've made 4 releases in 5 days just to make sure we'll fix as many bugs for the weekend as we can.
+
+<h4>Please be benevolent</h4>
+This is an early experimental release, so there are a lot of issues we are aware of, and we will do what we can in the future weeks to solve them, if you want to avoid bugs, wait for few weeks until the 0.13 is semi-stable, the stable stable version might take a long time, so we can't really give any estimate.<br/>
+<br/>
+There have been many complains regarding the terrain generation, we didn't encounter these problems in our games, but we should probably go back to it and tweak it a little.<br/>
+<br/>
+We are also aware, that the mod portal (both the site and the in-game access) is very simplistic, we just wanted to have it, so the new 0.13 mods are there, so we could move them away from the forum eventually. We will improve the portal continuously (more in the <a href="https://www.factorio.com/blog/post/fff-141">fff 141</a>).
+
+<h4>Multiplayer problems</h4>
+Now, when we can connect to public games on the internet, we found out, there are lot of issues with the multiplayer server that weren't apparent when we were lan-testing it. One of the issues is, that even when we use the one center player (the server) to resend the packages of individual players, the server still sends one packet per player to everyone. This means, that with 10 players, the server sends 10 packets to every player every tick, which results in 6000 packets per second to be processed by every player. The obvious solution will be, that the server will merge the messages from individual players into one package. We also plan to reduce the network transfer by sending only 30 updates per second (once per two ticks) over the multiplayer. This will reduce the network problems related to packet throughput a lot.
+Apart from this, we found out, there are few bugs in the internal multiplayer state logic. We will look at these problems once the main bug report wave is tamed, so consider the current multiplayer very experimental.
+
+<h4>0.14 plans are not set yet</h4>
+As 0.13 is freshly out and we were already asked about 0.14 plans. We have a lot of things we would like to do in 0.14 but nothing is official yet. In about a month from now, we will sit down and make a specific plan for 0.14, so don't ask us about it until we declare it please :)
+
+<h4>The good deals that are not so good.</h4>
+One of the problems we had in the past months were the credit card frauds, so let me explain how exactly it works.
+<ul>
+<li>Someone obtains credit card numbers somehow.</li>
+<li>He buys Factorio keys (among other things) with these cards on our site</li>
+<li>Then these keys are transferred somehow to these "good deal" sites where they can be bought for cheaper price.</li>
+<li>Eventually, the card owner finds out and cancels all the transactions, we get a notice about every faulty transaction</li>
+<li>Not only we don't get the money paid, but we have to pay extra $20 fee per every transaction that was cancelled.</li>
+<li>As reaction to this, we have to deactivate all keys bought this way, which results in steam key deactivations as well.</li>
+<li>So in the end, we are 20$ short and we lost time dealing with it and the buyer doesn't have the game he paid for.</li>
+</ul>
+Although it is a giant inconvenience for all parties involved, it is not currently a large financial burden for us, I don't want to guild trip anyone, just to get the message out. The conclusion is, that we strongly advice to buy Factorio, or any other game just from reliable sources. In our case, it is factorio.com, steam, gog, and humble store currently. Pirating the game hurts us less than using these sites.
+
+<h4>Community spotlight</h4>
+I have to share the fantastic video with rube goldberg machine done in Factorio.
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 560px; ">
+  <iframe width="560"
+          height="316"
+          frameborder="0"
+          allowfullscreen="1"
+          src="https://www.youtube.com/embed/4mGdL4XKXew">
+  </iframe>
+</p>
+
+We would also like to thank the brunzenstein. He sent us the most luxurious cake I have ever seen, which gave us some extra energy to dig deep into the bugfixing:
+<p style="margin:auto; margin-top:40px; width: 900px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-145-cake.jpg"/>
+</p>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/27854">our forums</a>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

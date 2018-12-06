@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #152 - Team production challenge | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #152 - Team production challenge
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-08-19, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+it has been quiet here the last week, Rseding is back in America, Albert is in Spain, and some people have holidays. I have been programming until 9:30pm and then I realized I have to write Friday Facts, so it is going to be shorter today, although this happens quite often to me.
+
+<h4>Testing the new multiplayer</h4>
+We wanted to use 0.13 stable release as an opportunity to test the marketing benefits steam offers, but since a big part of the update is the introduction of the matching server, which might lure some people to try multiplayer, it needs to be really solid. Playing over an ip with a friend is working quite fine 0.13 already, but hosting a public game to which anyone with unpredictable network properties and computer speeds can join, requires a much more robust system. Since we don't want to put the rewritten multiplayer into our almost stable 0.13 and we don't want to wait with the update too long either, we decided that the 0.14 will contain only the multiplayer rewrite and it will be released as experimental very soon, and all the planned features for 0.14 will be just shifted to 0.15, which doesn't mean it should be delayed much.<br/><br/>
+
+All the planned features of the multiplayer rewrite are finished, including delaying input of slow players, dynamic changes of latencies of clients depending on their internet connection speed and more. So now is the time for hard testing and tweaking the details. I started using the great <a href="https://jagt.github.io/clumsy/">clumsy</a> tool which helps me a lot to simulate different network problems locally, but being able to test it with the community will be invaluable.
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-152-clumsy-demo.gif">
+</p>
+
+<h4>The multiplayer testing map idea</h4>
+We want to host a multiplayer map with a big player limit (like a 50) 24/7. People could drop in/drop out all the time and still have some fun even if they didn't play for a very long time. So we decided to make a scenario map where people will be assigned to small teams and each team will have it's own space, something like this:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-152-team-production-challenge.jpg">
+</p>
+
+The teams will get randomly generated production challenges, like produce x of something, research something etc. The first 3 teams to achieve that will get some points and the game is reset. The game could keep some global statistics of player performance and show some leaderboards as well. Scott is working on this and you should be able to test it soon hopefully.<br/>
+If the server game manages to run good even under this load, the work on multiplayer would be finished to our satisfaction.<br/>
+I also hope, that this will motivate people to make these kind of multiplayer scenarios for Factorio, because the possibilities are broad.<br/></br>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/31223">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

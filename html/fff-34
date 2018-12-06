@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #34 - Sales, Support, Stress and Steam | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #34 - Sales, Support, Stress and Steam
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-05-16, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+So the last week has been very intense.
+</p>
+
+<h4> Sales </h4>
+<p>
+It was kind of obvious from our sold memberships counter on the front page (skyrocketing through 25k), that the past week has been sales-wise the most successful in all the history of Factorio. More than that. The last week we sold half as much as for the past month (which has also been the most successful month so far:)) and about a third of what we have sold overall. Obviously this has been generated by a lot of coverage from Youtube (namely the series by <a href="http://www.youtube.com/watch?v=2ZXskdHqHLY">sips</a> and <a href="http://www.youtube.com/watch?v=rdCIzlH02aI">arumba</a>), smaller gaming blogs, Twitter (this <a href="http://twitter.com/danthat/status/462165721850863616">tweet</a> is my favorite) and many gaming forums. So yeah, success I guess :D
+</p>
+
+<h4> Support </h4>
+<p>
+A lot of sales activity brought a lot of emails to our inbox as well. Me and kovarex, we have spent a significant portion of our time doing the support for people coming to our site and buying (or failing to buy) the game. There
+was a day or two when as many people bought the game as for the whole one-month long <a href="http://www.indiegogo.com/projects/factorio">Indiegogo campaign</a>. So this shows we have made quite a progress since then. Though our support and presentation is still very lacking. In the near future we plan to do couple of things:
+<ul>
+  <li> Provide more information on the webpage (general about the game, troubleshooting, tips for youtubers, etc.). </li>
+  <li> Navigate the people to the forum as the main source of support (because we have a fantastic community^^). </li>
+  <li> Get bit more organised on the forums (clean up the bugs section, provide helpful opening posts for subforums, etc.) </li>
+</ul>
+
+In the second phase we might automate some common troubleshooting scenarios, so the users can handle them themselves (i.e. paid twice for the game, didn't get the activation code, mistyped email for user registration). We even considered hiring someone to help us with support but automation should come first, people second (this is a game about automation after all :D).
+</p>
+
+<h4> Stress </h4>
+<p>
+We have done much less programming work than usual this week. Partly because of the amount of support and buzz around the game. But also because we were busy with further taxes registration and other administrative tasks. This brought a lot of additional stress. Somehow we found ourselves talking to the tax advisors all the time, dealing with complicated legal stuff or learning about new (and until now hidden) taxes. We just wanted to write the game for gods sake! Kovarex was the reasonable one this time and helped me to get through this. Things are better now. We have filled the necessary documents, we have an estimate on how much extra tax we will pay overall and we have a plan.
+</p>
+
+<h4> Steam </h4>
+<p>
+When are you guys going to Steam? Why are you not on Greenlight yet? Get on Steam right now!
+</p>
+<p>
+We talked about it, we thought about it, we talked about it some more then we thought about it some more. In the end we made a decision :D We want to move with the game forward first, before taking any action on Steam. We choose to keep developing the game in "relative quitness" and going to Steam once we feel we are ready. Past week has shown us that a lot of attention has its downsides as well. Our community is big enough to give us a great feedback about the game already and we believe it is big enough to help us push the game on Steam also after the current wave of interest fades.
+</p>
+
+<p>
+So we will try to get to Steam by early 2015 (before estimated 1.0 release). At least the multiplayer, endgame and couple of other planned things must be finished by then. We are not in urgent need for funds now - the alpha sales will allow us to keep developing the game for now. It should even be enough to expand the team a little. That is what we are after: finishing the game properly at a reasonable pace while getting a bit of balanced life. So please be patient with us Steam-only users, we will get to you eventually.
+</p>
+
+<p>
+In the meantime, far far away from here, there was a beautiful island called Mallorca. That is where Albert is at the moment and he says hi to all the Factorio fans. As a small present he sends the following gif postcard. It was about time the ugliest machine in the game got a new look ...
+</p>
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-34-radar.gif"/>
+</p>
+
+<p> For those who have something to say, the thread is waiting <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3645">at our forums</a>.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

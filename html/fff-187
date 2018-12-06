@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #187 - Space science &amp; 0.15 graphics | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #187 - Space science &amp; 0.15 graphics
+    </h2>
+
+    <div style="font-size: 11px;">Posted by V453000 on 2017-04-21, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Space science</h4>
+
+<p>
+As you already know, in 0.15 we have reworked the science packs and added infinite science. More
+and different science packs make the game a lot more interesting. It reduces the complexity of
+blue science (which is great for newer players) while adding complexity later, and you now have
+to decide what to research first, especially with the more expensive game modes (which is
+interesting for advanced players), and infinite science adds something to do forever in the game.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" width = 900px src="https://cdn.factorio.com/assets/img/blog/fff-187-00-science-packs.png">
+</p>
+
+<p>
+However, one of my biggest complaints about Factorio always was that the rocket has no
+purpose, even though it is being propagated at all the points as the final step of the game. It is
+said at the trailer, at the introduction of freeplay, and by being the most advanced research,
+everything seems like it’s the thing to desire, but when I launched it for the first time and seeing
+the victory screen, I was feeling like "And now what...".
+</p>
+
+<p>
+For me there is one main reason why Factorio is so awesome and why I can forget myself
+playing until 4 a.m., and that reason is the infinite loop of 'there is always a bottleneck', you
+always need to fix something, you have not enough power, or your production of a particular
+product is insufficient etc.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-01-game-loop.jpg">
+</p>
+
+<p>
+When you launch the rocket, you escape from this loop because it doesn’t lead anywhere. As
+we can see, we have learned to take the rocket as a measurable resource sink to quantify the
+size of our factories, which is great, but I think it makes sense to us only because we got used
+to it, not because it made sense in the first place, or at least it didn’t to me.
+</p>
+
+<p>
+Now when 0.15 adds infinite research, I started to ask myself why would I launch the rocket at
+all, and I have seen many of you ask similar questions.
+</p>
+
+<p>
+To compare the two, the infinite science is also quantifiable as I can see the amount I produced
+in the production screen, it also has an interesting crafting recipe (rocket parts vs. all science
+packs together), and it is also an infinite resource sink. The main difference is, the infinite
+research is actually useful.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-02-game-loop-infinite.jpg">
+</p>
+
+<p>
+This is where the space science comes into play. We now have a space science pack,
+obtained by launching a rocket. You get 1000 of these science packs per rocket, and every
+infinite research requires these science packs. Such a simple feature, but it closes the infinite
+game loop again. But of course in case you want to just launch rockets without worrying about
+science, you can still do that, just like previously.
+</p>
+
+<p>
+We have also added more infinite researches, so now apart from worker robot speed, combat
+robot follower count and mining productivity bonus researches, we also have all of the
+combative damage upgrades infinite (not shooting speed as that would get ridiculous sooner or
+later), however their prices increase exponentially to prevent it from getting too extreme.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-03-rocket-silo-autolaunch.jpg">
+</p>
+
+<p>
+The rocket has to have a satellite in order to get the science packs (the rocket has to be able
+send back the discoveries, right?). The rocket silo now has an auto-launch checkbox so you can
+launch them automatically, and the launch is only going to happen when you insert satellite. So
+you can control the inserter with satellite to only launch rockets when you need the science
+packs automatically through circuit network.
+</p>
+
+<p>
+Of course we also added support for mods, so you can define what do you get from sending a
+rocket, and depending on what you put in the rocket - say, if you put a tank into the rocket, you
+receive 100 raw fish, because that would make perfect sense.
+</p>
+
+<p>
+We can build up on this concept in the future, but for now this already brings a lot of sense to
+the game as it is.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-04-base-preview.jpg">
+</p>
+
+<p>
+As a bonus, here is a <a href ="http://imgur.com/a/qDDs1">album</a> of my factory where I tested the infinite science concept.
+</p>
+
+<h4>Nuclear power</h4>
+
+<p>
+There is a great amount of new graphics and high resolution translations of old ones. The
+biggest news is obviously the nuclear power, so let’s have a look at that.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-05-nuclear-power.jpg">
+</p>
+
+<p>
+As you can see, the whole process starts with a mining drill and new uranium ore graphics (it
+glows at night by the way). Since mining uranium requires sulfuric acid, we needed to add a
+new patch for pipe connection. The acid flows between neighbouring miners, so you only need
+to bring pipes to the edge ones.
+</p>
+
+<p>
+The first step of uranium processing happens at the centrifuge, which creates U-238 and U-235
+in certain percentages. Most of the time you get a U-238, but sometimes you get a U-235.
+When you get a U-235, you can turn it into uranium fuel cell which goes to the nuclear reactor.
+The nuclear reactor heats up and transfers the heat to heat exchangers, optionally via heat
+pipes when the setup gets bigger. The heat exchanger accepts water and outputs steam which
+then goes to the steam turbines which generate power.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-06-nuclear-icons.jpg">
+</p>
+<p>
+The centrifuge can do a few other processes which are useful for getting more U-235 and
+re-utilizing burnt out fuel cells into more U-238. Even though it’s one of the most expected
+things, we probably didn’t mention before that you can make uranium ammo and tank shells
+from U-238, and U-235 can be used to create warheads for rocket launcher missiles which
+erase about 50 tile area per shot of anything in the way, including you if you don’t run fast
+enough.
+</p>
+
+<p>
+The steam comes out of the heat exchangers at 500 degrees, which is the maximum a steam turbine can
+utilize. A steam engine in comparison can only make use of steam up to 165 degrees - which is
+what a normal boiler produces. So if you use a steam turbine with normal boiler, it will work, but
+the turbine will have a poor efficiency. And if you use steam engine with heat exchangers, it will
+work, but a lot of the heat will be lost for no benefit.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-07-boiler-steam-engine.jpg">
+</p>
+
+<p>
+As you already know from earlier, we have also changed the boiler to be 2x3 tiles instead of 1x1
+which required new graphics. We also added high resolution steam engine to make them go
+together nicely. This also allows for some new designs which is very nice. The ratio of boilers to
+steam engines is exactly 1 boiler to 2 steam engines now.
+</p>
+
+<h4>High resolution graphics</h4>
+
+<p>
+As you already see with the nuclear graphics, they all have their high resolution versions, but
+what else is there?
+</p>
+
+<p>
+Currently in early versions of 0.15 you can look forward to the following in high resolution:
+</p>
+
+<ul>
+<li>Resources
+<li>Electric mining drill
+<li>Belts, splitters and underground belts
+<li>Pipes and pump
+<li>Rails, rail signals & rail station
+<li>Locomotive, cargo wagon and fluid wagon
+<li>Furnaces
+<li>Assembling machines
+<li>Refinery and chemical plant
+<li>Boiler & steam engine
+<li>Nuclear power graphics - centrifuge, nuclear reactor, heat pipe, heat exchanger, steam
+<li>Steam turbine
+<li>Car
+<li>Programmable speaker
+</ul>
+
+<p>
+Everything in the following picture except inserters is in high resolution. 
+The high resolution terrain integration is still in progress, so it won't make it to 0.15 right away.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-08-high-resolution-preview.jpg">
+</p>
+
+<p>
+During 0.15 stabilization we will be adding more high resolution graphics, with the aim to do
+everything. Let’s see how that goes, but seeing what we already have, we are confident we can
+get it done sooner or later.
+</p>
+
+<h4>GUI reskin & new icons</h4>
+
+<p>
+For a long time we have been keeping some placeholder icons and we wanted to replace the
+skin of the GUI in 0.13 already. Here is how it looks like now.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-09-gui-reskin-and-icons.jpg">
+</p>
+
+<p>
+The changes aren’t massive, but it has a big impact on everything. Because of that, some of our
+icons needed changing so that they don’t become less visible. There are also many new icon
+replacements for the old awful things like mining drill, laser turret, rail signals, and more. We will
+likely tweak it further, but this is what we have for now. The technology tree looks like this.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-10-gui-technology-window.jpg">
+</p>
+
+<h4>New map colors</h4>
+
+<p>
+We have reworked the map colors to make them look nicer and give a little bit more info what
+is what.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-187-11-map-colours.jpg">
+</p>
+
+<p>
+As you can probably see, it has been a lot of work, and we are very proud of it.
+<b>The best part is that you will all be able to help us play and test 0.15 this coming Tuesday</b>, 
+so let us know what you think on our <a href="https://forums.factorio.com/viewtopic.php?f=38&t=44400">forums</a> or I personally am also active on reddit.
+</p>
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

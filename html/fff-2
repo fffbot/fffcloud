@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #2 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #2
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-10-04, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello everyone,</p>
+  <p> another weekly Factorio update is here. The 0.7.0 release from the last Friday night has triggered a lot of discussions on the forum. It seems that in the end we didn't get the balancing quite right and the natives are now rather overpowered. People reported cases when they were overrun by the biters after less than half an hour of playing. Another issue would be that the biters in the enemy bases would level up too quickly and when the player arrives to conquer the base there were plenty of medium or big biters (which are quire resistant). Apart from that the release was relatively smooth. There are some minor bugs but no deal brakers. </p>
+
+  <p> After recharging some energy during the weekend at a local wine festival:), we started working on the 0.7.1. Unlike in previous minor releases, the 0.7.1 will contain also couple of new features. Most notable of these is the addition of late game player following robots (aka "destroyers"). They are quire expensive, but they allow to conquer even large enemy bases. And they are a lot of fun to play with because of their acceleration based behavior.
+  Apart from this and other small features the week has been spent mostly by bugfixing the issues reported by the community. This is now more or less finished and we have started with playtesting and further balancing. The 0.7.1 is expected to be released during the next week. As mentioned before afterwards we will focus some of our energy on making the new trailer and preparing for the Steam Greenlight campaign.</p>
+
+  <p> Another thing that kept us busy for a while has been the wiki. Originally it has been spammed to a degree when any ressurection seemed hopeless. However after many tries (what do you do with a 4GB sql dump file?) Blue Cube has managed to prune the database and resurrect
+  the wiki at its original location. For now we have restricted the access only to people who has been confirmed manually by us. So if you are interested in contributing to the wiki (which would be more than welcomed) then request an account on the <a href="https://forums.factorio.com/wiki"> wiki page </a>. You will need a forum account for that as well. All this is to avoid further automated spamming of the wiki. Not only the wiki has been resurrected but
+  also thanx to Kovarex it now contains up to date information on Factorio 0.7.1 scripting interface.</p>
+
+  <p> Albert has been busy and productive as well. He has finished with the enemy spawner which we had to redo couple of times because of notable noise in the final animation. The resulting animation is imho worth it. You can see it below (animation for breathing) together with the gif capturing the process of making the spawner model. After this Albert has worked on other small issues that we have been putting off for a while. Things like: slowdown particles, underground objects indication (belts to ground, pipes to ground) and finally the remnants after destroyed objects. These are especially useful because as a player you can see what has been destroyed when your base has been attacked by the natives.
+  </p>
+
+  <p style="margin:10px auto; width:665px;">
+      <img style="margin-right: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-2-spawner-idle.gif"/>
+      <img src="https://cdn.factorio.com/assets/img/blog/fff-2-spawner-making-of.gif"/>
+  </p>
+
+  <p> And here is a fun fact for this episode. Technically it happened last week, but it so funny that it still qualifies.
+      So the thing is that recently we looked up that there will be an <a href="http://indiegames.cz/posts/igcz-4-article"> indie game conference</a> here in Prague. We were super excited and all three of us went there really
+      enthusiastic to talk to the people from the indie game industry and maybe propagate Factorio or something. It took place in the local startup hub. We arrived and saw that a workshop was about to start soon. So we sat
+      down and waited for a while. It was a little bit weird that nothing was happening but after a while a guy appeared who said he is coming for the workshop as well. He started explaining to us what he does and it was
+      all about some very advanced server management stuff. We waited all the time when he will get to the indie game part but it never happened. And it turned out that the workshop is actually about some advanced
+      server management stuff. The indie game conference happened a year ago on the same day. So we were one year late. The people at the reception had quite a good laugh.
+      </p>
+
+  <p> All right, back to the reality. Recently we have created a new "Updates" category on the forum where we will try to regularly post small updates. We will also create there a post for every friday facts episode where you can <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1385">post comments</a>. </p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #99 - MP forwarding | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #99 - MP forwarding
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-08-14, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Good day to all,</p>
+
+ it is hot here. Really hot. We have loosened our "dressing policy" to "no T-shirt is fine". Both of our fans are running full speed and the fridge is stacked with ice cube plates. People come and go all the time - it is the mids of vacation period after all. Half empty (or half full) office has become a standard these days. Still the work goes on and there is progress.
+
+<h4> MP communication forwarding </h4>
+<p>
+Today the 0.12.4 will be released. It brings another bunch of bugfixes reported by the folks at the forums. One of the biggest annoyances people have been bumping into since the 0.11 has been the connection errors when starting the multiplayer game. Our model until now was strictly peer-to-peer communication. This is plausible even for cases when not everybody has a public IP address (using a mechanism called NAT punching - see <a href="https://www.factorio.com/blog/post/fff-76">previous FFF </a>for further information). However there are cases which just don't work.
+</p>
+
+<p>
+In the following schema the client A and server S are in the same LAN. The server has both local private interface (10.0.0.2) as well as the Internet-facing public interface (192.17.211.24). S and A refer to each other with their private IP addresses (10.0.0.2 for S and 10.0.0.3 for A). When client B connects to the server (identified by the public IP address 189.17.211.24) the communication with the server is established. The server knows client A under its private IP address 10.0.0.3. It then sends this private IP address of A to the client B. However B is outside of the A's LAN so the communication attempt from B to A using IP address 10.0.0.3 will fail. This is just one of many scenarios when the current mechanism of directly passing the known IP address would fail.
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 600px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-99-mp-relay.png"/>
+</p>
+
+<p>
+Until now pretty much the only solution has been to use a virtual network like Hamachi or Evolve. There are some workarounds we could do (not passing the IP address as is, but instead trying to translate it), but somehow the simplest solution is to use the server S as a central point of communication here. That would mean that B will mark the message to be for A, however it will send it to S. Then S will unpack the message, see that it is actually for A and resend it to A. The trick here is that S can communicate with A directly without problems. This is exactly what we have built in the 0.12.4. The mechanism has to be explicitly selected in the connect dialog when connecting to the mp game (by default it says using peer-to-peer communication - disabling this uses the forwarding via the server). Described solution comes with some pros and cons (as always):
+
+  <ul>
+    <li> There might be less outgoing communication from B (or in general from clients forwarding via the server). This is because broadcast communication (which is the vast majority of communnication - namely the heartbeat mechanism) from B will be replaced by a single message to the server and only from there it will be broadcasted. This mechanism is not yet implemented but it is coming in 0.12.5. </li>
+    <li> In the future we will also implement the inverse mechanism. Namely on the server side, collecting heartbeats for a given peer from the queue of messages waiting to be sent, and sending these as a single group message. This way we save the overhead of sending heartbeats in separate packets. </li>
+    <li> The downside of the whole forwarding can be an increase in latency because there is now an extra hop in the communication - what was previously direct peer-to-peer communication now goes via the server. However if the server has a good connectivity this should be negligible. </li>
+  </ul>
+</p>
+
+<h4> Factorio to schools </h4>
+<p>
+We start to get inquiries about possible cooperation regarding Factorio support applications and usage of the game / brand in different contexts. Recently we got contacted by Ben who is affiliated with an Australian company called <a href="http://www.inventtheworld.com.au">Invent The World</a>. These guys are running holiday courses for children (mostly 5 - 12 year olds) where they teach them about computers, basic programming thinking and also human interaction on the internet.
+</p>
+
+<p>
+So far they have used Minecraft a lot as a platform to build their custom content upon. However at the moment they are looking to expand the program to older kids as well (12+) they look for other interesting games as well. And since Ben has been playing Factorio for a while, one day an email from him landed in our inbox. After a bit of communication back and forth between him and Betka he has decided to visit Prague and stop by at our office. So we had a lunch together yesterday and spent quite some time talking about possibilities of building education content on top of Factorio - basically maps with custom goals which would be then used by teachers to explore programming like patterns and math thinking with kids. We are getting together again for a beer tonight :) The idea of using Factorio as a platform for education purposes is very interesting for us, so let's see how this project unfolds.
+</p>
+
+<h4> Theme graphics and icons </h4>
+<p>
+Albert is back from holidays (though he might leave for Spain again soon) and he has been mostly busy with Factorio promotional picture (concept of this one has been introduced in <a href="https://www.factorio.com/blog/post/fff-96">the past FFF edition</a>). He has worked further upon the concept and the result is now way more detailed. At the moment this picture is used as a menu background in the game itself (so no surprise for experimental release testers:)). If we don't manage to find an artist to do a coherent set of theme pictures on time, we will also use this as a standard banner for Steam Greenlight and other marketing campaigns.
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-99-factorio-menu-background.jpg"/>
+</p>
+
+<p>
+Main focus in the gfx department is now in the technology icons. Unlike item icons where proof-of-concepts have been almost(!) completely replaced by proper icons, in the technology pictures land we are still falling behind. Albert keeps working with our existing 3D models which often allows him to put together the icons very fast using elements already in the game (though there are always obstacles:)). We will bring you some previews in the next FFF edition.
+</p>
+
+<p> Let us know what you think about using Factorio in education <a href="https://forums.factorio.com/forum/viewtopic.php?t=14882"> at our forums</a>.
+</p>
+
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

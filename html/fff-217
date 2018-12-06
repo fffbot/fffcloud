@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #217 - Just another Friday Facts | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #217 - Just another Friday Facts
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen &amp; Rseding91 on 2017-11-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, most of the team is out of the office today attending the <a href="http://www.gdsession.com/">Game Developers Session</a> here in Prague, if you're around you can look out for some people wearing Factorio t-shirts.
+</p>
+<p>
+As we were thinking about what to write in this Friday Facts, kovarex suggested "In the next Friday Facts we should write about how hard it is to write Friday Facts". Sometimes it is really difficult to find something interesting to write about. Thankfully we found some short things that that we thought you would like.
+</p>
+
+<h4>Passenger seat for vehicles <font size = "2">(Rseding91)</font></h1>
+<p>
+Just a minor multiplayer feature.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video width = "896" autoplay loop muted>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-217-passenger.mp4"
+          type='video/mp4;codecs="mp4a.40.2"'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-217-passenger.webm" 
+          type='video/webm;codecs="vp9"'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+<h4>Resource generation and game balance <font size = "2">(Twinsen)</font></h1>
+<p>
+I wanted to have a look at how we generate resources and try to balance and improve it so it's a bit more fun. When playing the game, I noticed that I always need more iron than copper and I also felt that there is more copper than iron on the map, so I first wanted to look at that.
+</p>
+<p>
+When we balance out any part of the game it's usually something like "that seems a bit low, let's increase it by 0.2-ish and see how it goes". While this worked surprisingly well so far, I like to take a more scientific approach and look at hard numbers when possible.
+</p>
+<p>
+First I looked at resource requirements. In order to complete all non-infinite research you need:
+<ul>
+<li>60,445 Science pack 1</li>
+<li>59,885 Science pack 2</li>
+<li>48,600 Science pack 3</li>
+<li>20,800 Production science pack</li>
+<li>27,925 High-tech science pack</li>
+<li>32,445 Military science pack</li>
+</ul>
+To make all this you need:
+<ul>
+<li>3.5 million copper and 5.2 million iron. Ratio: 0.67 (in normal mode)</li>
+<li>10.4million copper and 10.9 million iron. Ratio: 0.95 (in expensive recipes mode)</li>
+</ul>
+I would say it's safe to assume that these are close to the number of resources needed to finish the game. Since you wont research everything, which will compensate for the cost of infrastructure and combat.<br/>
+Here I see that there is a different ratio of copper to iron, and the ratio is different in expensive mode.
+</p>
+<p>
+Now going to the map generation, I generated some 2048x2048 maps and calculated the total number of resources on them. For some reason there was always more copper. This seemed very strange since the map generation settings had the same values for both copper and iron. It turns out that some resources are always on top of others. Coal was on top of copper that was on top of iron that was on top of stone that was on top of uranium (alphabetical order). This meant that there will be more copper on average. To be precise, the maps had 1.5 billion copper and 1.3 billion iron. That's a ratio of 1.15 caused by overlapping. I changed the order of resources around a bit so Iron is on top.
+</p>
+<p>
+To balance all this out, the plan is to change some some recipes in expensive mode, so that the required copper to iron ratio is roughly the same in normal and expensive mode. Then the map generator settings will be tweaked so it also reflects that ratio (of course while keeping in mind the difference caused by overlapping resources).
+</p>
+<p>
+Now some might argue that what's the point of all this. Making things balanced does not mean more fun, for example making the player and the tank overpowered and unbalanced in combat made them way more fun. But for resources I believe it's more fun to find value in almost every resource patch you find as you explore, instead of "oh, another copper patch, how useless", especially if the player assigns the same value to it and has some expectation that they are balanced. Balancing all this is not a big deal, but it's just a subtle attention to detail that might make the game 1% more fun, and polishing all these little things will happen more and more as we approach 1.0.
+</p>
+<p>
+While I'm looking at the resource generation, there are more things that I plan to improve. For example:
+<ul>
+<li>Tweaking the resource density (average number of resources per tile).</li>
+<li>Making resources much more spread apart.</li>
+<li>Reworking how the starting area works so that it always contains a predictable amount of resources. This means that every new map is feasible.</li>
+<li>Making sure the starting area is not covered by trees.</li>
+</ul>
+</p>
+
+<h4>More optimizations <font size = "2">(Rseding91)</font></h4>
+<p>
+When we talk about game performance improvements it's almost always focused on the entity-update time as that is primarily what determines how fast the game can run. There is however one other important part and that's the "prepare" step that collects minimal information about the game to be rendered on screen. This step happens between the game being updated and the results being rendered on the screen which means the game has to be paused while it's run.
+</p>
+<p>
+We haven't looked into improving this part of the game for quite some time because it runs in multiple threads and was always been "somewhat quick". Recently I decided to spend some time trying to improve it and found several easy optimizations. The end result being the prepare step now runs roughly 50% faster than it did before, leaving more time for the game logic and entity updates.
+</p>
+
+<h4>Lua API additions <font size = "2">(Rseding91)</font></h4>
+
+<p>
+With every major update we keep improving the Lua mod API and 0.16 is no exception; between the larger tasks and bug fixing I've been working on requested Lua API additions. For those interested I've been keeping a public gist of the 0.16 changes and additions <a href="https://gist.github.com/Rseding91/4d12cc528b6cefbf5391c447db2fae06">here</a>. 
+</p>
+<p>
+I'm always reading the forums for new requests or changes to the API, so If you can make a valid argument for some new API feature (and provided it doesn't negatively impact the game performance when not used), please let us know on the <a href="https://forums.factorio.com/viewforum.php?f=28">Modding interface requests</a> forum.
+</p>
+
+<p>
+Let us know what you think by commenting in our usual topic <a href="https://forums.factorio.com/54034">at the forums</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

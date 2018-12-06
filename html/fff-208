@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #208 - Tips and tricks improvement | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #208 - Tips and tricks improvement
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex &amp; Klonan on 2017-09-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, it's another Friday, so time for another Friday Facts.
+</p>
+<h4>Lets try to unify the crafting categories <font size = "2">kovarex</font></h4>
+<p>
+As we were discussing the GUI/UX rewrite (which is going to be covered in detail in future FFF), we came across the crafting categories implementation. We have 4 in base game, but with few mods, it can go up to 20+ which is quite hard to manage in a GUI that is still practical and looks nice.
+</p>
+<p>
+Making its own sub-category for transport belts and putting them there is (probably) fine, but if it is done this way (5dim code), it only moves the vanilla transports belts there. However if some other mod adds transport belts, they will still stay in the old category, making it all messy.
+</p>
+<pre>data.raw.item["transport-belt"].subgroup = "transport-belt"
+data.raw.item["transport-belt"].order = "a"
+data.raw.item["fast-transport-belt"].subgroup = "transport-belt"
+data.raw.item["fast-transport-belt"].order = "b"
+data.raw.item["express-transport-belt"].subgroup = "transport-belt"
+data.raw.item["express-transport-belt"].order = "c"
+</pre>
+<p>
+This is a typical situation, where the fact that our data definition is done in a scripting language can be taken advantage of. We can just replace the previous code by more generic variant.
+</p>
+<pre>for index, recipe in pairs(data.raw.recipe) do
+  -- Assuming the name of the entity is the same as name of the recipe, it could be solved more precisely
+  if data.raw["transport-belt"][recipe.name] then
+    recipe.subgroup = "transport-belt"
+  end 
+end
+</pre>
+<p>
+The code goes through all the recipes and whenever its result is a transport belt, it is moved to the correct category. This way, all the possible other transport belts added by other mods will go there and my change of categories doesn't actually make more problems than it solves. This is a shoutout to the mod devs so they try to be reasonable with the crafting categories, so it doesn't happen that often that &lt;something&gt;-1, &lt;something&gt;-2, &lt;something&gt;-3 is on one place, but &lt;something&gt;-4 is somewhere else, just because it was introduced by a different mod. Either try to keep things in their official categories as long as possible, or recategorize properly.
+</p>
+<h4>Tips and tricks improvement <font size = "2">Klonan</font></h4>
+<p>
+The tips and tricks GUI is perhaps one of the greatest sources to teach players about some of the obscure convenience features we have added to the game over the years:
+</p>
+<ul>
+<li>Fast replacing furnaces, inserters, assembling machines etc.
+<li>Copy-pasting entity information, recipes, schedules etc.
+<li>How to turn on detailed view (alt-mode).
+<li>The hotkeys for the quickbar.
+<li>And the rest...
+</ul>
+<p>
+It is a shame then that this GUI is rarely read by the player, and this is our fault. It is easy to see the main reasons why:
+</p>
+<ol>
+<li>It is only shown at the start of a new game, when many of the tips are not relevant.
+<li>Once it is closed, it cannot be reopened without starting a new game.
+<li>Many of the tips are outdated, old, or just plain ugly.
+</ol>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-208-old-tips.png">
+</p>
+<p>
+So with this in mind, I set to correcting things as best I could. Since the tips and tricks have been in the game for a very long time, this involved moving some of the information around to make it work in multiplayer, but because they don't affect the gamestate, determinism was not a concern. After adding a hotkey to bring the tips back up, it feels very natural now to hit the hotkey on and off just to quickly check them. Another improvement I made was a button to go backwards through the tips, and to loop once you've reached the last one.
+</p>
+<p>
+Then it comes to the visuals. The biggest flaw is that most of the images are out of date, and taken on differing terrains -  many are not even the same size as the others. This not only affects the size of the GUI, but gives the unpolished feel to the whole system. The other issue is the layout of the widgets in the GUI. With an invaluable mock-up from Albert, defining the styles and arranging necessary elements wasn't too much of a struggle. So the main task now is to recapture and go over the images, and recreate them in a consistent visual style.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-208-new-tips-and-tricks.png">
+</p>
+<p>
+After freshening up the current tips, I will feel better about adding more, without the worry that "Nobody will ever read them". No doubt the GUI will still change, especially with the GUI rewrite in the works, so I wouldn't get too attached to the exact way it looks now.
+</p>
+
+<h4>End of the guide</h4>
+<p>
+Back in 2016 just before Steam launch, we didn't really have a good online guide for the game. We had the wiki but it was somewhat underdeveloped, and not geared towards a new player to the game. So the guide was the perfect resource for us, and it has served our newer players extremely well.
+</p>
+<p>
+Unfortunately in the 18 months since its introduction, a lot of the materials on the guide have become outdated. It would no doubt be a losing battle to try to keep it updated as we are continually adding and changing things in the game, so we have decided to take down the guide from public access. The <a href="https://wiki.factorio.com/Main_Page">wiki</a> has received a lot of care from Gangsir and Bilka, and is a much better resource for players of all skill levels, so it is now our recommended destination.
+</p>
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/52652">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

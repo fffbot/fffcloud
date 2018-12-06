@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #222 - Christmas avalanche | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #222 - Christmas avalanche
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-12-22, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, as you could expect this Friday facts is mainly about our fight with the avalanche of bug reports, which is actually not as huge as we expected it to be to be honest.
+</p>
+<p>
+We released 0.16.7 yesterday, and this will probably be the last update for a while. Most of us now are taking a break, enjoying the festivities, and visiting our friends and family.
+</p>
+
+<h4>Transport belt compression update</h4>
+<p>
+Regarding the belt compression discussion opened in the <a href="https://www.factorio.com/blog/post/fff-221">last FFF</a>: We are considering an option where side loading and inserters would compress belts natively. We will make a branch with it to test it how it works, and we will let you know our decision.
+</p>
+<h4>Fluid wagon update</h4>
+<p>
+We made a decision to completely abolish the mechanics of fluid wagon tank separation. We knew that a lot of players would not like it, but this might just be because they got used to it, and because of the argument "if you don't like it, don't use it".
+</p>
+<p>
+There are more arguments to destroy.
+</p>
+<ul>
+<li>Fluid wagon capacity is somewhat too big, which means that the fluid trains have to move around very sporadically compared to the trains with items. Making the wagon fluid capacity smaller (we didn't do it yet) and removing the separation, is similar to making the whole fluid wagon as big as one section.</li>
+<li> It was solving a problem that has quite a trivial solution (use two separate wagons). We try to add mechanics mainly for things that don't have a solution otherwise, or the solution is weird.</li>
+<li> We won't have to keep the code alive, we won't have to update the UI of it (in the upcoming GUI update) and fix the bugs related to it. This argument is the smallest, but is also here, as everything has a cost and it is about priorities.</li>
+</ul>
+
+<h4>Requester chest update</h4>
+<p>
+The change of the requester chest having priority over buffer chest was not that easy, as I decided to combine it with optimisation I wanted to do for a long time.<br/>
+In the current version, requesters have just 2 containers internally: "unsatisfied requesters" and "satisfied requesters", every tick, the "unsatisfied requesters" are iterated and it is checked whether supply is available for them. The second bucked with "satisfied requesters" is separated so we don't have to iterate through requesters that don't need anything now.
+</p>
+<p>
+The problem with this approach is, that once there are more a lot of unsatisfied requester chests for the same thing (lets say iron), and there just isn't iron in the supply at this moment, all the requesters have to be wastefully iterated again and again. So the change is, that every requests of chests are tracked separately for every item, and once the item isn't available, the rest of the requesters don't have to be iterated. I didn't measure, but it might have some minor impact in big bot-based Factories.
+</p>
+<p>
+The reason why was the optimisation written together with the fix is, that requesters have to have priority over buffer chests independently for each item, and it works quite nicely with it.<br/>
+TL;DR, this functionality is now merged into our master branch, and you will get it in the next bugfix release.
+</p>
+<p>
+I also feel, that we should add 2 things to the logistic system in 0.16:
+</p>
+<ul>
+<li>A checkbox in the requester chest that would allow the player to specify whether it should or shouldn't take from buffer chests, as even with the priorities, it might be annoying if robots took all the stuff from buffer stations to the requesters just because the supply train is going to arrive 10 seconds late, so the buffer chests would be supplied again soon. I would even say that the option might be to not take things from buffer chests by default.</li>
+<li>A filter for the storage chests. Buffer chests somewhat help to sort the storage, it doesn't really replace the need of storage chests to have a single filter for the whole storage chest. This would allow it to be reserved just for something specific, which would solve a lot of different problems</li>
+</ul>
+
+<h4>3 major train problems resolved</h4>
+<p>
+Thanks to train bugfixes from the user aaargha, there were 3 quite important fixes related to trains done. All of them were in the game for a very long time, more than 3 years, which surprises me a lot.
+</p>
+<ol>
+<li>A train decelerating to stop in a station created penalty around 2^32/10 (a lot) on the path it went through. This was sometimes causing trains to do very crazy and huge paths just to avoid this point. It was especially annoying as the penalty was easily enough to force train to go through different stations (that has penalty of 2000) which could cause traffic jams in a lot of systems.</li>
+<li>The train penalty of 2000 to avoid trains going through stops not on its own path was applied to the destination stop before actually reaching it. This caused the train path-finding to potentially search a huge amount of paths while the destination stop was just ahead of it. It was just a potential performance problem, but as you probably noticed, we need to care about performance.</li>
+<li>The last bug is related to this example:</li>
+</ol>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 900px; " src="https://cdn.factorio.com/assets/img/blog/fff-222-train-race.gif">
+</p>
+<p>
+The top train arrives later because there is no rail signal just in front of the stop. Sounds weird right? This bug was related to a hacky solution to a problem with extremely fast trains 3 years ago, and it basically caused trains to start slowing down for a station 2 times sooner in many cases.
+</p>
+<p>
+All of these problems are already fixed in the current 0.16.7.
+</p>
+<h4>Steam awards</h4>
+<p>
+Factorio has been nominated for one of the <a href="http://store.steampowered.com/news/35437/">Steam awards</a>, 'Haunts My Dreams'. It is a nice mark of recognition for all the work we've put to the game this year. It seems the other nominees are pretty much the giants of the industry, so it is most likely one of these will win. Still, it is nice to be included with the big kids.
+</p>
+<p>
+The voting for this category opens on the 29th of December, at 10 AM PST, for 24 hours only. So if you are interested in voting for one of the entrants, be sure you can get to a PC on that day.
+</p>
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/55565">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

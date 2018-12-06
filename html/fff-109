@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #109 - The team photo | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #109 - The team photo
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-10-23, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello!
+
+<h4>0.12.13 release</h4>
+The 0.12.13 <a href="https://forums.factorio.com/forum/viewtopic.php?t=17259">was released today</a> and it still isn't the stable candidate. We would love to work on 0.13 features full time already, but as always, the last 10% of polishing takes more time than expected. Once we have the last 14 bugs solved and the last 11 technology icons done we could probably close the 0.12 chapter. I hope it to happen next week.
+
+<h4>Everything is more complicated than expected</h4>
+One of the <a href="https://forums.factorio.com/forum/viewtopic.php?t=17151">bug fixes</a> for 0.12.13 covered that blueprint didn't ignore gate ghost with the same orientation properly like it should:
+
+<table>
+<tr><td style="padding:20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-109-gate-ghost.png"/>
+</td><td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-109-gate-ghost-ignored.png"/>
+</td></tr></table>
+
+Someone wondered how can such a simple thing go wrong. The buildability checks seems to be simple, but it actually grew to be pretty complicated. Every buildability check has four different modes:
+<ul>
+  <li><b>Manual building</b>
+    <ul>
+      <li>The player can't build when it collides with other things unless fast replace can be used.</li>
+      <li>Fast replace works only when it makes a change. (Can be used to change direction or type of transport belt for example)</li>
+      <li>It Doesn't collide with ghost buildings, these will be automatically removed when they collide.</li>
+    </ul>
+  </li>
+  <li><b>Script building</b>
+    <ul>
+      <li>Entities can collide with other entities or terrain</li>
+      <li>Can't break special rules: two rails/transport belts/walls/pipes on the same tile.</li>
+    </ul>
+  <li><b>Ghost building</b>
+    <ul>
+      <li>Mainly used for blueprint building.</li>
+      <li>Collides with both ghosts and normal entities</li>
+      <li>Ignores some specific entities like player, enemies or vehicles, as they will probably be standing elsewhere later.</li>
+      <li>The buildability check can return special value "ignored" when it is exactly the same (type, orientation etc.) as the entity in the blueprint.</li>
+    </ul>
+  <li><b>Ghost revive</b>
+    <ul>
+      <li>Used when the ghost is being replaced by the real entity by the construction robot.
+      <li>Similar as manual building, but fast-replace is not applicable.</li>
+   </ul>
+</ul>
+
+Apart that, a lot of entities have special rules. The gate needs to take into account building on rails or rail ghosts, gate is never buildable on wall or other gate (unless fast replacing). The rules also change when dealing with enemy gates or ghosts or the entities setup as not minable from the script. Well, our automated tests of buildability checks are 820 lines long and it probably doesn't even cover everything.
+
+<h4>The team photo</h4>
+We feel that proper game studio should have some team photo, so we made ours in an old abandoned railway station to add the Factorio feeling to it. It will be used on our (soon to be updated) team page.<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-109-factorio-team.jpg"/><br/>
+From left to right: slpwnd, Cube, Albert, HanziQ(Martin), Twinsen, kovarex, Václav, Michal and Oxyd(Ondra). The girl is Bětka, obviously :)<br/><br/>
+
+The comment thread is at the <a href="https://forums.factorio.com/forum/viewtopic.php?t=17262">same place as usual</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

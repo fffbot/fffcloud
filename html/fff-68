@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #68 - The trains | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #68 - The trains
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-01-09, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Albert is back from Spain and Cube is back from vacation, so the Wube is not lonely. Once Tomas gets back from India and Robert moves here, the place will feel fully populated again :)
+</p>
+
+<h4>0.11.9,  0.11.10 and future 0.11.11</h4>
+<p>
+We had 2 releases this week, as the 0.11.9 (released on monday) had some critical gui related crashes because ... well .. because I decided to do some gui refactoring and cleanup that I believed to be harmless, silly me. The 0.11.10 that we released on tuesday fixed these problems and it seems that this one is not as heavily broken as those before. So we can concentrate on the long term bug fixing, like fixing multiplayer communication corner cases, desyncs and the train bugs. The next batch of fixes can be expected next week.</p>
+<p>
+We have high hopes of stabilising the 0.11 until the end of January as we really miss doing some other work than bug fixing.
+</p>
+
+<h4>The Train bugs</h4>
+<p>
+There were several train related bugs in our bug report queue, but we were avoiding these, as getting deep into the train logic is quite hardcore. I couldn't avoid it forever, so the time of train fixes have come.</p>
+<p>
+The core problem with train logic was, that trains were updating the direction (left/right/straight) only once per logic update, but when the train moved fast, it could move past 2 or more junctions in one step, and get off the planned path. The result was confused train that didn't know what to do and a lot of reserved orange signals on the other path that he missed.</p>
+<p>
+There were a lot of other problems related to train movement, path finding, train collision resolving etc. It didn't crash the game immediately, but led to non standard (buggy) behaviour.</p>
+<p>
+The automated tests now contain some path finding and usage of super high speed locomotives, so the mods with fast trains should work correctly now as well.</p>
+
+<h4>Preserved train stations</h4>
+<p>
+The problem with train schedules was, that once the train station was removed and built again for whatever reason (to be repositioned, it was destroyed by biters but rebuilt by construction robots etc.), the station was removed from all the schedules. It is now just marked as inaccessible and the train skips it until it is rebuilt again (or removed from the schedule manually). <br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-68-schedule.jpg"/>
+</p>
+
+<h4>Better train path finding</h4>
+<p>
+The current train path finding had just one very primitive way of avoiding blocked segments directly in front of the train. Such paths were always considered as the worst paths possible, even re-routing 5000 tiles around all the huge map was considered better than waiting 5 seconds for the train in the station to get away.
+
+The current path finding puts penalties as addition to the path length when searching for the route:
+<ul>
+<li>When the rail block is occupied by a train -> penalty of 2 * length of the block divided by block distance from the start, so the far away occupied paths don't matter much.</li>
+<li>When there is a train waiting in the station -> penalty of 6 tiles per every remaining second in the station (This also helps the train to choose the best station even when all of them are occupied).</li>
+</ul>
+We can add more logic here, but the trains are working fine now, so let's leave it for later.<br/></p>
+
+<p>
+P.S. By studying the train setups, I also realised that pre-signals are really needed, I will try to squeeze them into 0.12.
+</p>
+
+<p>
+Screenshot from the fascinating rail centered <a href="https://forums.factorio.com/forum/viewtopic.php?t=7794">savegame</a> that I used for stress testing.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-68-trains.jpg"/>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=7914">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

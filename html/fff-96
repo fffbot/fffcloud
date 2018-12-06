@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #96 - The fixing phase | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #96 - The fixing phase
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-07-24, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Good afternoon,</p>
+
+the week in the office has been relatively quiet. The whole non-dev department is away, kovarex is flying his paraglide somewhere over Macedonia so in the end there is like 6 of us meeting here to make the game crash less often=)
+
+<h4> The well known process </h4>
+<p>
+We have slowly shifted from the "make new stuff" phase to the "fix new stuff" phase. They are quite different in nature as you can imagine. The "making" phase is rather secluded with lots of new stuff going on internally but a bit less interaction with the community. The "fixing" phase on the other hand means that most of what we do is actually driven by the community feedback from playing the game - the bug reports. Also the "fixing" provides way less material to write about in Friday Facts =)).
+</p>
+
+<p>
+Pretty much every new major update we keep thinking that the stabilisation will not be as bad and that it will actually be shorter than in the previous release. And so far every stabilisation period has been longer than the previous one. But we think it will be different this time =)) (optimism, self-delusion, or both).
+
+<p>
+There are few reasons for this:
+<ul>
+<li> The 0.11 stabilisation took extremely long because it was the first multiplayer version and the desyncs were just endless. </li>
+<li> We actually have a good test suite at our disposal now and new features always come with tests.</li>
+<li> More developers on the team => more hands to smash bugs. </li>
+</ul>
+</p>
+
+<p>
+But as usual, things always take longer than expected. On top of that it is summer now with people taking vacation and the overall atmosphere being kind of relaxed.
+Nevertheless the 0.12.1 will be released today and we will try to keep the experimental releases coming out more frequently (meaning a release a week or two). The forum is still bubbling with issues, but 0.12.1 should fix quite a few of the most common (and annoying) bugs out there. And it seems definitely worth releasing. In the meantime you can join the <a href="https://forums.factorio.com/forum/viewtopic.php?f=5&t=13357">Guess the 0.12 stable version thread</a> on our forums.
+</p>
+
+<h4> Theme art emergency </h4>
+<p>
+So our <a href="https://www.factorio.com/artwork">theme art</a> definitely needs an upgrade. Now. And we know it. And we have tried to do something about it. And so far we have failed. We have started cooperating with an external freelance artist to get a set of new theme pictures. These would be used both for presentation purposes as well as posters for fans, in-game covers for scenarios, etc. However things are moving very slowly, if moving at all. This is painful because especially the presentation part is rather important for us. With stable 0.12 we are going to Steam and in the fierce competition there, it is not only important to have a good game (which we really try to have) but also to present it well to the audience (this bit we have just started working on). And as many point out the initial release can be the decisive point for the game (There are a few good articles regarding Steam statistics, strategies, etc. <a href="https://medium.com/@galyonkin/some-things-you-should-know-about-steam-5eaffcf33218">This one</a> recently caught my attention.).
+</p>
+
+<p>
+Most of the gfx work has actually been stopped for some time because our lead artist Albert is away from the office (this also makes it much harder to come up with gfx content for the Friday Facts=)). However after he comes back, our focus will be mostly on this area (game presentation) as well as general game polish (for instance proper background in the main menu, small but important gui tweaks, etc.). Basically giving Factorio an overall packaging it deserves=) There has been a bit of experimetaion done by Albert already. He has played with compositions made from 3d objects. These compositions then can be used as an "prescription" for an external theme artist or we might actually use directly the composition itself.
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+  Proof-of-concept factory composition.
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-96-composition.jpg"/>
+</p>
+
+<p> Let us know if you have had fun with the 0.12.0 so far <a href="https://forums.factorio.com/forum/viewtopic.php?t=14006"> at our forums</a>.
+</p>
+
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

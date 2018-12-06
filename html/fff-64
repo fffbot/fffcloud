@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #64 - The plans | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #64 - The plans
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-12-12, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+we have a nice anniversary of the friday facts today, as we have one friday facts for every bit in the 64bit architecture address size. I believe this is the best time to show some of the 64 pixels per tile graphics experiments as well.
+</p>
+
+<h4>The light at the end of the tunnel</h4>
+<p>
+The (multiplayer) bugs queue was reduced a lot, we are down from 122(last week) to 90, but mainly, it seems like most of the desync bugs, which were hardest to fix are mostly gone. People  are reporting 50+ hours game in multiplayer without big problems (well at least two of them exist ^^) which makes me feel that the hard work was really worth it. They are certainly lot of fixes to be done for the multiplayer, but the list is not so scary now. Namely, Tomas is doing final fixes of the multiplayer friendly loading/saving of the map. The problem is, that when the player is saving the map (the typical problem with the autosave->desync), he is not sending any communication to the other players. The same when the player is loading the map he downloaded. This is especially problematic when the save file grows, as the saving/loading times can grow a lot. To solve this, the loading/saving is going to be done in different thread, so the player can inform other multiplayer peers about the progress of the saving/loading, so they will even see the progress bar of it. Also there are several corner cases we need to solve, like player dropout during some synchronisation processes (the game might get stopped forever). The conclusion is, that we believe we might be able to deliver the stable for 0.11 until the end of this year.
+</p>
+
+<h4>The savegame file reduction</h4>
+<p>
+We have been thinking about ways to reduce the save game file, but it became much more important with the multiplayer, as the reduction would fasten the download times.
+There are many things we can do to make the savegames smaller. The first step I'm currently experimenting with is using the fixed-point float numbers for in-game positions. Currently we use the double type for coordinates of the position, which takes 8 bytes per value, and doesn't really follow our needs as well, as it is very (wastefully) precise around the center of the map, and the precision gets smaller the further you are (<a href="http://en.wikipedia.org/wiki/Double-precision_floating-point_format">double format</a>). The solution is to use 4 byte number for the position coordinates, 3 bytes for the integral part and 1 byte for the fractional part. The precision is still good enough for any practical ingame use (8 values per pixel), and the span will be kept reasonable big -2^23 to 2^23 which is above 8 million tiles. I made special huge save for testing, and the size reduction using this technique was 27% of the zipped file. The good thing is, that this also reduced the memory requirements and enhances the cache locality, so the performance is increased (very slightly) as well. There are more quite simple tricks we would like to use to reduce the savegame to half of what it is now.
+</p>
+
+<h4>The plans for 0.12</h4>
+<p>
+Now, when the stable for 0.11 is starting to look possible, we can start to talk about our plans 
+for the 0.12. The main thing planned for 0.12 is something we were referring as "The endgame content" that would replace the current cheap ending of the game. Once the player reaches the corresponding level of technology, he will be able to build rocket bases + rockets. But not those small rockets used for fighting enemies, but huge rockets used to get things into the orbit. Once he gets something on the orbit, he will use the material to build the spaceship there. The building will be similar as in normal game, but the player will first have to build the foundations (space platform) first. The platform will get the more expensive the bigger it gets. The player will then put all the needed machines, engines, and the valuable stuff on the ship. Once he is ready, he will start the ship. The ship will have to survive the trip on itself, it will have to contain small factory setup to process the energy and materials found on the way. It will have to provide the defense from all the asteroids and other dangerous stuff it can encounter. Once it reaches its destination, the valuable cargo can be sold at the local galaxy market. Once the player sells enough of the stuff, he won the game by becoming a rich bastard. No saving of the planet or the race, we decided to go for much more realistic storyline :) There are other plans for the 0.12 but let's keep it for the future friday facts :)
+</p>
+
+<h4>The Factorio next gen experiments :)</h4>
+<p>
+Once we took a look a the picture of the car from the <a href="https://www.factorio.com/blog/post/fff-63">last friday facts</a> we were convinced about something we were also dreaming some time. Lets try to make higher resolution renders of some of the entities in the game. The main reason to not use it in the official release is, that the graphics card memory requirements are already quite high, but when someone already has 2GB or 4GB graphics card, why couldn't he enjoy something extra. So we decided to experiment with 2 entities for starters (the car and the steam engine) to see how it works in the game, and if it is worth it, we will make a high-resolution pack as official mod. It would be turned off by default with warnings about the graphical memory requirements, but people could run it if their hardware can handle it. Making the highres versions of the entities is quite easy, as we just have to render it again with higher resolution ... but lot of the models are not made with such attention to detail, as they were optimised for the normal resolution renders, so it would need some tweaks.
+</p>
+
+<p style="margin:auto; margin-top:3px; margin-bottom: 40px; ">
+ The comparison of the normal resolution render versus the double sized resolution speaks for itself.
+<table>
+  <tr>
+    <td>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-64-car-normal-resolution.gif" width="573px" height="573px"/>
+   </td>
+  <td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-64-car-high-resolution.gif"/>
+</td>
+</tr>
+<tr>
+    <td>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-64-steam-engine-normal-resolution.gif" width="573px" height="573px"/>
+   </td>
+  <td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-64-steam-engine-high-resolution.gif"/>
+</td>
+</tr>
+</table>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=7289">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

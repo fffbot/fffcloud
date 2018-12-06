@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #227 - Rendering, Trees &amp; Scenario talk | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #227 - Rendering, Trees &amp; Scenario talk
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Posila, Ernestas &amp; Klonan on 2018-01-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, another week has passed here, with part of the team still out in Taiwan. They should be back next week, with some news of their great adventure.
+</p>
+
+<h4>Rendering/VRAM optimizations <font size = 2>(Posila)</font></h4>
+<p>
+With the addition of high resolution sprites we have started pushing memory limits of GPUs much harder than we originally anticipated. Currently the game requires about 2.4 GB of VRAM for sprites alone, and then it can use couple hundred megabytes more for working buffers and minimap data.
+</p>
+<p>
+While trying to optimize rendering we learned that the issue is quite complicated, as one optimization could improve performance on one PC, and worsen it on another PC even with a similar hardware configuration. For this reason we usually make it possible to turn these optimizations on or off in graphics options.
+</p>
+<p>
+Since the beginning, Factorio was using so called sprite atlases - which are big textures with lot of individual sprites packed into them. The advantage of using them is that we can batch rendering of sprites that are in the same atlas, and reduce the total CPU overhead of creating many draw commands for the GPU.  A disadvantage is that it might be harder for the graphics driver to fit this single large texture into VRAM, as opposed to a lot of small ones.
+</p>
+<p>
+Since high resolution sprites don’t fit into the single largest supported atlas size any more, we started to sort them into logical atlases - things that are drawn usually together are put into the same atlas. So terrain tiles, shadows, GUI graphics, icons, and recently objects that are drawn under shadows, are all separated into their own atlases. This way we can keep most of the sprite batching intact, while overall enabling us to add a greater number of larger sprites.
+</p>
+<p>
+Another problem we can solve is related to texture sampling. When you zoom out a lot, an entity which was 256 pixels wide could be only 32 pixels wide, which means only every 8th pixel from the source sprite is drawn. This can have be problem for the GPU’s texture cache, and can cause a significant framerate drop when zooming out. To solve this, we can enable <a href="https://en.wikipedia.org/wiki/Mipmap">mipmaps</a>, which are pre-downsized versions of textures, from which the GPU will select the size that is the most appropriate for current scaling factor. This is what we did for trees in 0.14 and now for terrain and decoratives in 0.16. The disadvantage is that mipmaps take up extra VRAM, and sprites can’t be as tightly packed in the atlas because they would start to ‘bleed’ into each other in the downscaled versions.
+</p>
+
+<p>
+With the ever increasing amount of high-resolution textures, we have some plans to implement some stronger VRAM optimizations later on. We will have some news on these as we develop them, but one way which coincides nicely with the high-resolution update, is the splitting of sprites from their shadows.
+</p>
+
+<h4>Trees refresh <font size = 2>(Ernestas)</font></h4>
+
+<p>
+Right now trees are kept as single sprites, with the tree and tree shadow combined. We originally thought this would be a benefit, as it would reduce the number of sprites the game has to render by half, but in the case of trees, this leads to a lot of empty space in the sprite image:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-227-tree-separation.png">
+</p>
+
+<p>
+The entire orange portion is just empty pixels that the GPU has to waste time sampling, which can be quite wasteful when there are hundreds of trees partially overlapping. A second downside is that they will take a larger amount of space in the sprite atlas, meaning a greater VRAM usage.
+</p>
+
+<p>
+Splitting the shadow from the sprite also has some side effects, due to the overlapping shadow sprites all being merged before being rendered. This means there will no longer be the deep black areas where the old tree shadows would layer on each other. There is some further reading on shadow rendering in <a href="https://factorio.com/blog/post/fff-42">FFF-42</a>.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-227-trees-natural-shadows.png">
+</p>
+
+<p>
+This helps the terrain fit more naturally with the trees, and helps keep the darkness of the shadow consistent with the other entities. But has some downsides.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-227-trees-flat.png">
+</p>
+
+<p>
+By removing the deep black areas, the resulting scene tends to look more flat, and our eyes see the colors as more washed out, even though they are the same on both sides. We can counter this problem by adding deeper shadows to the sprite itself, but this only works for trees using volumetric leaves, so we are reworking all the trees to work with this new system.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-227-trees-leafs.png">
+</p>
+
+<h4>Scenarios & Competitive scenarios <font size = 2>(Klonan)<font></h4>
+
+<p>
+As it turns out, not so many people know that we package quite a few scenarios with the game. Personally I like scenarios because allow us to explore aspects Factorio gameplay in a more focused way. While generally we aim to make a fulfilling freeplay experience, we are always looking for other interesting ideas that work within the game. If you have no idea what I am talking about, look here:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-227-scenarios.png">
+</p>
+<p>
+The most interesting to me, is exploring the nature of competitive Factorio. This doesn't necessarily mean fighting killing each other toxic cut-throat competition, but giving that heart-racing high-pace action that you don't really find in the rest of the game.
+</p>
+<p>
+Already we have two scenarios with a competitive nature:
+</p>
+<ul>
+<li>Team production - Teams are given a small area to work in, and a random task to fulfil.
+<li>PvP - Allows setting up multiple teams with a wide variety of customizability and setup preferences. 
+</ul>
+<p>
+Having written and played both of these quite extensively, I have some experience in what they 'feel' like. Honestly the fact you are working against other players in a meaningful way, really does give something the freeplay doesn't. Team production has the 'hit the floor running' pace that really feels pretty nice, there is this real rush to get the furnaces down and the smelters smelting before the other teams. Since PvP has a lot of setup options and game modes to pick, how it plays can vary a lot, but in general the concept leads to some great player interactions. Perhaps the name is a misnomer in this way, but PvP scenario can also be used to set up allied teams, just playing together with separate bases and technology progression, so it isn't always combat/competitive focused.
+</p>
+
+<p>
+Honestly over the last few years of playing, especially on medium to large game servers, I find the freeplay Factorio experience quite calm and relaxing, almost a little boring at some points. I am not saying I have seen it all, but there is not so much thrill to this side of the game to me any longer. For me at least, scenarios let me employ the best parts of the games design, in a way that brings back the challenge and interesting gameplay decisions. 
+</p>
+
+<p>
+I am also thinking of starting an 'official' Factorio MP server, so we can showcase these scenarios with some planned events. There are a few questions related to this, and scenarios in general, that I would like to put forward:
+</p>
+<ul>
+<li>Do you have any ideas for new scenarios, or improvements to the current ones?
+<li>What sort of scenarios and events would you like to see and/or take part in?
+<li>Do you think developing a competitive aspect to Factorio will benefit us in the long run?
+</ul>
+
+<h4>Production score</h4>
+<p>
+I recently added a new game mode to the PvP scenario: Production score. The concept is simple enough, you will earn points for the amount of items your factory produces, and teams will compete to earn the most points. In general I think it is quite nice, as teams can compete somewhat indirectly with one another, and victory isn't solely dependant on military power.
+</p>
+
+<p>
+Part of the result of this, is that the price generator I developed can be used for other things. It is done in a general way so it will dynamically calculate new prices when mods and other things are considered, and we can use it to make nice graphs such as the following:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-227-price-graph.png" title="The most expensive item is Power armor Mk2, at 500,537">
+</p>
+
+<h4>Scenarios as mods</h4>
+
+<p>
+Speaking of scenarios, I often see some issue raised that there is no easy way to share and install scenarios. Really that is quite true for stand alone scenarios, as you will need to copy the folder into some other scenario folder which might not exist in the user directory, or you can join a server hosting the scenario already and a copy will be saved locally. These are both quite messy and unviable methods.
+</p>
+
+<p>
+Thankfully there is a very easy solution, and that is to pack your scenario into a mod. This essentially solves the problem of scenario distribution, and makes it as simple as adding any other community addition to the game. There is also the system, that mods that include only locale, campaigns and scenarios, are marked as 'non-game changing'.  Since it doesn't affect the state of the game, the mod is completely ignored when dealing with mod syncing, and you won't have to worry about having the mod installed or not when joining any servers.
+</p>
+<p>
+As an example of how it can be done, I have packaged one of my pet projects as a mod, so you can see how easy it is to package scenarios into mods: <a href="https://mods.factorio.com/mod/factory-floor">Factory floor</a>.
+</p>
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/57174">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

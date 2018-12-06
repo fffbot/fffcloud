@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #241 - New player experience | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #241 - New player experience
+    </h2>
+
+    <div style="font-size: 11px;">Posted by V453000, Abregado, Twinsen on 2018-05-04, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>New player experience <font size="2">(V453000 & Abregado)</font></h3>
+
+<p>
+In the last several weeks/months we have been working on deciding the fate of the campaign and the demo/tutorial missions.
+</p>
+
+<p>
+Hi, I'm Ben (Abregado). My experience as an educator using Factorio in the classroom means I have thoroughly examined new players (young and old), and have played the first 30 minutes of Factorio for as many hours as some players spend on a single megabase. The systems in Factorio are deep and interconnected, so creating an onboarding experience for a single concept poses many exciting challenges.
+</p>
+
+<p>
+We find that the Freeplay portion of the game is already enjoyable to its target audience, but those who prefer a more guided experience only get a short campaign which doesn’t even utilize all of the features we’ve added to the game. On top of that brand new players need to dig through a tutorial which takes about 30-45 minutes to get to automation, which is what the game is about.
+</p>
+
+<p>
+We want to keep the demo so that anybody who wants to try the game can do it for free, and get a proper representative introduction to what Factorio is. For Factorio, the demo should serve a dual purpose of a tutorial and a teaser, both of which we feel could be improved...
+</p>
+
+<p>
+Currently we find the demo has the following problems:
+</p>
+<ul>
+<li>The impact of the first level isn’t very visually representative of what Factorio is.
+<li>Gives the impression of being a Minecraft clone in the first tutorial mission by having to mine manually and do hand crafting.
+<li>Key concepts like Assembling machines and electricity are not presented for the first two levels.
+<li>Player actions are so heavily constrained that the player learns just how to solve the tutorial rather than learning the concepts we are trying to demonstrate.
+<li>Each of the levels is disconnected from the previous. Which item recipes are available, that there are suddenly built structures and the location is completely different.
+<li>Grindy tasks like obtaining X resources in 2nd tutorial mission don’t have any clear purpose. The player does it because they are being told to, not to achieve some other goal that would make sense in the progression.
+<li>A lot of information is not important and just floods the player with noise, for example many of the <press TAB to continue> messages.
+<li>The places where the player gets information are scattered - Objective window in the top left, the player character talking to themselves in the console chat and the yellow "TAB bubbles".
+</ul>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-241-communication-channels.png">
+</p>
+
+<p>
+The three different information channels competing for attention. In this case also two of them telling you the same self-explanatory information (where is the current objective shown, if you didn’t get it), while the chat informs you that your character is alive.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-241-resources.png">
+</p>
+
+<p>
+A typical objective without purpose. (I guess the game will tell me what is it for soon?)
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-241-axe.png">
+</p>
+
+<p>
+Doesn’t this message resemble another game?
+</p>
+
+What we would like to achieve with the new design:
+<ul>
+<li>Create an immediately gripping environment that better sets up the Factorio feel.
+<li>Showing and teaching core concepts like Assembling machines and electricity in the first level using as little complexity as possible.
+<li>Providing goals through the technology tree, working with laboratories and the technology GUI as soon as possible.
+<li>Standardize the way players obtain new items. Every recipe has to be obtained through a technology - that way the player triggers recipe progression and gets them as a reward.
+<li>Starting a new level should start the player at a similar progression state where the previous mission left off.
+<li>Teaching by experimentation instead of jumping through arbitrary tasks. Letting the player coming up with their own solution of a puzzle.
+<li>Unify the channels the player gets information from (mostly GUI improvements).
+</ul>
+
+<p>
+After finishing the demo, the player should be ready to continue by playing the main campaign, or jump straight to the Freeplay.
+</p>
+
+<p>
+If you had to pick one entity that represents the game to you the most, which one would it be?
+</p>
+
+<h3>In-game backer names <font size="2">(Twinsen)</font></h3>
+
+<p>
+As you may know, some people who backed the game during the indiegogo or who decided to support the game by buying the "Mining Drill Operator" version of the game, they are able to have their name in game. These names are given to in-game Labs, Roboports, Radars and more importantly Train Stops. The backers are able to change their backer name from their account page. On every release we then update these names. While there is no longer any way to get your name in-game, we still support this feature.
+</p>
+
+<p>
+Since these messages were not moderated, cheeky or offensive messages kept making their way in game. While having your trains station automatically named "Satan's Anal Railways" is mildly funny, it's a bit confusing and not very family friendly.
+</p>
+
+<p>
+To avoid the need for moderation, we plan to disallow any further changes to your backer name in a week. So this is your final chance to get your final name in game. Keep in mind that at the end, we will go through the list and delete anything obscene or offensive, plus anything we find inappropriate, at our own discretion.<br/>
+Hopefully we won't get a <a href="http://knowyourmeme.com/memes/events/dub-the-dew">Dub the Dew</a> incident.
+</p>
+
+<p>
+As always, let us know your thoughts and feedback on our <a href="https://forums.factorio.com/60094">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

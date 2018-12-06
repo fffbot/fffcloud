@@ -1,0 +1,491 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #261 - Performance + New player interaction | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #261 - Performance + New player interaction
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-09-21, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h2>The many lessons learned from testing the new tutorial</h2>
+<p>
+We have already pointed out, that we are trying to make a new campaign (<a href="https://www.factorio.com/blog/post/fff-245">FFF-245</a>), and part of it is the core beginning, the NPE/tutorial.
+</p>
+
+<p>
+The tutorial is one of the very critical parts of the game, as if the first 15 minutes of a game feels shitty, there is big chance that the player will not play any further. I had this experience in many games myself.
+</p>
+
+<p>
+So the challenge could be articulated like this: <i>"The current tutorial is okay, but can we make it great?"</i><br/>
+The approach in the current tutorial is to feed the player with the basic knowledge of how to control the basics of the game (the first mission and the start of the second mission) in the fastest way possible.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-current-tutorial.png"/>
+</p>
+
+<p>
+The player is even given descriptive info like this, to diminish the chance of not understanding how the basic entities work. 
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-current-tutorial-2.png"/>
+</p>
+
+<p>
+After few steps in the 2nd level, the player can start exploring his first self-feeding loop (make iron to make more iron).
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-current-tutorial-3.png"/>
+</p>
+
+The tools used to this is mainly:
+<ul>
+<li>The message dialog that stops the game and explains the player various things.</li>
+<li>Minimization of the amount of things the player can interact with to absolute minimum, so he can't start doing other things before the basics are clear.</li>
+</ul>
+
+The possible drawbacks:
+<ul>
+<li>The constant interruptions can get really annoying (typically around 22 message dialogs before the player starts to play relatively freely in the 2nd level).</li>
+<li>The possibility, that the player will mindlessly follow the step-by step tasks without understanding it, so he can become really lost later on, and the tutorial basically wouldn't help him to understand things.</li>
+</ul>
+
+<p>
+So the question is: <i>Can we make a tutorial that makes these problems go away?</i>, and alternatively, <i>How big are these problems actually?</i>
+</p>
+
+<p>
+The current direction of the new tutorial attempt is to never use the message dialogs, so the player can learn the game more fluently, and to leave way more things to explore, as learning things yourself has a better chance of success than force-feeding generally.
+</p>
+
+<p>
+We made a few tests of the new approach with a few people, the main takeaway, is that nothing is for free, and this approach created new drawbacks.
+<ul>
+<li>If the player doesn't figure out something basic, it can be <b>very</b> frustrating for him to figure out what is going on when not moving forward for a long time.</li>
+<li>It might be possible, that some things are just not fun to learn by exploration, and it is more comfortable if they are force fed to you. I would compare this to a friend explaining you how to play a game for 5 minutes compared to 2 hours of trial and error.</li>
+</ul>
+</p>
+
+<p>
+There are more possible outcomes from this, and we shall see how different tweaks of both strategies work in the testings. It might be interesting if you mentioned your experience with the tutorial in the comment section as well.
+</p>
+
+<h2>Generic usability improvements</h2>
+
+<p>
+Regardless of the final tutorial approach we choose, we made some generic improvements that should help to avoid some of the pitfalls.
+</p>
+
+<b>Interaction error messages</b><br/>
+<p>
+People sometimes struggled (in the beginning), to figure out why they can't interact with an object (open/mine/build, connect wires etc.) when it is too far away. We still keep the Beep Boop error sound and the different (yellowish) color, but we added a short flying text explaining the problem.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-reach.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-reach.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-wire.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-wire.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+This also includes GUI related stuff like this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-ingredients.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-ingredients.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-hand.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-hand.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-machine.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-261-not-machine.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+Some of these error had description messages, but these were in the bottom-left corner in the console, but we observed, that since it might quite far from the mouse and focus of the player, it can be easily missed. Even if it is not missed, it is not that comfortable to look somewhere "far away" for an error.
+</p>
+
+<b>Highlighting of inserter/miner related entities</b><br/>
+<p>
+When building/hovering an inserter, miner or any entity that inserter/miner can interact with, the corresponding entities are highlighted. This should help to understand the connection, and even for me, it is useful sometimes to see instantly, whether the inserter is one tile off or not when building it.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-highlight-select.png"/>
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-build-furnace.png"/>
+</p>
+
+<h2>Performance tweaking</h2>
+<p>
+Sometimes, I wondered why is the performance in Factorio is very unstable. The update runs fine (lets say 5ms) most of the time, and from time to time, it takes much longer (16+), so the frame is skipped, so the game feels choppy. For a long time, I expected, that this is caused by some Factorio tasks that can peak once in a while (train path finding), but the weird realisation came, when I played multiplayer, and I noticed, that other people didn't have the problem, so I started to investigate.
+</p>
+
+<b>Browser</b><br/>
+<p>
+I realized this long time ago when doing performance tests. Running any browser with modern (dynamic) page, or and browser related applications (slack for example) take more performance than you think. I could measure non-trivial increases in performance when I closed all these.
+</p>
+
+<p>
+<b>Windows - performance options</b></br>
+There is a Power options panel in windows (Control Panel &rarr; Hardware and Sound &rarr; Power options), you can select different power options. It mainly controls things like how long it takes before it goes to sleep, or when are the Hard disks stopped, but it contains more, notably the minimum processor state, which by default (in the default plan, is 5%):
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-power-options.png"/>
+</p>
+
+With this settings, I am seeing performance similar to this on my test save
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+Values are <i>avarage</i>/<i>minimum</i>/<i>maximum</i> in the context of the last 10 seconds.<br/>
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-balanced-power-mode-result.png"/>
+</p>
+
+While the default for high-performance is 100%:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-power-options-high-performance.png"/>
+</p>
+
+With this, I am getting this result:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-261-high-performance-power-mode-result.png"/>
+</p>
+
+<p>
+You can see, that the average time spent on update is roughly the same, but with the balanced mode, ther are quite big peaks of slowdowns that are happening regularly. You can test this yourself.
+</p>
+
+<p>
+The <i>minimum processor state</i> basically allows the system to somehow slow down or turn off some parts of the processor. Factorio works in a way, that it does a lot of work in the update steps (the 5ms time), and then, the update thread has to wait until the time of the next update.<br/>
+My theory is that when the thread is waiting for the next update, the system thinks that it doesn't need that much CPU power suddenly, so it slows down, but it doesn't switch back to full power fast enough when it is needed again in the next update.
+</p>
+
+<p>
+I would be careful with this, as I can imagine that having this option all the time might not be that a good idea, mainly for laptops, but if your game starts to be choppy because of performance, it is worth a try to set this option for the time when you play Factorio at least.
+</p>
+
+<h2>The forums update - part 2</h2>
+<p>
+The new forum theme caused quite some debate <a href="https://forums.factorio.com/62457">on the forum</a> and in the office this week, specifically about the limited content width, and the result is that we added a slightly modified theme to scale the forum to the whole screen width. I would like to know your opinion, whether you prefer a limited content width, or prefer the content to fill your whole browser window, there will be a poll to vote in the forum post for this FFF.
+</p>
+
+<p>
+As is standard, you can leave us your thoughts and feedback on our <a href="https://forums.factorio.com/62610">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

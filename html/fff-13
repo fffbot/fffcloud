@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #13 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #13
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-12-20, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+ <p> another Friday means another update on what is happening here in the Factorio central in Prague. It doesn't really feel like the Christmas are actually around the corner. There is no snow (just cold) and the shopping spree / Christmas tree hunt doesn't really affect us that much:) Therefore the only clear signal that the year is coming to an end has been the Christmas concert we attended with Kovarex.
+ </p>
+
+ <p> The stabilization of the 0.8 has been our main topic for the past week. We have found and fixed many bugs ranging from little annoyances to serious game-crashing or save-corrupting beasts. The 0.8.1 contained a magical
+ number of 42 bugfixes, but unfortunately some of the fixes brought in new bugs (this happens so often that it became a programming folklore). Therefore we made another bugfix release - the 0.8.2 which has been published today and so far it has been looking good. </p>
+
+ <p> The way I put it sometimes, the bugfixing probably sounds like a boring / tedious work. Well there is not that much creativity involved, but it can get really interesting. It is like solving a puzzle or a small criminal case of your own. In the beginning you only have the problem. Then you are looking around, noticing small odities and other clues. If you need, you can use the debugger or debugging prints to get a glimpse of what is happening behind the curtains. You need to think a lot and picture how the different parts of the code interact and what could be going on. You make a hypothesis, test it and often ... find nothing. But in the end you get this AHAAA moment when everything becomes clear and the source of the problem is revealed. Actually fixing the bug is usually the simple part, once you have traced its origin. The AHAAA moment feels really good, it is like figuring out a riddle or solving a tricky math problem.
+ </p>
+
+ <p> Kuba started working on the biomes for the 0.9. The model he is using is taking into account two semi-independent variables: the temperature and the humidity. The noise of temperature and humidity is generated over the map, assigning a specific combination of values to every tile. The placement of terrain and doo-dads (trees, rocks, fauna, etc.) are driven by these two variables. For instance, the definition of plain green tree would say that it has the peak at humidity of 0.5 and temperature of 17 degrees. The probability distribution is then formed around this peak to determine whether the tree should be placed on a given tile (based on the tile's temperature and humidity values). In the end, based on these definitions, the different biomes should emerge (we are already curious if they do:)). Below there is an image which demonstrates the relationship between biomes and humidity / temperature.</p>
+
+ <p> Albert is at the moment working on the doo-dads (new trees, rocks, plants, etc.) to give the environment a realistic feel. We have collected quite some feedback on the new logo direction in the past week. Personally, the biggest surprise to me has been that a lot of people would prefer the current logo to the old one. We still believe in the new logo and we will use the feedback from the forums and emails to improve it (experimenting with the color, increased readability, the wheel shape, etc.). </p>
+
+ <p> The second post picture is called "The giant and the machines". It demonstrates the scale functionality of the engine that can be used to draw scaled pictures on the fly rather than scaling them first. This way the picture uses both less space on the drive (some mods are already bigger than the vanilla game:)) and less video memory. It was really funny to see the giant player walking around the tiny machines:)
+
+  <p style="margin:auto; margin-bottom:20px; margin-top: 20px; width:901px;">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-13-biomes-white.png"/>
+    <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-13-giant-player.jpg"/>
+  </p>
+
+  <p> As always you can let us know what you think in the dedicated <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1828">post on our forum</a>.</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

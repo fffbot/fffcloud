@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #148 - Optimizations for 0.14 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #148 - Optimizations for 0.14
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Rseding91 on 2016-07-22, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Greetings!
+
+<h4>My visit to Prague</h4>
+Todays Friday Facts are brought to you by Rseding91. I live in the USA and normally work remotely for Wube but I've been visiting Prague for the past 2 months. Since I'm not the touristy kind of person (I'm a programmer) and I love working on Factorio; I've spent almost all of my time here in the office. I've been in Prague since June 6 and my current time sheet says I've logged 568.55 hours.<br/>
+
+<h4>The bugs</h4>
+0.13.0 was released 4 weeks ago and we've had 9 releases since with 280+ bugs fixed of which I've personally fixed 99. We've still got 60+ confirmed bugs to work through however the bug reports are coming in less frequently as time passes. The reported bugs have also changed from "the game crashed, my map is corrupt, my computer exploded" style bugs to <a href="https://forums.factorio.com/29539">this</a> kind of bug. While yes, it's still a bug, it doesn't break gameplay at all so it's far less critical to get fixed immediately.<br/>
+The number of repeat bugs (bugs reported, fixed, and then broken again later) is near zero and of the bugs reported and fixed in 0.13 almost all of them where preexisting issues or introduced from features added in 0.13. That means that our automated tests are working and we aren't fighting against ourselves fixing issues we've already fixed.<br/>
+Other than the outstanding multiplayer issues mentioned in last week's Friday Facts 0.13 is looking great and baring any major bugs we're planning for a stable release August 1st..
+
+<h4>0.14 and optimizations</h4>
+As of now, there hasn't been any concrete plan as to what will go into 0.14. There are still enough bugs to fix that everyone's busy working on those. However, when optimization was mentioned it immediately got my attention and was assigned to myself for 0.14.<br/>
+<br/>
+Because we put no limits on what you're allowed to build in Factorio and the nature of the game encourages expansion and large factories even the best computers will eventually struggle to keep the game simulation running at the desired 60 updates per second as you expand. So far our main method for addressing slowdown has been "do less". It sounds simple but it rarely is.<br/>
+<br/>
+A few examples of past performance improvements:
+<ul>
+<li> Transport belts in 0.12 onward only check item collision against the item directly in front of the item being moved. (More in <a href="https://www.factorio.com/blog/post/fff-82">FF #83</a>)</li>
+<li> Solar panels where grouped so regardless of how many you build the calculation is: N * light * power</li>
+<li> Accumulators are grouped similar to solar panels</li>
+<li> Logistic/construction robots don't do any collision checks when moving since they can't ever hit anything anyway</li>
+<li> Most entities will "go to sleep" when they have nothing to do - consuming zero processing time when asleep</li>
+</ul>
+
+Two of the most frequently built entities and subsequently two of the most CPU consuming entities are: transport belts and pipes. The vast majority of them are large section of simple belts without intersections splitters inserters or so. The player simply needed more throughput and so they built 5-10 parallel lines of belts/pipes.<br/>
+Right now each belt and each pipe is updated individually piece by piece. That means the cost to run those increases as the count of entities does. The other cost is also the transition of fluid/items from each pipe/belt to another.
+
+<h4>The plan</h4>
+<p style="margin:auto; margin-top:40px; width: 965px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-148-transport-belt-segments.png"/>
+</p>
+The belt/pipe lines would be merged and act as series of segments. This allows the items on the segment to be saved in one continuous piece of memory, which not only improves memory locality, but allows us to use tricks to move the items on the belts smarter, instead of moving every item in the segment, we can just change the overall segment offset as long as the belt exit is not blocked. On top of that, the individual belts and pipes wouldn't have to be updated, as their animation can be simply tick-based. In the ideal case, this could improve the performance of transport belts many times!
+<br/>
+Again, that sounds simple enough when stated but as I've started to look into what will be required it becomes more and more complex. This is just the initial list of questions that I need to solve before work can really begin on this:
+
+<ul>
+<li> How is the "other movable" logic meant to be handled for belts and splitters if they aren't going to be updatable</li>
+<li> Right now splitters operate by doing: move items on input lines -> split -> move items on output lines. How will this logic be done when the lines have no knowledge of the splitter or its mechanics?</li>
+<li> Who's responsible for saving transport line data?</li>
+<li> Custom render logic, so the segments draws it items in one go instead of individual items drawing them.</li>
+<li> How is save-load stability going to be maintained for merged transport belts? When a set of belts is merged runtime and then that data is saved how do we ensure the loaded and re-setup belts re-merge in the same way?</li>
+<li> Segment creating/merging/splitting logic. When belts are build/destroyed.</li>
+<li> How will migrations of belts in segment work?</li>
+<li> How will we handle underground belt connection distance changes between save load?</li>
+<li> And many others.</li>
+</ul>
+
+Nothing is ever as simple as you think it should be :)<br/>
+<br/>
+Between working on bugs and thinking about optimizations in 0.14 I've been working on some smaller features for 0.14. One of them I really like won't change the gameplay but just gives some fun data for multiplayer games: train kills.
+
+<p style="margin:auto; margin-top:40px; width: 900px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-148-train-kills.jpg"/>
+</p><br/>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/29599">our forums</a>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #207 - Lua noise specification | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #207 - Lua noise specification
+    </h2>
+
+    <div style="font-size: 11px;">Posted by HanziQ &amp; TOGoS on 2017-09-08, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, it seems the summer heat has finally subsided, and we have not had to run our AC units the whole week. We mentioned earlier we have had Dominik in for a testing week, and we are happy to say that he is quite qualified for a position here, so will be remaining with us. Tom has also joined us, moving here from the Republic of Ireland, and has been getting settled in working through a lot of the small unassigned tasks. It also seems most of us are back from our vacations, so the pace is picking up again.
+</p> 
+<p>
+Most of the work this week has been on the unentertaining spectrum, with a lot of internal reworking and refactoring going on. A lot commits related to fixing our compilation after the move to C++17. Many of the GUI and input action functions were broken (such as rebinding keys, switch map editor tabs, setting combinator filters), so its been a team effort to fix these as they are found. Hopefully not many will slip through the cracks and into release. 
+</p>
+<h4>Lua noise specification <font size = "2">TOGoS</font></h4>
+<p>As mentioned in <a href="https://www.factorio.com/blog/post/fff-200">an earlier FFF</a>,
+one of the planned features for 0.16 is to allow composition of noise functions
+from Lua code, so that we (and modders) can have more control over how the map is generated.
+Over the past several weeks I've been getting that working
+and playing around with it trying to make a world that has a lot of variation
+as you explore far away, but is not too crazy near the starting area.
+</p>
+<p>
+Sometimes it can be hard to visualise what effect changing the noise will have on the resulting map. To give a somewhat more intuitive feel to how the 'elevation' of the noise is affected, I added height shading to the preview. While only used in the game to place water, showing it in this way really helps to see the underlying structure of the noise.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-207-height.png">
+</p>
+
+<p>One of the problems I've been tackling is how to allow large bodies of water
+while ensuring that the player never starts on a tiny island.
+One way to do this is to add in a web-like structure near the starting area.
+This can be done by taking some medium-frequency noise with a positive bias
+(to ensure that there are land bridges to everywhere)
+but folded back down above a certain elevation to add lakes,
+subtracting distance from the starting area from that,
+and then taking the maximum of that and the general world elevation noise.</p>
+
+<p>As a simple example, the Lua code to do create such a noise function looks like:</p>
+
+<pre>data:extend{
+  {
+    type = "noise-expression",
+    name = "starting-area-webbing",
+    expression = noise.define_noise_function( function(x,y,tile,map)
+      reset_seed(map.seed)
+      local continents = new_basis_noise(x,y,32,1/512)
+      local webbing = noise.ridge(new_basis_noise(x,y,16,1/64), -math.huge, 8)
+      return noise.max(continents, webbing - tile.tier)
+    end)
+  }
+}  
+</pre>
+
+<p>The result looks like this in the previewer:</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-207-webbing.jpg">
+</p>
+
+<h4>Mod portal 2.0 progress <font size = "2">HanziQ</font></h4>
+<p>
+Over the summer, we have had a French student Lucien working with us in the office. As a part of his internship, he was helping us develop the new version of the mod portal. It took a long time, as I (Martin) had many other things to work on, and couldn't fully dedicate myself to finishing this long-overdue project, but we are nearing the end. We're hoping to release the new version this month.
+</p>
+<p>
+Apart from speed and performance improvements, there will probably not be many more changes on release, but we'll start working on new features right away. This new version gives us a much more solid foundation to work from. You can let us know on our <a href="https://forums.factorio.com/viewforum.php?f=189">Mod portal discussion</a> sub-forum which features/improvements are the most important to you, and there will proobably make a poll later on to see which we should focus on.
+</p>
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/52500">forum</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

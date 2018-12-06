@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #239 - PAX East report | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #239 - PAX East report
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan &amp; Twinsen on 2018-04-20, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>
+AMD Ryzen crashes <font size="2">(Klonan)</font>
+</h3>
+<p>
+The long fight with the elusive Ryzen bug (<a href="https://www.factorio.com/blog/post/fff-231">more</a> and <a href="https://www.reddit.com/r/factorio/comments/8amxqg/amd_ryzen_entityrendererpreparerow_crash_87_times/">more</a>) seems to finally have some resolution.
+</p>
+
+<p>
+A few weeks ago I sent an email to AMD, filling them in on the details of the crash, and asked them if they could help us solve this. Very quickly I was put in touch with a member of their CPU engineering team, and they got to work with their investigation. After a few days, and after providing them all the information we have (log files, source code, crash dumps etc.), the cause of the issue was identified.
+</p>
+
+<p> Some other developers in the industry also had this problem and worked with AMD to fix it, so it's unlikely that the CPU bug was fixed only because of us, but we are honoured to have contributed to this. Unfortunately we do not have any technical or deep insight into where exactly the problem lay, or what the fix was, as it was somewhere between the motherboard BIOS and the Ryzen chipset drivers.
+</p>
+
+<p>
+So if you are running Factorio on a Ryzen system, we advise you to update your BIOS using the files and procedures found on your motherboard manufacturer's website, and update your chipset drivers to the <a href="http://support.amd.com/en-us/download/chipset?os=Windows+10+-+64">latest version</a>.
+</p>
+
+<h3>PAX East Report <font size="2">(Twinsen)</font></h3>
+<p>
+Two weeks ago we travelled to Boston to showcase our game at PAX East. I really like games and game conventions, so I was the lucky one who got to go to PAX East, after having already attended the Taipei Game Show. I was joined by Rseding91, v453000, Klonan, HanziQ and Jiri. <br/>
+Compared to Taipei, PAX was much larger, with a lot more players reacting positively to Factorio, and many more people knowing the game.
+</p>
+<p>
+We had a 4 banners showing the base mentioned in <a href="https://factorio.com/blog/post/fff-236">FFF-236</a>, a TV playing the trailers, and PCs with the first two levels of the campaign (the first one was shortened quite a bit). These worked well together. The trailer got people hooked, the demo showed them what the game is about and the banners showed them that the game is very deep and complex.
+</p>
+<p>
+We noticed a few categories of people coming to our booth (in order of most frequent):
+<ol>
+<li>Fans who already knew the game and wanted to show their appreciation, thank us or get some merchandise (we really should have brought more pins and t-shirts). Many of them would say "I wasted hundreds of hours in this game, you guys almost ruined my life".</li>
+<li>Groups of friends passing by our booth, with one of them telling his friends "Oh, Factorio! Man, this game is amazing you guys really need to play it!". They would then proceed to explain the game to their friends.</li>
+<li>People who heard about the game and wanted to give it a try.</li>
+<li>People watching the trailers and having a chuckle when the biters get hit by the train.</li>
+<li>Every one else who sat down to play the demo, either stopping after the first short level or playing all the way to the end of the second, longer level.</li>
+</ol>
+</p>
+<p>
+Like last time, it seems that the event didn't bring us much sales, but it's hard to judge since we already had a spike in sales when we announced the price increase and 0.16 stable. Nonetheless it was definitely nice to be there and meet <a href="https://www.reddit.com/r/factorio/comments/8adsub/had_a_blast_meeting_the_dev_crew_these_guys_are/">the fans</a>, other developers and members of the industry, and to play all kinds of games that were being demoed. It was also a great learning experience for us, in both event management and the impression that the game leaves.
+</p>
+<p>
+Special thanks to RaZer and Dell Alienware for lending us the PCs for demoing the game.
+</p>
+<p>
+While there I filmed some short clips, including a few with our booth and edited them into a video. The quality is pretty bad since I accidentally set the camera to record in 640x480. You can see the video on my personal Youtube channel <a href="https://youtu.be/BWrE8oGP1XQ">here</a>.<br/>
+We also made a small album with some photos <a href="https://photos.app.goo.gl/UlwBtU1GVDU5UXNz1">here</a>.
+</p>
+<p>
+After PAX, HanziQ and Jiri visited New York City, while Rseding91 and I went to Los Angeles where we visited the Blizzard campus, Six Flags and also had <a href="https://www.reddit.com/r/factorio/comments/8bw0bb/the_factorio_la_meet_up_says_hi_thanks_to_rseding/">a small meetup with a few Factorio fans</a>.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-239-img2.jpg"><img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-239-img2-896.jpg"></a><br/>
+From left to right: v453000, Rseding91, Klonan.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-239-img1.jpg"><img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-239-img1-896.jpg"></a>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-239-img3.jpg"><img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-239-img3-896.jpg"></a>
+</p>
+
+<p>
+As always, let us know the way you feel on our <a href="https://forums.factorio.com/59742">forum</a>.
+</p>
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

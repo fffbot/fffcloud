@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #36 - Better late than sorry | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #36 - Better late than sorry
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-05-31, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+so today is Saturday (more specifically half past six on Saturday morning). The point of Friday Facts is that they are written on Friday. So what went wrong? Yesterday we were working all day long
+to make the <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=678">promised release</a> happen. We gave up on social life on Friday evenings long time ago:/ There were new and new things coming up. At one point we were ready to "push the release button" but then we
+found out that the game performance can drop significantly due to some strange Allegro sound issues. As a result the game was not playable at all. That was already late in the evening and we started to fall asleep over our keyboards.
+</p>
+
+<h4> 0.10.0 postponed </h4>
+
+</p>
+We had a really bad feeling about releasing in such a state. Not mentioning the <a href="https://forums.factorio.com/forum/viewforum.php?f=7">glaring list of open bug reports</a> on the forum. So we decided to <strong>postpone the 0.10.0 release by 1 more week - till the 6th of June</strong>. We are really sorry to
+all those who have been waiting. Good news is that all the features intended for the release (well, there are not that many) are finished. This will allow us to spend the week mostly on solving known bugs and issues. Something we haven't done for quite some time. The 5 page bug section is a challenge now.
+<p>
+
+<h4> Pathfinder </h4>
+<p>
+There has been numerous bug reports regarding the "biters getting stuck". The reason for this is that our pathfinder has been first-come-first-serve until now. If there was some very costly path to calculate (for example around a big mass of water) then all the other paths (even the tiny ones) had to wait. So the biters were stuck, because they couldn't use the path finder that was busy with someone else's very costly path. Kuba has been working on this. The result is that the pathfinder behaves more like a processing unit which allocates fixed time (amount of steps) to every biter who needs to calculate the path. So it runs X steps of calculation for the first one, then for the second one, etc. The "context" of the calculation (all the information associated with the progress of the path find calculation) is stored in the meantime, when the biter is waiting for his path. This way all the biters are calculating their paths simultaneously (though not in parallel). The result is that short paths can be calculated even when there is a long path calculation in progress. And so biters can happily find their way to the approaching player. In the future we will be implementing some <a href="http://aigamedev.com/open/review/near-optimal-hierarchical-pathfinding/">Hierarchical Pathfinding</a> which should significantly speedup searching for long paths and improve the solution even more.
+</p>
+
+<h4> Determinism </h4>
+<p>
+Kovarex's quest for making the game fully deterministic has seen an interesting twist last week. The replay functionality is working quite well (still now and then there is desynchronization but it is a work in progress). But when we tried to load the replay on a machine with different operating system it desynchronized immediately. It turned out that in C++ basic <a href="http://en.wikipedia.org/wiki/Trigonometric_functions">trigonometric functions</a> (sin, cos, asin, atan, etc.) are not guaranteed to give same results across different platforms. We are not talking about precision here, it is about getting the same (though possibly imprecise) outcomes. Even more surprisingly there is not that much discussion / solutions for this on the web. So Kovarex reminded himself of his student years and wrote our custom implementations of these that give the same results on Win, OSX and Linux. It sounds like a strange thing to do, but without this the multiplayer for players with different operating systems wouldn't work.  We were considering an alternative solution where we would have three "rooms" - one for Windows, one for OSX and one for Linux players and you could only play with people having the same system as you:D. Joking aside, it is suspected that cross platform determinism issues are not over yet...
+</p>
+
+<h4> Player and Beacon </h4>
+<p>
+Albert has done quite a bit of research and sketching on the player. Check out another model below (there are way more on our internal Graphics page which you can see if you have a Mining Drill operator tier).
+Also he is communicating with the freelancer doing the icons update a lot (so there will be new inserter icons in 0.10.0 for instance). In the meantime, Pavel (new addition to the "Factorio 3D force") started getting his hands on the game. He will be redoing the beacon. This way he will get familiar with what is needed to make complete sprites for the game entity. And we should get a better graphics for an object that is really bad looking (just a very old version of the laboratory). Some of the proposal sketches are below as well.
+</p>
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-36-player-rotating.gif"/>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-36-beacon-sketches.jpg"/>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3975">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

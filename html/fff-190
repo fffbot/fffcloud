@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #190 - The quiet days | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #190 - The quiet days
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2017-05-12, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, it's been a rather quiet week here in the office, with all of the teams attention towards fixing bugs and other minor issues.
+</p>
+
+<h4>Realism vs. Simplicity</h4>
+<p>
+With the development of the nuclear power, there were some associated UX changes that were made in relation to the boilers and steam engines. One decision related to this was to show the hot water as 'steam' in the pipes. It was decided that internally the steam would just be water, and the name and look of the fluid would change depending on its temperature.
+</p>
+
+<p>
+While it wasn't so simple to implement, the logic of changing the look of a fluid based on its temperature wasn't anything outside the realms of possibility. Thus soon we had hot water that looked like steam, along with a nice animation and icon from the GFX department.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-190-hot-water.png">
+</p>
+
+<p>
+However once 0.15 was released, some complications arose that we had not anticipated. The main issue was that while it looked different in the pipes, when you read the contents of a storage tank, it would tell the circuit network that it contains water. Additionally the circuit network had no signal to represent steam, so easily settings conditions for managing nuclear power setups was not possible.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-190-hot-water-signal.png">
+</p>
+
+<p>
+This design choice thus begins to creep into the realm of 'inconsistency'. By trying to both look like a different fluid, while not acting as one, the steam implementation was in an impossible situation. There were 2 proposed solutions to this:
+</p>
+<ul>
+<li>Revert steam to showing as just hot water.
+<li>Make steam its own fluid.
+</ul>
+<p>
+In the end we decided that reverting it back to hot water would be a step backwards in term of clarity and design. The visual distinction of steam was a very useful indicator to the player. By making it a separate fluid, I could also complete my vision for the coal liquefaction recipe, by making it require steam as an ingredient.
+</p>
+
+<h4>Achievement changes</h4>
+<p>
+We are quite surprised sometimes by the bug reports, and the surprisingly logical nature of many of these issues. Due to our deterministic gameplay requirements, a replay of a game has to replicate exactly what actions the player has performed. Any changes in the gamestate between the game and the replay will make the replay invalid. So of course the conclusion to this, is that if you watch a replay of someone earning an achievement, you will also earn that achievement.
+</p>
+
+<p>
+While Kovarex was on the topic of fixing this achievement related issue, another that has been affecting many players was brought up. When a player joins a multiplayer game, no matter how long he has been on that server, he will earn all the achievements earned in the map. This was especially detrimental to new players, who might just want to have a peek at another factory, before diving in and experiencing the game fully themselves.  This could potentially ruin a lot of the fun for achievement hunters. Now when you are playing on a multiplayer server, you will only earn achievements if you have played more than 50% of the total map time.
+</p>
+
+<h4>Developers needed</h4>
+<p>
+We have had to say our partings to Kuba (Blue Cube) as of last week, he has decided to leave the project after 5 years to work on his own ideas. Currently he's spending his time working on a open source CNC application, and no doubt he will be visiting the office every so often to play with our 3d printer.
+</p>
+<p>
+Due to this, along with some other personnel changes, we currently have several open desks at our office here in Prague. If you or someone you know is interested, please refer to our <a href="https://www.factorio.com/job/senior-game-developer">job listing</a> for more information.
+</p>
+<p> As always come to our forums and <a href="https://forums.factorio.com/47353">let us know what you think</a>.
+
+    </p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

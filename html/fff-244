@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #244 - Localised plurals &amp; Modernisation progress | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #244 - Localised plurals &amp; Modernisation progress
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan, kovarex, Posila on 2018-05-25, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>New Python developer <font size="2">(Klonan)</font></h3>
+
+<p>
+Mobile users may see that the website is significantly easier to read today, that is all thanks to our new Python developer Sanqui. Apart from making our website more mobile friendly, we have a lot of tasks on the backlog that he will start working on soon.
+</p>
+
+<p>
+His first major task is to speed up and optimize the matching server, with which he is already making some progress. A bigger rewrite for the long term is underway, but in the last week he has reduced a lot of the slowness and timeouts people were seeing during peak times. He will be taking over our database management and web administration from HanziQ, as well as spending time cleaning up our codebase, maintaining our web services, and developing features for the mod portal.
+</p>
+
+<h3>Plural form localisations <font size="2">(kovarex)</font></h3>
+<p>
+Plural localisations are needed here and there in Factorio. For example, when the time is specified, it can be either 1 minute 5 seconds, or 5 minutes and 1 second, so there needs to be some system to select the correct word depending on the count. 
+</p>
+
+<p>
+In 0.16, we have this very specific custom system of specifying some of the translations by 3 different forms, while very specific code selects the correct one depending on the corresponding number:
+</p>
+
+English:
+<pre>minute1=minute
+minute2-4=minutes
+minute5+=minutes
+</pre>
+
+The English translators might be quite surprised, why do we need 2 different translations for plural of minute? The Czech people reading will understand, as the Czech localisation file looks like this:
+
+<pre>minute1=minuta
+minute2-4=minuty
+minute5+=minut
+</pre>
+
+<p>
+Yes, we (Czech people) have a different kind of plural for count 2,3,4, than the other plurals.
+</p>
+
+<p>
+The problem is, that we eventually discovered that there are other languages than English and Czech (!) and plural possibilities in other languages <a href="https://youtu.be/0j74jcxSunY?t=2m48s">are not as simple as English only speakers tend to think</a>. For a reference, <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals">here is the sum up of the common plural forms.</a> 
+</p>
+
+<p>
+This made it clear, that having different translation key for every possible form for every language would be too crazy, so we invented something more generic. In 0.17, the translation of X minutes (the number is now included in the translation to allow to put it on different position, or to add some other word somewhere) will look like this:
+</p>
+
+English:
+<pre>minutes=__1__ __plural_for_parameter_1__[1]__minute__[rest]__minutes__
+</pre>
+Czech:
+<pre>minutes=__1__ __plural_for_parameter_1__[1]__minuta__[2-4]__minuty__[rest]__minut__
+</pre>
+Romanian:
+<pre>minutes=__1__ __plural_for_parameter_1__[1]__minut__[ends in 01-19]__minute__[rest]__de minute__
+</pre>
+etc.
+
+<h3>Progress on engine modernisation <font size="2">(Posila)</font></h3>
+<p>
+The rewrite of the rendering framework goes well. We are at the point where the game looks exactly the same (with minor fixes to line rendering) as our main 0.17 branch, and the only major thing that is missing is proper error handling - for example, we don't want the game to terminate if a screenshot command fails for whatever reason. I was surprised at how many things we had to rewrite, but we took our time, and I think it is already worth it. The game rendering performs significantly better (well, at least on CPU side of the pipeline for now - more on that in some future Friday Facts) in both OpenGL and DirectX.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-244-render-performance.png">
+</p>
+
+<p>
+Speaking of which, some people were wondering why do we even bother with DirectX, and not just to use OpenGL everywhere. The reason is Windows is still the main OS for PC gaming and for <a href="http://www.joshbarczak.com/blog/?p=154">some reason</a>, we can't squeeze as much performance from OpenGL as we can from DirectX (we are seeing about 30% more time spent in calls to OGL as opposed to D3D). It also seems the OpenGL driver quality is <a href="http://richg42.blogspot.cz/2014/05/the-truth-on-opengl-driver-quality.html">all over the place</a>. We already ran into the problem where our first implementation of building sprite atlases worked great on Windows and macOS, but was so inefficient on Linux it took over half an hour for the game to load.
+</p>
+
+<p>
+We are actually trying to design the new rendering around architecture of current-gen APIs - Vulkan/Metal/DirectX 12 - and in future we would like to create Vulkan and Metal backends, but we are focusing on older APIs first as a large portion of our current player-base doesn't have Vulkan capable hardware. By using OpenGL 3.3 Core and DirectX 11 feature level 10.0, we should cover 99% of our current players (according to our Steam hardware survey statistics). These APIs should be supported by any dedicated GPU manufactured in the past 10 years, and integrated Intel HD Graphics since Sandy Bridge. We'll still leave 1% of players behind, so they are going to be stuck with 0.16, similar to when we dropped 32-bit support, but everybody else should benefit from better performance and hopefully a better looking game eventually.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/60618">forum</a>
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

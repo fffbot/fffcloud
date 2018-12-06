@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #105 - The Grey Zone | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #105 - The Grey Zone
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-09-25, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi folks,</p>
+
+ <p>
+ so this has been one of those weeks when it is suddenly Friday afternoon and you are wondering where did the week go. Fortunately there are the Friday Facts to put myself together and retrace the events=))
+
+ <h4> The Grey Zone </h4>
+ At the moment we are kind of in a grey zone. The 0.12 bugs are more or less solved (though there is still some "popping up" of new issues) and the full speed work on 0.13 hasn't started yet (actually not even slow speed work has started). We are finishing with little (often technical debt) tasks from our internal lists. There is just ton of issues like: fixing locale fonts, updating tips and tricks, writing tests for compilcated existing functionality, tweaking our automatic deployment and testing setup, auto-generating the Lua API documentation, fixing sound glitches, etc. The list goes on.
+ </p>
+
+ <p>
+One of the tasks has been related to our headless binary. This is the binary to run on linux servers without graphics card. This is now available in the downloads section alongside other releases. There is a small convenience difference where by clicking the download, the resulting download link (from one of our cdn servers) is valid for 10 minutes (instead of regular 10 seconds) so the server owner can conveniently copy this url and download the game directly from the server. In the future we plan to have the updater work for headless servers as well so that will make things even more convenient.
+ </p>
+
+ <p>
+The good news is that the list of these little tasks is getting shorter. Also we have already more or less agreed on distribution of big tasks for the 0.13. These have been discussed in the past and are also visible at our <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=678">roadmap</a>. Some work on these should start already next week. We will keep you up to date=)
+ </p>
+
+ <h4> Moddability pitfalls </h4>
+ <p>
+ So one of our core aims is to make the game very well moddable. That should hopefully be clear. But this comes with some unexpected burdens. Kovarex has spent quite some time in the past week solving bugs related to mods or modding API. The biggest issue we are having at the moment is related to mod serialisation and using on_load and on_save hooks. This gets a little bit technical. These functions were meant as helpers for cases when local script variables are initialized from the serialized state. We have actually used this mechanism ourselves in scripts behind our campaigns. However there are hidden and undocumented traps in this approach. Mods can't change the game state or custom guis in these methods. Which is actually happening more often then we thought. And that leads to crashes or desyncs later on (not so easy to figure out what was the cause). So we most probably will just remove these helpers and enforce keeping the state in the global table which is seamlessly serialised. See more at <a href="https://forums.factorio.com/forum/viewtopic.php?f=34&t=16558">discussion</a> on our forums.
+ </p>
+
+ <p>
+ Another challenge with mods is that they really test your game logic. Often it has happened to us that mods have used certain functionality in a different way than the regular game engine and that leads to ... just strangeness. Good example from not so long ago is the air filtering mod. It has been cleaning the pollution by having energy source with negative pollution impact. However pollution influences the enemies evolution factor. That is a number which defines probabilistic distribution of newly spawned enemies (higher evolution rate means more difficult enemies). Surprise, the logic was wrong for cases when the pollution is decreasing. But because it is never decreasing in the game itself we just haven't noticed. So after using the mod for a while you could end up with evolution factor of way below 0 - where normal values are between 0 and 1.
+ </p>
+
+ <p>
+ Ok enough complaining. We love the mods people make. The time to figure out issues related to modding is well worth seeing what people come up with. And because today we are short on fancy graphics (Albert is still deep in the new technology sprites), below you can admire one of the fan wallpappers based on a popular <a href="https://forums.factorio.com/forum/viewforum.php?f=70">Yuoki industries mod</a>. More fan wallpapers are available at <a href="https://forums.factorio.com/forum/viewtopic.php?f=8&t=9265">our forums</a>.
+ </p>
+
+<h4> Steam creep </h4>
+<p>
+ We have also done some progress on preparing for our launch on Steam. Namely finally coming up with a <a href="/presskit">press release</a>. It is still a work in progress (for instance the graphics selection) but the majority of information should be there.
+</p>
+
+<p>
+ Another mini project related to Steam that we have started is a preparation of sort of a promo video. So we have a trailer. Quite a decent one we believe. However we figured that we would like to give a potential player more information after (if) he is interested by the trailer. We would like to present things that can't be really expressed well in the trailer. Sneek peeks into the history of Factorio development, our ideas about the direction of the game and the development process, a little bit of background about the team, etc. We picture a few minutes long video in the form of dicussions with some core team members interleaved with gameplay examples. This is still very much in the process of brainstorming but we have already talked with a documentarist who seems quite capable to do the job and as a  bonus he is a gamer himself (and played Factorio already).
+</p>
+
+<p style="margin:auto; margin-top:40px; margin-bottom: 40px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-105-yuoki-industries.jpg"/>
+</p>
+
+<p> Ok, no poetry today. If there is stuff on your mind related to the post or to the game, feel free to "dump it" at our <a href="https://forums.factorio.com/forum/viewtopic.php?t=16584"> forums </a>. Time for Friday evening <a href="http://store.steampowered.com/app/219740/">Dont Starve</a> game with Twinsen=))
+</p>
+
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

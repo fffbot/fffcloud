@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #245 - Campaign concept | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #245 - Campaign concept
+    </h2>
+
+    <div style="font-size: 11px;">Posted by V453000 &amp; Abregado on 2018-06-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Being brought in to create content on a very mature project has been an interesting experience to say the least. One of the first things I did was analyse the features of the game and which kind of player the game currently supports. The obvious thing is that Factorio Freeplay strongly attracts and engages players who enjoy an open-ended sandbox type of game. Achievement statistics show that only about 11% of players on Steam have ever launched a rocket, which currently means 'won the game'.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-245-rocket-achievement.png">
+</p>
+
+<p>
+What about the other player types? Well for those that are new to the game, or unsure if they are interested, we will have the New Player Experience. This is a free, combined tutorial and demonstrator mission which we discussed in <a href="https://www.factorio.com/blog/post/fff-241">FFF-241</a>. But what about those that prefer a guided experience? This is the sort of player who wants to play the game, and experience all of what it has to offer, but wants to be taken on a journey. For these players we have the campaign.
+</p>
+ 
+Why do we need a new campaign at all? We find that the current campaign:
+<ul>
+<li>Does not include all the Freeplay content as it currently ends after Advanced Circuits.
+<li>Severely limits player investment by forcing a new factory to be built each mission.
+<li>Does not convey the feeling of loneliness that the Freeplay does.
+<li>Is showing its age visually, as it was made before high-res textures and the terrain rework.
+</ul>
+
+<p>
+To solve these issues we have set about designing new Campaign elements to act consistently to provide the player with a guided experience all the way from Science pack 1 to Space science packs. 
+</p>
+
+<p>
+The first step to achieving this is to have the map border expand each time the player completes a section of the main 'quest line'. This means that the player never loses any of their progress, and as long as these transitions are presented in a smooth way, the jarring effect of the old level restarts will be removed.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-245-expanding-map.png">
+</p>
+
+<p>
+Having a continuously expanding map presents many other challenges, but we are confident that it will be worthwhile. This style of level will fit with the style of Factorio much better.
+</p>
+
+<p>
+Such a map should also end up being as huge as a regular Freeplay environment so as to better place importance on exploration. Exploration in Freeplay is generally player motivated, such as when you are almost out of iron and need to find that next big patch. In a guided experience, letting the player know that there is something out there can give them impetus to dive into the unknown. This brings us to technologies.
+</p>
+
+<p>
+Now that we have removed level transitions, we have also shot ourselves in the foot. How else will we deliver the technology tree in chunks? Simply making the entire tree available from the start of the game will cause all sorts of balance issues. In our NPE discussion we stated that new recipes should only be given to the player via research. In the campaign, unresearched technologies will only be given by moving to given locations on the map. These would include some non-generated terrain and pre-placed factory structures to help to player see where they are. These could also help to show concepts and workable designs, one thing that the current campaign does do well.
+</p>
+
+<h3>Science packs and technologies</h3>
+
+<p>
+When designing the campaign, we look at many things in the game very closely and often we start seeing some problems.
+</p>
+
+<p>
+One such problem that has been confusing players for a long time now is the fact that the most important ingredient for progression - the science packs - are unlocked in arbitrary technologies. On top of that we changed those technologies a couple times already, so remembering if that elusive blue bottle is unlocked by battery or advanced electronics just adds to the confusion.
+</p>
+
+<p>
+So in 0.17 we are going to add science pack technologies which only unlock that new science pack, making it clear in the tech tree where you get them and what they will lead to. Doing this properly requires a bunch of changes to the prerequisites of many technologies, but those are generally just cosmetic changes that don’t actually have any bigger impact on the game.
+</p>
+
+<p>
+Here you can see the technology tree for the Logistic system. The GUI rework is being worked on in parallel, so this will actually be much nicer to look at in 0.17.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-245-science-pack-technologies-cropped.png">
+</p>
+
+<h3>Production vs. High-tech science</h3>
+
+<p>
+When we were designing the High tech and Production science packs for 0.15, the purpose was to create a choice for the player whether after Science pack 3 they want to continue with a more 'production' or 'high tech' oriented method. Looking back, the idea is definitely good, but we want to make it more clear.
+</p>
+
+<p>
+One of the big obstacles was that the Power armor mk2 required level 3 modules, which are a great candidate for production science pack - but Power armor mk2 is meant to be in high-tech. That made us only put the productivity module to the production science pack, but productivity modules without beacons and speed modules aren’t all that great, so you would still need the high tech science pack to make full use of productivity modules.
+</p>
+
+<p>
+The resulting solution is that we changed the recipe of Power armor mk2 to require level 2 modules (which still require just Science pack 3) instead of level 3, and moved all of the level 3 modules to production science pack. Additionally the beacons are now unlocked with Production science packs without the need for High tech science packs. The total cost of Power armor mk2 is roughly unchanged, we just tweaked the numbers of modules it requires. These changes should already make both of the science packs offer quite appealing benefits, and it’s not so clear that one science pack is superior over the other.
+</p>
+
+<p>
+Because of the new technologies for unlocking science packs, it is really easy to see what options each pack unlocks.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-245-production-science-pack.png">
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-245-high-tech-science-pack.png">
+</p>
+
+<p>
+Overall we want to keep the campaign and the Freeplay technology trees exactly the same to avoid confusion, so any change we make, we make in both - which should give the Freeplay another layer of polish.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/60737">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

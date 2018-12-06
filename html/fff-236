@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #236 - Building a rollup | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #236 - Building a rollup
+    </h2>
+
+    <div style="font-size: 11px;">Posted by V435000 on 2018-03-30, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+As you are probably already aware, some of our team members are going to attend PAX East in Boston next week.
+</p>
+
+<p>
+We figured we need some representative prints for our booth, but what to put there? We could have just made a big mega high resolution render of the player character or some other entity, but that would not tell the viewer much about what the game is about. So we thought it would be much better to "just" take a giant screenshot of a working factory, print it, and done! Now of course it’s much more complicated than that…
+</p>
+<p>
+The first obvious hurdle is that you need a savegame to take this screenshot of. So you go and try to take a bunch of random saves on your disk, you open them and find that it’s not so easy to just find a factory which would look nice. Such a factory needs to show enough of the various things to represent the game, can fit the logo somewhere, and must be large enough to fill about 275x185 tiles (3x2 meters at 150dpi taken at game zoom 2)... one square in the following picture is a chunk (32x32 tiles)
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-rollup-template.jpg">
+</p>
+
+<p>
+Luckily I just had a savegame which was easy to adapt to those requirements, but I would like to ask the question, how does one build such a factory in general? That’s what I have been trying to figure out for a long time now. As some of you may have already noticed, I enjoy constructing very organic factories, a part of which eventually turns into a crazy mess. A mess as crazy as Factorio itself, representing what your will brain look like after playing Factorio.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-rollup-test.jpg">
+</p>
+
+<p>
+I find this to be a good opportunity to be a bit more specific and see a few examples to put it into more context...
+</p>
+
+<h4>Building for big screenshots</h4>
+
+<p>
+It’s the year 2015 and pretty much every factory I had built so far eventually arrived to the problem that in order to expand it, I would have to severely modify or destroy large portions of it. I hate to just throw away all the work that I did on my belt knots, so the outcome would usually be that I just stop playing that map and start over.
+</p>
+
+<h4>Example 1, codename: MessFort:</h4>
+
+<p>
+Once I made a factory that was my largest so far. It used Bobs productivity modules level 7 with a stupid amount of productivity bonus, possible to put into any recipe, and without decreasing the speed of the machine.
+</p>
+<p>
+This alone may sound ridiculous but what it did was allow me to focus on just having fun adding more and more things to the factory, while caring about throughput much less, especially in situations where I could just add better modules to existing factories, leaving more ingredients for other things, allowing me to build even more production lines.
+</p>
+<p>
+Of course sooner or later the furnace area would just not be enough and expanding it on the spot would be a pain, so I just started a new dedicated factory just for smelting like many factories do. Trains brought the necessary things and later on I added another factory for circuits and the factory kept being happy. Eventually I dropped under 40 UPS and didn’t want to continue any more. It’s worth mentioning that there was no space science or infinite research back then, so there was little incentive to continue.
+</p>
+Discoveries
+<ul>
+<li>Mixed belts (different item on each belt half) are a huge amount of fun to work with, and add more visual variety.
+<li>Automating as many different recipes as feasible is one step towards a nice looking base.
+</ul>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-MessFort-big.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-MessFort-896.jpg">
+</a>
+</p>
+
+<h4>Example 2, codename: SpaceScienceBase</h4>
+<p>
+In the second half of 2016, I started a new factory. Learning from the past discoveries, I wanted to embrace the concept of replacing production lines for intermediates with train stations which would import these items.
+</p>
+<p>
+Producing those intermediates however required a large rail system outside of the main belt cluster. This gave the factory a lot more expandability and I had spent more time on this map (160 hrs) than any before by a large margin. Like all nice things, the amount of effort directly influences how nice is the result going to be, as with the outer train network expanding, the main base also continued to grow.
+</p>
+
+Discoveries
+<ul>
+<li>Having rails inside of the factory adds a lot of depth by breaking the monotonous assembling machine + belt mess.
+<li>Pipes and oil-related entities are awesome to have in the base so that not everything is an assembling machine.
+</ul>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-SpaceScienceBase-big.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-SpaceScienceBase-896.jpg">
+</a>
+</p>
+
+<h4>Examples 3 and 4, Codenames: TrainMaze and MOAR</h4>
+
+<p>
+In the following several months I would try to start a few new maps with different factories and different concepts, but each time something just wasn’t going in the right direction and eventually I would recognize that it’s not "The One" and lose interest in it.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-TrainMaze-big.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-TrainMaze-896.jpg">
+</a>
+</p>
+
+<p>
+I was starting to feel like it was only a matter of luck, and I only made the SpaceScienceBase look awesome by accident as I couldn’t deliberately achieve the same again. I kept thinking about what it is that makes it stand out, what are the differences from the other two, for example:
+</p>
+
+<ul>
+<li>Disabling biters or minimizing military removes many recipes to automate, and easily leads to a less interesting factory.
+<li>Too many straight and rectangular patterns just look visually uninteresting.
+<li>Preparing all setups for beacon rows from the beginning forces a lot of straight predictable lines.
+<li>Horizontal production rows of machines generally look better than vertical columns, but having some vertical columns is good for variety.
+</ul>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-MOAR-less-big.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-MOAR-896.jpg">
+</a>
+</p>
+
+<p>
+I believe a part of the problem was how I focused on efficiency by preparing for whole rows of beacons for everything (especially the vertical ones), or how I separated the oil and rail related entities from the core of the main factory. Everything just ended up being straight and boring.
+</p>
+
+<h4>Example 5: GridLock</h4>
+
+<p>
+So eventually I started a new map with all of those things in mind. I made a rough plan for myself what I would like it to end up, and then tried to follow it. The rail system would be extremely expandable but use both single and dual headed trains for variety, the main factory would automate literally every single recipe in the game, and I would try to keep things as organic as possible. I could have tried harder to put more pipe and nuclear related entities in the middle of the factory... perhaps next time I guess.
+</p>
+
+Here you can see it grow:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<iframe width="896" height="504" src="https://www.youtube.com/embed/UJPFUQhnXS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+
+<p>
+When I was building, I saved over 300 iterative versions of the map. The timelapse is then created by taking a screenshot in each of those saves, and in post-production they are blended together so that it looks smoother.
+</p>
+<p>
+I found out that we need a screenshot of these dimensions just shortly before the logo appears on the map. You can see not much had to change, except all the terrain under the whole screenshot area was manually reworked in the map editor. This gave me a bunch of ideas of what we need to do to make the map editor better - both for our use with scenarios and campaign, and for our players.
+</p>
+<p>
+If you are interested in reading more about how the base works or downloading the savegame, you can proceed to the <a href=" https://imgur.com/a/FmoBY">imgur album</a>.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-GridLock-final-4429.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-GridLock-final-896.jpg">
+</a>
+</p>
+
+<p>
+The final result is a trio of rollups totalling 3 meters in width and 2 meters in height. This whole thing has been quite an experience for me. Building a factory and doing my own fiddling is great, but building a factory, sitting down with Albert (our art director), thinking how to improve the general visual composition of it, making it fit the requirements etc. was just outright amazing. Just the part where I needed to put the logo and remove a bunch of train stations, cut many belts and reconnect them, was a very cool challenge. If I started again I would have probably done a few things differently, but something would probably be wrong if I didn’t feel like that. Overall I must say I am quite satisfied with the result.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-236-rollup-trio.jpg">
+<img style="vertical-align: top; width: 896px; " src="https://cdn.factorio.com/assets/img/blog/fff-236-rollup-trio-896.jpg">
+</a>
+</p>
+
+<p>
+Imagine a friend of yours is trying to introduce you to this game, shows this screenshot to you and says: "Hey, this is the game I have been repeatedly telling you about lately..." <a href="https://forums.factorio.com/59207">What would be your response?</a>
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

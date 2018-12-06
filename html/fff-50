@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #50 - Growing secretly | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #50 - Growing secretly
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-09-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+Albert is back to Prague, so today we had 5 people in the same room working today. I can see that the team is growing, and the atmosphere is positive, as everyone is refreshed by the holidays and full of enthusiasm to make Factorio better. We are looking forward to be in the new office. I already feel the Factorio touch of the place in advance, the bigger the project is the more we feel the need to separate home and work. It might be a bad idea to say it here, but we have some kind of <a href="https://www.facebook.com/events/252171871659515/?ref_dashboard_filter=upcoming"> Factorio level up party</a> prepared as well, so if you are in Prague that day and there are not 100 people coming already you are free to join:)
+</p>
+
+<h4>Multiplayer</h4>
+
+<p>
+The work on the multiplayer continues as usual. I had the time to fix the windows specific parts of the code, so I had my first multiplayer experience today. It lasted 15 seconds before it desynchronised, but it was great anyway :) Tomas and cube are working on the technical part of the multiplayer, while my task is to make the game deterministic so it doesn't desynchronise so often. I started with first sample of integration test. The goal is to have automated tests of specialised small scenarios that will test that each aspect of the game works correctly and in deterministic (replayable) way.
+</p>
+
+<h4>Automation genre</h4>
+<p>
+So we were told about the new game in the process of creation called <a href="https://www.indiegogo.com/projects/infiniexplorers">InfiniExplorers</a>, the inspiration of Factorio is quite clear in some aspects, but this is just the way it works, Factorio was inspired by Buildcraft, this game might be inspired by Factorio and it is in fact honour for us. The competition would be great and if the Automation genre becomes more frequent game mechanics the better for us.
+</p>
+
+<h4>The problem of never finishing the game</h4>
+<p>
+Here is the problem: imagine, that the game is a sphere. In the start it is very small. The surface of the sphere (the amount of things you can work on) is quite small, and you don't need to add as big volume (the amount of work) to make it larger. This is the phase, where the game studios can sometimes have the false impression, that the game can be finished soon, because they just lineary interpolate the work needed based on the progress already made. But as the amount of time you spend on the game cumulates, the bigger the sphere gets. The surface is getting larger very quickly, and you soon realise, that the more tasks you finish, the more, bigger, tasks appear. At the beginning, it seems like getting more people and working harder can be used to overcome it, so all the tasks can be finished someday. But I'm coming to a realisation, that although the game can become bigger and bigger, the feasibility of getting to the point of having 0 bugreports and no tasks on the todolist is comparable to the feasibility of filling the infinite space with sphere made from very limited amount of resources.
+</p>
+
+<p>
+     To make it complete, this is the way Albert spent his holidays. He joined a sailboat crew, attended several contests and he is now more manly than ever before :)
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-50-TichiyDon.jpg"/>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=5681">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

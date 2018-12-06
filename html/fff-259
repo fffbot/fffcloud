@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #259 - Scan-codes, Prototype IDs, HR worm | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #259 - Scan-codes, Prototype IDs, HR worm
+    </h2>
+
+    <div style="font-size: 11px;">Posted by posila, Rseding, Albert on 2018-09-07, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>Scan-codes vs Key-codes <font size="2">(posila)</font></h3>
+
+<p>
+While migrating from Allegro to SDL, HanziQ and Jiri replaced the keystroke handling from using key-codes to scan-codes. Before you start jumping with joy, you’ll probably wonder: What is that and why should I care? 
+</p>
+
+<p>
+Well, funny you should ask. You probably won’t care, unless you live outside of USA and/or you use a non-US keyboard layout. In short, key-code is a key identifier dependant on the symbol the key will output when pressed, scan-code is a key identifier based on the physical location of a key. So for example players with French keyboard layout (AZERTY) have to jump to the control options after launching the game for the first time, and remap movement from WASD to ZQSD, in order to be able to move their character without hurting their hand.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-259-azerty.png"/>
+</p>
+
+<p>
+In 0.17, the controls will map to the correct keys by default, regardless of your layout, and stay mapped to those physical keys even if you for some reason change your keyboard layout while the game is running. The disadvantage is, most of the non-US layouts didn’t end up with completely broken controls, so people kept playing with them and got used to them. So they’ll need to get used to the layout the game was originally designed with, or manually configure controls back to what they are used to.
+</p>
+
+<p>
+But wait, there is a catch...
+</p>
+
+<p>
+A few weeks ago we have announced new <a href="https://www.factorio.com/blog/post/fff-255">construction tools</a>, which are by default bound to quite universal shortcuts (Ctrl+C for copy, Ctrl+X for cut and Ctrl+Z for undo). Bilka pointed out that the German keyboard has Z swapped with Y (as does the Czech one, but developers often don't use it) and undo incorrectly defaults to Ctrl+Y instead. To fix these kind of shortcuts we determine the appropriate default scan-codes at start-up, so that undo is always Ctrl+Z, regardless of your layout, but the action will stay bound to those keys if you change keyboard layout at runtime, which is hopefully a reasonable compromise.
+</p>
+
+<p>
+We might do it for other controls too (it feels natural for M to always be the default key to open the map, and T to open the technology screen), but there is another catch. It is completely reasonable for player to walk north, and Ctrl+click some entities. Remember AZERTY keyboard? Player keeps Z pressed down to walk north and presses Ctrl to start control clicking. Well, I tested this and it doesn’t trigger undo, but still stops player from walking. So it is not completely destructive, rather annoying. I am not sure how or if we’ll solve this, perhaps people with these layouts that create these kind of collisions will need resolve them by changing controls options manually.
+</p>
+
+<h3>Stable prototype IDs <font size="2">(Rseding)</font></h3>
+
+<p>
+The new Map Editor is finished, with one of the last things completed being importing surfaces from other save files. Importing surfaces from one save into another turned out to be quite complex, but not for the reasons you might think. The copying of a surface to a new surface is relatively easy, the main problem came from how we store map data in a save file.
+</p>
+
+<p>
+Factorio internally makes lists of every entity, item, decorative and so on at startup and generates a mapping of the text name to an integer ID. This is internally called an ID mapping, and provides several benefits both runtime and when it comes to saving/loading the game. The main benefit being: we (and modders) don't need to track and manually assign ids to everything added to the game - the engine does it all automatically. Anyone familiar with modded Minecraft before version 1.7 can attest to how much of a pain manually handling IDs can be and how easily it can break.
+</p>
+
+<p>
+Because things can be added and removed due to our internal changes or by adding/removing/changing mods, the ID mapping often changes. Because it can change we have to include it in the save file to know what it was when the save was created. When Factorio saves the map one of the first things that's written to the save file is that ID mapping.
+</p>
+
+<p>
+The way it worked before was: at load time - the game would attempt to restore whatever the ID mapping was for the save it's loading. Anything it can't find means that thing doesn't exist any more, and anything new is stuff added. This lead to saves having different ID mappings for the same set of mods depending on the steps taken to make that save file. This worked for the most part but had a few small problems:
+</p>
+
+<ul>
+<li>Any time something was removed it was signalled by setting the ID at that location in the mapping to 0.
+<li>The removed IDs couldn't be re-used until the save was fully loaded, saved, and loaded again (leading to gaps in the IDs).
+<li>Different save files could end up using different IDs even when using the same set of mods.
+</ul>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-259-old-system.png"/>
+</p>
+
+<p>
+With the new Map Editor wanting to take any save file and import it into your running game the fact that the ID mapping could be different was a problem. To add to the complexity we also have a migration system in place that lets you tell the game "I want to change all entities/items/... named *A* into *B*". This migration system also works when you remove the source otherwise it wouldn't be that useful.
+</p>
+
+<p>
+After several false starts (a common theme when it comes to these complex reworkings), I came up with the following simple requirements:
+</p>
+
+<ul>
+<li>IDs will get assigned once after loading mods - after that they are never allowed to change for the lifetime of the program
+<li>When a map is loaded instead of restoring the ID mapping it was using it will create a migration from the old ID to the new ID (if it still exists)
+<li>The tracking of what was removed is done through a different system instead of treating a '0' ID as a removed ID.
+</ul>
+
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-259-new-system.png"/>
+</p>
+
+<p>
+During this rework I discovered we were doing a bunch of extra work (some of it even causing bugs) just to restore the save file ID mapping, and I was able to simply delete all of it now that the IDs simply migrate to the correct values any time a save file is loaded. I even inadvertently fixed a bug someone reported related to crashing when loading a specific scenario-using save file due to this rework.
+</p>
+
+<p>
+Overall the system is simpler now and doesn't have any of the 'quirks' it used to. The new Map Editor can import any save file the game is capable of loading and it all 'just works'.
+</p>
+
+<h3>HR worms <font size="2">(Albert)</font></h3>
+
+<p>
+As you might know already from an <a href="https://factorio.com/blog/post/fff-252">earlier post</a>, we are working with Ernestas on the high-res version of the enemies. This is a great excuse for also refining the concept of them. This week we want to show the new look of the worms.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-259-worm.jpg">
+<img style="vertical-align: top;" width="896" height="896" src="https://cdn.factorio.com/assets/img/blog/fff-259-worm.jpg"/>
+</a>
+</p>
+
+<p>
+The intention is to keep what we had in the previous version, but to emphasize its personality and behaviour. This new version tries to be more aggressive, powerful and disgusting, while also acting more nervous and agitated. The "fingers" on its head are for digging tunnels, something that wasn't really explained before, and which will also help to express the character of the worm.
+</p>
+
+<p>
+Now we are working on the animations, trying to emphasize these concepts, basically the worm is a creature of pure hate and killer instinct. Together with the sound effects, I hope it is going to be a pleasure killing them.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/62414">forum</a>.
+</p>
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

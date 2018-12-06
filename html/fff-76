@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #76 - MP inside out | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #76 - MP inside out
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Blue Cube on 2015-03-06, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p><strong> Today's edition of the Friday Facts has been written by Blue Cube, enjoy! </strong></p>
+
+ <p>Hello fellow Factorians!</p>
+
+I'm breaking away from our magnificent testing / team building session
+here at our office to bring you more babbling about the development
+of your favourite game.
+ </p>
+
+ <p>
+ This time there will be less of the regular "fixing bugs, fixing
+ multiplayer, designing spaceships" theme from the past weeks and the
+ post will be a little more technical, focusing on the workings of our
+ magical multiplayer code.
+ </p>
+
+<h4>Lock step</h4>
+
+<p>
+As you have probably noticed, since the last major release (0.11.0)
+the game can be played over the network.
+There has been a lot of discussions on the forums concerning the lock
+step architecture, so let's start with that.
+</p>
+
+<p>
+In the <a href="http://en.wikipedia.org/wiki/Lockstep_%28computing%29">lock step</a> architecture each of the networked peers is running
+the simulation of everything that happens in the world and there
+doesn't need to be any central server; when a player makes an action,
+only the action is somehow transferred to all other players.
+</p>
+
+<p>
+The biggest advantage of lock step is the low amount of data sent over
+the network. Because people with keyboards can only generate a few
+hundred bytes per second, this approach scales really well for large
+maps. You can play the game just the same no matter if it has hundred
+objects or million, which makes this method very attractive for
+strategy games (<a href="http://en.wikipedia.org/wiki/Age_of_Empires">AoE</a>, <a href="http://en.wikipedia.org/wiki/StarCraft">Starcraft</a> and others have used this approach).
+</p>
+
+<p>
+And because nothing is perfect, there is obviously a price to pay for
+the low traffic. In regular games you don't care that much if enemy's
+health is 0.0001% off, or that the rocket exploded tiny bit more to the
+left than it should have. Computer's generally don't do things at
+random, but if the programmer is not careful enough, unpredictable
+events can leak into the game and cause these problems. ... and because
+with lock step architecture you never directly see the other player's
+game state, there is no way to correct for these small errors and
+eventually they might accumulate and cause both players to see a
+completely different game. When such errors appear it is what Factorio
+players got to know as <strong>Desync</strong>.
+</p>
+
+<p>
+There are obviously many other ways to make a game work over the
+network, one of the most used ones being the client server.
+</p>
+
+<h4>Client server</h4>
+
+<p>
+In the simplest form of the <a href="http://en.wikipedia.org/wiki/Client%E2%80%93server_model">client server</a> architecture the game runs
+only on the server and clients serve as something like a remote
+control, periodically sending a snapshot of the game state to every
+client. The main problem here is that for every action there must be a
+message sent to the server and back to the client before any results
+become visible.
+</p>
+
+<p>
+To work around this, most modern FPS games since <a href="http://en.wikipedia.org/wiki/Duke_Nukem_3D">Duke Nukem 3D</a> use
+something called <a href="http://en.wikipedia.org/wiki/Client-side_prediction">client side prediction</a>.
+Client side prediction basically returns the whole game processing to
+every client and every time an action is made, the client both sends
+the action to the server and applies it manually without knowing what
+other players did. When later the server sends a new game state, the
+client modifies the local state to smoothly merge it with the received
+one. Rinse and repeat.
+</p>
+
+<h4>Implications for us</h4>
+
+<p>
+As I said before, Factorio uses lock step simulation.
+This allowed us to make the game playable over the internet with
+hundreds of thousands of active entities without resorting to any major
+hacks / optimizations. We also decided to make the game completely <a href="http://en.wikipedia.org/wiki/Peer-to-peer">peer
+to peer</a>, which has some interesting consequences.
+</p>
+
+<p>
+One of the negative sides is that every player needs to have an open
+connection to every other player and send the data.
+This becomes a problem when playing over internet and not all of the
+players have public IP address (although we also have <a href="http://en.wikipedia.org/wiki/UDP_hole_punching">NAT punching</a>
+    which allows you to play even in this case and works almost every time).
+The biggest issue with pure P2P is when a group of players want to play
+over LAN and another group wants to connect to them over NAT.
+In these cases Factorio gets confused and completely refuses to connect.
+</p>
+
+<p>
+Most of these problems, however, can be limited by partially moving
+from the pure P2P later.
+For example if two peers cannot connect directly, one of the others can
+serve as a proxy for them.
+</p>
+
+<p>
+The most fundamental limit of lock step architecture is that the game
+speed is limited by the slowest player.
+Because to finish a frame input from all other peers needs to be
+processed, a peer who can't run the game fast enough will slow the game
+down for everyone. In client server the server can just choose to ignore
+the slow client, in Factorio ignoring them would cause the game to
+break for everyone.
+</p>
+
+<p>
+To help with this, in Factorio we implement sort of a buffer time
+interval (called "latency" when starting the game). This determines
+amount of time that a peer can wait for anyone's messages without
+lagging the game. Unfortunately this also causes the game to delay all
+local actions by this time.
+</p>
+
+<h4>
+That is it
+</h4>
+
+<p>
+So i hope this post did not bore you to death (it was both shorter than
+expected and longer than expected at the same time), there might be more
+technical posts coming in the future if there is demand for them. Next week you can
+look forward to some of Kovarex's or Slpwnd's wisdom.
+</p>
+
+<p>
+... and of course, we are still fixing bugs, fixing multiplayer and
+designing spaceships, don't worry.
+</p>
+
+The comment thread is <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=8991">at the forums</a> as usual.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

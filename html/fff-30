@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #30 - Full time on MP | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #30 - Full time on MP
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-04-18, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+after a long long time the 0.9.8 was marked stable this week. There were no big ovations or cheering, just a quite "stable sticker exchange":) The bugs forum is not empty though, as someone would expect. Quite a few small issues remain, but for the sake of moving on we decided to put them to our backlog and mark the release as stable. However if some game crashing or very serious bugs are discovered in 0.9.8, we will make a hotfix. Oh, and the good thing is that we managed to break the streak (for now) of ever increasing number of bugfix releases (the 0.9 had 8 bugfix releases - the same as 0.8).
+</p>
+
+<p>
+The whole "programming department" has been fully commited to the work on multiplayer for a while now. The task divison for now is following:
+<ul>
+<li> Michal - fully deterministic simulation. This is an absolute must, because all multiplayer peers will calculate the simulation themselves and only the player input (we call it input actions) will be exchanged over the network. Nice effect of having deterministic simulation will be having functional replays again (hmmm not really again because there have always been some bugs in them even when they were "working":)). </li>
+<li> Kuba - lower level network layer. This includes the connection management, packets management (we will be using UDP for all the communication) and eventually things like <a href="http://en.wikipedia.org/wiki/UDP_hole_punching">NAT punching</a> to allow connections for peers behind NAT (few people have public IP address).</li>
+<li> Tomas - synchronization layer. This logic will take care of keeping the simulation state same for all the players in the game. This includes queing up the input actions, sending them out in batches (tick closures to other peers), requesting missing tick closures, etc.</li>
+</ul>
+
+These things are absolute minimum necessary for our multiplayer implementation. However there is more to be done after this, things like: starting the game (the lobby), mechanism for a player joining already existing game, hiding the latency for the player (most of the time the actions for different players will not collide so we can act as if common actions - like moving the player around - were confirmed immediately) and more (see our <a href="https://www.factorio.com//blog/post/fff-26">battleplan whiteboard</a> in one of the previous friday facts). There is a lot of work ahead, but the good news is that we have finally fully dived into it. We will keep you updated about the progress:)
+</p>
+
+<p>
+Albert has finished with most of the map trailer tweaks. Today we also did a first test with exporting the trailer using the new screenshot mechanism. We did this on Michal's computer which is way more powerful than mine (it does take a while to export 3600 screenshots). However there was this funky bug that parts of the terrain in the screenshots had strange, kind of inverted, colors. We have spent like half a day looking into this issue. Finally it turned out to be a problem in our custom optimized version of d3d drawing routine (this was happening on windows only). Spending hours in frustration hunting bugs (that are not even visible to the player in the end) happens more often than you would think, so game programming is not just about sitting back, playing video games and calling it "research" (but that is part of the job too:)) Anyway to give you an idea of what was going on you can see a visualization of the problem below. For better effect (and for us to easier analyze the problem) the corrupted regions of the image (here all of the terrain) are drawn with reddish overlay. Any idea for the picture title?
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-30-trains-in-red.jpg"/>
+</p>
+
+<p> Want to cheer us up for the multiplayer work? Or feel like laughing at us for taking so long with the trailer? Go to <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3151">our forums</a>.</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

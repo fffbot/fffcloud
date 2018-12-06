@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #103 - Prototyping ahead | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #103 - Prototyping ahead
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-09-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+I went back to reading sci-fi these weeks, and I'm amazed by the amount of interesting ideas are there. One of the first short stories from Philip K. Dick I read is called <a href="https://en.wikipedia.org/wiki/Autofac"/>autofac</a>, it is about auto replicating industrial factories that got out of control. This reminded me Factorio a lot. One day, we will have to extend the game to make self replicating factories possible, because that was actually the first goal I had in mind when I started thinking about this game, so it would be really pity to miss it.
+
+<h4>Last week of bugfixing</h4>
+The next week will be the last week dedicated primarily to bug fixing as we have the last dozen of unresolved (hoorray). Our trello is still haunting us with around 30 smaller tasks to be done prior the 0.12 stable, but these are going to be finished quite fast. The graphics department (Albert) still needs to finish the technology icons, and the greenlight preparations will not occupy more than 2-3 people. This basically means, that once the technology icons are done, we are ready for the greenlight, we suppose it will be the next month. It also means, that the work on the 0.13 will start soon.
+
+<h4>The 0.13 plans (part 1)</h4>
+The 0.13 list in our trello accumulated more than 60 cards already so we need to sort and prioritize them and plan the work distribution. Some of the bigger tasks look really interesting, so I hope we will not fight too much over these :)<br/><br/>
+
+<b>The technology tree</b>
+<p>We plan to use the <a href="http://www.graphviz.org/"/>graphiz</a> software to generate the technology tree, as we obviously can't just arrange the technology tree manually if we want to stay mod friendly. Once we have the software integrated, we will have to choose the configuration properly to generate the exact kind of graphs we need. This will most probably also require us to play with the technology dependencies to make the graph look more meaningful. I can't wait to see the results!</p>
+
+<b>The prototyping</b>
+<p>
+There are 2 things we need to prototype, the extra turrets and the platform building. The platform building has some <a href="https://www.factorio.com/blog/post/fff-74">partially done graphics</a>, while the extra turrets doesn't have any. We need to make some gameplay tests first to find out what makes sense and what doesn't. We basically need to avoid making Albert graphics we wouldn't use, especially when the programmers are currently little bit ahead. I'm quite excited about this, as this will consist of testing completely new game mechanics. This didn't happen for a long time.
+</p>
+
+<b>The semi secret mini project with 8 legs</b>
+<p>
+I made a rough prototype of this one secretly to convince Tomas that it isn't just a crazy idea. It changed his mind, so this thing has no some change of squeezing into one of the next releases.
+</p>
+
+<br/>
+<h4>The community</h4>
+Let me introduce to some of the creations of Factorio players:
+<table>
+<tr><td align="center">
+<a href="https://forums.factorio.com/forum/viewtopic.php?f=8&t=15250">The dancing lady</a>
+</td><td align="center">
+<a href="https://forums.factorio.com/forum/viewtopic.php?t=15494">The mandelbrot resource generation code</a>
+</td><td align="center">
+<a href="https://forums.factorio.com/forum/viewtopic.php?t=15113">The computer in factorio</a></td></tr><tr><td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-103-dancing.gif"/>
+</td><td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-103-mandelbrot.jpg"/>
+</td><td>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-103-computer.jpg"/>
+</td></tr></table>
+
+<h4>The package</h4>
+The guy known as Rseding91 (The Factorio team member who lives in the US and visited us for 2 weeks once) decided to give us a sample of what US sweets taste like. Well, I expected a small sample, but in the US they don't think small apparently. What is also apparent is, that 20kg package with humble label "sweets" coming from the us was so suspicious, that I had to visit the duty office to open the package in front of them and explain, that it really contains sweets, not body parts or illegal drugs :)<br/>
+That being said, we won't really need any sweets for a very <b>very</b> long time :)<br/>
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 857px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-103-candy.jpg"/>
+</p>
+
+<h4>Graphics polish</h4>
+Albert just couldn't stand using the old steel furnace in the technology icon, so he decided to redesign it. He was always saying, that the old one (current steel furnace) reminds him a demon head, and that it doesn't really fit the evolved Factorio style. I believe that it was worth it especially when there are so many of them in the (to be updated) trailer.
+<table align = "center">
+<tr><td><img src="https://cdn.factorio.com/assets/img/blog/fff-103-steel-furnace.png"/></td>
+<td><img src="https://cdn.factorio.com/assets/img/blog/fff-103-steel-furnace-integrated.gif"/></td></tr></table>
+
+If you have anything to say, <a href="https://forums.factorio.com/forum/viewtopic.php?t=16079">the thread</a> at the forum is there for you.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

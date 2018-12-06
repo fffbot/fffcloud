@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #165 - Death by a thousand cuts | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #165 - Death by a thousand cuts
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Rseding91 on 2016-11-18, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Mod settings</h4>
+<p>
+Right now when you want to customize a particular mod you have to:
+</br>
+<ol>
+<li>Know what folder the mods are stored on your computer
+<li>Unzip the mod
+<li>Figure out what line of which file has the thing you want to change
+<li>Save and optionally re-zip the mod
+<li>Hope what you changed is compatible with the way the rest of the mod works
+</ol>
+The game also forces everyone playing on the same multiplayer session to have identical mod files so any changes you've made make it impossible for you to join others unless they also have made those changes. This also makes it difficult for mod developers to troubleshoot bug reports because they don't know what you might have changed.
+</p>
+<p>
+This is obviously not so great and I want to address the main problem: there's no good way for mod developers to give users any portable way to configure their mods.
+</p>
+<p>
+To fix this we're going to add the ability for mods to define settings that will be presented like our in-game options menu now under a new section "options -> mods". This will let mods give some basic information about what kind of setting they have and we can present it to the player in a (hopefully) nice GUI with verification and feedback about why what they've entered isn't valid (if it's not valid) as well as the ability to change them runtime should the particular setting allow it.
+</p>
+<p>
+We can then sync these settings on joining multiplayer sessions (or not should you not want your settings to carry between games) and everything will just work.
+</p>
+
+<h4>Optimizations</h4>
+<p>
+My (Rseding91) favorite tasks are still optimizations. I can sit for hours (sometimes all day) working on improving some section of the code and not get bored. 0.12 saw a major improvement in performance and during 0.13 development there were a few edge case slowdowns that got fixed but nothing much was done during 0.14 development. For 0.15 I've started looking again at performance and not at the obvious slow areas. Mostly because there aren't any obvious huge slow areas (or we already know that 25,000 belts tend to be slow) but all of the surrounding code that gets run each tick. Honza (another Factorio developer) said it best to me the other day: "I think our performance issues are death by a thousand cuts." meaning there's no one thing that's particularly slow but everything is just a little bit slow.
+</p>
+<p>
+I took a few larger save files and started looking at them and every time I would re-run the profiler some small piece of code would show up taking 1-2% of the time. I'd spend 20~ minutes re-writing it and then it takes < 0.1% of the time (not accurately measurable by the profiler). I did that for 3 days and when I finished with the saves I had the end result was almost a 2x speedup over 0.14. Our test suite was invaluable during all of this to make sure I didn't break anything in the name of performance.
+</p>
+<p>
+The great part about these "micro optimizations" is that they are almost never specific to one thing but are shared pieces of code so improvements to them gives general gains across the entire game. The save files I was testing with that would run around 30 UPS in 0.14 are now running between 55 and 60 UPS in 0.15. There are still many more areas like this that can be addressed so I'm always interested in unique save files that stress different parts of the game.
+</p>
+
+<h4>Rendering test</h4>
+<p>
+Albert has spent some time this past week making a test render to see how the new train models will hold up in higher resolution settings, and has put together this UHD render of a simple train scene.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-165-train-3000.jpg">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-165-train-900.jpg"></a>
+</br>
+<font size="2">Click to view full resolution</font>
+</p>
+
+<p>
+While the final render may look very pretty, it only has a minimal amount of post-processing applied, instead relying on the setup of the scene and the specifics of the render to really show off the latest models. 
+</p>
+
+<p>
+As always, let us know what you think on our  <a href="https://forums.factorio.com/viewtopic.php?f=38&t=37423">forums</a>
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

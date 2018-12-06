@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #113 - Better rail building | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #113 - Better rail building
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-11-20, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+0.12 will be stable soon, so is a good time to start making you want things from 0.13 right? :)
+
+<h4>0.12.18 is a stable candidate</h4>
+The 0.12.18 should be out today. It is planned to be declared stable next week as long as no serious problems are reported.
+
+<h4>Better rail building</h4>
+Building of rails, especially curved ones was always quite awkward. We always wanted to make it better, but more urgent things were in the way. Once the work on 0.13 started, I took the liberty of stealing this task as I find it quite interesting.<br/><br/>
+
+Before I start the technical part, let me show how it works now:
+ <img src="https://cdn.factorio.com/assets/img/blog/fff-113-rail-planner-visualisation.gif"><br/>
+This is example of the "ghost rail planning", there will be also simplified manual building variant. It will work similarly, but the direction of the end won't be specifiable by rotation and it will just build a few rail pieces close to the player.
+
+<h4>How is it done (technical)</h4>
+The rail plan search works similar as normal <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A star pathfinding</a>, but the rules are altered.
+<ul>
+<li>The location on the map is defined by position and direction.
+<li>Two points on the same position with different directions are unrelated.</li>
+<li>Extension of a point is always just straight/left/right continuation.</li>
+</ul>
+The search is done both from start to goal and from goal to start:
+ <img src="https://cdn.factorio.com/assets/img/blog/fff-113-rail-plan-search-visualisation.gif"><br/><br/>
+Once the first solution is found(start and goal searches meet with opposite directions), the search continues for a little while, as better solutions might exist. In the next example, the first solution found is not optimal, as the curves can be straightened, so extra steps of the algorithm is needed to find a better solution.
+ <img src="https://cdn.factorio.com/assets/img/blog/fff-113-rail-planner-visualisation.jpg"><br/><br/>
+<h5>Performance</h5>
+The collision checking is the most time consuming part of the algorithm, as every step needs to check whether the next rail is buildable. This is especially slow for for curved rails.<br/>
+The problem is, that in some extreme cases, the search can take up to tens of thousands steps. It is too much to keep the mandatory 60 FPS in that case.<br/>
+The solution is to not recalculate the path every frame, but to share the search data from frame to frame. The user moves usually moves the cursor in some section, so the big part of the search data can be actually reused.This way, I can limit the path finder to do 200 nodes per tick, so it doesn't slow down the game at all, but the path search still feels responsive enough.<br/>
+Once the path is selected, it needs to be sent to be processed (locally or over network in multiplayer). I don't wan't to recalculate the path again when other players have to process that action, especially when I had to find it through iterative search, so the whole path data is sent by the network. The rail paths can be pretty long sometimes, and we want to avoid sending big chunks of data over the network, so the path specification is pretty compressed. I use bit buffer, where 0 means straight and 10/11 means left/right, so storing path with 100 rails takes only a few bytes.
+<h5>Removal of curved rail item</h5>
+The goal of this task was to simplify the rail building, so instead of having <i>straight rail</i> item and <i>curved rail</i> item, it will be just a <i>rail</i> item from now on. Curved rail entity will be built by 4 <i>rail</i> items (by using the planner), so the player doesn't have to craft both rail item types. Rail item can be still used to build straight lines of rails as before (build and move/drag). The advantage of this approach is, that if we wanted specify other rail shapes (like the S for switching close lanes), we could do it without the need to have many different rail items to be understood by the player.<br/><br/>
+
+One last picture of rail search through the forest. It would take me a long time to find this one manually :)<br/>
+ <img src="https://cdn.factorio.com/assets/img/blog/fff-113-long-rail-path.jpg"><br/></br>
+
+As always, you can comment on the <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=17917">factorio forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #93 - Furious Finish | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #93 - Furious Finish
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-07-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+the summer has hit Prague with full power. The temperatures are above 30 Celsius in the shade. Fortunately, our office is in the old stone building, so the climate here is quite comfortable even without the air-conditioning.
+
+<h4> Bugfixing week</h4>
+<p>
+So the original 0.12.0 projected release day is today. And unfortunately it won't happen. We are almost there but not quite, so we decided to postpone the 0.12.0 release to the next week, which at the moment seems actually very realistic (nothing is 100% though - for instance if an asteroid hits the office we probably won't release). All of the planned major features are done.
+Most of the team has participated in the bugfixing efforts this week led by kovarex. Many issues both from the forums and our internal task board have been closed. However we got to playtesting only yesterday and there are still issues especially in the multiplayer determinism. Surprise, surprise =)) Well, considering the how big the update will be it would be a bit of a miracle if things "just worked" (even with tests passing and separate functionalities tested separately during the development).
+</p>
+
+<h4> New office manager </h4>
+<p>
+We have had another addition to the team recently. This time it was not related to the development of the game directly but rather to many things that go along with making and selling a game for the living. The position is officially called "office manager" and it includes a variety of tasks. Namely:
+<ul>
+<li> community management at the forums / facebook / etc. </li>
+<li> user support (mostly done via email) </li>
+<li> marketing and communication with youtubers / press, support </li>
+</ul>
+
+This time it is a little bit special because the person we have hired for this is a girl. Her name is Betka and she has been with us for about a month. So far she is doing well even though working with 9 geeky guys in the office is probably not easy=) One of the main longer-term things she is working at the moment is preparing the game for Steam greenlight and launching on Steam. This I mean from the marketing and presentation perspective - we still take care of the actual programming=)
+</p>
+
+<h4> Memory bitmaps on windows </h4>
+<p>
+Many aggressive optimisations have been done for the 0.12 release. This <a href="https://www.factorio.com//blog/post/fff-82">has been described in the detail</a> in the past by kovarex. We also did some "half-blind" tweaks in bitmap rendering in our clone of the Allegro library. Half-blind meaning that we couldn't 100% predict what the consequences could be. A few days ago Michal discovered that there is a downside. We use a mechanism for saving V-RAM when not frequently used sprites (trains, biters, player) are saved only in RAM and rendered directly from there. That is at least what we thought was the case. But there seem to be 2 problems:
+
+<ul>
+<li> When resizing / alt-tabbing or anything else while having this feature (saving V-RAM) set the game graphics just collapse. You can see a screenshot below. This was not the case in 0.11 because the mentioned drawing optimisation hasn't been implemented yet back then.</li>
+<li> The whole mechanism of saving VRAM might have been an illusion all the time (at least on Windows). The memory bitmaps seem to be stored in the VRAM anyway. Michal is at the moment looking into this because we really need some mechanism for saving the VRAM - Factorio is especially hungry in this regard.</li>
+</ul>
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+  This is what you might see as a Factorio developer (and unfortunately sometimes as a gamer too).
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-93-corrupted-graphics.jpg"/>
+</p>
+
+<p> Let us know if you are looking forward to 0.12.0 same as we do at <a href="https://forums.factorio.com/forum/viewtopic.php?t=13318"> our forums</a>. Now I go back to playtesting=)).
+</p>
+
+<p> Oh and by the way, <a href="http://imgur.com/a/xcYxk"> this might be the biggest factory</a> ever built in the game. The author <a href="http://www.reddit.com/r/factorio/comments/3biwcf/one_minute_rocket_defense/">mentioned on reddit</a> that he got like 2 FPS, kovarex tested this in the 0.12 and the result was like 12 FPS if I am not mistaken. Still long way to 60 FPS though =))
+</p>
+
+<p>Edit (kovarex): I did measure it, and in 0.11 I get FPS/UPS 2.5/7 and in 0.12 I get 22/22, so the update simulation speed is 3 times faster here as well.</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

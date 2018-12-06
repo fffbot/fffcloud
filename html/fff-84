@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #84 The wedding day preparations | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #84 The wedding day preparations
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-05-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello fellow builders,</p>
+there is this commotion about the paid mods on steam. (It had been cancelled already). I understand that the implementation was far from optimal, as people would be suddenly expected to pay for mods that were free until now. It was also sad, that the modders were to get only 25% percent of the money. But I personally think, that there is nothing wrong about the idea generally. If a reasonable price tag on a great mod allows the creator to develop the mod full time, create professional content, and people are willing to pay for it, everyone wins. Free mods would still exist so it would be up to the players to choose. I'm NOT saying we are going to allow paid mods for Factorio anytime soon. But I'm not denying this possibility in the far future.
+
+<h4>0.12 is our wedding day</h4>
+Albert is the one who said this sentence for the first time. Now it is starting to define the mood in the office. As 0.12 means applying to steam, it needs to be as good as possible. It pushes us forward to do as much improvements and polishing as we can, because we can't let our wedding day to be ruined. We started to uncover all the small buried things we just postponed, but we have to finish them now. This means that the amount of changes in 0.12 is starting to look scary big, but with all the team reinforcements it seems like we could still deliver in reasonable time, which is important, because no one should miss his own wedding day. :)
+
+<h4>The optimisations II (Technical)</h4>
+The first info about the optimisations done were given <a href="https://www.factorio.com/blog/post/fff-82">2 weeks ago</a>. I went kind of crazy and continued working on the improvements, and here are the main things that have been done:
+
+<b><h5>Smoke simulation optimisation</h5></b>
+The smoke simulation optimisation is based on simple but very effective idea, let me explain how the smoke movement works:
+<p>
+The smoke particle is moved every tick (60 times per second). The movement is based on it's movement vector (<i>a</i>). The speed of the smoke is slowed down every tick, by multiplying the speed by a modifier (<i>q = 0.995</i>).
+</p>
+<p>
+If I wanted to calculate what is the position of the smoke in <i>n</i> ticks in the future, the movement in the first tick is <i>a</i> (movement vector), in the 2nd tick, it is <i>a + a*q</i> (movement multiplied by the slowdown), in the 3rd tick it is <i>a + a*q + (a*q)*q</i> and so on:
+</p>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-84-smoke-movement.png"/>
+<p>
+And just a common high school knowledge gives you this formula:
+<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-84-smoke-formula.png"/><br/>
+
+Usage of the formula lets me know the position of the smoke without the need to update it every tick. The wind and animation movements had to be taken into consideration as well, but these can be calculated easily as well. So in the current 0.12 version, the smoke position is updated only once per 120 ticks (2 seconds), but when you look at the movement, it still looks as smooth before, as the rendered position is calculated using the formula as well. This helped the performance a lot, as trains, boilers, generators furnaces are all emitting the smoke.
+
+<h5>Optimisations of the electric network</h5>
+The solar panels and accumulators are now merged in the electric network, so they don't have to be simulated individually. The electric network distribution calculations are also heavily simplified by this. That basically means, that the amount of solar/accumulators have no effect on the speed of the factory update times any more.
+
+<h5>Optimisation of the enemies</h5>
+<p>
+Huge factories that emit great amount of pollution are attracting a lot of large groups of enemies. The player often doesn't even know about it in this phase, as they just get killed by the automated defences. But the simulation of these units can be also quite performance heavy.
+</p>
+<p>
+The optimisations we made here is quite pragmatic. We added 4th level of biters and spitters (Behemoth biter/ Behemoth spitter) that are extra strong. So instead of group of 20 big biters, 3 behemoths can be sent. The power of the attack is similar, but the computation required is greatly reduced.
+</p>
+
+<h5>Optimisations conclusion</h5>
+The optimisation phase of 0.12 is finished for now. The results are that the update times of the factories we use are 3 times lower compared to 0.11. This means that people can theoretically build 3 times bigger factories before it starts to slow down. But keep in mind, that your factories might have different layouts, so it can vary greatly.
+
+<h4>The combat robots</h4>
+We previewed the new combat robots graphics <a href="https://www.factorio.com/blog/post/fff-54">a long time ago</a>. They didn't make it to 0.11, but we didn't forget about these, and they will definitely get to 0.12. The reason of the delay is, that we did want the attack graphics to be really an improvement. One of the attacks is a continuous electric beam. To make it look good, we decided to make it as a tileable beam animation. It will give us a lot of freedom if we want to use on other places in the game.<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-84-electric-beam1.gif"/><br/><br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-84-electric-beam2.gif"/>
+
+
+<p> As usual, let us know what you think <a href="https://forums.factorio.com/forum/viewtopic.php?t=10218">at our forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

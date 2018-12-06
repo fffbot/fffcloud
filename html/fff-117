@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #117 - Path Finder Optimisation I | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #117 - Path Finder Optimisation I
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-12-18, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello there,
+ <p>
+  I just took a short walk around the block to get some inspiration for the Friday Facts (it has been one of those weeks where many things that are not really worth talking about took majority of our time). And it doesn't feel like winter at all outside. More like the beginning of the spring. This has been the case for past couple of winters actually here in Czech Republic. It seems like there is some truth to the global warming. This triggers interesting associations with Factorio in my head. Things like: "Hmmm, so maybe all this warm weather is really caused by us (as a society) producing too much pollution. We should switch to Solar energy ASAP before nasty creatures start attacking us". Professional deformation I suppose=))
+ </p>
+
+<h4> Path finder challenges </h4>
+
+ <p>
+ Speaking of nasty creatures attacking. They need to find their way first to do so. This is one of the areas that we decided to work on in the 0.13. Basically with large factories the path finder tends to suffocate with too many requests. The result is that there are groups of biters which appear non-responsive even if the player is walking near them or if there are player turrets attacking them.
+ </p>
+
+ <p>
+ Path finder can handle only a constant amount of nodes per tick. This is so to avoid FPS glitches in times of intensive path finding. However this also leads to mentioned unresponsiveness. The approach we took here (namely Ondra who is in charge of the task) was to start with analysing couple of big saves where this is happening. So he has made a script to collect and plot path finding data. Below are these data for a fairly large save.
+ </p>
+
+ <ul>
+ <li> <strong>Top left:</strong> Each dot represents one path. X axis is path length and Y axis is steps it took to calculate. Not saying much. Dots over dots. </li>
+ <li> <strong>Top right:</strong> Histogram of paths by steps to calculate. X axis is steps to calculate. Y axis is number of paths that needed this many steps. This shows that majority of paths take <= 50 steps to calculate. </li>
+ <li> <strong>Bottom left:</strong> Sum of the Top left one. For each path length on X axis we get on Y axis the amount of steps needed to calculate all paths with that length. Now this is intersting. The red circled are shows some crazy activity for short paths. </li>
+ <li> <strong>Bottom right:</strong> Histogram of the Bottom left one. The X axis represents path lengths split to intervals of 50 (same as top right). The Y axis then gives total amount of paths for that path length interval. </li>
+ </ul>
+
+<p style="margin:auto; width: 850px; margin-top:40px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-117-path-finder-before.png"/>
+</p>
+
+ <p>
+ So the major observation based on these graphs is that there are a <strong>LOT</strong> of requests for short paths. This can be further divided into:
+ <ul>
+   <li> requests for very short paths of length less or equal to 5. This is the first spike in red circled area.
+   <li> requests for the rest of the short paths of length between 5 and 50.
+ </ul>
+ </p>
+
+ <p>
+ The goal is to avoid path finding whenever possible for short paths. This would speed the game quite a bit - or rather allow other entities to use the path finder and avoid path finder suffocating and unresponsiveness. One of our advantages in this quest is that we can afford "suboptimally" looking behavior when biters are not anywhere close to the players factory. <strong>What the eye doesn't see the heart doesn't grieve over</strong> comes to mind. Another reason to avoid using path finder for short paths is that there is a constant amount of time necessary to setup and start the path finding / put together the results / etc. As an obvious consequence, it would take effectively longer time to calculate many short paths than a few long paths even if the sum of steps would be the same. And that is not mentioning all the black magic like cache locality=)
+ </p>
+
+<h4> The solution </h4>
+
+<p>
+Based on the data and observation we (well Ondra=)) have figured that the cause for overflow of requests for very short paths ( length <= 5) are issues with avoiding the obstacles when following a given path. For example let's say that a biter follows a given path which runs across another biter nest (very common) there he bumps into a friendly biter just standing there or wandering around. After some bumping time it would fallback to searching for a path that would reconnect him to the next waypoint on his path. This new path would typically be very short (<= 5). The solution was to introduce a so called avoidance logic. If a biter bumps into another biter on the path it asks him to "make way". This biter (that has been bumped into) then moves away and allows the other one to pass. This turned out to work quite well (see below).
+</p>
+
+<p>
+The main cause for requests for path of length between 5 and 50 turned out to be twofold. First, it is biters travelling into group meeting points. These are triggered by pollution and get created close to spawners. Over the course of time, biters from nearby spawners are collected here and after some period of time the group is send to attack the factory (following the pollution path). Another case are biters which wandered too far away from their spawners. In that case they would request the path back to the spawners vicinity. Both cases produce short and relatively straightforward paths that are almost never observed by the player. Hence the solution here would be to actually don't use pathfinding but a straightforward algorithm when the biter just goes directly to the goal and if it encounters the obstacle it performs obstacle avoidance (trying to get around the obstacle from one specified side). Only in cases when this fails do we fallback to regular pathfinding. This is computationally very cheap and actually based on observation (and data) produces very good results.
+</p>
+
+<p style="margin:auto; width: 850px; margin-top:40px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-117-path-finder-after.png"/>
+</p>
+
+<h4> Conclusion and next steps </h4>
+
+<p>
+So in the second set of graphs we can see (bottom left diagram) that the number of steps to compute very short paths (length <= 5) dropped from almost 10000 to about 1000. In other words 10 fold improvement=). And short paths request in general (length <= 50 - see bottom right diagram) dropped from almost 1000 paths to little bit over 200. So about 4 fold improvement. This concludes our optimization efforts for dealing with short paths for now.
+</p>
+
+<p>
+However we are not done with path finder optimizations. Another big issue is that path finder struggles with long paths. Especially when searching for path around big lakes. Typically pollution spreads from the factory across the lake and triggers biters to attack, however they need to search for the path around the lake which is <strong>VERY</strong> expensive. Here we have decided to start by optimizing our path cache mechanism (so once the path is actually found we will make sure to reuse even parts of it in the future) and shorten the final path searched for (we will not search for the path into the middle of a big factory but rather in the outskirts where the attack usually ends at the defenses anyway). If this is not sufficient then we might dive into implementing a variation of hierarchical path finding. All this is a near-future work and we will keep you up to date with progress=))
+</p>
+
+
+<h4> Mods board cleanup </h4>
+
+<p>
+Ssilk has done some cleanup and reorganization in the mods section on the forums. So if you are a modder please check out the following <a href="https://forums.factorio.com/forum/viewtopic.php?f=89&t=18608">thread</a> for details. On a similar note, originally we thought we will have the external mod database ready for the 0.13 however the external development (in Python) of the mod portal went silent in the past month so at the moment the status of that is unclear. So we might need to hold onto the current forum-based solution a little longer=/.
+</p>
+
+If you have any ideas how to further tweak our path finder then let us know <a href="https://forums.factorio.com/forum/viewtopic.php?t=18615"/>at our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

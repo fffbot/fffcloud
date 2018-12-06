@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #116 - Strategy Guide | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #116 - Strategy Guide
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-12-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Good evening,
+
+ <p>
+  after a long long bug fixing period we have declared the 0.12.20 as a stable release. Owing to the great effort of all the developers, the <a href="https://forums.factorio.com/forum/viewforum.php?f=7"/> open bugs </a> count at the forums is at unbelievable ... wait for it =) ... 3 items. And one of these will be solved by us dropping support for the OSX Snow Leopard. So unless there are quite a few people who have been holding the bugs reports back (out of pure mercy with us of course=)) the game should be rather stable.
+ </p>
+
+<h4>Factorio Strategy Guide</h4>
+
+ <p>
+ In another episode of the Community Spotlight I am happy to share with you news in the field of documentation / tutorials / guides for the game.
+ </p>
+
+ <p>
+   I suppose pretty much all of you know (from your own experience) that quite some time and effort are required to get good at Factorio. Especially for the beginners, the amount of concepts can be intimidating. And of course, documentation is scarce=) Couple of first missions are de-facto a tutorial covering
+   the very basics of the game. However it is getting obsolete and also it covers only a few basic topics. Another source of knowledge is our <a href="https://forums.factorio.com/wiki">Wiki</a>. Quite a bit of community effort went into it, however to be honest we don't really know if many people are using it. Also it is still lacking in completeness and up-to-date-ness. And of course there are the Youtube videos. I suppose all the "Factorio knowledge" could be found in some form or another in one (or rather many) of these. But then there is just so many of them that the sheer Youtube listing is scary=))
+ </p>
+
+ <p>
+  A few months ago <a href="https://www.youtube.com/user/sonoribingudeddo">Xterminator</a>, one of the Factorio players and Youtubers, decided to approach this challenge himself. He chose to put the information in the form of a pdf e-book. He has been in touch with us during the process of guide creation and we have provided him with a few insights and ideas. I haven't read the guide cover to cover (it has more than 100 pages), but my impression so far is that it is a very good source of knowledge especially for beginning and intermediate players. It covers pretty much all the game concepts and apart from the explanations it is full of descriptive screenshots and links to youtube / forum posts further related to given subject.
+ </p>
+
+ <p>
+ The author pledged to keep the guide up-to-date and extend it as the game evolves. If you feel like you are still not quite getting what is going on in the game, then definitely give it a try. The guide can be purchased at the <a href="http://www.factorioguide.com"> Factorio Strategy Guide website</a>.
+ </p>
+
+
+<h4> Multiplayer Matching Server </h4>
+
+ <p>
+ One of our big promises for the upcoming 0.13 relase is improving the Multiplayer user experience. This is mainly related to discovering and joining the game. The 0.12 provides a shy (yet functional) connect dialog which will just connect you to the game based on the given IP address / hostname. What we have been working on for 0.13 is closer to what you might be accustomed to from playing other games.
+ </p>
+
+ <p>
+  Basically what will be added is following:
+ </p>
+
+ <ul>
+ <li> Python server application (called the Multiplayer Matching Server) that keeps the list of running / open multiplayer games. </li>
+ <li> Factorio Server / instance hosting the game keeps the matching server up-to-date about the game information. </li>
+ <li> A browse games dialog where players looking for game can see a list of all the current games. </li>
+ <li> In the browse games dialog you can get the details of a particular game (description, mods, tags, players in the game, etc.) and directly join it. </li>
+ <li> Filtering and searching options to look up a particular game fast. </li>
+ <li> Password protection for the game to restrict who can join it. </li>
+ <li> And of course the LAN discovery mode, where you can see all the local network games. </li>
+ </ul>
+
+ <p>
+ The basic functionality for all the features in the above list is there already. Now we are in the process of tweaking, experimenting and (later on) polishing - as you have probably noticed this phase often takes quite some time=)) In the future we are very open to extending this futher (integration with Steam Friends, automatic mods downloads to match the game mods, etc.). Below is the screenshot of the browse games gui filled with randomly generated testing games.
+ </p>
+
+<p style="margin:auto; margin-top:40px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-116-browse-games-gui.jpg"/>
+</p>
+
+If you have any thoughts regarding the topics above then let us know <a href="https://forums.factorio.com/forum/viewtopic.php?t=18330"/>at our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

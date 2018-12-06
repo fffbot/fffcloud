@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #24 - Inserter reskin | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #24 - Inserter reskin
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-03-07, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+The title says it clearly.  After a long long time, one of the most core elements in the game has been graphically redesigned to fit the art direction. Albert played around with couple of shapes and in the end the winner is surprisingly lightweight and elegant. If you are impatient to see how the new inserters look like, then scroll down and check them out on the screenshot from one of our playtesting games. This is one of our many final preparations for the new trailer, which has been supposed to be finished so long time ago it is not even funny.
+</p>
+
+<p>
+Today we have released the 0.9.2. Regular bugfix release at regular time with regular expectations (meaning that more bugs are expected to be found - the forum users are becoming pros in this :)). There are also couple of small balancing changes that should make the game slightly better (namely that poison capsules will hurt worms as well now, oil industry is not needed for making cars and trains and that pipe to ground is longer). Check out <a href="https://forums.factorio.com/forum/viewforum.php?f=3"> the details </a> for  yourself. While this release still will probably not become the stable release, we feel we are slowly getting there.
+</p>
+
+<p>
+We are about to start planning what to do after 0.9 is stable. As mentioned couple of times in the past we feel that the time has come to take on the multiplayer. This will be a <strong>gargantuan</strong> task indeed - at least for us, maybe Chuck Norris would wrap up the whole thing by simply giving the 0s and 1s on the hard drive an angry look. But he has better things to do I guess, so it is up to us to do it the old fashioned way - designing and writing the code. So the MP will be developed in a separate branch by +- 2 people (we will be rotating), this will leave some small development power to carry on with the standard release cycle - working on little features and improvements, integrating new graphics, etc. And just to clear up the speculations, the next planned release will be 0.10 not 1.0 :D
+</p>
+
+<p>
+Now a small rant on Indie vs. AAA. Recently kovarex has played quite a bit of Starcraft II - namely the Terran and Zerg campaigns. I was watching him playing now and then. He was extremely positive about the whole experience. Namely the level of detail and playability were supposedly superb. Playing AAA games can be quite intimidating for the Indie developer. But then there are the credits. It turned out that SC II was done by a LOT of people. We don't have the exact numbers but we suppose there will be like couple of hundreds of people in the team. We have 4 people in the core team now (plus we work with freelancers here and there). So we made some rough estimates taking into account that SC II took 7 years to develop and it sold around 5M copies. Let's presume it will take us at least till next years summer to "finish" the game (see the <a href="https://www.factorio.com//blog/post/fff-23">last post</a>:)). Let's also assume that we will manage to sell 50k copies by then (which we believe is doable). After some rounding (yeah many things can be achieved by "good rounding") and some math we get that we could have 0.5% of costs and also 0.5% of revenue compared to SC II. So in the end the Indie vs. AAA struggle doesn't look that futile :)
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-24-inserters.jpg"/>
+</p>
+
+<p> We are always eager to learn what you think at <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=2703">our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #221 - 0.16 is out | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #221 - 0.16 is out
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex &amp; Klonan on 2017-12-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello there. As you probably know, we released the experimental version of <a href="https://forums.factorio.com/54538">0.16</a> this week. As usual after such a big release, we are working as best as we can to fix the bugs to make the game reasonably playable as soon as possible. Our current goal is to have semi-stable version before Christmas.
+</p>
+
+<h4>Temporary buffer chest simplification <font size = 2>(kovarex)</font></h4>
+<p>
+Buffer chests, that were introduced in <a href="https://www.factorio.com/blog/post/fff-203">fff-203</a> are now in the game, but they are now usable only for personal logistics and construction, but not for requester chests. We changed it before the release, as we noticed during the play-testing, that a lot of the the items are moved to buffer chests which could be on the other part of the factory, just to be immediately moved to requester chests, which could be all the way on the other side. It was basically broken and we did not foresee it.
+</p>
+<p>
+We have some different things in mind to solve the problem. If it works out, we would like to enable buffer chests for requesters during the stabilisation of 0.16
+</p>
+<ul>
+<li>Give requester chests priority over buffer chests. This means, that nothing would go to buffer chest request unless that item is already satisfied for all requester chests</li>
+<li> We were also considering, that the player could have a checkbox in the requester, that could allow to specify whether the requester should get things from buffer chest or not.
+ We prefer if the game doesn't have too many settings like this to get lost in, but it might be useful to give the player more options.</li>
+</ul>
+<p>
+Part of the testing revealed to us, that buffer chests are not fully replacing the possible feature of having dedicated storage chests. As this feature seems to be easy to do, we might do it as well. It always seems easy to do, until we actually make it :)
+</p>
+<h4>Belt compression mechanics <font size = 2>(kovarex)</font></h4>
+</p>
+The belt internal mechanics have been changed a lot in this release, as a side effect of the belt optimisations. Some of the things don't work as before. Some of the changes are intentional, such as <a href="https://forums.factorio.com/54600">using underground belts to compress belts</a>, no longer works. Some of the side-loading tricks were not intentional, and some of the usages of side-loading were tricks that I didn't even know about.
+</p>
+<p>
+We are going to have some discussions in the office about how should the belt compressing work, and what techniques should work and what shouldn't. I would personally prefer, to make the only way to compress two uncompressed belts by using a splitter, as all the other tricks are kind of unintuitive usages of bugs in the previous belt internals. Others think differently, as they want to make inserters and side-loading to compress automatically. I think that it would actually remove part of the emergent-gameplay and something for the player to learn as he/she explores the mechanics of the game, but I have to agree, that the game would be more comfortable to play. You are free to say your opinions in the comments :)
+</p>
+<h4>Bug hunting <font size = 2>(Klonan)</font></h4>
+<p>
+These is only a single place we handle bug reports, the <a href="https://forums.factorio.com/viewforum.php?f=7">bug report forum</a>. If you make a post somewhere else, or PM one of the developers, we might not see it, and these reports can get lost. So if you find an issue, crash, glitch etc. go to the forum first. 
+</p>
+
+<p>
+Okay hold up, don't just make a topic just yet, first search or browse around to see if someone has reported it already. If you don't see anything similar in the main bug report section, please use the forum search to see if a report was moved to one of the subforums (Assigned, pending, resolved etc.). As a bonus, this is like a sneak peek into the bug fixing process, and you will be able to directly talk with the team and help us make the game better.
+</p>
+
+<p>
+Some things however, are not bugs. We don't want to be ungrateful, but reporting things you dislike as a bug doesn't help us. We are happy to receive this feedback in the <a href="https://forums.factorio.com/viewforum.php?f=6">Ideas & Suggestions</a> forum.
+</p>
+
+<p>
+Some things though, are bugs. But we can't fix everything instantly, they need some deeper work, or maybe they just aren't a priority. Game crashes, corruptions and similar issues are the most important things to fix. We are sorry we cannot get to the things that are bugging you right away, but with a little patience we will have everything sorted out before you know it. We don't ignore things in bug reports, but we do leave them alone sometimes. Don't worry if it seems we have overlooked your report, there are just other things to do right now.
+</p>
+
+<h4>T-shirts shipped <font size = 2>(Klonan)</font></h4>
+
+<p>
+So Monday afternoon we received 28 boxes of T-shirts.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width:896px;" src="https://cdn.factorio.com/assets/img/blog/fff-221-shirts-1.JPG">
+</p>
+
+<p>
+Soon after, we opened our <a href="https://factorio.com/store"store>store</a> to orders. Frankly we were not expecting this many orders... but only 24 hours later, we had received over 700 orders. So then begins the process of packaging and shipping these. 
+</p>
+<p>
+It took 3 of us (Jitka, HanziQ, and myself) over 12 hours to pack all of them, but we did it.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width:896px;" src="https://cdn.factorio.com/assets/img/blog/fff-221-shirts-2.JPG">
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width:896px;" src="https://cdn.factorio.com/assets/img/blog/fff-221-shirts-3.JPG">
+</p>
+
+<p>
+The first shipment of 786 packages was sent Wednesday morning, which included all the orders places before midnight on Tuesday. As of this morning, we only have 800 T-shirts left, we ordered a batch of 3,000 more, but they wont' arrive till the new year.
+</p>
+
+<p>
+As you can expect, this week has been quite hectic for us, but nonetheless, we are looking forward to reading your thoughts and comments on our <a href="https://forums.factorio.com/54945">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

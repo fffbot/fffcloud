@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #249 - Dead end exploration | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #249 - Dead end exploration
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-06-29, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+While working on the GUI, we reached the infamous blueprint library, and we started talking about how to improve it. This lead to discussions about how we can improve the entire system of blueprints. The problem was not simple at all, and these discussions have been going on for a few days.
+</p>
+
+<h3>Current version</h3>
+
+<p>
+The current version of the blueprint library has several problems:
+</p>
+
+<ul>
+
+<li>
+Clicking a blueprint in the blueprint library means creating a blueprint, almost always. So if you click the blueprint library blueprint to build something and then press the <i>Q</i> key to clear the cursor, it goes into your inventory. This can easily lead to random blueprints slowly cluttering your inventory as you use blueprints directly from the blueprint library now and then.
+</li>
+
+<li>
+As blueprints in the game and in the library are two separate things, the players need to manually check that the blueprint library version of the blueprints are up to date. Once you play more games and use the blueprint library to share the blueprints between them, which is the reason for it to exist, it naturally happens that you end up having out-dated versions of blueprints in the library, as you changed them in the previous game, but you forgot to update them in the library. Also, updating the blueprint library isn't easy, as when you update some of your blueprints in the game, you have to search the corresponding original blueprint in the library, remove it, and move the new version to the library. A process which is annoying at the very least. I find this point to be the most troubling, as we want people to upgrade their blueprint layouts as they play, not just mindlessly copy-paste the first version of the blueprint they figured out over and over.
+</li>
+
+<li>
+The standard way of putting new blueprint into the blueprint library just puts it at the end of the blueprint library, and deleting any blueprint moves everything under it around. This means some blueprints are constantly changing positions and are hard to find.
+</li>
+
+<li>
+Once new players open the possibility of making blueprints, it opens many things at the same time for them. Construction robots, blueprints and their creation, deconstruction planners, blueprint books and the blueprint library. The easier (smaller) can we make this step, the better.
+</li>
+
+<li>
+Other UI annoyances such as exporting and importing blueprints through the obscure "Drop here to move blueprint" box.
+</li>
+
+</ul>
+
+<h3>Changes that will be done no matter what</h3>
+
+<ul>
+<li>
+First of all, blueprint library and blueprint books will not have this list of blueprints. It will have a grid similar to the one in inventory, so you can arrange the blueprints better.
+</li>
+
+<li>
+There will be a way to do copy-paste quickly without having to create a blueprint. This solves one of the biggest sources of inventory cluttering, as now you have to make a blueprint for every copy-paste which ends up in the inventory after pressing <i>Q</i>. The most probable idea is, that pressing Ctrl+C would activate the 'copy' tool. You select what you want, confirm the selection with the blueprint dialog. After that, whenever you press Ctrl+V, you activate the last copy. Very similar to how computer clipboards usually work.
+</li>
+
+</ul>
+<p>
+Apart from this, there is the problem of how to resolve the rest of the blueprint library problems.
+</p>
+
+<h3>Proposal 1 - no blueprint items, just quickbar references of 2 kinds</h3>
+
+<p>
+This would be implemented together with the <i>quickbar is just an action bar</i> idea explained in the <a href="https://www.factorio.com/blog/post/fff-191">fff-191</a>. The idea is, that blueprints would never be items. Quite an extreme change, as it would mean, no blueprints on belts, no blueprints in chests etc. In this scenario, we could still allow a mod to create/allow blueprints as items, but it wouldn't be the vanilla way to do it.<br/>
+If you create a blueprint, there would be 3 things you could do with that.
+</p>
+
+<ul>
+<li>
+Use it (or not) and press <i>Q</i>, the blueprint would be destroyed. The reason for this, is that we want players to put blueprints explicitly in a slot or the library, instead of cluttering the main character inventory.
+</li>
+<li>
+Put it into the quickbar. The blueprint (or book) stays in the quickbar until it is removed or replaced by another blueprint. It is not in the library.
+</li>
+<li>
+Put it into the blueprint library, by opening it, and explicitly selecting a slot where to put it.
+</li>
+</ul>
+
+<p>
+You can use blueprints directly from the quickbar or from the library. You can also pick a blueprint from the blueprint library and place it in the quickbar.
+<br/>
+The tricky part is in the last point. There would be basically two kind of blueprints in the quickbar:
+<ol>
+<li>Blueprints that are only in the quickbar, so it is the stores all the blueprint data.</li>
+<li>Blueprints that are just a reference to the blueprint library. This itself is quite a weird thing to have.</li>
+</ol>
+</p>
+
+<h3>Proposal 2 - Blueprint items that are linked to the blueprint library</h3>
+
+<p>
+In this proposal, blueprints exist as regular items again, but to solve the problem of having two different versions of the blueprint in the game and in the library, blueprints could be linked. This means, that moving a blueprint from the library to your inventory would make the link with the library. Making any changes to the blueprint would automatically update the blueprint library version and, upon loading any other save that has blueprint linked to the same blueprint, the blueprint in the inventory would be also update to the new version.
+</p>
+
+This looks nice and all, but it has its own collection of problems.
+<ul>
+<li>There are two kind of blueprint items now: blueprints that are only in the inventory and blueprints are also linked.</li>
+<li>What happens when you put your linked blueprint into a chest, is it still linked?</li>
+<li>What happens when your linked blueprint in a chest is picked up by another player?</li>
+<li>What if you have two identical blueprints in the library that are both linked to each other. Will the player always understand that changing one will change both?</li>
+<li>And many more...</li>
+</ul>
+It kinds of leads us to not liking this option too much as well.
+
+<h3>Proposal 3 - Blueprints only in blueprint library that is also a blueprint-bar</h3>
+<p>
+There would 10 slot blueprint bar under the quickbar (or action bar). It would be the only possible storage for blueprints, so no blueprints as items and no separate blueprint library. It would have unlimited amount of pages that can be added/removed/selected. This blueprint bar would be shared between all games.
+</p>
+
+<p>
+The advantage of this is simplicity and straightforwardness, that there is suddenly only one kind of blueprint (instead of 3 in Proposal 2). No need to transfer from inventory to library and back. The storage and place where it is used from is the same.
+</p>
+<p>
+The disadvantage is mainly the fact, that it isn't integrated with the quickbar (or action bar), so you can't use the default 1-10 shortcuts to access it.
+</p>
+
+<h3>Proposal 4 - Action bar is persistent and the only storage for blueprints</h3>
+<p>
+Again, this goes together with the <i>quickbar is just an action bar</i> idea explained in the <a href="https://www.factorio.com/blog/post/fff-191">FFF-191</a>. Additionally the action bar will have multiple pages of shortcuts. You can select what page of shortcuts you want to use in which of the 2 displayed bars. Something like this:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-249-action-bar-with-blueprints.png">
+</p>
+<p>
+This is similar to proposal 3, but with blueprint-bar and action-bar merged. The action bar (with all the pages) would be shared between games. Blueprints could only be stored in the action bar.
+</p>
+<p>
+I personally like this the most. Even the description of it is stupid simple. You just open different save, and you are guaranteed to have access to all the blueprints and action bar selections you created in the previous game(s). You can use keyboard shortcuts to access blueprints, you can combine pages of action bar of items and blueprints to your liking. For example, action bar with rail building would have rails, signal, locomotives, wagons, and different kind of rail building blueprints(or books).
+</p>
+<p>
+The disadvantages of this solution are the limitations. If we keep the amount of action bar pages to 10 for easy access through keyboard shortcuts, it implies limited amount of space for the blueprints. I personally wouldn't see it as a problem as it is 10x10 slots should be enough for everyone right? :) But seriously if at least 30 should be free to be used by blueprints, and since we have blueprint books that have unlimited storage size, the amount of blueprints you could store would still be unlimited, only the amount of books (categories) would be limited.
+</p>
+<p>
+How many people out there would have actually problems with the limitation of having around 30 blueprint books? Obviously the second solution is to allow more than 10 pages of quick bar, but it would come with different kind of problems.
+</p>
+<p>
+The second problem that might be the fact, that you can't make a blueprint "just for this game" without putting it into the library. I personally don't see it as a problem, as the whole point of the blueprint library rework is to avoid the problems of merging two kind of storages of blueprints. This would force the player to have only one.
+</p>
+<p>
+The third problem of this might be the fact, that the blueprints are not items anymore. Some people might prefer to store their blueprints in chests over the map in certain way. For example, putting oil setup blueprints in their oil setup map area etc. This wouldn't be possible anymore, as the blueprints would always have to be in the action bar somewhere.
+</p>
+
+<p>
+As you see, it is quite a tough problem, and it is cases like this where your feedback is even more valuable than usual, so please let us know what you think on our <a href="https://forums.factorio.com/61278">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

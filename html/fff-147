@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #147 - Multiplayer rewrite | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #147 - Multiplayer rewrite
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-07-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello!
+
+<h4>Multiplayer - new field for me</h4>
+Once we started the matching server, we finally had to face the reality of the multiplayer over the internet with people around the world. We realised there are A LOT of problems rising to the surface, and that it needs to be worked on.
+I left all the multiplayer logic to be done by cube and tomas until now, and I had only a very simplistic idea how it works. With tomas on holiday and cube busy with other tasks, I realized how big of a problem it is that no one else has a clue how it works under the hood, so I took this opportunity to dive into it personally. After a week of reading, discussions with cube and partial rewrites, I can present you with my findings and a roadmap of ongoing changes.
+
+<h4>From the <i>Peer-to-peer</i> model to the <i>server-client</i> model that is still kind of <i>peer-to-peer</i></h4>
+As some of you might know, the Factorio multiplayer was originally written to be always <i>peer-to-peer</i>. The motivation was to minimize the latency, as in the theoretical case of everyone having the same connection with everyone else in the game, the latency would actually be smaller compared to the <i>server-client</i> model.
+The problem is, that there are many things that had to be paid as a price.
+<ul>
+<li> Everyone needs to be actually sending packets to everyone else, which isn't that easy in the current world, where IPv6 isn't everywhere, and public IPv4 address is becoming quite a luxury. This can be solved by nat punching, but it also isn't 100% reliable.</li>
+<li> The logic of events, like joining, quitting, disconnecting, is very complex, as it always has to be <i>discussed</i> by the peers before anything can be done. And as we have the lock-step simulation, it always has to be ensured, that these actions are performed in perfect synchrony. Complexity means bugs, and in this case, some of them are hard to fix. On top of that, even if it was written perfectly, it wouldn't feel perfect.</li>
+<li> Everyone needs to have the same latency.</li>
+<li> No defence from lag spikes of individual players.</li>
+<li> One packet per player per tick sent and received by everyone, so the amount of packets sent is O(n^2)</li>
+</ul>
+So once we encountered the "real internet" network communication, these problems shown to be too serious. We could have anticipated this if we had only listened to the people warning us that peer to peer will lead to trouble when we were first writing about the implementation more than a year ago. But sometimes, you just have to learn from your own mistakes.</br>
+So we added an additional option to run in the Server mode, which became the only option later on.<br/>
+But our server mode only solved the first problem, as it was just a patch that re-routed all the communication between peers to go through the server, but all of the <i>peer discussion</i> related complexities stayed.<br/></br>
+
+The original peer to peer model, 6 packets per tick minimum with 3 players.
+<p style="margin:auto; margin-top:40px; width: 355px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-147-peer-to-peer-sending.png"/>
+</p>
+
+<br/>
+The <i>new</i> server mode we have currently. The peer 1 resends the packets between other peers, here we send 8 packets per tick minimum.
+<p style="margin:auto; margin-top:40px; width: 355px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-147-peer-to-peer-with-resending.png"/>
+</p>
+
+In other words, we took the worst from both of the models and combined it.
+
+<h4>The real server-client architecture version 1.0 (to be done)</h4>
+The current state can't be solved by just small fixes and tweaks, fundamental changes in the internals of the multiplayer logic on almost all of the layers has to be done to take advantage of the possible simplifications implied from the fact that peer to peer isn't supported anymore. Let me present the most important changes that I'm working on:
+
+<h5>Clients receive <i>merged package</i> once per tick.</h5>
+One of the most obvious changes is, that instead of re-sending all the packets, the server is unpacking these and merging them. He first waits to get the actions of all players in a certain tick, and then sends it to all the clients as a single message. This not only reduces the number of packets sent (from O(n^2) to O(n)), but it also keeps the clients from having to deal with the synchronisation and shit. They just accept the package as it is and apply it. If they miss something due to the packet loss, the client just asks the server for the whole package to be resent, in other words, the clients don't communicate with each other at all.<br/><br/>
+
+The future server model. The peer 1 sends the merged package, so we are down to 4 packets per tick. (The difference will grow greatly with more players)
+<p style="margin:auto; margin-top:40px; width: 355px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-147-merged-package.png"/>
+</p>
+
+<h5>Clients don't know about other clients (network wise)</h5>
+As clients don't need to communicate, they don't even need to know about their existence in the game. This doesn't mean that you wouldn't know about other players in the game. When a player joins, clients receive an input action <i>Player joined</i> as part of the <i>merged package</i>, so the player is created on the map and in the player list, but this is not related to network logic, and it is a different layer that works like this already. The difference is, that the clients don't need to know what <i>network entity</i> is related to what player, they don't care. Ignorance is bliss!
+
+<h5>Server is the only Input action authority</h5>
+The clients are also sending input actions, but only to the server, and it is up to the server to decide whether it should be included in the <i>merged package</i> or not. As the merged package is the only source of the actions to be applied, the server can safely omit a player from the package if he has a lag spike, so the lag spike is isolated from the rest of the game. This is not possible in the peer to peer model. 
+
+<h5>Removal of strange freezes on network events</h5>
+Currently, when player wants to join a game, first it had to be <i>discussed</i> to stop the game at a certain tick. This tick had to be at least one latency step in the future, as other players could already be ahead of us, and you can't go backwards in Factorio state (Yes entropy works the same way in Factorio world). This is the strange freeze that happens when someone is connecting, disconnecting etc. During this time, the new client is introduced to others so they know they have to count with him.<br/>
+But as we decided that clients know nothing about other clients, this can be removed completely. Once the server agrees on the new player to join the game, it can just start sending his actions as part of the <i>merged package</i> without any interruption. The save-game still needs to be uploaded by the server, so there will still be waiting, but there shouldn't be any strange freezes inbetween the download progress bar and normal game anymore.
+
+<h5>Internal code simplification</h5>
+As all the logic is straightened, the internal code will get actually much more simple as well. Simplier code means less bugs. Also this should mean, that if we want someone else to tweak the internals of the multiplayer, it shouldn't take him 3 weeks of study to understand what is going on.
+
+<h4>The possible improvements (version 2.0)</h4>
+Once this is all implemented and working, which will take some weeks, we could use this architecture as a reliable base to make additional improvements. These are ideas that shouldn't be that hard to do, but can't be promised.
+
+<h5>Individual latency</h5>
+The latency is now a global parameter of the multiplayer game, and it is the delay between creation of the user action (Input action), and it's execution, the bigger the latency is, the more time to deliver the actions between players, so the game might be less laggy. Big latency is bad for gameplay, small latency is bad for distant players. But with the proper server-client architecture and the server being the only input action authority, everyone can have different latency. The guy in the same street as the server only needs 30ms to send the package to the server to be included in the next <i>merged package</i> and next 30ms to get his action back to see it on the screen. But someone from the other part of the world in the same game might need 500ms to send the message, so his actions will just be packed into the <i>merged package</i> with bigger delay.<br/>
+The latency of individual players should be tweaked automatically during the game by the server, so it could make sure that it is as small as possible for a flawless game.<br/>
+An implication of this would be, that the server would have 0 latency, this would be unfair in a competitive game, but in Factorio, there is no reason to drag everyone down just to make it fair.
+<h5>Don't wait for upload</h5>
+This feature could also be added. When someone joins the game, the server needs to save it, and others have to wait for it, this can't be removed, but once it starts uploading the game, other players (including the server) could just continue playing, while the server is providing the map. On top of that, the server would save all the actions made by the players in the meantime. Once the map is uploaded, the server would send these actions and the client would fast-forward to catch up. The only limitation is, that the client has to be able to run the map in faster speed, so he can catch up. 
+<h5>Auto kick based on network speed or CPU limits</h5>
+Apart from the latency tweaking based on the network roundrip time of individual peers, the server could also measure slowdown related to CPU lag. CPU lag means, that some of the players computers are not able to simulate the Factorio map fast enough, so others have to slow down their simulation and wait for him. It should be possible to set an option to auto-kick players who drag down the game too much. A similar limitation could be applied to upload speed.
+
+<h4>Translations for Factorio</h4>
+Scott and Mishka have been spending this week working through the crowdin, this is the website we use to allow the community to help us translate the game. To this date the community on crowdin has helped us translate the game into dozens of languages, along with the subtitles for the trailer and other related media.<br/>
+
+We'd like to take an opportunity to thank all the translators, as their contribution really has a great impact on the game, and their perspective often helps us in understanding how terms and descriptions we write in the game are interpreted by the players.<br/>
+
+We still have many untranslated languages on crowdin, so if you think you might be able to help out with the translation for your language, please checkout the <a href="https://crowdin.com/project/factorio">factorio project</a>.<br/>
+<br/>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/29095">our forums</a>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

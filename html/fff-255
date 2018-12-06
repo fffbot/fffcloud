@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #255 - Construction tools | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #255 - Construction tools
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-08-10, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+we had a small Factorio 0.17 LAN party this weekend. The purpose was to try and test some of the new features and play the game properly as I haven't had time for that for quite a while. I used this opportunity to think about all the smaller or bigger decisions, features or change of plans in the context of playing the game for many hours.
+
+<h3>Copy paste</h3>
+<p>
+One of the most praised new features we had available was the copy paste (and cut paste) functionality. As you know already, everything is more complicated than expected... but this feature was the exception from the rule, as it took only something like 1-2 hours to make the copy paste fully functional, as it was just about connecting all the tools we already have (generic selection tools, blueprints, deconstruction planner, easy to add key shortcuts etc.).
+</p>
+
+<p>
+This is how it works: You press Ctrl+C, and you activate the copy-paste selection tool, which is similar to selecting a blueprint: Once you have made your selection, you can build immediately:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-copy-paste.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-copy-paste.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+When you press Q, the paste just goes away, but pressing Ctrl+V re-activates it any time in the future.
+</p>
+
+<p>
+The cut paste is similar. Ctrl+X also allows you to select an area, but as a bonus, it also marks it for deconstruction. This is especially useful, when you need to just move some setup from one place to another.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-cut-paste.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-cut-paste.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+Our plan is to have a special UI button for the copy, cut and paste tools on the main screen. The paste tool button can be used (apart the obvious use of clicking it to activate it), to edit the clipboard the same way blueprints can be altered, and maybe even access the history of the clipboard.
+</p>
+
+<h3>Upgrade planner</h3>
+<p>
+Upgrade planner has existed as a mod for some time already, and it is <a href="https://mods.factorio.com/mod/upgrade-planner">one of the most popular mods</a> with over 250,000 downloads (It is made by Klonan by the way).
+</p>
+
+<p>
+Since the feature is so useful, we decided that it is important enough to integrate it into Factorio natively. This gives us some advantages over the mod implementation:
+<ul>
+<li>The main advantage is that it uses fast-replace functionality with construction robots, so upgrading chests keeps the inventory, upgrading belts doesn't require all the items to be picked up etc.</li>
+<li>The tool can be stored in the blueprint library.</li>
+<li>The tool will also support upgrading tiles.</li>
+<li>The (arguable) advantage is, that it can no longer upgrade instantly from the player inventory, so it is more balanced and consistent with the other construction tools.</li>
+</ul>
+We also tested it in our playthrough and it was definitely a big quality of life improvement.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-upgrade-planner-1.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-upgrade-planner-1.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-upgrade-planner-2.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-upgrade-planner-2.webm" 
+          type='video/webm'/>
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-255-thumb.png">
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+One of the features we would like to add before 0.17 is to allow the upgrade planner to work also inside a blueprint, so you can upgrade the whole blueprint by it, or just select part of it to be changed.</p>
+
+<h3>Undo</h3>
+<p>
+You might have experienced the situation as well. You build/deconstruct something and it ends up not being the thing you really wanted for some reason, so you instinctively press Ctrl+Z to undo it. When this happened to me I was always like "ha ha, I'm pressing Ctrl+Z, but I'm playing Factorio". We realized, that it might actually not be such a stupid idea to actually make it work in the game, at least partially.
+</p>
+<p>
+The undo functionality is fully dependent on the construction robots being available, as doing anything else then construction orders would feel like cheating. Our prototype of the feature supports just 2 actions, building and removing, but it is already enough to make it useful at times.
+</p>
+<p>
+When you build a blueprint of something, pressing Ctrl+Z cancels all the ghost entities, and if some of them were constructed already, they are marked for deconstruction.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-blueprint-undo.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-blueprint-undo.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+The same works for manual placement:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-manual-build-undo.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-manual-build-undo.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+When you deconstruct something, pressing Ctrl+Z cancels the deconstruction, and for entities that have been removed already, it places a ghosts so they will be rebuilt again:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-undo-deconstruction.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-undo-deconstruction.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+The same works for manual mining:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-manual-mine-undo.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-255-manual-mine-undo.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<h3>Research queue conclusion</h3>
+<p>
+The LAN party also gave us insight, that the research queue is still valuable in some cases, especially in multiplayer, where I can add the research I need after the current one without cancelling the research of someone else. After some discussions, internal voting and more discussions, we decided to go this way:
+</p>
+
+<p>
+Research queue is in the game, but it is disabled by default. It can be turned on with an advanced option checkbox, and this option is also turned on automatically once a player finishes the game for the first time. This way, we still ensure that the new players have the experience as wanted, but veterans that play it again and again, and players who are researching infinite technologies, have it available.
+</p>
+
+<h3>Blueprint library conclusion</h3>
+<p>
+As copy-paste solved most of the annoyances with blueprints, the second most annoying thing was, that when I wanted to manually pick a blueprint from a blueprint book to build something, pressing Q didn't put it back in place in the book, but instead, it moved it to my inventory. It was also annoying, that I can't re-assign the blueprint contents of a blueprint in a blueprint book directly. These two things are already solved by the previous plans <a href="https://www.factorio.com/blog/post/fff-250">(FFF-250)</a>, but there are other tweaks we realized are needed.
+</p>
+
+<ul>
+<li>
+When the blueprint library has a grid and works similarly to the inventory, the movement from blueprint library to inventory makes a copy instead of moving it. We think making the blueprint library more persistent is a big priority.
+</li>
+<li>
+Blueprint library slots are still big and have the space underneath them for the name as it is now. We realized, that the main downside of showing as an inventory is removing the possibility to see the names, which is a main way to identify blueprints for some players.
+</li>
+<li>
+The blueprint library window is opened as a side panel, and can exist next to normal active windows. Blueprints can also be built directly from it.
+</li>
+<li>
+The shared blueprints feature is still useful, so we decided that it will stay. It will be a tab in the blueprint library, but it will only be visible in games with multiple players. This is important mainly for new players, so they are not overwhelmed by a lot of stuff at the beginning. The shared blueprints won't contain every players own library, only blueprints they explicitly choose to share.
+</li>
+<li>
+The last change is about what happens when a player creates a new blueprint and it only exists in the cursor. When he presses Q, where should the blueprint go?. In the current game, it just goes into the inventory, however in the FFF-250 write-up, it is removed. Neither of these options were ideal for us, as it feels like a hidden behavior. This will be changed, so when the player presses Q, it will invoke a small selection popup next to the mouse, so the player can explicitly select what to do:
+<ul>
+<li>Put it in the blueprint library - clicking it just opens the blueprint library, so it can be put there, if it is already opened, it just flashes.</li>
+<li>Put it in the inventory - clicking it just opens the character screen with inventory, so it can be put there, if it is already opened, it just flashes.</li>
+<li>Destroy</li>
+</ul>
+I believe, that this helps the player understand what is going on. This popup can be either used to quickly access the storage for the blueprint, or the popup can be completely avoided if the blueprint is manually put into some storage. Since we have the copy paste now, the need to make a one-time temporary blueprint should be non-existent , so it shouldn't add any extra annoyance in this use-case.
+</li>
+</ul>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/62027">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

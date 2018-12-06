@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #23 - Year after | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #23 - Year after
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-02-28, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Good evening everyone,</p>
+
+<p>
+it is almost 1 year since the end of our <a href="http://www.indiegogo.com/projects/factorio">Indiegogo campaign</a>. The beginning of the campaing was kind of gloomy and hopeless, after one week we were ready to resign the whole project and we both even had a programming job in reserve. But eventually things turned around and thanks to many awesome people supporting us, we managed to finish the campaign sucessfully and continue working on Factorio fulltime. That is the "well known history" and you can read more about it in the <a href="https://www.factorio.com//blog/post/indiegogo-campaign-progress">older</a> <a href="https://www.factorio.com//blog/post/getting-the-alpha">blog</a> <a href="https://www.factorio.com//blog/post/indiegogo-campaign-is-over">posts</a>.
+</p>
+
+<p>
+ What is less known is what happened after the campaign. The end of the campaign made us actually over confident at the time. We felt that all is going to be easy peasy since then. We were wrong once again. We had to go through some rough times, often balancing close to the zero on our bank account with the game being not more than "an interesting proof of concept". The original estimate was that the game would be finished by the summer of 2013, simply because the summer seemed like far enough in the future back then in February. Now we believe that if we try hard enough, the game could be "finished" by summer 2015 (because that DOES look like far enough in the future :)), but better not to make any estimates ... So these days it is a bit of balancing time for us, comparing to where we were a year ago. The "now" is definitely winning (except for the compilation times).
+</p>
+
+<p>
+The efforts to stabilize the 0.9 release have continued this week as well. We want the 0.9.2 to be a "stable release candidate", that means it should have all the major reported bugs fixed and the campaings and scenario pack must be working. This is not ready at the moment, therefore we will wait with the 0.9.2 release till sometimes in the next week. Also recently we have spent quite some time on administrative tasks - namely working out the taxes and also going through the application process for accepting credit cards on our website (let's keep the fingers crossed that <a href="http://www.paymill.com">paymill</a> will give us a green light in the end).
+</p>
+
+<p>
+Albert has been busy (as usual) and productive (as usual as well). We decided to spend some time repairing our graphical debts and redo the most common entities that were done before our artistic direction has been established. First in the row was the assembling machine. You can say goodbye to "tint abuse" that was used to produce two extra levels from a single assembling machine animation. Now there are three separate animations with different movement mechanisms in the top part. The preview of animations is shown below. The problem is that the less "old style" (and non-fitting) objects there are in the game, the more visible they are compared to the rest. This makes the inserters and transport belts next candidates for re-skinning ...
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 580px; ">
+  <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-23-assembling-machine-1.gif"/>
+  <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-23-assembling-machine-2.gif"/>
+  <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-23-assembling-machine-3.gif"/>
+</p>
+
+<p> If you like the new assembling machines (and even if you don't), then tell us about it on <a href="https://forums.factorio.com/forum/viewtopic.php?t=2621">our forum</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

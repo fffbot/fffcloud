@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #42 - Shadow troubles | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #42 - Shadow troubles
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-07-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+<p>
+magical edition of Friday Facts doesn't bring <a href="http://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)">The Answer to the Ultimate Question of Life, the Universe, and Everything</a>, but it does bring news from our studio and development efforts. Kovarex came back from Greece for couple of days before going on another vacation - a small <a href="http://en.wikipedia.org/wiki/Go_(game)">Go</a> camp in Czech republic. Me and Albert we took the opportunity of beatiful weather on Sunday and did a trip to <a href="https://www.google.com/search?q=hazmburk+castle&rlz=1C5CHFA_enCZ577CZ577&espv=2&tbm=isch&tbo=u&source=univ&sa=X&ei=SOu_U97hIMmGOOuYgPgE&ved=0CEsQsAQ&biw=1276&bih=942">Hazmburk castle ruins</a> not far from Prague. On our way back we stopped at my parents' summer house for relax and loads of home grown fruits :D
+</p>
+
+<p>
+Oddly enough the following next two paragraphs have the same titles as in the <a href="https://www.factorio.com//blog/post/fff-41">last edition</a> of Friday Facts :)
+</p>
+
+<h4> 0.10.3 </h4>
+<p>
+The experimental 0.10.3 has been <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=4788">released today</a> alongside with this post. We have spent about 40 % of our time doing the bugfixing with multiplayer works taking the rest. As a result there are still some bugs we would like to fix before making a stable release. Sometimes it really feels like a futile effort with new bugs discovered (and reported) every release. But we take pride in having the game as stable as possible and thus delivering hassle free experience to our players (not always we succeed :)).
+</p>
+
+<p>
+One small feature that made it to the 0.10.3 is having a direct input field for some guis which have had only slider until now (for instance smart inserter condition). It turned out to be quite a tricky design problem with <a href="https://forums.factorio.com/forum/viewtopic.php?f=6&t=2209">couple</a> of <a href="https://forums.factorio.com/forum/viewtopic.php?f=6&t=4602">solutions</a> suggested on our forums. For now the slider stays and the manual input is a complement to it. We will see how it works and maybe revisit this in the future (the slider could work for full stacks for instance while the input for precise amount).
+</p>
+
+<h4> Multiplayer progress </h4>
+<p>
+Regarding the multiplayer, we had a lot of headaches with our clients synchronization logic. But now we are finally in the state when a client instance connects to the serving instance, synchronizes and then properly downloads and starts the map. It is funny how such a simple thing, as seeing two Factorio instances startup, hold for a while, spit out tons of log lines and then display the identical map, can be rewarding :)
+</p>
+
+<p>
+The map download turned out to be more tricky than we thought (surprise, surprise). Also because we need to adaptively adjust the upload bitrate - we want it to be as high as possible without causing any congestion. This way the other client doesn't have to wait for the map download too long. At the moment we are using a simple algorithm called <a href="http://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease">AIMD</a>. Basically we keep increasing the amount of packets linearly when things go well and decrease it exponentially when packets get stuck. With a bit of hand tuning we managed to get 1MBps on localhost which is far from spectacular but it is a good base for further work.
+</p>
+
+<p>
+Next target: actual coordinated playing.
+</p>
+
+<h4> Shadows </h4>
+<p>
+When working on the graphics for the new gate object we have bumped again to the old problem - the shadows. At the moment the rendered object and its shadow form a single sprite. This is simple to do and to handle in the engine. But it brings quite a few problems (checkout the schema picture below):
+<ul>
+<li> There are sometimes "double shadow" glitches (for instance with walls) </li>
+<li> Buildings rendered "over" the shadow make the shadow disappear (because the shadow is part of the another building sprite). </li>
+<li> We cannot use "flipping" for otherwise symmetrical objects. Instead of rendering a spritesheet for let's say 8 directions for the player, we can have just 5 directions and the rest get by flipping. We do this at the moment anyway and pretend that it is ok to have wrong shadow :)</li>
+</ul>
+
+So we decided to make a mechanism when shadow will be rendered separately for certain objects. In the beginning this will be for walls, gates and the player (profits heavily from the flip optimization). If this goes well we will later on do this for enemy units and trains as well. Both of these will save quite some video memory.
+</p>
+
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-42-shadow-issues.jpg"/>
+</p>
+
+<p>
+If you have any insights or comments, share them with us <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=4789">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

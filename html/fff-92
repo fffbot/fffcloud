@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #92 - Personal roboport | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #92 - Personal roboport
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Michal on 2015-06-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, 
+<br/>
+this week's Friday Facts is brought to you by Michal (one of the new guys). We are getting close to release of 0.12. We're trying to fix as many bugs as we can; trying to get everything stable and polished.
+Currently we are so busy that we even haven't had time for any team building activity with Rseding91 who has come to visit us for next few weeks. 
+So, I am going to take advantage of this no-big-news week to present more closely a feature I have been working on for the last month or so.
+</p>
+
+<h4>Personal roboport</h4>
+<p>
+The Personal roboport is a new equipment piece for modular armor that will basically turn your character into a walking roboport. 
+If there is something that needs to be repaired, deconstructed or built in area covered by your personal roboport; construction robots fly out of your inventory
+and use items from your inventory to perform the given tasks. When the job is done, they will return to you to, recharge and station in your inventory. 
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 20px; ">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-92-personal-roboport.gif" alt="Personal roboport demonstration."/>
+</p>
+
+<p>
+Personal roboports don't connect to other roboports (personal or normal). It forms its own 'network' which takes priority over normal networks and robots spawned by the personal roboport are able to take or give items to the player.
+So if you have a personal roboport equipped and you are in range of normal roboport your construction robots will be used to perform tasks first.
+If you place a blueprint but don't have items to build it in your inventory the normal logistic network will send robots to carry out the construction order even if you stand next to a storage chest full of the needed items.
+</p>
+
+<p>
+You will never ever lose any robots spawned by personal roboports unless they are destroyed by biters, unless you remove all personal roboports from your armor,
+or un-equip the armor with the personal roboport in it. You are going to lose a lot of construction robots, mostly by accident, is what I am trying to say. But other than those cases
+they will stay attached to you and follow you (even when they get out of range of your personal roboport). Similarly, personal roboports won't ever accept a robot it didn't spawn. So don't place robots into air expecting them to station back into your inventory.
+</p>
+
+<p>
+A personal roboport can support only a limited number robots in the air. So if you have 20 full stacks of construction robots in your inventory personal roboports will only be able to use just a fraction of them. And when you launch robots, hop into a train and ride away before the robots can station in you inventory ... well, just beware of this.
+To be able to launch more robots, you will need to equip more personal roboports
+into your armor. By doing that you will also gain additional charging stations, energy buffer for charging robots and your construction area will grow. 
+I should mention that construction areas of individual personal roboports are summed up, meaning to double construction radius, you need to equip four times more
+personal roboports.
+</p>
+
+<p>I think that is enough info to hype you for the personal roboport without stealing you of all 'Aha!' moments. The feature is very similar to the mod <a href="https://forums.factorio.com/forum/viewtopic.php?t=4441">PocketBots</a>
+by JamesOFarrell so you can play with the mod until 0.12 is released soon<br/>...ish.</p>
+
+<p> As always come to our forums and <a href="https://forums.factorio.com/forum/viewtopic.php?t=13236">let us know what you think</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

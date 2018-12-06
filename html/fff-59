@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #59 - The new office | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #59 - The new office
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-11-07, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi folks,</p>
+
+<p>
+a big portion of the past week has been spent with the non-development stuff, mainly related to us moving to a new place. Apart from that we have been putting our breath together to deal with the biggest ever list of bugs so far.
+</p>
+
+<h4> The office </h4>
+<p>
+On monday we moved to our new office. It is a big apartement in the Prague city center (<a href="https://goo.gl/maps/r2xpE">right here</a>, close to The National Theater). At the moment the place is rather empty, but we certainly hope to fill it with some skilful <a href="https://www.factorio.com//job/game-developer">game developers</a> (it is harder than we thought=)).
+</p>
+
+<p>
+The beginnings were tough though. First two days there was neither light nor heat. So in the evenings, one would find us crouching in front of our screens in darkness with (factorio) freezing feet. Now this has been (partially) solved, also there is most of the furniture we need, many of our new computers have arrived and our new build server is undergoing installation (by BlueCube). Things are going well.
+</p>
+
+<h4> The company </h4>
+<p>
+For some, not much of a news, but still. We have started a proper company. So since now (actually since some time already), Factorio is brought to you by Wube Software. The logo and dedicated website are coming (though with extremely low priority - bugs first, everything else later). For the curious ones the name came up as an internal joke on the shortcut in Polish language. Weird, huh?
+</p>
+
+<p> IKEA Furniture unpacking and the main hall.
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-59-office-1.JPG"/>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-59-office-2.JPG"/>
+</p>
+</p>
+
+<h4> The 0.11 feedback </h4>
+<p>
+Last Friday, after an intensive coding sprint, we released the 0.11.0 (and 0.11.1 hotfix followed soon after). The main point of the release was the first version of the multiplayer, obviously. The reactions we got were overwhelming. There are tons of smaller or bigger problems with setting up connections, desyncs, player dropping, etc. But overall it works:D Plenty of people have reported that they had a good gameplay experience with their friends under different circumstances (maps of different sizes, various amounts of players in the game, people joining from places all over the world).
+</p>
+
+<p>
+This is just a first step for us, but it is extremely encouraging that it is a step in the good direction. Overall, our feelings were comparable to the times from the <a href="https://www.indiegogo.com/projects/factorio">Indiegogo campaign</a>. It works, players are actually using it. We have spent weeks, shut indoor, shoveling tons of text down our keyboards and now something usable came out. Nothing short of a miracle.
+</p>
+
+<p>
+As a result of the release our forums got flooded with bug reports. There are now 121 topics in the regular bug reports section and 79 in the multiplayer one. That makes it a beautiful 200 bug reports, yay! Of course there will be many duplicates or small issues (or even better non-issues), still the number is rather scary. Working on these will be our main objective in the coming weeks. Our biggest focus will be on removing annoying quirks from the current multiplayer experience (crashes during connection phase, desyncs, big lags, better UI). Following the established custom, we will devote significant attention to regular bugs as well, so don't worry if you are having issues with the experimental 0.11.x. Kovarex-stable will be achieved.
+</p>
+
+<p> Computer boxes still-life and our graphical department room.
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-59-office-3.JPG"/>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-59-office-4.JPG"/>
+</p>
+</p>
+
+<p>
+We are eager to hear what you think in the comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=6549">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

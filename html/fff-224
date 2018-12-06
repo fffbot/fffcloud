@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #224 - Bots versus belts | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #224 - Bots versus belts
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen &amp; Kovarex on 2018-01-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>The 0.16 stabilisation update <font size="2">(kovarex)</font></h4>
+<p>
+We had quite a lot of critical bugs after the 0.16.8 release that introduced the logistic chest finalisations mentioned in the <a href="https://www.factorio.com/blog/post/fff-223">last FFF</a>. I'm sorry for the trouble, but it is called experimental version for a reason.
+</p>
+<p>
+It seems that 7 releases in the past week has been enough to stabilize it. We are finally in a state, where we are fixing more bugs than are reported, and we are reaching the first boundary of less than 100 active bug reports.
+</p>
+<p>
+It seems that the most urgent things are to be be finished soon, and we could find the needed time to dive into the belt logic to be able to consolidate it. This is my plan for the next week.
+</p>
+
+<h4>Removing logistics bots from the game <font size="2">(Twinsen)</font></h4>
+<p>
+During more boring FFF, I like to do these gameplay rants where I share my ideas about game design. Here is one of them.
+</p>
+</br>
+<p>
+Ever since I started playing Factorio, I have thought of logistic bots as too powerful. Actually, I refused to use them thinking "surely there is some catch to this and they can't replace belts". Since then I was always a "bot hater". I believed it trivialized base building and managing belts. I also believe that building belts is way more fun due to it's inherent complexities, challenges, and emergent situations (the most common example being belt balancing).
+</p>
+<p>
+Bots vs. belts is a controversial subject, even in our team, but most of us believe bots are too powerful. So we did small nerfs from time to time in an effort to compensate for this, but we still keep coming to the same conclusion.
+</p>
+<p>
+My argument is that bots are simply fundamentally better. Bots basically cheat by "teleporting" items, plus they are extremely easy to build and expand. This means that almost any nerf we throw at them is always solved by building more bots and/or more roboports and/or more solar panels. All of this can be done with a simple copy paste using blueprints. Plus they are even UPS friendly, so it seems like bots are the win-win-win solution.
+</p>
+<p>
+So I had this rather crazy idea of removing logistic bots from the game. Basically my idea was that construction bots would still be a thing and player logistics would still work. This would be done by:
+<ul>
+<li>Merging logistic and construction bots into just Flying Robots.</li>
+<li>Removing Active provider, Buffer and Requester chests and having just Passive provider and Storage chests.</li>
+<li>Flying Robots will do everything construction bots do now and also supply the player.</li>
+<li>Simplifying recipe complexity a bit so the belt spaghetti does not get ridiculous.</li>
+</ul>
+</p>
+<br/>
+<p>
+Now, hopefully you aren't smashing your desk and writing us an angry email. Don't worry, logistics bots won't be removed from the game, mostly because it's a feature that has been developed and polished quite a lot. Also many players love the feature, and we've all become used to it over the years. But think of it a different way, imagine there were two parallel universes:
+</p>
+<ol>
+<li>The universe we are in, where Factorio has had logistic bots since very early.</li>
+<li>A universe where Factorio never had this feature. Construction bots were eventually added, and using bots to move items freely is nothing more than an idea that pops up from time to time but it's quickly discarded due to it breaking the game.</li>
+</ol>
+<p>
+Which Factorio would be the best and most fun one for the players in that universe?<br/>
+To be honest it's very hard to decide. I would go with the more pure Factorio from universe 2 that focuses on it's core and most fun mechanic: belts and belt logistics. I'm curious what you guys think.<br/>
+I mentioned this, because I think this way often in an attempt to "make the best game ever" without being influenced by my biases of being used to some feature or style of play.
+</p>
+<p>
+But let's return to reality and the game we have now. Quite recently I actually realized that bots are not as bad as I thought. The logistics system is placed very late in the tech tree, so most of a typical playthrough will be done using belts. The fact that you get this almost game breaking feature is not so bad because it's late in the game. After this you can continue to challenge yourself and build even bigger using bots, or belts or both.
+</p>
+<p>
+We are still looking to incentivize belt building a bit more, since it is the more fun way to play Factorio, but the question is how. <br/>
+We have ideas like increasing the power consumption, decreasing the maximum stack size bots can carry to 2 items or buffing belts by adding a "stacked" belt tier.<br/>
+Like I mentioned before, I try to balance things by looking at numbers and objective facts. I'm trying to determine how much better bots are than belts, so I can know if for example nerfing the stack size to 2 will have the desired effect, or just make players angry. I thought of metrics like throughput over time to set up, or throughput over base size. <br/>
+But how do these metrics influence the big picture and will any of these make the game more fun in the long run?
+</p>
+<p>
+We don't know the answer to these questions yet. What is your take on this bots versus belts thing? What changes, if any, could we do to make everything more fun?
+</p>
+<p>
+Pro-bot arguments:
+<ul>
+<li>The fact that they are so powerful, gives a very big sense of progression. They are behind a late game research, and gives you things that are very powerful and game changing.</li>
+<li>It adds large diversity to the game.</li>
+</ul>
+</p>
+<p>
+Anti-bot arguments:
+<ul>
+<li>Bot bases are usually less complex and less interesting to look at, manage and expand.</li>
+<li>Because of their ease of use (and apparent ease of use), players tend to go to bots. We believe that belts are more fun, but we are guiding the player towards a less fun style of play.</li>
+<li>When you learn that bots exist and how they work, building bases with belts just seems tedious.</li>
+</ul>
+</p>
+<p>
+Related to this I'd like to give a shout-out to forum member ultramn, for his interesting <a href="https://forums.factorio.com/56054">Self-contained 1,000 SPM base</a>. We analysed his save while we were having some bot vs. belt discussions this week.<br/>
+His save proves that bots can get ridiculously powerful, but at the same time it shows that there is a lot of fun to be had with bots if you challenge yourself to make something.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://i.redd.it/ugtf1rydgk701.jpg"><img style="vertical-align: top; width: 900px; " src="https://cdn.factorio.com/assets/img/blog/fff-224-bots-small.jpg"></a>
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/56218">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

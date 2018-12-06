@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #192 - One million | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #192 - One million
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-05-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+we try to fix bugs as fast as we can, the more we fix, the more get reported, it will takes weeks to get to stable version ... blah blah blah
+
+<h4>One million copies sold</h4>
+YEEEEEEEEEYYYYYY!!!! :)<br/>
+So it actually happened.<br/>
+We are in the club of games that have sold out 1 million copies.<br/>
+I can't really believe it.<br/>
+It is almost the amount of people living in Prague.<br/>
+Which is a lot.<br/>
+It is hard to imagine all the people.<br/>
+I want to see the people.<br/>
+Well ... at least some of them. <br/>
+
+<h4>The celebration party</h4>
+<p>
+We decided to make a celebration party. Most of the Factorio team will come, and we plan to invite our friends and other Czech developers. We want to make it possible for the players of Factorio to come as well if they want. We are not really sure how many people could actually come to such event in Prague. Actually there is a guessing contest in the office, where I'm the most pessimistic guy guessing that less than 50 people will come. The party will take place on Saturday the 17th of June, here at a <a href = "http://www.zlutelazne.cz/en">venue</a> here in Prague.
+</p>
+<p>
+Each ticket costs 10 Euro, which is a symbolical price to make sure that people who get the tickets will actually attend, and to prevent a single person from getting all of the tickets. There are only 100 fan tickets available, so if you want to attend please make sure you get your ticket before they are all gone.
+</p>
+<p>
+There will be a chance to chat with most of the team, including developers, artists and myself. Free food, beer and soft drinks will be on offer to all our guests, along with some music. We are also planning a Factorio 'Pub quiz', with some prizes for the winning teams. Of course this will be a great opportunity for everyone to chat with other fans of the game from around the world. 
+</p>
+<p>
+More details, along with how to purchase tickets <a href="https://www.factorio.com/party">here</a>
+</p>
+<h4>The interview and AMA</h4>
+<p>
+This is the first time you can actually see me talking about Factorio. I talk about the way Factorio started and struggled over the years. It ended up to be more of a monologue interrupted by occasional question, but lets call it an interview. 
+</p>
+<p>
+The video is in Czech, so you will have to enable the English subtitles.
+</p>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<iframe width="896" height="504" src="https://www.youtube.com/embed/zdttvM3dwPk" frameborder="0" allowfullscreen></iframe>
+</p>
+<p>
+As a follow-up to this interview, I will take part in an AMA (Ask Me Anything) on Reddit, while the most basic and broad questions are already answered by the interview. The AMA will be held on the <a href="https://www.reddit.com/r/factorio">Factorio reddit</a> next Tuesday (30. May) after 2pm CEST.
+</p>
+<p>
+As usual, let us know what you think <a href="https://forums.factorio.com/48619">at the forums</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

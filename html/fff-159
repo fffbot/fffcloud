@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #159 - Research revolution | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #159 - Research revolution
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-10-07, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello!
+
+<h4>Research revolution</h4>
+As the 0.15 work started, the first thing I wanted to do was to rebalance the science packs. We feel that the science pack 1 and 2 balance is just right, but the level 3 (blue) is quite a large jump in complexity, while the alien science pack is trivial. Then I checked that the last time we changed something about the science packs was 2.5 years ago, so it might be the time to try to be more creative.<br/>
+After some discussions, we decided to make the science packs not so linear and more iterative, the current working version looks something like this:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-science-packs.png">
+</p>
+
+The prices of the science packs are subject to change as we need to playtest it, but the first version is this:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-science-pack-recipes.png">
+</p>
+
+To make the work of reassigning the science packs to technologies easier, I decided to finally implement the so long postponed feature of showing the needed science packs on the technology icon. We also sort the technologies by the highest science pack needed:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-research-screen.png">
+</p>
+
+The icons might change, but a late game science setup might look something like this.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-research-revolution.png">
+</p>
+
+On top of that, I would like to implement the infinite research. It would give smaller and smaller gains, but people could spend the resources on something after finishing the regular research if they wanted to.
+
+<h4>PvP scenario</h4>
+This paragraph is brought to you by Klonan.<br/><br/>
+
+The concept of a player versus player experience in factorio has been around since we introduced multiplayer in version 0.11. Initially there was a small mod which places players alternately on the player and enemy force, the players would then fight it out, with the addition of some craftable biter capsules.
+<br/><br/>
+With 0.12 we expanded the forces system, to allow creating and assigning forces to players, allowing the possibility of up to 254 different teams in a single game.
+<br/><br/>
+However PvP attempts quickly fell at the first hurdle: multiple players were needed. With the issues of the peer-to-peer multiplayer, the actual experience was not ideal. With the recent success of the team production challenge and the MMO server tests, we decided the conditions were right to create an official PvP mode.
+<br/><br/>
+This last week I have been working on the foundation for this new scenario, along with ideas about how specifically it will work, this is what we have so far:
+<ul>
+<li>The first player to create the scenario will be the gamemaster. He will set some configuration options, such as how many teams, the starting tech level etc.
+<li>The original starting area will be copied to the new teams spawn positions, each identical to the other.
+<li>Each starting area will contain a rocket silo.
+<li>If your rocket silo is destroyed, your team has lost.
+<li>If you launch a rocket, your team wins.
+<li>If all other teams silos have been destroyed, you win.
+<li>When you destroy another team's silo, all their base are belong to you.
+</ul>
+For other specifics we don't have a good idea, such as what to do with the players of defeated teams. The two main ideas were to allow them to spectate players, or allow them to join another team (which didn't defeat them).
+<br/><br/>
+Another issue is that copying the starting area directly would obviously look odd:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-pvp.jpg">
+</p>
+
+I had some discussion with Cube about possible solutions, but these would be some large changes to the internal map generator code, so will have to wait for 0.15.<br/><br/>
+
+Custom maps could be nice and simple solution, especially if someone from the community would come up with proposals.<br/><br/>
+
+In the end these small issues aside, we think it will be quite an enjoyable gameplay mode, and something for the more competitive players to sink their teeth into.
+
+<h4>Liquid wagon</h4>
+Look:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-159-liquid-wagon.png">
+</p>
+
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/33913">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

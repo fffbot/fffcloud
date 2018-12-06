@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #258 - New autoplace | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #258 - New autoplace
+    </h2>
+
+    <div style="font-size: 11px;">Posted by TOGoS, Twinsen on 2018-08-31, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>Taming the random generator <font size="2">(Twinsen)</font></h3>
+<p>
+One of the things in the large TODO list for 0.17 is giving a final polish to the map generator.
+</p>
+<p>
+There are quite a few obvious problems now in 0.16, and some less obvious ones. Here are some of the fixes and improvements (some work in progress):
+<p>
+<ul>
+<li>All combinations of settings should no longer create strange maps such as <a href="https://forums.factorio.com/viewtopic.php?f=182&t=54664">circles of cliffs</a>.</li>
+<li>Much more predictable starting area resources that don't overlap each-other and are not covered by water.</li>
+<li>The resource generation settings now have a much more dramatic effect (previously they had little to no effect).</li>
+<li>Increased the number of steps (small, medium, big, etc) for each setting from 5 to 9 for even more customization.</li>
+<li>The starting area will always contain water, most often a lake close to the spawn position.</li>
+<li>Since the algorithm for generating ores was pretty much completely rewritten, there are many small improvements.</li>
+</ul>
+
+<p>
+Now for the less obvious problem: unpredictability. I saw quite a few people complain with vague comments like "the map generator sucks". So I often asked them what the problem is in detail. Some were complaining about the above problems, some did not understand what the settings do, and some had problems finding a "good map". I saw quite a few players click "regenerate" like crazy until they got a map with fat patches in the starting area, big oil patch and also uranium, complaining that it's too hard to find a "good map". Due to the randomness we seem to have set the expectation for "good map" a bit too high. Oil and uranium were never intended to be in the starting area, but due to the randomness of the generator they sometimes were there. Also sometimes maps were so wild that you would start off either swimming in resources or desperately looking for another iron patch.
+</p>
+
+<p>
+It would be simple to just say "that's just RNG, deal with it", but blaming poor game experience on RNG is just bad design.<br/>
+So what we did is:
+</p>
+
+<ul>
+<li>The starting area contains only iron, copper, coal and stone, in very predictable amounts. Uranium and oil are explicitly excluded from the starting area.</li>
+<li>Starting area resources are usually in one ore patch each (depending on settings).</li>
+<li>The starting area patches are usually close together.</li>
+<li>The starting area size setting no longer affects resource placement, it just has a fixed size.</li>
+</ul>
+
+<p>
+Outside the starting area, the regular algorithm "kicks in" so you can still get quite wild results, but they are far enough that it averages out. I believe this is a good balance where you can still have different experiences depending on your luck, but your starting experience is much more predictable and does not leave you with the feeling that you got screwed over by the map generator. We definitely don't want the map generator to be extremely flat and predictable. Opinions on the subject are quite wild too, with people having different expectations of what a good map should look like, so we try to only make changes based on actual problems.
+</p>
+
+<p>
+This might seem a bit controversial so we can add an option that disables this whole starting area logic, for purists.
+</p>
+
+<p>
+We plan some small tweaks coming to biters also (a tiny bit more biters close to the starting area), small tweaks to terrain, cliffs, water generation and possibly some new features to make the generated trees and decoratives look better.
+</p>
+
+<p>
+Most of these problems including the obvious and apparently simple ones were not that easy to solve. It's hard to make random generators do what you want, so TOGoS will explain what it took to actually get it done.
+</p>
+
+<h3>Taming the random generator - the technical side <font size="2">(TOGoS)</font></h3>
+
+<p>Good day procedural map generation enthusiasts!</p>
+
+<p>
+The terrain generation in Factorio works by calculating probability and richness for every autoplaceable tile, entity, and decorative at every point on the map.  To oversimplify slightly, the thing with the highest probability "wins" and then gets placed (if it's a tile) or has that probability of being placed (for entities and decoratives).
+</p>
+
+<p>
+As some of you may recall, one of the features we added in 0.16 was <a href="https://www.factorio.com/blog/post/fff-207">a new terrain generation system</a>
+driven by functional expressions built in Lua code. Mods define a function (not a Lua function, but a data structure representing a function in the mathematical sense)
+to be applied at every point on the map to calculate those values. This gave us a lot more control over elevation, temperature, humidity, and a few other variables across the map. However, the probability and richness functions for specific objects (notably resources) were controlled by a <a href="https://wiki.factorio.com/Types/AutoplaceSpecification">separate system</a>.
+</p>
+
+<p>
+I had wanted to unify these two systems since I started working on terrain generation last summer. Since releasing 0.16, our desire to improve resource placement, combined with my inability to come up with a good way to do it using the existing autoplace system, led me to finally bite the bullet and undertake 'the big autoplace refactoring'.
+</p>
+
+<p>
+<i>It was a lot of work.</i>
+</p>
+
+<p>
+The result is that existing AutoplaceSpecifications still work (because rewriting them all would have meant even more work), but under the hood they are compiled to expression trees, just like the ones for elevation, temperature, etc. As an alternative to the peak/dimension system, autoplace specifications can be defined in terms of a probability and richness expression directly, allowing a mod author to use the full potential of the programmable noise system.
+</p>
+
+<p>
+An advantage of this approach is that we can now add new types of <a href="https://wiki.factorio.com/Prototype/NamedNoiseExpression">noise expressions</a> without the need to reconcile them with all of the existing autoplace specifications or cram them into the ever-mode-complex monolithic AutoplaceSpecification object.
+</p>
+
+<p>
+Specifically to make generation of resource patches more controllable, I added a new noise expression type called "spot noise". The way it works is that the map is divided into regions (large areas whose size is configurable per spot noise expression) and for each region:
+</p>
+
+<ol>
+<li>A list of random points is generated.</li>
+<li>Density, quantity, radius, and favorability are calculated for each point, based on noise expressions provided as parameters.</li>
+<li>The total desired quantity for the region is calculated by averaging the density from all points and multiplying by the region's area.</li>
+<li>Points are sorted according to their favorability, highest-to-lowest.</li>
+<li>Points are chosen from the front of that sorted list until the target quantity for the region is reached.</li>
+</ol>
+
+<p>
+Having generated a list of spots with position, quantity, and radius, the output of the spot noise function is high near the spot centers and zero at a distance equal to their radius, such that the total value in the spot equals the spot's quantity. This value can then be used (for example) as the richness for a resource (such as iron-ore). By itself, this gives us 'conical' spots (if you think of resource patches as being mountains):
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" width="900" height="900" src="https://cdn.factorio.com/assets/img/blog/fff-258-circular-spots.png"/>
+</p>
+
+<p>
+This result can have some noise added to it to make the resulting spots non-circular:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" width="900" height="900" src="https://cdn.factorio.com/assets/img/blog/fff-258-blobby-spots.png"/>
+</p>
+
+<p>
+I had to be somewhat careful when applying this noise; since there is more area outside the spot where richness can be raised above zero than there is inside to be lowered, any randomization will add a positive bias to the overall quantity. I have been compensating for this by subtracting some constant fraction of the amplitude of the noise, though it's been on my mind that the problem could also be resolved by using differently shaped spots.
+</p>
+
+<p>This system opens up a lot of possibilities:</p>
+
+<ul>
+<li>We can use the maximum of two different spot noise expressions to place starting area ores using completely different settings than we do for the rest of the map.</li>
+
+<li>We can vary quantity per spot and frequency of spots independently, which will allow the sliders on the new map screen to have more predictable effects.</li>
+
+<li>Spot quantity can depend on the suitability of the location. For example, we could set suitability to correspond to elevation so that spots are not placed underwater. The system would then continue through the list of candidate spots, placing more spots at locations above water to compensate. In the base game we're planning to do this for starting area resources, but not for resources outside of the starting area.</li>
+
+<li>In general, spot noise allows us to mess around with the placement of resources while keeping overall quantities constant.</li>
+
+</ul>
+
+<p>Here are some map previews of the same seed, to illustrate spot-placed resource patches being moved to avoid water in the starting area as the water level is raised:</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; margin:0" width="296" height="296" src="https://cdn.factorio.com/assets/img/blog/fff-258-normal-water-starting-area.png"/>
+<img style="vertical-align: top; margin:0" width="296" height="296" src="https://cdn.factorio.com/assets/img/blog/fff-258-high-water-starting-area.png"/>
+<img style="vertical-align: top; margin:0" width="296" height="296" src="https://cdn.factorio.com/assets/img/blog/fff-258-very-high-water-starting-area.png"/>
+</p>
+
+<p>Putting everything together, here's what a typical starting area and surrounding region generated by the new system looks like.
+We may make a few more tweaks before 0.17 but this is probably pretty close:</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-258-spot-noise-2.png" width="896" height="896">
+</p>
+
+<p>
+All that said, I was perfectly happy when ore placement was unpredictable and sometimes there was no copper in the starting area and really long belts (and walls to defend them) were in order. So if I have my way there will be a "no special starting area resource placement" option.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/62341">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

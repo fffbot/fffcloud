@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #33 - Announcements | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #33 - Announcements
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-05-09, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi guys,</p>
+
+<p>
+the week since releasing the trailer has been a ride. We have got great feedback about the video, lots the requests to make a youtube coverage or blog preview of Factorio and the general awareness of the game is rising. The hedgehog (our mascot) is extremely happy about all this (or maybe its the spring).
+</p>
+
+<h4> What have we done </h4>
+<p>
+As promised last week we have worked on improving Factorio's accessibility and public image.
+<ul>
+<li>So the big news first. It is now possible to pay for Factorio <strong>directly with credit / debit cards </strong>(without paypal). Our provider is Czech payment processor called <a href="http://gopay.cz">gopay</a>. You can use standard international cards Visa and Master Card with them. We are still looking into having a Paysafecard option through this provider as well. We have rolled this out on Tuesday and since then many people have used this option already.
+<li>Yesterday night we have finally finished a new batch of up-to-date screenshots. They cover a wide variety of Factories shot from different perspectives. Many of the saves are coming from the community in the forums. Big thanks to all of them. You can checkout the screenshots at the <a href="https://www.factorio.com//game">games page</a>. They might be a bit slow to load (blame the S3).
+<li> The new forum skin has been finished. It still has some little quirks but you can already try it out: read <a href="https://forums.factorio.com/forum/viewtopic.php?f=5&t=3457">more about it</a> on our forums. We will make this skin default in the near future when the main issues reported with it are resolved. </li>
+<li> Factorio have had its own IRC channel for now. It was called ##Factorio (funny right?) at irc.esper.net. We are now "officially" moving to more intuitive one called #Factorio at the same server. There is regularly 20 - 30 people present. Check it out if you haven't already. </li>
+<li> Apart from this the dev work continued at a reasonable pace. Kuba has been integrating car and train sounds from the trailer into the game. Michal has been rewriting the map generator to be able to work asynchronously in a different thread (and thus avoid ocasional but annoying stutter when a new chunk was generated). </li>
+</ul>
+</p>
+
+<h4> Steam and 1.0 release </h4>
+<p>
+The big question and kind of confusion comes everytime when Steam Greenlight is mentioned in regards to Factorio. At the moment Factorio is listed on Steam Greenlight <strong>only as a concept, you cannot vote for the game</strong>. We want to get on Steam eventually and we will use Steam Greenlight for that. With such a wonderful user base we are confident that we will pass through the Greenlight. The question here is when we want to show the game on the Steam. Whether this should be done soon (we would go for the Early Access) or whether we should wait till the game is in 1.0 release and post it as a finished game. This is something we need to clarify internally and we will let you know about the result soon.
+</p>
+
+<p>
+Mentioning the 1.0 release. After failing with a ridiculous estimate from the Indiegogo of May 2013 we have had a new target for a while. And that is the summer of 2015. It is an estimate (!) still it might look like long, long in the future. Well there is still a lot of work ahead of us: multiplayer, endgame content (goodbye placeholder rocket defense), better fight, maybe RTS elements (throneroom) in the late game, small features, UI polishing, work on the levels, balancing, bug fixing, etc. Factorio has become a big game :) As indicated before if there is enough interest for further development we might continue even after 1.0 release or maybe work on a datadisk edition / Factorio 2. There are many possibilities.
+</p>
+
+<h4> The price </h4>
+<p>
+Many people "complain" about the game being too cheap at 10€ (about 13$). Especially taking into account the amount of content and playability (people easily sinking tens of hours) that is present already. And they are right. At the moment Factorio is 2.5 times cheaper than for instance <a href="http://www.introversion.co.uk/prisonarchitect/">Prison Architect</a> or <a href="http://rimworldgame.com/">RimWorld</a> which are games we tend to compare ourselves with. We have felt the game is mature enough for a while, but the presentation was lacking. So having a consistent artistic direction, presentable trailer, new logo, up to date screenshots and variety of payment options allows us to do something we have planned to do for a while. To raise the price of the game. <strong>Starting 1st of June the game will be sold for 15€ (which is about 20$ or 12£)</strong>. So if you have friends who are still on the edge regarding buying the game, let them know about this so they have the opportunity to get the game for lower price. We mentioned the 1.0 release in the previous article. The obvious question is then how much the game will cost when 1.0 is released? We haven't decided exactly yet, but something like 20€ (or about 26$, 17£) looks like a good candidate.
+</p>
+
+<h4> Factorio 3D gang</h4>
+<p>
+Albert has worked really hard recently. Reskinning many core entities, final polish for the trailer, new logo. But he managed to finish everything :D And today he left Prague for Barcelona (and eventually Mallorca) for some time. He will take some rest, get his stuff together and spend the time with his family and friends. He will keep working remotely for a while before coming back to Prague. But this brings us to another point. We really feel we could use another 3D artist for modelling and rendering the content of the game. Our graphical TODO list still looks big. Our previous negotiations and search hasn't really worked so we decided to take a different way. We will make the "jobs" section directly on the Factorio webpage with the advert for the job. It is coming soon. In the meantime, if you know about a skilled 3D artist who prefferably works in <a href="http://www.blender.org">Blender</a> and who would be able to come to Prague regularly / move here then let us know.
+</p>
+
+<p>
+Todays theme picture is one of the new screenshots. This one is one of my favorites. Neat and compact design by Drury (from the forums).
+</p>
+
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-33-screenshot.jpg"/>
+</p>
+
+<p> The usual commenting thread is at our forums. There has been quite a few announcements so let us know <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3465">what you think</a>.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

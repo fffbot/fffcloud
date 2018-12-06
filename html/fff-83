@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #83 - Hide the latency | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #83 - Hide the latency
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-04-24, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Good afternoon,</p>
+
+<p>
+the work on 0.12 are continuing quite well according to the updated roadmap presented in the <a href="https://www.factorio.com//blog/post/fff-82">previous facts</a>. So this is a good opportunity to talk more in depth about one of the upcoming improvements for the Multiplayer - how we plan to deal with the latency.
+</p>
+
+<h4>The Latency problem</h4>
+<p> Let's start by defining the problem. You want to play a multiplayer game with your friend (that is not the problem yet). If you live far apart (i.e. different countries) or have flaky internet connection, it will take some time for packets to travel from one computer to another. This is what we call network latency. So depending on the distance and connection quality the network latency can get quite high. Also because the connection is unreliable we need to work with a round trip latency, basically doubling the number by two.
+</p>
+
+<p>
+When the multiplayer game is started there is a latency slider which defines the expected roundtrip latency. At the moment this needs to be set manually. This value is the same for all the players. This number defines a lag between the time of user action occurence and the time of application of that user action. Say you click a mouse to open the machine gui. In single player this happens instantly. In multi player this happens only after defined latency time elapses (on average). The reason for this is to keep the determinism. All the players need to apply all the user actions in the same order. Therefore your game can apply your user action (and hence open the gui) only when it has applied all the previous (in game time) user actions from other players. So the result is that you click the entity and then wait, wait, wait aaaand only then the gui opens.
+</p>
+
+<h4>Latency Hiding</h4>
+<p>
+This problem is mitigated in client - server models (Quake, Doom, etc.). This is possible because the game state is rather small. As far as I know, the client there updates the state and now and then checks with the server whether his state is correct. If not it downloads the authoritative state from the server. However as mentioned quite a few times before this is not the way for us simply because Factorio game state is too big to transfer over network (and it is also changing too fast - think all the entities moving on transport belts).
+</p>
+
+<p>
+Ok, this lag is annoying. Really annoying. So one of the things we are working on for 0.12 is a mechanism called latency hiding. In short this will pretend that the user action takes place immediately for some of the common tasks. It is neither aiming to be perfect nor to work for every action. We are after making the game experience as smooth as possible within given boundaries. At the moment most of the work is done and the following is working already:
+<ul>
+  <li> player movement </li>
+  <li> entity selection </li>
+  <li> opening / closing guis </li>
+  <li> building / fast replacing entities </li>
+  <li> mining resources / buildings </li>
+  <li> picking things to cursor </li>
+</ul>
+We might add some details and maybe a car movement (but that is tricky because of the collisions - see below).
+</p>
+
+<h4>Latency State</h4>
+<p>
+Technically the latency hiding is done by having a special layer (we call it latency state) which duplicates the relevant part of the game state. Every tick this latency state is cleared and initialized from the regular game state. Then all the buffered local user actions that hasn't been applied yet in the game state are applied to the latency state. So back to our example with opening machine gui, the result would be that the gui is still closed in the game state, but there is an information in the latency state that the gui will probably open. The latency state is then used for drawing the screen (gui is displayed) and creating new user actions (player can take an item from the gui into cursor - even though in real game state the gui is still closed).
+</p>
+
+<p>
+The nice thing about this approach is that it is self-correcting. This is because the latency state is reset every tick and reinitialized from the real game state. So what happens when there is user action collision? Let's say a player starts moving (in latency state) and then some other player builds an object in his way. Because of latency hiding the player starts running immediately. However when the tick, in which the object is built by other player, is processed, the player will seem to be "teleported" in front of the object and stay stuck there running into the object. There is no state correction or anything. Only the result of applying pending user actions (player running) is different after the information about new building has been received.
+</p>
+
+
+<h4>Future plans</h4>
+<p>
+In general the more state is involved/impacted by the user action the harder it is to perform latency hiding for this. Therefore we don't plan to do any latency hiding for interacting with entities (apart from basic operations like opening, rotating, etc.) or fighting. Shooting can result in cascade of game state changes which would have to be captured in the special layer (latency state). We find this just too hard to do for now.
+</p>
+
+<p>
+The plan for us is to spend some time playing with high latency settings and make further changes / improvements based on this experience. Naturally the more players there are in the game the bigger the maximum peer latency gets (maximum latency between all the pairs of players). This is another weakness of our P2P model. However in the near future we plan to work on this one in 2 ways:
+<ul>
+<li> Reduce the size of multiplayer packets (heartbeats). Most of the time the packets contain no information, yet there is data transmitted because of serialization overhead for empty data structures. This will be improved for 0.12. </li>
+<li> Allow relaying the communication via game hosting computer. This will be even better when the hosting computer can be a dedicated server (also something we will work on). This way players will need to communicate only with the server and not with each other. That means less traffic and avoiding potentially slow connection combinations. This probably won't make it into 0.12, but it is high on the list. </li>
+</ul>
+</p>
+
+<p> Today instead of a picture there is a short video which shows latency hiding in the game. </p>
+
+<p style="margin:auto; margin-top:20px; width:560px; margin-bottom: 40px; ">
+<iframe allowfullscreen="1" frameborder="0" height="316.38418079096044" src="https://youtube.com/embed/BgqQ1-_O2rA" width="560"></iframe>
+</p>
+
+<p> As usual, let us know what you think <a href="https://forums.factorio.com/10116">at our forums</a>.
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

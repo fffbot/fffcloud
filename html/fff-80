@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #80 - Crazy Start | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #80 - Crazy Start
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-04-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello hello,</p>
+
+<p>
+  the April has started in a crazy manner here in Prague. Last couple of days the weather was switching from winter (cold and snowing) via spring (chilly and rainy) to almost summer (warm and sunny).
+  The nature is definitely playing some April fool's jokes on us. Kovarex took some time off to go to Paris with his girlfriend over the Easter holidays. The rest of us has been merrily meeting in the office.
+</p>
+
+<h4>0.11.20</h4>
+<p>
+The newest release <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=9376">0.11.20 is out</a>. This is a stable candidate. That means we expect it to do quite well. If it does (no major issues are found) then we will proclaim the 0.11 release stable. If it doesn't then we will
+swallow our pride, fix the bugs and try again=)
+</p>
+
+<h4>Automatic build and deploy</h4>
+<p>
+The 0.11.20 was actually the first release to be completely built by our new deploy server. Blue cube has been working on this for a while and now the things are starting to come together.
+The server at the moment does couple of things:
+
+  <ul>
+  <li> Builds the application for all our supported platforms (Win, Mac OSX, Linux).</li>
+  <li> Runs test for the builds. </li>
+  <li> Creates downloadable packages (full installation).</li>
+  <li> Creates update packages (used by an autoupdater).</li>
+  </ul>
+  The last thing that is missing is that manual big red button that would start the release process=)
+</p>
+
+<p>
+At the moment the resulting packages still need to be manually uploaded to the S3 servers. Next step, that Cube already started with, is moving from <a href="http://en.wikipedia.org/wiki/Amazon_S3">Amazon S3</a> to using virtual <a href="https://www.linode.com">Linode</a> servers for
+hosting the game downloadable data. Basically we are building our own very simple <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a>. The advantage will be two-fold:
+
+<ul>
+<li> Faster download for the players. </li>
+<li> Less cost for us. </li>
+</ul>
+</p>
+
+<h4> Rocket integration </h4>
+<p>
+In the meantime the work on the 0.12 continues. Robert has been working for a while on the silo and rocket integration. The most tricky bit here is the rocket launching animation. There are all sorts of shenanigans
+related to this. Namely:
+
+<ul>
+<li> The rocket is basically moving in the Z axis (it is flying straight up). This is something the engine can't do, so we simulate this by moving the rocket along the Y axis.
+     There are many questions arising:  What should happen when player starts moving to the north, sort of "chasing" the rocket? What about the rocket shadow? We can't simply get the shadow "mirroring" what is on the ground ... How does the rocket "interact" with flying robots?
+</li>
+<li> The silo is currently the biggest entity in the game (10 x 10 tiles at the moment). This requires re-evaluation of our entity drawing algorithm, which works by searching for entities that have their center on the currently visible part of the map.
+     The silo's center is outside of this range (it is actually the visible part of the map + 4 tiles on each side) hence it suddenly stops being visible when its edge should still be visible. The delicacy here comes from
+     trying to keep the code for collecting entities to be drawn as performant as possible (tens of thousands of entities can be drawn on the screen).
+</li>
+<li> The rocket launching animation is rather complicated (it has about 12 states with many layers) and it does require quite some work to get it right. The engine is simply not ready for this kind of visuals.</li>
+<li> We use some new fancy-looking glowing techniques for rocket fire casting a "glow" on the silo surroundings. </li>
+</ul>
+
+As usual, this turns out to be way more complicated than expected ...
+</p>
+
+<h4>Team reinforcement</h4>
+<p>
+In the past two weeks we have intensified our efforts to hire new C++ developers. As a result of this we have now a new team member on probation. His name is Martin and he is still studying at the local university so he if he stays with us he would be spending
+about half of his time on Factorio and the rest in school. His first task is to implement the pre signals or rather chain signals, as we plan to call them. These will work differently than pre signals in the OpenTTD.
+We will share the details with some example setups when the work done, which is expected to be rather soon.
+</p>
+
+<p>
+Albert has gone wild and made a little fun Easter composition for you (maybe an inspiration for a mod?):
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-80-easter-egg.gif"/>
+</p>
+
+<p> The thread for your comments and opinions is ready <a href="https://forums.factorio.com/forum/viewtopic.php?t=9393">at our forums</a>.
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

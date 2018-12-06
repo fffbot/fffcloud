@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #12 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #12
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-12-14, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello everyone,</p>
+
+ <p> even though it is not Friday anymore here we come with yet another regular update. We didn't want to make a blogpost on Friday the 13th because for sure something would go wrong. And also I am on a skiing trip in Austria and I was too tired yesterday to do anything, after all the day going downhills.</p>
+
+ <p> So the 0.8.0 has been succesfully released last Friday. We finished at the same time when first guests for the party started coming. We just crossed our fingers, pressed the release button (maybe we should have a real, big, red "release" button) and went off to drink beer and talk to people. The cake (see the picture in the last post) was delicious:) Back to the release - there were small issues, but nothing really major ("Pump cannot be built" kind of thing). We have already fixed most of the reported issues for the 0.8.1, which will happen in the beginning of the next week. </p>
+
+ <p> We haven't worked on anything major aside from the issues. We took the time to relax after the intensive release sprint (says the guy who has been skiing all day long:). Kovarex was playing some games (including classics like Dune 2000) looking for inspiration. There was also a long conversation about how the new industry with oil and chemicals should work. Interesting things ahead.</p>
+
+ <p> Originally we wanted to start the Steam Greenlight campaign before the Christmas. Now it is clear that this will not happen. The reason is that the music for the new trailer is not yet ready. The cooperation with the guy we hired for the music hasn't brought the expected result. So we are back where we started. Recently, we found a composer in Prague, who looks like a very good fit for the job, but he will not have time until after Christmas. At least Albert will have more time to work on doodads for the game (and the trailer) - things like trees, rocks, etc.</p>
+
+ <p> Albert also took the opportunity to work on something completely different for a while and he came up with a proposal for the new Factorio logo. The old (current) logo has been done by me and then face-lifted by another artist. But still it looks painfully amateurish. The new logo doesn't have that problem:) Together with the logo Albert worked on the new forum style, this will be deployed sometimes next week. </p>
+
+ <p> So here is the thing. We actually have two proposals for the logo. And we would appreciate some help and opinions for deciding which one to use. You can see the proposals below. They are shown on the potential loading screen of the game. We do have our preference but will not say which one that is to avoid influencing the outcome. They both work as links for larger versions. There are polls for you to vote and comment in the <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1781">post on our forums</a>, so go there and let us know what you think.</p>
+
+  <p style="margin:auto; margin-bottom:20px; margin-top: 20px; width:850px;">
+  <a href="https://cdn.factorio.com/assets/img/blog/fff-12-factorio-logo-1.jpg"/>
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-12-factorio-logo-small-1.jpg"/>
+  </a>
+  <a href="https://cdn.factorio.com/assets/img/blog/fff-12-factorio-logo-2.jpg"/>
+    <img style="margin-left: 20px;" src="https://cdn.factorio.com/assets/img/blog/fff-12-factorio-logo-small-2.jpg"/>
+  </a>
+  </p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #260 - New fluid system | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #260 - New fluid system
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Dominik on 2018-09-14, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hi Factorians,</br>
+This is Dominik, and my first FFF post ever! I will use this opportunity to talk to you about the exciting subject of pipes. Yeah, I know, right?
+</p>
+
+<p>
+Spring came and with it Twinsen, saying "Pipes suck. Two people already tried to fix it and failed, who wants to be next?", and I’m like "Hey, that’s just pipes, you just make a simple simulation, simple AF. I’m in."
+</p>
+
+The conditions were even quite lenient:
+<ul>
+<li>Fluids get where they should.
+<li>They should act in a predictable manner, with reasonable splitting/joining in junctions.
+<li>Fluids can travel instantly, if need be.
+<li>Respect the pipe throughput limitations.
+<li>Flow can be viewed on the pipes.
+<li>Don’t do f**** up stuff like running in a circle indefinitely, sloshing back and forth endlessly etc.
+<li>Should be faster/more UPS efficient.
+</ul>
+
+<p>
+I am mostly working on the new GUIs, but still, the fact that summer is over and pipes are not done, kinda shows how simple fixing them is. Very naive I was.
+</p>
+
+<h3>Problems with the current system</h3>
+
+<p>
+There are couple mishaps in the current pipe system. Good thing is that they work - the fluids do get from A to B, in most cases anyway. It follows a simple elevation model, fluidboxes will try to equalise with their neighbours, which is quite fast to evaluate and solves the simple cases, but it does not address much outside of running through a straight pipe.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-260-fluid-system.gif"/>
+</br>(Green column represents volume, Blue represents flow)
+</p>
+
+<p>
+ The first of three main issues is that in junctions it behaves in a very random fashion. As a result, you might get recipients that are not getting any fluid where they obviously should be.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-260-fluid-system-bad-split.gif"/>
+</p>
+
+<p>
+The second issue players voice is the limited behavior of the elevation functions. Only a fraction of the fluid is moved to its neighbour, so you rarely have a tank that is entirely full or entirely empty, which is a problem when you try to mix that with the integer based circuit network.
+</p>
+
+<p>
+The third issue is performance. Even though the formulas are simple, they are calculated for every connection in every fluidbox, which adds up. As a result, nuclear power is unfeasible for megabases. There are other problems too, such as throughput loss over distance, fluids moving faster or slower depending on the entity update order, etc.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-260-fluid-system-bad.gif"/>
+</br>(Fluid flows much quicker in the bottom pipe)
+</p>
+
+<h3>My simulator</h3>
+
+<p>
+The game is not at all practical for testing and debugging pipes, so I built a simple command line pipe simulator to develop the new system in. As I was attacking what I thought to be a simple problem, I started simple, and then had to refactor it several times whenever I realized that the problem is harder than what my simulator can support. I will shortly describe how it works, before going to the model itself.
+</p>
+ 
+<p>
+The pipe layouts are loaded from a text file such as “5 1 \n s p p d 0”, which is 2 dimensions of the system, followed by a 2d layout, in this case just one row source-pipe-pipe-drain-empty. The simulator loads the layout, connects pipes and then updates the system tick by tick on request. I get a very rough overview, as picture below, but most of the time I have to inspect the running code to see what is going on under the hood.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-260-fluid-simulator.png"/>
+</p>
+
+<p>
+Though now with the new map editor and the ability to step through single ticks, it will be much easier to test in-game too.
+</p>
+
+<h3>Possible solutions</h3>
+
+<p>
+Before going to the current, simulation based model, I will shortly discuss other approaches that we have rejected.
+</p>
+
+<h4>Optimizing the current system</h4>
+
+<p>
+This is something Harkonnen tried a long time ago, to reduce indirection in the update of the fluidboxes. Essentially, instead of each entity updating their own fluidbox, all fluidboxes in a segment would be kept in a singular part of memory, and then the simulation could be updated much faster. Initial experiments showed a performance increase of 30-50% updating all fluidboxes. However this would not address any of the other issues, and would add a significant amount of complexity to the currently quite simple handling of the fluidboxes, which we decided isn't worth the price.
+</p>
+
+<h4>Flow model</h4>
+
+<p>
+Since we are doing flow here, flow algorithms look like a candidate. The most naive <a href="https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm">Ford–Fulkerson method</a>, although theoretically infinite, could work super fast in our case. Problem is that it only finds the maximum flow - the top limit of what we can push through. We could then divide this max fluid flow between the consumers and kinda get a working results. But the behaviour on the way would be ridiculous with full flow through one pipe and 0 through next, 0 to dead ends etc. In other words, the junction behavior would be entirely broken. Better balanced flow algorithms exist but these also don’t do exactly what we need and the complexity quickly jumps to astronomical realms. 
+</p>
+
+<h4>Electric network model</h4>
+
+<p>
+Another proposal was modelling like an electric network. Fluid flow is a popular analogy to their workings, and they do have a lot in common. The great thing about them is that they precisely model the flow branching and it could work out of the box. What it does not allow though is to limit the flow - one wire can, theoretically, run any current, but not so for the pipes, and we don’t want one pipe to be enough to supply whole factory. The limitations could be added, but that would, again, kill it with complexity.
+</p>
+
+<p>
+A simplified version of this is what we consider the 'nuclear option'. In short, fluid network and pipes would work like the current electric network, instant transmission from production to consumption. This would increase performance by orders of magnitude, and remove the unintuitive flow of the current system, all consumers would get an equal split of the production, and storage tanks would act like accumulators.
+</p>
+
+<p>
+However we have decided not to pursue this, for a few reasons.
+</p>
+<ul>
+<li>There would be no visualisation or indication of the flow of fluid.
+<li>There would be unlimited throughput, one water pipe could supply all boiler and reactor setups.
+<li>It abstracts away part of the realism and charm of the game. (While this is subjective at best, it does mean something to us.)
+</ul>
+
+<h4>Merging fluidboxes</h4>
+
+<p>
+This would mean merging all the similar pipes in a segment into only a single fluidbox that needs updating. This would solve the performance issues, and the throughput loss over distance, however on its own, it would not solve the issues with update order, unintuitive flow direction/splitting etc.
+</p>
+
+<h4>Physics</h4>
+
+<p>
+When it comes to the basic physics model, I ended up with something that is not at all realistic, but works well in practice. At the beginning, I tried to do almost realistic physics - as a proof of concept, with momentums and all that. But quickly I became cluttered with complicated formulas and it did not work at all. The system is so heavily discrete that physics are not really applicable.
+</p>
+
+<p>
+In Factorio, a full content of a ~meter long pipe moves into the next pipe in one tick and instead of mixing single molecules in a junction all in real time (infinitely little steps) we have to mix/split huge blocks in one shot. It’s more like moving Lego blocks than running fluids. For a long time I was playing with pressure but I dropped even that in favour of just two variables - volume and speed, where the speed kinda models the pressure as well. Volume is the amount of fluid in the segment, speed affects how much of it wants to move on in a tick - as speed x volume. Just this is enough to provide a pretty decent simulation.
+</p>
+
+<h4>Junction model</h4>
+
+<p>
+Most difficulties come from modelling the junctions. The general problem is that when anything does not behave entirely correctly, there exists a situation where it creates a total breakdown, such as no flow into some pipe.
+</p>
+
+<p>
+There are colliding forces in play. We can only evaluate one pipe connection (one inlet/outlet) at a time, but the behavior needs to be symmetrical and fair towards pipes that are to be evaluated later (currently it is not). What is the right order of evaluation and how to make it symmetrical without super complex look-ahead? 
+</br>
+Well, another big consideration is accuracy vs. complexity.
+</p>
+
+<p>
+Over many iterations I kept developing models, followed by counterexamples that killed them.
+</p>
+
+<h3>My model and improvements</h3>
+
+<p>
+The evaluation model I have arrived to works with two passes through the pipes in one tick. The formulas are more complex than the current one so it should be slower, but there will be one improvement to counterbalance it. The rough algorithm in one tick is as follows (I omit many necessary but boring details):
+</p>
+
+<ol>
+<li>(Done at the end of previous step) Every pipe states how much fluid it intends to send to neighbours (called flow reservation) using a simple heuristic.
+<li>Perform topological sorting by direction of reservations from 0.
+<li>Evaluate pipes in the opposite direction, i.e. from end to start, against the expected flow.
+<li>Update a pipe in two stages:
+<ul>
+<li>Move fluid in it to neighbours proportionally to the space in them, space allocation they gave to the current pipe (providing they were already evaluated), and previous tick flow.
+<li>Allocate the resulting free space to neighbours that are yet to be evaluated to ensure they get fair share of it.
+</ul>
+<li>Go through the pipes again and do clean-up and calculate reservations for the next tick.
+</ol>
+
+<p>
+So in this algorithm, we go from the last pipe, always moving fluid and making space for the next one. The reservations/allocations system ensures good behavior in the junctions. Essentially at every junction, the fluid will try to be split evenly between all the possible connections, which makes things very intuitive.
+</p>
+
+<p>
+It works nicely, but unfortunately this system is even more computationally demanding. Here comes in the key improvement which is taking every straight pipe (every segment that has max two connections) and connect it into one piece. No matter how long it is, it will be evaluated in one calculation. Naturally, this loses some realism, but it is insignificant as it is the junctions that matter and those will remain unaffected. So as long as you don’t do crazy stuff like making pipe grids and keep your pipes straight, they will have zero effect on UPS.
+</p>
+
+<p>
+To put it more simply, updates will only be run on junctions and segments. At each junction, fluid will be split evenly among the neighbouring segments and junctions, any excess from one neighbour will spill evenly to the others. A segment is just a section of pipe without any splits, and fluid will transfer instantly through segments, but with a limited throughput.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-260-new-fluid-system.png"/>
+</p>
+
+<p>
+So in the setup above, we would go from updating 32 individual pipes with the 'old' system, to updating 3 junctions (blue) and 8 segments. Since a segment can be any length, overall we expect a big performance increase. It could also lead to more UPS efficient designs, trying to minimize the number of splits in your pipe network, we know some players really enjoy trying to optimize for different metrics.
+</p>
+
+<p>
+A last convenience improvement are some rounding mechanisms to fill or move away those 0.0001 fluids, draining the last drops from the pipe system if the sources are disconnected, and filling all the way up if production is greater than consumption. Another point left to consider is how to solve accidentally connecting pipes and tainting your whole oil system with water.
+</p>
+
+<h3>Current state and next steps</h3>
+
+<p>
+All this is nice and already working, but still in the stage of the simulator.</br>
+What I still need to do to get it to 0.17:
+</p>
+<ul>
+<li>Figure out good model for storage tanks, and how they fit in.
+<li>Perhaps refactor it from floats to integers, which would make it work more cleanly, but would also make some calculations more complicated. TBD.
+<li>Finish the algorithm for correctly drawing the flow direction in the connected straight pipes (not that simple).
+<li>Move it all into the game code.
+<li>Write tests for it (I am probably overreacting but I feel that this will take as long as all the work up to this point).
+</ul>
+
+<p>
+So to sum up, we have had this on our minds for a long time now, and performance was not the only issue we have considered. The new system will hopefully address all the issues we mentioned at the start.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/62489">forum</a>. 
+</p>
+<p>
+Actually, speaking of the forum, you might notice that it underwent some changes this week.  Sanqui has updated our forum from phpBB version 3.0 to 3.2, which is a bigger jump than it sounds. It brings us more in line modern web features, the forums are now usable on phones, it heightens security, and paves the way for future extensions. Some style changes are final, but if you have any particular gripes, please say so and we will try to accommodate everybody.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

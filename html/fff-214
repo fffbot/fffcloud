@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #214 - Concrete rendering | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #214 - Concrete rendering
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Posila on 2017-10-27, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, there has been an illness running around the office this week, so productivity has been down. Regardless, it is still friday, so here are the Factorio Facts.
+</p>
+<h4>High-resolution concrete</h4>
+<p>
+It seems concrete became the main ground texture of most megabases, which is something we didn’t expect when we added the stone and concrete 'paths' a few updates back. Since we are remastering all sprites into high resolution, we decided to redesign concrete to fix some issues we have with it:
+</p>
+<ul>
+<li>It has a visible grid that doesn’t match the tilted projection of the game.
+<li>It doesn’t seem to have any height.
+<li>Hazard concrete transition to concrete is very sharp which makes it look too artificial.
+</ul>
+<p>
+When drawing terrain, we try to hide the fact it is composed of repeated square tiles. For this reason we use various tile sizes, where bigger tiles can have some larger features that wouldn’t fit onto a smaller one. This solution was not good enough for concrete rendering any more.
+</p>
+<p>
+We were inspired by an <a href="https://blogs.msdn.microsoft.com/shawnhar/2008/11/03/detail-textures/">article</a> about detail textures, and decided to try to draw concrete in two layers - material and detail. The idea was that we would create a larger material texture that would be laid out in a regular grid under the whole world, and we would cut out the shape of the concrete placed over it. Then on top of the material, we would add some detail defined in our regular 1x1, 2x2 and 4x4 tile sprites.
+</p>
+<p>
+We experimented with this and liked the freedom from having to create 32 by 32 pixel sprites that need to tile with each other. For other terrain types we use prerendered transition sprites on border between two terrains, but because of the material layer, we needed to render transitions at run-time. To finish this up, we needed to add alpha masking to our rendering capabilities. The alpha mask is a greyscale or single channel image which is multiplied with the actual texture, so that a pixel in the texture becomes more transparent the darker the corresponding pixel in the mask is. Now that we have this capability we can replace the prerendered transitions with masks, that are shared by multiple terrains, so we will save some video memory. This will be big deal when we do transition from any tile type to water.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-214-alpha-masking-example.png">
+</p>
+<p>
+In 0.15 we made a change that merged concrete and hazard concrete transitions to other terrains. Initially hazard concrete had its own graphic for the transitions, but the algorithm that was drawing them produced flawed results in some edge cases, so we decided to use the same transition graphic as normal concrete does.
+</p>
+<p>
+To fix the flaws of the original drawing algorithm, we render transitions in two passes. First we resolve transitions as if all hazard concrete was regular concrete, then we render transitions just for the hazard concrete. This also allows us to create irregular edges between hazard and normal concrete. In the end we didn’t use normal tile sprites to add any additional detail, but we used normal (non-masked) transition sprites to add a border from the concrete bricks. The following GIF illustrates how individual layers are added together.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-214-concrete-layers-2.gif">
+</p>
+<p>
+In some way it's a pity that we decided to tackle the concrete last, as we could have used this functionality for all the other terrains. The final result is a much better and easier system to work with, and will allow the artists to create the best art without worrying about the technical considerations too much.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-214-concrete-preview.png">
+</p>
+<p>
+These improvements lead to other ideas to improve our graphics rendering, and a lot of difficult issues are still left to be resolved, so let us know what you think on our <a href="https://forums.factorio.com/53637">forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #169 - Combat revisit 2 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #169 - Combat revisit 2
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen &amp; Klonan on 2016-12-16, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Combat Balance</h4>
+
+<p>
+
+Twinsen here. As you might have read in <a href="https://www.factorio.com/blog/post/fff-166">Friday Facts #166</a>, we wanted to do some combat balancing. First, to not bring the hopes of everyone up too much, this did not mean a combat overhaul. It means mostly tweaking numbers to make the game more fun and make some of the the weapons more viable. No new entities or new mechanics.
+
+</p>
+
+<p>
+
+As I was doing the combat balance, it was clear the everyone has their own different opinion of how combat is, how it should be and how to make it "better". It's hard to please everyone, especially when you are just tweaking numbers.
+
+To try to objectively evaluate combat I used the following methodology. As the game progresses, the player's power increases through research, but so do the biters(mainly due to evolution factor).
+
+So I split the game in 7 sections based on research progress. Each section also has the evolution factor I tested biters will approximately have in an average game.
+
+</p>
+
+<ul>
+
+<li>Initial - 0 evolution</li>
+
+<li>Red - 0.1 evolution</li>
+
+<li>Red+Green - 0.3 evolution</li>
+
+<li>Red+Green+Military - 0.4 evolution</li>
+
+<li>Red+Green+Blue+Military - 0.7 evolution</li>
+
+<li>Red+Green+Blue+Military+High Tech - 0.9 evolution</li>
+
+<li>Red+Green+Blue+Military+High Tech+Production - 0.99 evolution</li>
+
+</ul>
+
+<p>
+
+Then for each section I tested both offensive combat and defensive combat using the available guns and turrets and tweaked the numbers accordingly. While tweaking the numbers, I keep this in mind (this is not a complete list):
+
+</p>
+
+<ul>
+
+<li>Fun always wins: I prefer changes that are more fun and less annoying even if it means it could be slightly unbalanced.</li>
+
+<li>New weapons should be slightly more powerful than old weapons, to incentivize you to experiment. So near the end game, a rocket launcher will be better than the machine gun.</li>
+
+<li>Destroying biter bases is hard in the beginning and significantly easier toward the end game, to give the sense of combat power progression.</li>
+
+<li>Defending is not too hard in the beginning. I try not to put a new player in the situation of "you didn't prepare properly, you have to start a new game, because no matter what you do you will get killed". Then throughout the game you have to upgrade your defenses as the biters evolve.</li>
+
+</ul>
+
+
+<p>
+
+So far, the changelog looks like this. There are many numbers that were tweaked and are not included in this list.
+
+</p>
+<ul>
+
+<li>Player regains health at a much higher rate, but only after being out of combat for 10 seconds.</li>
+
+<li>Discharge defense equipment pushes back, stuns and damages nearby enemies when activated by the remote.</li>
+
+<li>Decreased the size of Discharge defense equipment from 3x3 to 2x2.</li>
+
+<li>Greatly increased the damage of Personal Laser Defense Equipment.</li>
+
+<li>Flamthrower gun has a minimum range of 3.</li>
+
+<li>The flames created on ground from the flamethrower significantly increase in duration and damage when more fuel is added to them by firing at the same spot.</li>
+
+<li>Increased fire resistance of biter bases.</li>
+
+<li>Increased the health of player non-combat buildings.</li>
+
+<li>Increased player health from 100 to 250.</li>
+
+<li>Increased collected amount and effectiveness of Raw Fish.</li>
+
+<li>Increased the damage, range and health of biters worms.</li>
+
+<li>Decreased health and resistance of Behemoth biters.</li>
+
+<li>Doubled the stack size of all ammos.</li>
+
+<li>Tweaked the cost and crafting time of some ammos.</li>
+
+<li>Increased the damage of most player ammos. Greatly increased the damage and fire rate of Rockets and Cannon Shells.</li>
+
+<li>Increased the collision box of Cannon Shells.</li>
+
+<li>Increased Tank health and resistances.</li>
+
+<li>Added research for Tank Cannon Shells damage and shooting speed.</li>
+
+<li>Tweaked research bonuses and added more end-game research for military upgrades.</li>
+
+<li>Greatly increased the damage of Mines. They also stun nearby enemies when they explode.</li>
+
+<li>Biters stop following player after 10 sec of not giving or receiving damage if the player is more than 50 tiles away.</li>
+
+<li>Other minor changes.</li>
+
+</ul>
+
+<p>
+
+As usual, these changes are not final and will probably change to some degree as we playtest more.<br/>
+
+There are still many things to be done. We are always talking about more end-game weapons, so don't worry, the combat in the late-game will be even more worry-free.<br/>
+
+</p>
+
+<p>
+
+There is also one thing that we always talked about trying to remove: turret-creep (destroying biters base building turrets closer and closer). This method is very powerful and usually doesn't cost anything. So far I believe that we did not find a simple, fun and fair solution. Ideas include: large power-up times(annoying and also weakens base defense); simply not allowing turrets to be build near biter bases (makes the player feel cheated); underground anti-turret worms (sugar-coated version of the previous idea). With the combat changes that were done I believe there is almost always an option to destroy bases without being forced to use turret-creep.In the end maybe your ingenuity and effort of  building all those electric poles should be rewarded; If the player wants to do it that way, why not let him? Let us know what you think.
+
+</p>
+
+<h4>Wave defense</h4>
+
+<p>
+With Twinsen diving into the deep end in combat, I (Klonan) started work on a new scenario. A staple of the RTS genre is some sort of a tower defense mode, where mobs spawn and move towards a key building the players must defend, so of course we had to give it a shot in Factorio and see if it works. The traditional definition of a tower defense has the mobs follow a maze like path, and they do not attack the players towers. It works really well in these games due to the mob and tower varieties, interesting upgrade systems and styles, but without these systems here, the gameplay would not be too compelling. 
+</p>
+
+<p>
+So I opted for a more free form Factorio oriented style, that I'm calling the 'Wave defense'. The players will spawn in one corner of a square map, with biters spawning in the opposite. After some time, the biters will begin spawning for a period, and head towards the silo. After this wave, there is a short skippable intermission before the next more powerful wave starts. 
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay="" loop="" >
+<source src="https://cdn.factorio.com/assets/img/blog/fff-169-wave-900.webm" type="video/webm">
+<source src="https://cdn.factorio.com/assets/img/blog/fff-169-wave-900.mp4" type="video/mp4">
+</video>
+</p>
+
+<p>
+At start of each wave, the rocket silo ticks up if progress by 5%, and on wave 20 you will have to launch a satellite to win. Each unit you kill along the way will reward your team with a bounty, which you can use to purchase any number of upgrades, such as turret damage, shooting speed and more. 
+</p>
+
+<p>
+The testing of the scenario fits in quite nicely with Twinsen's recent combat changes, it will take many hours of playtesting to find a nice balance to how difficult the scenario, especially in multiplayer. Still I am interested if any of you (the community members) had any different ideas about a 'Tower defense esque' level for the game.
+</p>
+
+<p>
+So let us know if you have any thoughts and opinions you'd like to share over on our <a href = "https://forums.factorio.com/viewtopic.php?f=38&t=38683">forum</a>
+</p>
+
+<img src="https://cdn.factorio.com/assets/img/blog/fff-169-thumb.png" style="display: none;" />
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #188 - Bug, Bug, Desync | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #188 - Bug, Bug, Desync
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan &amp; Twinsen on 2017-04-28, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>0.15 release</h4>
+<p>
+I would be surprised if you are reading this blog and didn't know that we released the 0.15 experimental this Monday. After more than 6 months of work and effort put in, we are really happy to finally see everyone playing and enjoying it so much. We'd like to thank you all for the feedback and suggestions we've received, and for being patient with us when we couldn't keep to our plans. The whole team here is committed first and foremost to making as great a game as possible. While the delays were not insignificant, we really hope we have met your expectations and delivered on what we have promised.
+</p>
+<p>
+Initially we had a small issue with our new config system and a script we use for Steam cloud syncing, leading to the game looking for a value which was no longer there. Thankfully HanziQ solved the problem in short time, and we released 0.15.1 just 3 hours later. The rest of the week ran pretty smoothly with the typical bugfixing, while the majority of the GFX department takes a well deserved break. 
+</p>
+<p>
+If you are interested in seeing an overview of all the new features, you have a choice of British or American flavour, provided by <a href="https://www.youtube.com/channel/UCwTLrdvrscYPXBZ3Z0kzX0g">MangledPork</a> and <a href="https://www.youtube.com/user/sonoribingudeddo">Xterminator</a> respectively:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<iframe width="448" height="251" src="https://www.youtube.com/embed/CTSCrQlAugs" frameborder="0" allowfullscreen></iframe>
+<iframe width="448" height="251" src="https://www.youtube.com/embed/MONGUN1oL0A" frameborder="0" allowfullscreen></iframe>
+</p>
+<h4>Help us fix desyncs! <font size="2">(Twinsen)</font></h4>
+<p>
+As you may or may not know, our multiplayer code uses Deterministic Lockstep to synchronize clients. "Deterministic lockstep is a method of synchronizing a game from one computer to another by sending only the inputs that control that game, rather than networking the state of the objects in the game itself". You can read more about that <a href="http://gafferongames.com/networked-physics/deterministic-lockstep/">in this article</a>.
+</p>
+<p>
+Simply put, what it means is that all of the players need to simulate every single tick of the game identically. If any computer does something ever-so-slightly different, a desynchronization (desync) occurs. That means that that player has to reconnect and re-download the map from the server, in order to get back in sync with everyone else.
+Unfortunately making a fully deterministic game is not easy, so you will notice desyncs, especially at the beginning of a new experimental release such as this one.
+When a desync occurs, the game generates a desync report. This report contains the game state from the server and the client and by looking at the differences, we can try to determine what went wrong.
+</p>
+<p>
+So this is where you come in. Next time when you are in a multiplayer game and you experience multiple desyncs, go to %AppData%/Factorio/archive (on Windows). There you will find files that look like this: desync-report-2017-04-28_15-46-04.zip. Take the relevant one and report it in our <a href="https://forums.factorio.com/viewforum.php?f=7">bug report forum</a>. You can upload it directly to the forum or share it any way you like (dropbox, google drive, or you own server). Simply uploading the desync report won't help too much so try to add as much context and details as possible, such as what you and other players were doing as the desync occurred, especially if the desync happens often. Finding a way to reproduce the desync, such as "load this save, wait for friend to connect, click this inserter and desync occurs", together with a desync report, means we can hopefully identify the cause and fix it very quickly.
+</p>
+<p>
+We will try to improve how the game behaves when a desync occurs, and possibly make uploading of report easier, but for now fixing the major bugs in 0.15 is a priority.
+Meanwhile please be patient with us, this is an experimental release of an early access game, and we still need your help to make the game better.
+</p>
+<p>
+As a reminder, we use our forum as a bug tracker, so please report any bugs on our <a href="https://forums.factorio.com/viewforum.php?f=7">bug report forum</a>. Reporting bugs in other topics, on the steam forums, in private messages or emails will mean they won't get prioritized, or they can even get lost.
+</p>
+<h4>Community spotlight</h4>
+<p>
+I think we all expected that with the introduction of the Programmable speaker, it would open a whole new category of crazy combinator contraptions. Not even a whole day had passed before Tritexio posted this wonderful rendition of Portal's <a href="https://youtu.be/Y6ljFaKRTrI">Still Alive</a>:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<iframe width="896" height="504" src="https://www.youtube.com/embed/K1oRQX8xQeg" frameborder="0" allowfullscreen></iframe>
+</p>
+<p>
+As usual, let us know what you think <a href="https://forums.factorio.com/viewtopic.php?f=38&t=45440">at the forums</a>.
+</p>
+<img src="https://eu1.factorio.com/assets/img/blog/factorio-gear-wheel.png" style="display: none;" />
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

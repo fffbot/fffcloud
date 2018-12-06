@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #28 - The pack is back | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #28 - The pack is back
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-04-04, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi there,</p>
+
+<p>
+the Friday 0.9.x release "mini tradition" continues by the release of the 0.9.7 today. Though <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=3048">the changelog</a> is rather long, the amount of code behind those changes is rather small (they were all simple fixes). If the amount of stress and haste before the release would be a measure of release quality then 0.9.7 should do rather good. We released it before Friday lunch without any last minute hotfixes and without any complications.
+</p>
+
+<p>
+The pack in the post title refers to the scenario pack. The set of currently 3 "mini campaigns" available for the furnace attendant tier or higher. We finally got around to make it compatible with the 0.9.x release branch. So now there is a scenario pack 0.9.7 available that will work with the 0.9.7 binary version. The changes have been quite significant, because the Tight Spot and Supply Challenge had to be rebalanced to take the oil industry into account. The playtesting of these has been a refreshing experience and definitely a good motivation to think about new challenge missions and content for the scenario pack (we still take it as a work in progress). You can check out the main part of the factory that got me through the new Supply Challenge below. It was built in about 3 hours under constant pressure to provide 6 "hungry chests" in the center with new and new items - that is why it is called the Supply challenge.
+</p>
+
+<p>
+Alongside the bugfix branch for 0.9.x the work in the master branch has continued on some small features for the 0.10 (see the new <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=678">roadmap</a>). Namely things like environment sound playing and map generation strings. But this is now coming to conclusion and Kuba already started with design and planning for the multiplayer network layer. Immediately some scary technical issues showed up: floating point operations non-determinism across different platforms, peer-to-peer communication for players without public IP addresses, etc. We will definitely not be bored in the near future :)
+</p>
+
+<p>
+Recently a lot of old entities have been reskinned or remade. Things like inserters, transport belts or assembling machines are now (0.9.x) consistent with the artistic direction. This is all part of the plan to improve the visuals for our new trailer. It has been taking ages, but we are really getting close now. Albert is now working on doodads and aesthetic tweaks for the trailer map. Actually we just spent like 2 hours discussing some details of the map :) Please bear with us a little longer. In the meantime you can enjoy the "good-old" red cadillac in the old trailer, it is not going to be around for long.
+</p>
+
+<p>
+And here is the mentioned screenshot from the supply challenge close to the finish:
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-28-supply.jpg"/>
+</p>
+
+<p> If you have something to say, then <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3050">say it at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

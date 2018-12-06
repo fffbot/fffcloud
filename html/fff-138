@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #138 - Better Circuit Network III | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #138 - Better Circuit Network III
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Robert on 2016-05-13, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+0.13 release is getting close. The programming guys are trying to finish the features so we can start internal playtesting and bugfixing next week. The art guys are working hard on the new trains graphics.<br/>
+In the meantime, here's some more information about the circuit network.<br/><br/>
+</p>
+
+<h4>Circuit Network Connector Discarded</h4>
+<p>
+If you remember my <a href="https://www.factorio.com/blog/post/fff-123">last FFF</a> I wrote about adding a new entity called Circuit Network Connector that would have been used for connecting normal entities to the circuit network. The community had some good examples of why it was a bad idea, so we went back to the way it worked before. This means that you can continue to connect entities to the circuit network directly.<br/>
+</p>
+
+<h4>Consistent GUI</h4>
+<p>
+One of the problems that had to be solved was GUI interaction. Sprinkling circuit network related GUI elements randomly in the entity GUI looked pretty bad and was hard to understand. The solution is 2 small buttons in the top-right of circuit connectable entities GUI, they will appear when you research the circuit network and the logistic network respectively. Clicking the circuit network icon will open a window that lets you set up how you want the entity to interact with the circuit network. The logistic network button works in a similar way.
+</p>
+<p>
+The window is usually separated into 3 parts:
+ <ul>
+<li>Connection information: if and what it's connected to.</li>
+<li>Mode of operation: sets how you want this entity to interact with the circuit network. Tooltips briefly explain what each mode does.</li>
+<li>Mode of operation settings: various settings depending on the selected mode of operation.</li>
+</ul>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+  <img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-138-gui-circuit.png">
+</p>
+
+</p>
+
+<h4>Everyone gets a logistic condition!</h4>
+<p>
+The good thing about this GUI separation is that it also allows finer control, so most entities that can be turned on or off by the circuit network can also be turned on or off by directly using a logistic condition. You can now turn off pumps, offshore pumps, inserters, transport belts, lamps and power switches directly using a logistic condition, no new entities required, just click the magic button after researching the logistic network.
+</p>
+
+
+<h4>Wire highlights</h4>
+<p>
+This is something for those who make huge combinator networks. It's really easy to get lost in wires when making complicated setups. Now hovering over entities that have red/green wires connected to them will highlight the wire network.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+  <img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-138-gui-wires-highlights.gif">
+</p>
+</p>
+
+<h4>Accumulators and Transport belts</h4>
+<p>
+Probably one of the more interesting entities that can now be connected to the circuit network are Accumulators and Transport belts.<br/>
+Accumulators send the current charge level, so you can finally easily turn off steam engines at night or activate backup power based on accumulator charge levels.<br/>
+Transport belts can be turned on or off based on circuit or logistic condition. You can also read the contents of the belt in 2 ways: pulse mode and hold mode. Pulse mode sends a signal for 1 tick when an item enters the belt. Hold mode will send the number of items on the current belt as long as they sit there. Those familiar with combinators will probably figure out that pulse mode is very useful for calculating the throughput of the belt or calculating the total number of items that passed though that belt.<br/>
+This logic works for one belt tile, not for the whole length of belt.
+</p>
+
+<h4>Performance and how it works [Technical]</h4>
+<p>
+Previously, the way the circuit network worked was that every entity that could be connected to the circuit network had all network connection information, circuit conditions, logistic conditions, etc inside of it. That meant that if you had thousands of inserters in your map that were not connected to the circuit or logistic network, some RAM and savegame space was wasted.<br/>
+This was not really a problem, but if it would have been done the same to all the new entities, especially transport belts, it would have become a problem.<br/>
+The solution is simple. The relevent data(network connection information, circuit conditions, logistic conditions) is packed into something I call 'control behaviors' (because they tell the entity how to behave when they are controlled by the circuit or logistic network). These behaviors are only created when it's required: when you connect a circuit wire or when you want to set a logistic condition.<br/>
+This is relevant to modders. Modders have access to these behaviors. To get a behavior instance you call luaEntity.get_control_behavior() or luaEntity.get_or_create_control_behavior(). The second method creates the behavior instance if it does not exist.
+</p>
+
+<h4>TLDR version of all the circuit network changes implemented and coming to 0.13</h4>
+<p>
+<ul>
+<li><a href="https://www.factorio.com/blog/post/fff-115">Power switch</a>, which can turn electricity on or off automatically based on circuit condition.</li>
+<li>You can turn off pumps, offshore pumps, insertes, belts, lamps and power switches directly using a logistic condition.</li>
+<li>The lamp <a href="https://cdn.factorio.com/assets/img/blog/fff-122-lamps.gif">can change it's color</a> based on circuit network signals.</li>
+<li>Roboport is connectable to the circuit network. It sends the logistic network contents.</li>
+<li>Accumulator is connectable to the circuit network. It sends it's charge level as a percentage.</li>
+<li>Transport Belt is connectable to the circuit network. It can be turned on or off and it can send it's contents to the circuit network.</li>
+<li>Requester chest's requested items can be set automatically from the circuit network.</li>
+<li>Inserters can now send the item held in hand to the circuit network. Smart inserter can have it's filters set automatically from the circuit network.</li>
+<li>Connected Red/Green wires are highlighted when hovering over a combinator or entity connected to the circuit network.</li>
+<li>Combinators show some information in alt mode, including input and output arrows.</li>
+<li>More virtual signals.</li>
+<li>The constant combinator has an on/off switch.</li>
+<li><a href="https://www.factorio.com/blog/post/fff-122">New combinator graphics and graphical improvements</a>.</li>
+<li>Constant combinator can be rotated.</li>
+<li>All types of inserters can be controlled by the circuit and logistic network, once the respective network is researched.</li>
+<li>All types of chests can be connected to the circuit network. Smart Chest was removed from the game.</li>
+<li>Circuit network and logistic network conditions can now be accessed by icons in the top-right corner of the entity's GUI, for all entities.</li>
+<li>Decider combinator "input count" option makes the combinator copy the count of the specified output signal from the input signals, instead of copying the count from the condition. This might break some setups. <a href="https://forums.factorio.com/13706">https://forums.factorio.com/13706</a></li>
+</ul>
+</p>
+<p>
+The plan is to release 0.13 soon. I'll try to get more things ready. The list of plans now is as follows(in no particular order)
+<ul>
+<li>Mining drill - read the amount of resources remaining, read the Pumpjack resources per minute</li>
+<li>Gate - Detect if a player is nearby, close and open the gate</li>
+<li>Train Station - read the contents of the stopped train and control trains by disabling/enabling the station</li>
+<li>Train Signals - still in the process of designing it. Basically be able to stop trains or see if a train is about to arrive</li>
+</ul>
+</p>
+
+
+<h4>Czech game of the year awards</h4>
+<p>
+Last week some of us went to the <a href="http://www.ceskahraroku.cz/">Czech game of the year awards ceremony</a>. And good news, we managed to win not one, but two of the four awards. Factorio won Best Technical Award and Best Gameplay Award.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+  <img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-138-plugs.jpg">
+</p>
+</p>
+<p>
+<br/>
+<p>As usual, PM me or reply <a href="https://forums.factorio.com/forum/viewtopic.php?t=25267">at the forums</a> for suggestions, complaints and comments.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

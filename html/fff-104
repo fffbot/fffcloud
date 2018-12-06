@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #104 - Deadlines ahead | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #104 - Deadlines ahead
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2015-09-18, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+
+ <p>
+ quite unsurprisingly, yet another week has passed (in my experience this has always happened so far:)) and it is the FFF time. Our almost almost fully automatic release mechanism (now only missing the big red button) has taken care of the latest 0.12.8 release which is looking quite good so far (only 17 outstanding issues! YaY!).
+ </p>
+
+ <p>
+ We have shifted the release day to the middle of the week (this time wednesday) to have some time for a hotfix in case something goes wrong. And also to alleviate the "Friday release stress". However, long ago are the times, when release would take hours to prepare then some more time to test and then waiting with fingers crossed if some serious issue doesn't appear in bug reports. Now all the process is automated, tests give us kind of security than things won't go horridly wrong, so we can just start the script in the evening and go home :)
+ </p>
+
+<h4> Niche filling up </h4>
+<p>
+The Niche of "industry oriented" games is starting to fill up. At least that is our perception. This is the niche, Factorio is positioned in. There are quite a few games on Steam already that have concepts like transport belts, robotic arms, etc. Just to name a few - <a href="http://store.steampowered.com/app/344850">Big Pharma</a>, <a href="http://store.steampowered.com/app/300570/">Infinifactory</a> or <a href="http://www.farlightexplorers.com">Farlight Explorers</a>. So the competition is growing. And we realize that. Therefore we are really focused on delivering the game on Steam Early Access as soon as possible. In order to push ourselves a bit more we have set some internal deadlines for this.
+<p>
+
+</p>
+Basically, if all goes well we will start the Steam Greenlight sometimes in October (yes, this year :)) and then release on Steam ASAP. The "dream" release date would be early November to avoid winter steam sales period. Somehow the feeling is that it is not a good idea to come up with a new game in the period of madness when most games go tens of percent on sale. Especially when our game won't :). So as mentioned already we are now waiting for the trailer make-up and technology pictures to be finished (needed for stable 0.12) and we are good to go.
+</p>
+
+<h4> Technology pictures challenge </h4>
+
+<p>
+Speaking of technology pictures, they are slowly coming together. We have more than a half finished. Albert has been working on this round the clock recently to be able to ship them within given deadlines. Basically we have decided to make a bit of compromise and go with "first versions" for now. That means that we want to get a full set of icons first. Then release the 0.12 as stable. And after possibly come back and improving some of the pictures. This has been decided in order to speed up the 0.12 stable (and consecutively Steam) shipment. Below is the state-of-the-art composition.
+</p>
+
+<p style="margin:auto; margin-top:40px; margin-bottom: 40px; width:780px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-104-tech-icons-preview.jpg"/>
+</p>
+
+<h4> Python intermezzo </h4>
+<p>
+Factorio is written in <a href="http://i.imgur.com/HCIYcwe.jpg">C++</a>. That has been said couple of times already. That basically means that most of the developer time here in the (Wube software :)) office is spent staring at the screen filled with C++ code. It is good to have "a little break" now and then. I don't mean going away for a vacation but working on a small project that is not the C++ core itself. That is exactly what I have done in the past week. I have been improving our "web platform". That means writing web applications in <a href="http://www.agent-x.com.au/wp-content/uploads/2011/06/Perfect-Programmer-dfe194b-e8d3b11-b960bd5.jpg">Python</a>. Fun! Well originally our web stuff has been done in <a href="http://xkcd.com/297/">Clojure</a> (the factorio.com still is) but that has shown to be too exotic (though still super fun) and not many people in the office have been able to take over the code base. Python is way more standard.
+</p>
+
+<p>
+Main point of focus has been to separate the updater functionality from the home web application itself. That is a good style and should have been done like that from the beginning. It became apparantly needed when our home web has been off for some time two weeks ago due to database crisis and as a consequence the updater has been off as well. Now that won't be an issue anymore. The updater is using a standalone authentication server for checking Factorio usernames that we have built as well. As time goes on this will be used by more and more services (at least that is what we envision - but you never know, right? :)). The plan is that the modding portal will use this one as well. Hopefully we will be able to migrate the forums to do that too. When we have a multiplayer matching server it will use this service as well. So there will be only one username / login needed in the end. It feels like duplicating Steam functionality (kind of poorly in comparison=)). This comes from our commitment to support non-steam users as well. We will go deeper into this topic in some futurue FFF.
+</p>
+
+<h4> Factorio Fans</h4>
+<p>
+As a small bonus, here is the image we got from one of our younger fans. It is a birthday card he received from a friend of his. I find it just super cute. I also take this opportunity to thank all the people who have supported us by sending us really nice emails about how they enjoy Factorio and how they cheer for us to do our best on the game. We keep trying=))
+</p>
+
+<p style="margin:auto; margin-top:40px; margin-bottom: 40px; width:780px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-104-happy-birthday.jpg"/>
+</p>
+
+
+<p> Fine folks. Factorio Friday Facts fun finished. For fiddling further feel free <a href="https://forums.factorio.com/forum/viewtopic.php?t=16368"> following forums </a>.
+</p>
+
+</p>
+
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #136 - Map Transfers | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #136 - Map Transfers
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Cube on 2016-04-29, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>
+Hello all,
+</h4>
+
+This week's instance of FFF is brought to you by cube, your friendly neighbor
+clueless network programmer. This post will be more technical than usual, so let us know if you found it interesting.
+
+<h4> Things go on </h4>
+<p>
+The week has been spent mostly on pushing forward in multiple of ongoing areas in the development for 0.13. Robert is working on Combinators, Posila and Vaclav on Fire and Flamethrower Turret, Martin is immersed in Factorio modportal and its integration and Tomas and Ondra have been tweaking some Multiplayer Matching server stuff. While Kovarex has spent most time on the 0.12 bugfixing. Albert is back home for a week so the full speed gfx work will happen from next week on.
+</p>
+
+<h4>The Problem</h4>
+
+<p>
+Factorio has long had problems with map upload speed.
+As usual the hard problems they always appear "out there" and never when you're looking for them,
+so while we were getting a steady stream of bug reports about this problem, we
+could never replicate it.
+</p>
+
+<p>
+You might ask why do we even need to upload the whole map when the player might
+end up seeing just a tiny part of the world anyway.
+AAAAnd the answer is: That's just how it works :-).
+Essentially it's because Factorio runs a lockstep simulation and every player needs
+to have complete information about the whole map.
+This has been discussed in slightly more detail in
+<a href="https://www.factorio.com//blog/post/fff-76">an older blogpost</a>.
+</p>
+
+Now that we know that we really must copy all the data, the question is how to do
+it well.
+
+<h4>Packets, TCP and elfs</h4>
+<p>
+As you probably already knew, the Internet works by passing small chunks of data
+called <a href="https://en.wikipedia.org/wiki/Network_packet">packets</a>
+(or frames or segments or datagrams, depending on where exactly you look).
+These are nothing special, just some bytes wrapped in an envelope made out of other bytes.
+The network that these packets travel is a dangerous place, packet can get lost,
+delayed, or even duplicated along the way.
+</p>
+
+<p>
+To keep people sane and networks fast, someone came up with a way to hide all these
+complications (because that's what programmers do) and invented the  TCP protocol.
+Instead of transferring unreliable packets, it provides a stream of bytes
+and the machinery inside wraps pieces of the stream to packets and makes sure that
+all bytes arrive as sent.
+</p>
+
+Which sounds suspiciously similar to moving files over the network, right?
+Just pop the whole thing into the stream and let the elfs do their magic.
+
+<h4>Differences between Factorio map transfers and UDP</h4>
+
+<p>
+Unfortunately in Factorio nothing is ever easy :-).
+Using TCP would have three important consequences: It would force players to open
+TCP ports as well as UDP ports in firewalls and NAT servers, it would remove the
+possibility of using NAT punching now or later with MP matching server and it would
+cause problems with downloading from multiple players at the same time.
+</p>
+
+<p>
+So we decided to have file transfers done over UDP, even though it means reimplementing
+a significant part of TCP functionality.
+</p>
+
+To make downloading from several other players possible in peer to peer mode,
+the file transfers work by requesting individual blocks from peers and waiting for
+the data, instead of sending data and waiting for acknowledgements.
+Also we don't really care about ordering of the data blocks as long as all of them
+are eventually transmitted.
+
+<h4>The story so far</h4>
+
+<p>
+When we started implementing the file transfer all I had was a rough idea of
+"we're sending some packets and waiting for confirmations, somehow we know how many unconfirmed
+packets there should be at one time and that value is called cWnd".
+So Wikipedia came to the rescue and told me that a prety decent algorithm to determine
+cWnd is called <a href="https://en.wikipedia.org/wiki/CUBIC_TCP">CUBIC</a>.
+So I read an article or two, coded it up and ... it worked! Let's ship it!
+</p>
+
+<p>
+A few releases, a few fixes, and a few desperate kludges later it worked very reliably
+on my machine and the code got kind of forgotten.
+</p>
+
+About three weeks ago we decided to revisit the map transfers and I've spent two
+fun weeks in TCP land.
+
+<h4>Congestion avoidance</h4>
+
+The significant part of TCP functionality mentioned earlier is called congestion avoidance.
+
+<p>
+When you are sending some packets into the network you usually don't know in advance
+how fast the network is or how long it will take to reach the other end and
+if too many packets are stuffed into the connection not only some of them will be
+dropped, but also packets belonging to other connections that go through the same
+part of network will get dropped.
+This situation is called network congestion and generally it's a thing we want to avoid,
+because it slows the available transfer speed for everyone.
+</p>
+
+So the main idea behind congestion avoidance TCP is to send some amount data and
+wait for acknowledgements before sending more.
+If the acknowledgement arrives, we know that sending this amount of data is OK and
+we try to send a little more next time, if on the other hand the packets start
+disappearing we know we are sending too much and we should slow down.
+
+<p>
+Because of only a little complicated reasons, the increase of the window size
+is a roughly linear function of time and the decrease is immediate halving, this
+algorithm is called AIMD (additive increase, multiplicative decrease).
+This way the amount of data in the network is oscillating between no congestion
+at all and very minor congestion, slowly going up and then suddenly jumping down
+to half speed.
+</p>
+
+<h4>It's all in the details</h4>
+
+Our first guess for the reasons of the slow transfer speeds was packet loss.
+Both AIMD and CUBIC decrease the transfer speed drastically after a packet is lost
+so when your microwave decides that the WiFi connection is its mortal enemy,
+the congestion avoidance algorithm will slow down.
+
+<p>
+The measurements confirmed this, but compared to TCP, our file transfers were always
+a little bit faster when packet loss was artificially added.
+</p>
+
+After an embarrassingly long period of experimentation I was left with two implementations.
+AIMD, based mainly on <a href="https://tools.ietf.org/html/rfc5681">RFC 5681</a> and
+my own attempt slightly inspired by Sync-TCP and <a href="https://en.wikipedia.org/wiki/LEDBAT">LEDBAT</a>,
+but other than that completely original.
+And neither of them worked too well :-).
+
+<p>
+With my custom protocol that was not unexpected, it was mostly meant for experimenting
+and to get a feeling for all the different behaviors the network can cause.
+</p>
+
+On the other hand why the AIMD implementation was not working was a mystery.
+Finally after finding <a href="https://tools.ietf.org/html/rfc2525">RFC 2525</a>
+(thank you, internet people from 1999), I figured out that all problems in my life
+were caused by a missing fast retransmit / fast recovery mechanism.
+
+<p>
+Fast retransmit and fast recovery work by marking a packet as lost not when its
+timeout expires, but when three packets sent later are confirmed instead of the
+packet in question.
+In this case the packet is retransmitted and fast recovery mode is entered instead of waiting
+a whole second, overflowing the network with extra packets the whole time.
+</p>
+
+After these changes we've upgraded the algorithm to be very similar to
+<a href="https://en.wikipedia.org/wiki/TCP_Westwood">TCP Westwood</a> which finally
+gave us the improved behavior on lossy networks.
+
+So TADAAA, here we are now.
+The map transfer protocol is less tested than the previous one, but we feel more
+certain about it, so let's hope that it's going to be the last change necessary
+to this part of networking code.
+
+<h4>TL;DR</h4>
+Map download was slow, cube spent some time doing computer stuff, now it should be faster.
+
+Let us know what you think <a href="https://forums.factorio.com/24658">at the forum</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

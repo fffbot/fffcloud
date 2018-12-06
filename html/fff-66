@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #66 - Merry christmas | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #66 - Merry christmas
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-12-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+You would expect that we wouldn't have anything new during christmas, but you couldn't be more wrong, as the Factorio development never stops.
+</p>
+
+<h4>0.11.7, 0.11.8 and the multiplayer stabilisation</h4>
+<p>
+For 0.11.7, Tomas prepared the parallel saving/loading which is needed to be able to notify other multiplayer peers about the progress of saving/loading the map. Until this was done the long saving/loading times for larger saves could cause the other multiplayer peers to think, that the player was disconnected. This practically prevented people from playing larger maps. But, there was an error, that caused that in multiplayer, the game wasn't stopped for saving the game. You can imagine, that practically anything can happen when you simulate the game in one thread and save it in another at the same time: crashes, corrupted save games, freezes etc. I created several new bugs as well by moving to the fixed point representation of position.</br>
+Generally speaking, the 0.11.7 was a disaster, so we had to work during weekend to make a fix release on monday. 0.11.8 fixed the saving problem in multiplayer as well as several other problems, so we were able to connect 8 players in a single game in our office using a 60Mb big savegame and everything worked correctly.<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-66-multiplayer.jpg"/><br/>
+The multiplayer still can't be marked as stable, but we are going to climb the wall soon :)
+</p>
+
+<h4>The plans for 0.12 (Part II)</h4>
+<p>
+We were talking about our plans for the next big release <a href="https://www.factorio.com/blog/post/fff-64"/>two weeks ago</a>. We received a lot of reactions, that having an ending where the player just becomes a rich bastard isn't enough for Factorio. That Factorio deserves better. We learned that listening to opinions of our players, mainly when they have strong arguments is a good idea. So we decided that the endgame will have a different motivation and ending. But we are quite sure that the ship building concept is a good thing, so it will definitely stay.</br>
+Other thing we are planning for 0.12 is the extension of the <a href="https://forums.factorio.com/wiki/index.php?title=Circuit_network"/>circuit network</a>.
+The extension of the network usability is based on 3 things. a) More sensors b) More recievers. c) more options to manipulate the signal.
+<p>
+<b>Sensors</b>
+<ul>
+<li> train station sensor (sends items in the train in the station)</li>
+<li> light/daytime sensor</li>
+<li> accumulator capacity sensor</li>
+<li> electric network energy sensor</li>
+<li> enemy sensor</li>
+<li> manual switch</li>
+</ul>
+</p>
+<b>Receivers</b>
+<ul>
+<li> light, condition can be specified, can be colored depending the singal </li>
+<li> gate</li>
+<li> electric network switch, can disconnect segments of electric network based on signal condition.</li>
+<li> pumps</li>
+</ul>
+</p>
+To be able to manipulate the signal better, we will have a new piece called combinator. This piece will allow to do certain manipulations with the signal, like conditional statements or multiplications (simple linear combinations).<br/>
+These features will be covered by Robert, our new programming reinforcement from Romania that will join our team at the beginning of February. He visited us month ago for a week, and the circuit network extension was his test task. He made a prototype of light-based progress bar indicator of the amount of items in the chest. In that moment, my head exploded from the possibilities it can bring. This will enhance the possibilities in Factorio by A LOT. I can't wait to get my hands on it when its done.
+</p>
+
+<h4>The savegame file reduction (Part II) - technical</h4>
+<p>
+I started with some basic steps <a href="https://www.factorio.com/blog/post/fff-64"/>two weeks ago</a> and I managed to do a lot of other tricks to reduce the size of the save files. One of the trick is based on the fact, most of the time, the currently saved position in the world is nearby the last position saved. So the position is saved as relative vector from the last saved position and only 2 bytes instead of 4 bytes are used for one coordinate. We use 8 bits for fractional part, so it covers area of 256X256 tiles. If the last position doesn't fit into this area, special value is used as a sign, that the absolute value of the position needs to be specified, but 99.99% of positions are in the relative area of the last saved position, so this basically halved the data representation of position in savegame again.<br/>
+I also experimented with bit-buffers, as it allows to save individual bits. It is possible then to save one bit instead of whole byte to save a boolean value for example, but it confuses the zip compression logic so much, that even though the uncompressed file size can be diminished, the compressed rate is so bad, that it is not worth it overall.<br/>
+We are using palette when saving minimap data (1 byte instead of 3 byte rgb) and we are also specifying the count of repeated pixels of the same color. Several other things like that were done and the file size was reduced significantly, the zipped size of the save dropped by 53% in our testing saves, but it can vary and it depends on the contents of the save.
+The experience is, that using these context based compressions is much more time effective that the contextless zip algorithm. It is still worth to use the zip compression for the saves, but as the level data is so much smaller, the compression takes less time so the savegame time is reduced, which is important mainly for reduction of the autosave hiccups.
+</p>
+
+<p>
+The first sketches of the space technology.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-66-spaceship.jpg"/>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=7608">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

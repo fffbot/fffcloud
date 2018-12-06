@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #226 - New mod portal &amp; other news | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #226 - New mod portal &amp; other news
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2018-01-19, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, this week has been a week of typical bug fixing of 0.16, so development news wise, there is not much to write about. However we have some updates on some other goings on in the company.
+</p>
+
+<h4>Taipei game show</h4>
+<p>
+Albert, Jitka, Kovarex and Twinsen have boarded a flight today, taking them to attend the <a href="http://tgs.tca.org.tw/index_protal.php">Taipei Game Show</a>. This will be the first convention we have been in attendance with as Factorio, and we will have a booth there with some laptops for attendees to try the game. We wish our team the best of luck, and if all goes well, we will be more confident to attend more conventions in the future.
+</p>
+
+<p>
+Are there any conventions this year you would like to see us at?
+</p>
+
+<h4>New mod portal</h4>
+<p>
+On Wednesday morning HanziQ quietly launched the much anticipated new mod portal. Our intention was that nobody will notice, and it seems like we mostly achieved that. There were some small issues that we resolved following the deployment, but overall we would say it was a success.
+</p>
+
+<p>
+One thing you might notice, is that now the mod portal is generally pretty quick. To put it mildly, the new mod portal is about 10x more efficient and effective than the old one. It took quite a lot of time to get to this point, but anything worth doing, is worth taking a long time to do. Another result is that it is generally in a more maintainable and extendable condition than before, this means that any future work on developing the website will be a lot easier.
+</p>
+
+<h4>T-shirt shop update</h4>
+<p>
+The last shipment of t-shirt orders was sent out before the new year, and it seems most people have received their parcels now. The feedback we've received has been very positive, and we are happy that our focus on the quality and presentation of the T-shirts was worth it.
+</p>
+
+<p>
+We have now been delivered another batch of T-shirts, about 3,000 this time. However due to some issues with our Paypal account, and the fact that Jitka will be out of the office, we have decided to not re-open the eshop for now. If everything goes to plan, we will re-open for orders when Jitka returns to the office, around the 14th of February.
+</p>
+
+<h4>Bots conclusion (for now)</h4>
+<p>
+Over the last 2 weeks we have had an absolutely huge response to the topic of 'Belts vs Bots', and the amount of feedback we have received is simply incredible. It really does feel great to have a community that is so passionate about our game, and willing to share their thoughts with us. Though with great discussion, come great disagreements, and this conversation has definitely sparked some debates in the community. We hope we can join together once again, not as 'bot lovers' or 'bot haters', but just as players that enjoy the game.
+</p>
+
+<p>
+After extensive discussions in the office and internal testing, we have come to the conclusion that we need more time. This is a delicate topic, and the solution has to be one that walks a fine line within the design of the game. We are moving to work on other features and improvements, some of which are related to the balance of power between belts and robots, but for now it is highly unlikely there will be any changes in 0.16. When the time comes around to look at this topic again, we will keep you informed of any progress.
+</p>
+
+<p>
+As always, if you have something to share, the place to do it is our <a href="https://forums.factorio.com/56806">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

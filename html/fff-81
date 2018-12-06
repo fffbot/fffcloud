@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #81 - Chain signals | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #81 - Chain signals
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-04-10, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello hello,</p>
+
+<h4> 3 years of Factorio in numbers</h4>
+<p>
+The initial Factorio commit was done 31.3. 2012, so Factorio is in the development for 3 years and 11 days.
+</p>
+<p>
+Our effort in numbers:
+<ul>
+<li>In development for 1106 days.</li>
+<li>88 public releases.</li>
+<li>14 082 commits in the master branch.</li>
+<li>204 917 lines of code, 546 339 words and 7 693 483 characters, this is equivalent to 15 average books.</li>
+<li>20 791 different sprites with 54 114 147 non empty pixels.</li>
+<li>1492 resolved bugs (only counting those reported on our forums).</li>
+<li>3027 lines in the changelog.</li>
+</ul>
+Results in:
+<ul>
+<li>56 500 Youtube videos</li>
+<li>403 000 Google hits of factorio.</li>
+<li>873 509 unique visits of www.factorio.com</li>
+<li>75 146 forum posts</li>
+<li>and finally 74 914 copies sold.</li>
+</ul>
+
+This leads me to different kind of comparisons: There are 2.7 lines of code per one buyer, 12.7 commits per day or 2.7 Youtube videos per one sprite, I could go like this for a while :)
+</p>
+
+<h4>The chain signal in detail</h4>
+<p>
+We already told that our plan for 0.12 contains the chain signals, but it's the time now to explain the details. The chain signals have some similarities with the TTD pre signals, but as they actually work differently, we also decided to call them differently to avoid confusion.</p>
+
+<p>
+In TTD, the signals play very different role in the train pathfinding logic, as they often tell trains where to go.</br>
+In Factorio, trains know exactly where to go, and signals are mainly just preventing them from crashing to each other or blocking each other. The only role the signals have in the path finding is, that whenever would the train have to stop because of the red signal, it tries to recalculate its path.<br/>
+</p>
+<p>
+<b>The definition:</b>
+<i>While normal signal prevents train from entering the occupied block, chain signal prevents train from entering the block also when the exit isn't free. When more exits exist, the one relevant to the train path is taken into account.</i>
+</p>
+
+<p>We don't have the graphics for chain signal ready yet, so I will use a signs to differentiate chain and regular signals.</p>
+<p>
+<b>Regular signal:</b><br/>
+This is how the regular signal works, the block it guards is empty, so the train can go there:<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-regular-signals.jpg"/>
+</p>
+<br/><br/>
+<p>
+<b>Simple example:</b><br/>
+Chain signal with one exit doesn't allow the train to enter the block, as the exit is occupied.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-chain-signal-basic.jpg"/>
+</p>
+<br/><br/>
+<p>
+<b>Simple example with practical usage:</b><br/>
+The chain signal prevents the train from blocking the other route while waiting.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-chain-signal-guards-crossroad.jpg"/>
+</p>
+<br/><br/>
+<p>
+<b>Double crossing:</b><br/>
+Double crossings are the cause of train jams often, as trains tend to get blocked in the middle of the crossing. It can even cause total deadlock, which require manual intervention to fix the problem. With chain signals, the non-blocking rails are still separated, but trains won't stay in the middle of the crossing.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-double-crossroad.jpg"/>
+</p>
+<br/><br/>
+<p>
+<b>Deadlock prevention:</b><br/>
+One of the typical situation with train deadlock problem is the usage of single train line for both direction with occasional bypasses. The example of the blocked situation with regular signals:<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-train-deadlock.jpg"/><br/><br/><br/>
+With chain signals, this problem can be totally avoided by preventing the train from going to the shared section unless it can exit it.<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-81-chain-signal-prevents-deadlock.jpg"/>
+</p><br/>
+
+<p>
+As you can see, the chain signals add a lot of possibilities to the train system coordination, mainly for larger and more crowded systems. The implementation of the chain signal is almost complete, just some bugs and automated tests of it have to be finished, so this will get to 0.12 for sure.
+</p>
+
+<p> The thread for your comments and opinions is ready <a href="https://forums.factorio.com/forum/viewtopic.php?t=9586">at our forums</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

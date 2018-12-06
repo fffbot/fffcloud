@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #242 - Offensive programming | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #242 - Offensive programming
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-05-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+this post is going to be more technical than usual, yet it might still be interesting to know the background of the process for some people.
+
+<h3>Why are there suddenly so many problems with save loading in experimental?</h3>
+<p>
+0.16.36 is stable, but as we needed to fix some additional bugs, we started releasing experimental releases 0.16.37 up to 0.16.42 and so on. From the perspective of the player, there were a lot of new bugs introduced, unloadable saves, weird train problems, or even the infamous version 0.16.40 that disabled all signals causing trainocalypse which even <a href="https://www.reddit.com/r/factorio/comments/8gq7w9/my_son_doesnt_want_to_play_after_witnessing_01640/">made a baby cry</a>.
+</p>
+Most of these problems (apart from the trainocalypse) were actually caused on purpose. It might sound weird, but it should make sense to you soon.
+
+<h3>Offensive programming</h3>
+<p>
+As far as I can tell, <a href="https://en.wikipedia.org/wiki/Offensive_programming">offensive programming</a> is the best way to keep complicated codebase like Factorio relatively bug-free in the long run. The general idea is, that when we have some rule of something in the code being always true no matter what (this is called <a href="https://en.wikipedia.org/wiki/Invariant_(computer_science)">an invariant</a>), we should never just ignore it if the rule is broken.
+</p>
+<h3>Invariant examples in Factorio that were broken</h3>
+<p>
+One of the invariants we had was, that there can never be wall on top of another wall. This can't be normally done, as the player can't just build wall over another wall, but with script, you can place entities even in a way that they would collide. But in the case of walls, you can't even build two walls on top of each other with a script. The reason for this is, that the walls connect to each other, and since there would be 2 walls at the same place, in multiplayer it could happen that the neighbour wall piece could connect to different walls for different players which eventually could (and it also did) cause desyncs. Similar invariants are set for belts, pipes and rails.
+</p>
+<p>
+The second part of the problem occurred when the deconstruction planner and blueprints came into play, as we gradually changed the game in a way, that you should be able to mark any area of factory for deconstruction and plan a blueprint over it even before the area was cleaned. So suddenly, you can have a belt marked for deconstruction with another belt (in the form of a ghost) on top of it like this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-242-blueprint-overlapping-makred-for-deconstruction.jpg">
+</p>
+
+<p>
+The third part of the problem was, that we decided that ghost belts and walls should connect with each other so it looks nice as explained in <a href="https://www.factorio.com/blog/post/fff-211">fff-211</a>
+</p>
+
+<p>
+To allow these 3 things to co-exist, we had to make several changes. The first thing to change was something you might have noticed: belts and walls get disconnected when marked for deconstruction.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-242-connection-rules.jpg">
+</p>
+
+<p>
+The second thing was to allow walls (or belts) on top of each other as long as one is marked for deconstruction and other is a ghost. As things marked for deconstruction are not candidates for connection, the connection candidate is still well defined.
+</p>
+
+You can imagine, that making sure that the first invariant is still true might not be that trivial, for example:
+<ul>
+<li>Make sure, that a ghost on top of an entity marked for deconstruction gets removed when the deconstruction is cancelled.</li>
+<li>Make sure, using teleport fails if the result would be in conflict with the invariant.</li>
+<li>Make sure, there are not <i>other</i> ways it could happen we are just not aware of.</li>
+</ul>
+<p>
+The last point is the biggest problem, because if there is some other way the invariant can be broken, I want to know about it rather than have to investigate very complex desync reports. But how do I check that this never happens without affecting performance in normal games? For these kind of things, we have a method we call "consistency check". It goes through all the map and it checks different kind of integrity stuff in it. The checks take quite some time to perform, so calling it on every save/load would affect the game too much, so we decided to call it only on version transition, which includes also transition of any version of any mod. The check can be also executed manually using a console command:
+</p>
+<pre>/c game.consistency_check()
+</pre>
+<p>
+The question is, what to do when the check fails? To make sure that it will actually get reported, we decided that when the consistency check fails, the game instantly stops (crashes) and writes the cause and stack trace into the log. This forces the user (at least some of them) to give us a bug report, so we can try to figure out what is going on. After that we can just re-activate the migration that removes conflicting entities in a new version to make the save loadable again.
+</p>
+<h3>The train bugs</h3>
+<p>
+All the train bugs were also originating from the same problem. I figured out, that rail signals marked for deconstruction didn't disconnect from the rail, and could block building of blueprints with rail signals on top of them. This changed the invariant for the rail signal from <i>always connected to rail if possible</i> to <i>be only connected when not marked for deconstruction</i>. Most of parts of the code were fixed properly, but there was one particular piece of code, that re-connected signal even when marked for deconstruction, which made the internal state inconsistent and the save not loadable until the migration to re-build rail segments was re-activated for the next version transition.
+</p>
+
+<h3>Conclusion</h3>
+<p>
+So now you know, why are there much more crashes when loading games and you hopefully hate me less, because now you know, that it was done in the sake of the long-term code correctness.
+</p>
+
+<p>
+As always, let us know your thoughts and feedback on our <a href="https://forums.factorio.com/60274">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

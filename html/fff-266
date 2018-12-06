@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #266 - Cleanup of mechanics | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #266 - Cleanup of mechanics
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2018-10-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello...
+<p>
+Part of the GUI rework for 0.17 is also tweaking the tooltips:
+
+<ul>
+<li>They should be structured better.
+<li>They should contain more useful information.
+<li>They should be a better tool for new players to understand how things work.
+</ul>
+
+We will cover more of the tooltip changes in a future FFF, but the necessary preparation for this is to rethink the way we explain some basic properties of machines to avoid as much bloat as possible. One of the good ways to do that is also to remove the need to show some of the mechanics by simplifying them, or completely removing them if we figure out that they are not really important for the game.
+</p>
+
+<h3>Cleanup of mechanics</h3>
+
+<p>
+It has been quite a long time since the work on Factorio started, and we obviously couldn't see which mechanics/systems would be useful later on, and which would not. At that time, it was completely okay to just throw concepts into the game and see how it all works together.
+</p>
+
+<p>
+But now, when we are finishing the game, it is the time for cleanup. Time to identify which mechanics are just adding barriers to understanding the game while not adding much to the game-design aspect, a good example of something we already removed a long time ago is the old furnace mechanics.
+</p>
+
+<p>
+In the ancient versions of Factorio, the furnace mechanics were much more complicated. The furnace had to "warm up" before being operational, and if it wasn't used, the temperature went down again. This sounded like a nice mechanic, but it was soon discovered, that it adds little value in the scale of the factory, and it just bloats the games rules, so these complex mechanics have been removed from the the game for a very long time already.
+</p>
+
+<h3>Pickaxe removal</h3>
+<p>
+In the ancient times, you first had to create a wooden pick, to create a stone pick, to mine basic resources, to make iron, so you can make an iron pick. Yes... this was clearly Minecraft affecting our ideas. We identified soon, that this prequel of manual mining has nothing to do with the core of the game, and is an unnecessary distraction. The fact that it was the first thing the player had to do in the game was gravely affecting what new players thought the game is about. So we kept only the iron/steel pick to streamline things.
+</p>
+
+<p>
+Fast forward to these days and play-testing some of the tutorial tweaks. We noticed that players, when they start with Factorio, they often try to mine by taking the pickaxe into the cursor and doing the mining (as they might be used to doing from Minecraft or other similar games).
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-266-mine-with-axe.webm" 
+          type='video/webm'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-266-mine-with-axe.mp4"
+          type='video/mp4'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+So we were thinking how to improve the tutorial to avoid this mistake, but the next natural question was: "Why would we even need to have pickaxe in the game?". We realized that it is the item that you just craft in the beginning, and upgrade once in the middle for a steel pick, and that is it. The cost of it is zero compared to the factory output. It is just bloat. So the change for 0.17 is that we completely removed mining tools from the game. The mining speed at the game start is the same as with iron pickaxe, and the research that unlocked steel pickaxe just increases player mining speed accordingly and that is it.
+</p>
+
+<h3>Burner efficiency streamlining</h3>
+<p>
+We use 3 energy sources in the base game, burner, electricity, and heat. When an entity uses a burner energy source, it consumes the fuel, and the energy is used for it to function. Now lets say, that we want to answer this question:
+</p>
+<p>
+<i>How many boilers can be continuously fed from a single yellow belt of coal?</i>
+</p>
+<p>Lets look on the information the player can get:</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-boiler-tooltip.png"/>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-coal-tooltip.png"/>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-transport-belt-tooltip.png"/>
+</p>
+
+<p>
+So we will need to calculate how much energy is supplied by the value of the full belt of coal, which is 13.33/s * 8MJ = ~107MW. 
+</p>
+
+<p>
+Now, we should divide by the energy consumption, so 107 / 3.6 = ~29. Wait, what is this efficiency, and do we have to factor it in?
+</p>
+
+<p>
+In the base game, this efficiency mechanic is almost completely useless, so we decided to remove it. To keep the previous balancing on the same level, all the fuel values have been halved, and the efficiency set to 100%. This just means, that the fuel value is the amount of energy the machines can actually extract from the fuel and calculations like this will give clear results. In this case, the functionality will still remain for mods to use.
+</p>
+
+<h3>Hardness, Mining power, Mining speed & Mining time streamlining</h3>
+<p>
+Lets start with a small quiz. Based on these two tooltips, are you able to calculate how much iron ore an electric mining drill will produce each second?
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-electric-mining-drill-tooltip.png"/>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-iron-ore-tooltip.png"/>
+</p>
+
+<p>
+The answer is 0.525/s. The calculation is <i>simple</i>...
+<ol>
+<li>The hardness of the iron ore (0.9) is subtracted from the mining power of the mining drill (3) to get the <i>adjusted</i> mining power of 2.1.
+<li>This is multiplied by the mining speed of the mining drill (0.5), to get the <i>adjusted</i> mining speed of 1.05.
+<li>Since the mining time of the iron ore is 2, I divide 1.05 by 2 to get the 0.525 ores mined per second.
+</ol>
+</p>
+
+<p>
+The hardness was supposed to be something like an "armor" of mining. It was meant to provide possibilities to define different tiers of mineable materials. However this feature  was hardly ever utilized in the end. So the decision is that the whole hardness and mining power mechanics was removed. To make things even more straightforward, I made the mining time of stone and iron the same (stone was the only basic resource with different mining speed), so now, we can get the information needed as directly as this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-burner-mining-drill-tooltip-new.png"/>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-electric-mining-drill-tooltip-new.png"/>
+</p>
+
+<p>
+Calculating how many miners can fill a belt is now quite a straightforward task, and even with ores of non-standard mining speed, it is still much clearer, as the modifier should be understandable:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-266-uranium-ore-tooltip.png"/>
+</p>
+
+<h3>Resistances streamlining</h3>
+<p>
+We have 8 different damage types in the game now: physical, impact, poison, explosion, fire, laser, acid and electric. Every other building has some kind of resistance, and it got so much in the way, that we don't even show resistances in tooltips anymore, only for enemy units and spawners.
+</p>
+
+<p>
+The plan is to:
+<ul>
+<li>Reduce the number of damage types to something like: generic, impact, heat, and acid.</li>
+<li>Keep the resistances mainly only on fight-related entities (walls, turrets, enemies) and remove them from the rest.</li>
+<li>Show the resistances for everything except some very specific cases (fire resistance for rails and poles to survive fires etc.).</li>
+</ul>
+This is also related to the way these things will be presented in the tooltip, but that too is a topic for a future FFF.
+</p>
+
+<h3>Assembling machine ingredient limit removal</h3>
+<p>
+The idea behind this mechanic was that better assembling machines can use more complex recipes. But the reality is, that there is not really a clear connection between the number of ingredients and the complexity of the recipe. Since it was yet another thing that had to be explained somehow, we decided to just remove it. The only real downside is, that the achievement "lazy bastard" will be much less of a puzzle, but we still consider it to be worth it.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/63125">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

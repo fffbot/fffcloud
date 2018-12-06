@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #52 - Ups and Downs | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #52 - Ups and Downs
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-09-19, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello guys,</p>
+
+<p>
+past week has prepared some ups and downs for us. On the up side, we have marked the 0.10.12 as stable and we also moved closer to getting the multiplayer reasonably working. On the down side our reservation for the new office has been cancelled which means we had to start looking for an office place yet again. That is rather unfortunate because we really liked the place we picked originally. Anyway, I am sure we will find another one soonish (we have already had couple of viewings this week but so far without success).
+</p>
+
+<h4> 0.10.12 Marked Stable </h4>
+<p>
+After long long time, the 0.10.12 has been marked as the stable 0.10.x release. We just had to draw the line and move on. The bugs will probably keep coming now and then. But as long as they are small annoyances and not major crashes we will wait with fixing them for the 0.11. So now we can finally shift 100% of our attention to the multiplayer master branch. In the past few weeks it has been closed to that anyway. Let's see what we can get out of that.
+</p>
+
+<h4> Multiplayer Progress </h4>
+<p>
+This week a lot of our energy has been spent on the determinism. Kovarex started writing integration tests that check the determinism correctness. This has revealed an error in our map generation code which was a reason why in the past week we had to play on restricted map (infinite map was desyncing all the time). For the curious ones the error was in ambiguous sort comparator (c++ stl sort across different compilers obviously behaves differently for elements that are equal to each other). Originally we were quite afraid of Floating point operations discrepancies across different computers. But surprisingly, this hasn't been a big problem so far (knocking on the table). We got away with implementing our own trigonometric functions.
+</p>
+
+<p>
+The map generation fix with couple of others allowed us to start a new game from scratch. This time it was a regular freeplay on an infinite world with default settings (including biters). At the moment we have almost 2 hours into the game. Research is automated, we had a couple of encounters with the enemies already and now we are aiming at a train expansion to add get more iron ore (eternal Factorio struggle:)). We have started it in two players but yesterday another friend of us (Zlosynus on the forums) came by and we played all together. It felt like a mini LAN party. There are still desyncs now and then, but overall the feeling is quite positive. IMHO we are on a good way to have the game playable on the LAN. There were quite a few requests for video or streaming of the game at our forums. We tried to use fraps to record the game, but it got just too slow, so we didn't bother. We will give it another shot next week. But everyone can imagine what the video will look like - 3 colored guys running around and building machines:)
+</p>
+
+<p>
+Lastly we made some usability improvements. Adding progress bars for connecting to the game or coming back after desync, giving user proper messages why he can't connect, etc. Also the game doesn't crash so much anymore under different connection scenarios.
+</p>
+
+<h4> Graphics Reconciliation Time </h4>
+<p>
+In the last edition I have mentioned that the graphics department is ahead of the programming works. This allows Albert and Pavel to take some time and reconcile things that we have already in the game. The top of their todo list looks approximately like this:
+<ul>
+<li> Different (and meaningful) sprites for different flying robots. </li>
+<li> Proper graphics for fight elements (missiles, bullet shooting animation, laser pulses, splashes, etc.) </li>
+<li> Multiplayer masks for turrets (turrets will probably be redone from scratch), walls, car. </li>
+<li> Optimizing existing (mostly enemies) animations for VRAM usage. </li>
+<li> More integrated fire and explosions (enemies / trees can catch fire, burned ground after explosion). </li>
+<li> Add new doodads (pollution destroyed trees ftw). </li>
+</ul>
+
+<p>
+The plan is to interleave these with new content and thus progress in both directions (new content and general aesthetics).
+</p>
+
+<p>
+Below you can see a composition picture with different concepts and proposals for the flying robot family. Supposedly there is exactly one picture that is displayed twice (but rotated) in the composition. It is not easy to find, but maybe someone will be patient enough ... :)
+</p>
+
+<p>
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-52-robots-sketches.jpg"/>
+</p>
+
+<p>
+Friday Facts wouldn't be complete without a link to commenting thread <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=5881">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

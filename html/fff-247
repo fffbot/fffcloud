@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #247 - Pricing and its exploits | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #247 - Pricing and its exploits
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan &amp; kovarex on 2018-06-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>Regional pricing exploit <font size="2">(Klonan)</font></h3>
+
+<p>
+Earlier this week I received an unusual number of support emails, some players were having trouble redeeming their Steam keys on our website. In each case, the key they purchased was not a key eligible for a Steam key. Our order/account system isn't the most intuitive, so let me explain the ways in which people can buy the game, and how it relates to our website:
+</p>
+
+<ul>
+<li>Our website - You buy from our website, and you get a key from the Humble checkout. You use this key to upgrade an account, and you can redeem a Steam key.</li>
+<li>Steam - You buy on Steam, which adds it to your Steam account. You then link your Steam on our website, which upgrades your account.</li>
+<li>Humble Store - You buy a Steam key, which you activate on Steam, and then follow the steps above.</li>
+<li>GOG - You buy the game on GOG, which lets you download the DRM free version. You can also redeem a retail key, to upgrade your account.</li>
+</ul>
+
+<p>
+So in the cases above, the only way to get a Steam key from our website, is by buying directly on our website. The players in question managed to get their hands on 3rd party retail keys. These retail keys aren't distributed for reselling anywhere, so the fact I was seeing a lot of emails coming in about these keys, was an indication something fishy was going on.
+</p>
+
+<p>
+The source of these keys is GOG, I double checked this my comparing some of the keys these people purchased with the list of keys we generated for GOG, and they matched. My first suspicion was someone cheesing the GOG return policy, buying the game, redeeming the key, and then refunding it. I emailed our contact and there were only 21 refunds in the last 3 months, so it was not the case.
+</p>
+
+<p>
+The second suspicion was that the GOG server was breached somehow. They reported no incident, but we disabled all the unredeemed keys anyway just to be sure. I checked with the list again, and none of the keys that we deactivated were used by any account. This led to the conclusion, at the very least, these keys were purchased legitimately.
+</p>
+
+<p>
+So people are legitimately buying keys, GOG confirmed sales had shot up in the last week. Then the question, where are the sales coming from? One last email to GOG and we had our answer: Russian Federation. The reason? We have regional pricing on GOG at parity with Steam, which means someone buying from Russia could buy the game for ~$8.30. Once they buy on GOG, they can redeem the retail key, and sell it for about $20 on a 3rd party site. So one clever guy saw this opportunity, and started buying the game hundreds of times on GOG. The immediate solution is to remove the regional pricing, and in the long term we may be able to implement some 'GOG linking' similar to the current system for Steam users.  
+</p>
+
+<p>
+It is strange that it was only taken advantage of recently, as we have had regional pricing since our launch on GOG 2 years ago. It may be related to the recent price increase.  
+</p>
+
+<h3>Price change reception <font size="2">(Klonan)</font></h3>
+
+<p>
+At the end of March, around when 0.16 was first made stable, we announced the price change from $20 -> $30. I thought it would be interesting to see what affect it had on sales, and as showing it better than telling, here is a graph of units sold between February and June:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-247-sale-graph.png">
+</p>
+
+<p>
+It is quite clear there is a huge spike when we announced the change, and again just before we implemented it, but more interesting is the comparison from before and after. You can see that there is a noticeable decrease in sales before and after, but overall it is still quite strong and consistent. This reflects most of the player reaction to the announcement too, many people were commenting that they support the price increase, and believe the game is still worth the asking price (if not more).
+</p>
+
+<p>
+Regardless of the recent changes, we have had consistent week-on-week sales of the game since our Steam launch, and we are fast approaching 1,500,000 copies sold. I think in part, this is due to our no sales policy, but that is a discussion for another day.
+</p>
+
+<h3>Satisfactory game <font size="2">(kovarex)</font></h3>
+
+<p>
+We were all excited early this week, when we saw the reveal of another title in the automation and simulation genre:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<iframe width="896" height="504" src="https://www.youtube.com/embed/W_lmP8jYVLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+
+<p>
+From the point of a player I would say that the trailer looks amazing. The energy of it, the looks, the potential, the promise is fantastic. I don't doubt that our office will be playing from day 0 once it is released. Let me quote /u/european_impostor by saying: "They've certainly talked the talk, now let's see if they can walk the walk". 
+</p>
+
+<p>
+From the point of a Factorio developer, I would say that it makes me proud and insecure at the same time. As the game is undoubtedly inspired by Factorio, it makes me proud that we most probably helped to make this "genre" become a thing. It makes me insecure as well, as it could also completely overshadow our game. To that, I would say, that if they managed to do a game that is better then Factorio on every level, then they deserve it. If there are still going to be areas where Factorio is better, the potential success of the game can actually help us, as when more people come to play the game, more people will eventually look for alternatives in the similar way as the people asking for "other games like Factorio" from time to time.
+</p>
+
+<p>
+If there is some takeaway for us, then it is, that we shouldn't wait with finishing the game too much. Let us know what you think on our <a href="https://forums.factorio.com/61015">forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

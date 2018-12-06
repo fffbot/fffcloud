@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #125 - Achievements | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #125 - Achievements
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-02-12, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+we spent one whole day by playtesting the 0.12 multiplayer. To my surprise, we didn't encounter any problems so we are just few small bugfixes far from the 0.12.23 which will be probably the version used on steam. I thought how experienced and good we are when we managed to make pretty big factory in just 8 hours, but once I saw the Factorio world record speedrun I don't think so any more :)
+
+<h4>Factorio speedrun w record</h4>
+I wanted to know what are the limits of the speedrun to be able to guess the proper time for the speedrun achievement. I found that AntiElitz is the current holder of the record with the unbelievable time of 2:26:21. You can watch the <a href="https://www.youtube.com/watch?v=_S3NYq-KSok">youtube video</a> of the deed. I watched it all and I learned a lot of new setups and techniques, I was really surprised by the level of the skill. Bravo.
+
+<h4>Achievements</h4>
+I worked mainly on achievements this week and it is "surprisingly" a lot of work to plan and implement, the upside is, that from now on, I will remember the proper spelling of the word "achievement" forever :)<br/>
+It is now possible to specify achievements as data the same way as other prototypes, which means they can be added and modified with mods. You can also list all the achievements ingame (Mainly important for the future non steam users) and get a notification when you unlock it. Let me show you example of the only hidden achievement in the game (You can guess how to get it).
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-125-hidden-achievement.jpg">
+</p>
+I have created 23 achievements so far. Many of these were inspired by your submissions in the <a href="https://www.reddit.com/r/factorio/comments/3cwv58/factorio_achievements_proposals"> reddit</a> and <a href="https://forums.factorio.com/forum/viewtopic.php?f=5&t=13425&hilit=achievement">forum</a> threads, thanks for the ideas.</br>
+The achievements fall to these categories:
+<ul>
+<li><b>Progress</b> - The easiest ones, their purpose is mainly to make the player feel invested and to make it publicly visible how many stopped playing in each of the game phase on the steam statistics . Example: Research certain technology, research all technologies, trigger biter attack etc.</li>
+<li><b>Exploration</b> - Similar to progress, but guides you to use optional mechanics. Example: Construct/Deconstrut with robots, build train.</li>
+<li><b>Teaching</b> - Teaches you different strategy or build order. Example: Build train early on.</li>
+<li><b>Production</b> - Motivates you to make big factories, we have overall achievements (create X million circuit circuits) and per-hour achievements (smelt X iron ore per hour).</li>
+<li><b>Fight</b> - The only ones we have so far is using tank to destroy trees and biter nests. Some other fight achievements could be added, but it shouldn't be too much, so the game doesn't feel like a fighting game, which it isn't.</li>
+<li><b>Challenge</b> - These are the interesting ones, win the game without solar panels, roboports, laser turrets or without crafting more than 111 items manually. There are also speedruns, The current variants are 10 and 6 hours to finish the game (I should probably try to beat the achievement personally, because I'm not really sure if I could).</li>
+</ul>
+The question is whether there should be many more achievements or not, and what categories should be expanded the most. I don't want to add many more achievements that would require the player to play from start to finish, as it might be more annoying than challenging.<br/>
+It is also a hard to decide the conditions required to gain an achievement. The only limitation we have now is no mods (modded achievements are possible, but they are separated) and no use of the console. There might be others, like limitation to freeplay, limitation of resource settings, peaceful mode and other. Do you think that we should limit it a lot, so some of them are bigger challenge, or leave it up to the players?
+
+<h4>Technology tree</h4>
+We started the work on technology tree 2 weeks ago. The original plan was to replace the boring list of technologies by the tree so the tree structure and dependencies are more understandable. The problem was, that whatever approach we tried to make the graph nice and understandable, we were never able to get something that wouldn't look like a huge mess of lines crossing each other everywhere. This lead us to a conclusion, that it is probably not possible to do it this way and we need to simplify the task.
+We sit down, and made a list of reasons we want the tree in the first place:
+<ul>
+<li>What do I need to research to get to certain technology.</li>
+<li>How many technologies are needed to unlock a further technology</li>
+<li>To see specific dependencies of a technology and what it will come after it.</li>
+</ul>
+So we decided to just make a small sub-tree of technologies related to the one currently selected. The results look promising, and we will present what it looks like in a future Friday facts.
+
+<h4>Circuit connectors</h4>
+We've got a lot of feedback after the update of the work in progress on the circuit connector in the <a href="https://www.factorio.com/blog/post/fff-122">recent friday facts post</a>. The people were basically saying, that they don't like the idea that everything connectable to circuit network (even inserters) will need a special entity next to it. So we decided to reopen the subject, and after discussing it thoroughly we decided to change the plan. The new plan is, that almost every machine will be directly connectable to the circuit network the same way as before. This still means, that the smart inserter and smart chest will be removed, as everything will be connectable, even the regular chests, inserters or even belts. There will be some general graphics of tiny antenna attached to the object once it is connected to the wire, so it doesn't look too funny.
+
+<h4>Fire</h4>
+Michal had been given the task to work on the new turrets. We wanted to have some simple prototypes that can be tested before deciding about the configuration and graphcis specifications. The problem is, that the first turret we chose to do was the flamethrower one. To make the flamethrower turret, we first needed to upgrade the current flamethrower mechanics, so we had to make the mechanics of things catching on fire which finally leads to mechanics of forest fire. As you can see, the task can recursively derail quite quickly, but it is part of the job. Let me present you the current work in progress of the forest on fire.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-125-fire.gif">
+</p>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/forum/viewtopic.php?t=20070">our forums</a>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

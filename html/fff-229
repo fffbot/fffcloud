@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #229 - Taiwan report &amp; Lamp staggering | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #229 - Taiwan report &amp; Lamp staggering
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen, Klonan on 2018-02-09, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Taipei Game Show 2018 <font size="2">(Twinsen)</font></h4>
+<p>
+After a long 14 hour <a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-flight.jpg">flight back</a>, Albert, kovarex and I arrived back from Taipei, after our attendance at the <a href="http://www.ign.com/articles/2018/01/30/taipei-game-show-2018-in-a-few-words-and-lots-of-pictures">Taipei Game Show</a>. Jitka started her vacation by staying there to visit the Taiwan island.<br/>
+We stayed there for 7 days (2 days in the business area, 3 days in the convention area and 2 days of free time where we visited the city).
+</p>
+
+<p>
+<a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-b2b-booth.jpg">In the business area</a> we met many potential business partners and got way too many business cards. We made some friends among the other indie developers and tried all kinds of <a href="http://store.steampowered.com/app/280160/Aragami/">fun</a>, <a href="https://www.youtube.com/watch?v=-F4vBcS6F2E">weird</a>, <a href="http://rhythmdr.com/">interesting</a> and some bad indie games.
+</p>
+
+<p>
+The convention area was very crowded, with 350,000 visitors slowly trying to make their way through the fairly small convention hall. I can't speak for the others, but I still enjoyed myself. Even though it was crowded, most of the games were in Chinese, and I only got to try one AAA game, there is something about being surrounded by games, gamers, and game developers that makes me feel great.<br/>
+<a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-b2c-booth.JPG">Our booth</a> was in the <a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-indie-area.jpg">indie area</a>. We had many people coming to <a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-b2c-player.jpg">try the game</a> but also many fans wanting to speak with us and congratulate us for making a great game. <a href="https://forums.factorio.com/memberlist.php?mode=viewprofile&u=38845">AndrewIRL</a> who lived there for a few years, invited us for dinner to "the best restaurant in the city", and we were not disappointed.
+</p>
+
+<p>
+Factorio is not an easy game to demo, since it takes at least 30 minutes to kind of understand what the game is about. But having the trailers looping on the screen, and having subtitles for the gameplay trailer meant that the people got a fair idea about what the game is about and how complex it is. While not the best, we had people start by playing the campaign. Most of them were leaving after the first level but some of them were also getting addicted and playing for multiple hours. We gave free Steam keys to some of the people who were more engaged with the game. It was a learning experience to see people play the game for the first time and to see the most common problems with the campaign, the interaction, the UI and the Traditional Chinese translation.
+</p>
+
+<p>
+The days were super exhausting though, many of us collapsing at the accommodation and sleeping for 10 hours. Luckily we had 2 more days to relax and enjoy the city before flying back. We mostly split up and each of us visited what they were most interested in, with me going through the <a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-electronics-market.JPG">electronics markets</a> and riding a rented bike through the rainy streets.
+</p>
+
+<p>
+To give credit where credit is due, I'd like to thank the game show for inviting us and sponsoring our booths, and Razer for conveniently lending us the laptops we used to demo the game.<br/>
+Financially there is no point in us going to a game show, our attendance did not bring us any extra sales in Asia, as expected. The point of going there, for us, is to visit the show floor, play and see random games, make gamer friends, meet fellow developers, meet big fans of the game and maybe make some business partners.<br/>
+Since many of you mentioned PAX and some of us are interested in going there, we are trying to see if we can attend PAX East this year (April 5-8th). So you might have another opportunity to come and take selfies with some of the Factorio devs.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-team-selfie.jpg"><img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-229-taipei-show-team-selfie-small.jpg"></a><br/>
+From left to right: Jitka, Albert, Twinsen, kovarex.
+</p>
+
+<h4>Lamp staggering returns <font size="2">(Klonan)</font></h4>
+
+<p>
+It was always a nice aesthetic touch, and we have had it for a long while, but during the most recent 0.16 one small feature has been absent. That is of course, the lamp staggering: During the day/night transition, lamps will turn on and off and different times. For example, this is how it looked it 0.15:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay loop muted>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-015.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-015.webm" 
+          type='video/webm/'>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+During the development of 0.16, there was a move by kovarex to optimize the lamps. By all means the optimization was a success, but along the way the lamp staggering was removed. This didn't go unnoticed, but a proper solution was quite tough. A simple way we tried (even in the first 0.16 release) was to just visually turn the lamps on at different times. It looked the part, but unfortunately was technically incorrect, as the lamps would look 'on', but not actually consume any electric power until the required darkness at which point they all started consuming power.
+</p>
+
+<p>
+Due to its incorrectness, this visuals-only solution was reverted, so for most of 0.16 this is what it looks like:
+</p>
+
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay loop muted>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-0160.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-0160.webm" 
+          type='video/webm/'>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+It is also obvious in this GIF, that they turn on way too late, it is already very dark before they turn on.
+</p>
+
+<p>
+So anyway, there is a problem here, in that we want the lamps to turn on 'correctly', but it needs to not basically undo all the optimization. To give a brief summary of the optimization, the lamps no longer have to update themselves, the electric network just knows how many lamps there are. When it gets dark enough, the electric network knows that all the lamps will turn on, so just multiplies the consumption of the lamp by how many there are. This is similar to the solar panel and accumulator optimization. To work correctly, the rendering of the lamp, and the electric network update, have to know exactly when a lamp will be turned on, without being able to share any information with each other.
+</p>
+
+<p>
+So first we define two values, how dark is it when they start turning on, and how dark it is when they should all be turned on. This gives us a darkness interval where the staggering will take place. Then when a lamp is built, we assign it a specific time in this interval at which it will turn on, and then also keep that value in a list in the electric network. This way, the lamp will visually turn on, at the same time as the electric network will know an additional lamp is consuming electricity. The result unsurprisingly, looks similar to how it was before, and the lamps don't turn on too late:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay loop muted>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-01623.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-229-01623.webm" 
+          type='video/webm/'>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+A side benefit, now each lamp prototype can define its own intervals, so it's easy to adjust for the intrepid modders out there. The other problem was also cleanly resolved alongside the staggering, so now the lamps turn on at a reasonable time once again. You can look forward this minor change with 0.16.23, which will be released on Monday.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/57650">forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

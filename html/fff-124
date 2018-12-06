@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #124 - Steam Status I | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #124 - Steam Status I
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-02-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hi there,
+ <p>
+   the Steam date is looming and we haven't been sitting with the hands in our lap just waiting. So here comes a report of what is going on and what will change with the Steam release on 25th of Feb 2016.
+
+<h4> The Price </h4>
+<p>
+We have decided that the Steam release is a good opportunity to adjust the price of the game. The referential game price will be set to 20€ / 20$ (well 19.95$ because that is how Steam rolls). Steam has a feature of providing different pricing
+in different countries and we will probably follow their recommended pricing in this regard. Which means that in countries with generally lower purchasing power the game might be cheaper than that. The game price at the webpage will be set
+to 20€ as well to match the Steam referential price.
+</p>
+
+<p>
+There are couple of reasons for increasing the price. But the most important ones are:
+<ul>
+<li> We feel the game is closing a stable and feature rich state that justifies such a price (judging by other games in the market). </li>
+<li> Scenario pack will become part of the basegame which adds more content (see details below).</li>
+<li> Naturally Steam will take their share from every copy sold for distributing the game (however this is expected to be more than offset by the amount of potential new players). </li>
+<li> We need $$$ for world domination=) And besides houses in the Hawaii have become more expensive lately ... </li>
+</ul>
+</p>
+
+<p>
+So the bottom line is: if you have a friend who is still hesitant about buying the game now and the price difference would matter to him / her, let him / her know =)
+</p>
+
+<h4> The Keys </h4>
+<p>
+Every user who has bought some version of our membership will have a possibility to get a Steam key for the game. This will most probably be implemented via an interface at our website. What I have in mind is
+a simple form in the User profile page which will assign a Steam key upon request (clicking the request button=)). This functionality is not yet programmed but it will be done very soon and available
+together with the Steam launch. Steam doesn't have a web api to generate Steam keys, but we will prefetch a (hopefully) substantial amount of those and then assign them to users automatically from this batch.
+</p>
+
+<p>
+Our current approach is that the player's account at the website will co-exist with the Steam account (if requested). That means that player can download the game from our webpage or via the Steam. His / her choice.
+This is provided as a convenience for the existing players and the generated Steam keys are not meant to be distributed / given / sold to other people. We will put a clause about this into Terms & Conditions.
+In case that a significant portion of Steam keys would be given away / sold to other people then we reserve the right to alter the approach. One option would be that the game would be available via Steam or via our webpage but not both.
+Hopefully that won't be necessary=).
+</p>
+
+<p>
+We haven't made a decision yet, whether unpaid memberships will be able to get the steam key as well. This includes memberships given out for free in promotions (i.e. over the Youtube, Twitch) and testing in the early stages of development. If you are unsure
+what your membership is, you can check it out at your <a href="https://www.factorio.com/settings"> profile page</a> when logged in.
+</p>
+
+<h4> The Scenario Pack </h4>
+<p>
+Starting with the game release on Steam, the Scenario Pack will be distributed together with the basic game itself. This is quite a big change=) Our motivations are following:
+<ul>
+<li> We believe that Scenario pack contains some really interesting content that gives prominence to different aspects of the game than the Campaign and the Freeplay. Exposing this to wider audience feels right. </li>
+<li> Having the Scenario Pack in the base package (and not as a paid content) takes away some pressure for updating it. Though we still have ideas for additional scenarios / mini campaigns. </li>
+<li> Adding the Scenario Pack gives more justification to increased price. </li>
+</ul>
+</p>
+
+<h4> The Tiers & The Content </h4>
+<p>
+There will be no tiers on Steam. There will simply be one package with the game itself, which will also include the content of the scenario pack. The wallpapers will be made public for download. The 0.12 features a new soundtrack.
+We plan to make this available for purchase as a standalone DLC. This is meant for users who want to support us and our music composer beyond the scope of the game. This is probably all there will be available to begin with. We might
+add a possibility to get the name in the game as DLC in the future, but that is not decided yet.
+</p>
+
+<p>
+On our webpage the tiers will be reduced to Transport Belt Repair Man (might lose the fancy name and become just "The Package"). This will be the game itself with the content of the scenario pack (same as on Steam).
+It is not clear yet if we sell the soundtrack as DLC on our webpage as well.
+</p>
+
+<p>
+These changes come partly from the incentive to have the same content available on the Steam as on our webpage. Also there has been little attention from our side to update the content in the Furnace Attendant and Mining Drill Operator tiers.
+For instance the wallpapers or the graphical handbook are ridiculously outdated. We really appreciate players who have supported us by purchasing these tiers, however we feel that most of that additional content has become obsolete and it is time for a goodbye or reintegration to the basic game (as in case of scenario pack).
+</p>
+
+<h4>The Marketing</h4>
+<p>
+Scott has moved to Prague and has been working with us in our office since the beginning of this week. He has been spending most of his time reaching out to youtubers / streamers / bloggers and other potential marketing sources. Basically we are trying to prepare a sort of a "general public hit" alongside the Steam release. Even though we are directly "pushing the game out there" we would still appreciate the help from you guys, the community. We will be sending out a "call to arms" email when the game has launched officially notifying existing players that the game is now available on Steam. When the game has launched, it would be great to see existing players come over to leave a review, help out new players from Steam or invite their friends to join them for a game of Multiplayer. However if there is something you feel you could do to help promote the game even before it launches on Steam (i.e. recommending it to your favorite youtuber) that would be of a great help too.
+</p>
+
+<h4>The Trailers</h4>
+<p>
+As announced earlier, to celebrate the Steam launch we have decided to make another trailer. This new trailer (we call it Trailer 3 or Gameplay Trailer) is a collection of mostly real scenes from the game giving the taste of how the game is actually played. After heroic effort coming mostly from Albert, this has been finished by now. It will be made public on the launch. Something for you guys to look forward=)
+</p>
+
+<p>
+The <a href="https://www.youtube.com/watch?v=9yDZM0diiYc">current trailer</a> has been visually (and a bit in terms of content as well) improved and will also be made public with the game launch. We call this one Trailer 2 or the Teaser, because it gives a taste of what the game is about.
+</p>
+
+<p>
+And to add a bit of nostalgy, do many of you still remember the very <a href="https://www.youtube.com/watch?v=V1qOCAM9Syw">first trailer</a> (Trailer 1) which we made for the Indiegogo campaign? It was made in less than a week and then re-made within a few hours before the launch of the crowdfunding campaign (which happend at 8 a.m. after a sleepless night). Some of the phrases (voiceovered by a polish narrator) became kind of memes at a time (i.e. "fix fings"). Oh boy, that feels like in another life=)
+</p>
+
+<h4>The Bonus Screen</h4>
+<p>
+So to compensate for the wall of text below is a screenshot of one of the upcoming features in the 0.13. We have added a little side gui that will provide clickable shortcuts for couple of existing windows (i.e. Main Menu, Production Statistics) and couple of new windows. One of them is the Bonus Screen. This shows what Bonuses has the player researched / obtained. This is quite useful information which was not avaiable until now. Next week will be more focused on new features we are working for in 0.13. And it is imho quite interesting stuff, so stay tuned.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-124-bonus-screen.jpg"/>
+</p>
+
+<p>
+To keep up with the tradition, if there is anything you would like us to know, join the discussion <a href="https://forums.factorio.com/forum/viewtopic.php?t=19824">at the forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

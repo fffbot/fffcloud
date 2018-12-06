@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #180 - Map improvements | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #180 - Map improvements
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-03-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h4>Public service announcement - Possible server breach and outages</h4>
+<p>
+In the past 7 days, our services (authentication, multiplayer matching, mod portal, etc.) experienced multiple outages. One of them was caused by one of our service providers and resulted in a roughly 6 hour long outage on Tuesday evening. This was a widespread outage all over the internet caused by problems with Amazon's AWS S3 and also affected other services, for example Instagram, Imgur or Trello.
+<p/>
+<p>
+The other 2 outages were the result of a possible security breach of one of our servers, acting as the master content server at the time. On Friday, just before midnight UTC, we were informed by Linode (our server provider), that a brute force SSH attack was originating from that server, targeting a specific IP in the OVH network. As a precaution, the server was cut from all network traffic, which caused a short outage. We haven't managed to determine, whether that attack was caused by a bug in some software or a runaway process, or if it was caused by someone who managed to gain access to the server. We can't say if it's possible to spoof the IP address of an attack of this kind and make it look like the attack is coming from someone else.
+<p/>
+<p>
+As a security measure, we have destroyed and redeployed all 3 content servers we currently operate, improved our firewall and automatic banning rules and invalidated passwords and SSH keys. All the releases that are available for download were checked and none of them were modified.
+<p/>
+<p>
+We apologise for any inconvenience we might've caused by these outages.
+<p/>
+<p>
+
+<h4>Additional map info</h4>
+<p>
+The Trello card to improve our map has been sitting in our queue for a very long time, and since I wanted to program some low hanging fruit for 0.15, I decided to pick this. Let me present how far I got.
+<p/>
+<p>
+Now when I open the map view, it shows the map view settings mini-panel on the side (icons are temporary), which can be used to toggle different kind of additional info on the map.
+<p/>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-map-view-settings.png"/>
+</p>
+
+<b>The logistics area visualisation</b>
+<p>
+It wasn't really possible to see the roboport coverage in the scale of the whole factory and I missed that a lot, so it was the first thing to be done.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-logistics-visualisation.png" width="900px"/>
+</p>
+<p>
+Now I can clearly see why did I get alerts of missing construction robots in the left part of the map. It can be also used to find all these small gaps in the coverage or off-by-one alignment issues.
+I'm also considering to show the roboport connections in this view, or as additional option.
+<p/>
+<b>The electric network visualisation</b>
+<p>
+This one might be especially useful when you want to find out the reason of electricity breach. As with the previous one, it gives even more incentive to build electric network in OCD friendly way, as all the circumstantial electric pole placements are more than visible in this view.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-electric-network-visualisation.png" width="900px"/>
+</p>
+
+<b>The pollution</b>
+<p>
+The pollution works the same as before, but it can be turned on and off the same way as other things. This means you'll no longer have to toggle the detailed info to see your base clearly through the pollution.
+</p>
+
+<h4>Map interaction</h4>
+<p>
+This was the most obvious step of all. You can open locomotives and train stations from any distance, you can access them from the train manager, but you couldn't open them by clicking in the map. It is possible now.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-map-interaction.png" width="900px"/>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-map-interaction2.png" width="900px"/>
+</p>
+
+<h4>Custom tags</h4>
+<p>
+As the map shows train station names, people were actually using stations to put markers on the map. But as its kind of a hack, and it clutters the train destination selection dialog it needs a proper solution. This is why we have the custom tags now. It can be either text only, icon or both.
+</p>
+<p>
+As you can see it can be used to mark different parts of the factory, it can be used in multiplayer to coordinate different kind of tasks and I don't doubt that people will use it to draw penises or other 'creative art' on the map as well.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-custom-tags.png" width="900px"/>
+</p>
+
+<h4>Resource patch inspection</h4>
+<p>
+Searching for the best patch around was quite tedious, as you had to walk to the locations and guess how much ore it contains by hovering over several ore patches. It is not needed anymore, as a player can just hover over the patch on the map to see how much it contains. As the area was discovered by radar, or by the player manually, there is no harm in providing this information. It also helps colorblind people as they couldn't distinguish the ore types by color so well.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-180-resource-patch-inspection.png" width="900px"/>
+</p>
+
+<h4>Other improvements</h4>
+<p>
+There are other things we are considering. Just to be sure, this doesn't mean a promise or a plan, just an idea, that might or might be not implemented:
+</p>
+<ul>
+<li>Extend the custom tags, so they can refer to rectangular area.</li>
+<li>Interactive (clickable) electric and logistics networks that open the window with detailed info.</li>
+<li>Integrate the interaction into the train stop selection when adding new items to the train schedule</li>
+<li>Integrate the interaction into the train to allow semi-automatic one-time train order that wouldn't be limited to train stations.</li>
+<li>Be able to zoom from the map view directly to the world. Things not covered by radars would just be covered by some kind of blackness.</li>
+<li>Better map colors, more different colors for entities, so you would see whether it is an assembling machine, electric pole or turret.</li>
+<li>Option of Higher resolution of map. If we have 4 pixels per tile in the map it could be nicer and also provide more information when zoomed in</li>
+<li>Smarter map info. Especially in the high resolution option, the belts could theoretically remember the resource they are used for (if it is one purpose belt), and draw line of the color on them. Assembling machines could have a pixel(s) inside the square that would depend on the recipe. Etc.</li></ul>
+<p>
+I would actually like to know what other things you might want, or what things from this list you find the most needed.
+</p>
+<p>
+As always, we can’t wait to read your reactions and feedback on our <a href="https://forums.factorio.com/42204">forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

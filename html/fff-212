@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #212 - The GUI update (Part 1) | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #212 - The GUI update (Part 1)
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Twinsen on 2017-10-13, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+A long time ago, in <a href="https://factorio.com/blog/post/fff-191">FFF-191</a> I wrote about improving the GUI. Well, things are finally starting to move, so this week I'll bring you an update on that. We even have a GUI team:
+</p>
+<ul>
+<li>Twinsen(me): UX and programming</li>
+<li>Albert: UI, graphical design, layouts, mockups, UX</li>
+<li>Rseding91: main programming and GUI internals</li>
+</ul>
+<p>
+The plan is to go through the entire game's GUI (including main menu, all entity GUIs and all game windows) and improve it both visually and interaction wise. This is quite a huge undertaking because:
+</p>
+<ul>
+<li>Factorio's interactions are quite complex</li>
+<li>If you count all the entity windows and panels, we have about 120 windows to go through in the game.</li>
+<li>Mods can change many aspects of the game so we have to account for that to make sure windows still look good and are still easy to use: e.g. having 15+ recipe categories, having assembling machines with 20+ module slots, having recipes with 20+ ingredients, having players with 200+ inventory slots, etc.</li>
+<li>Many players are already used to interacting with the game in a specific way, so any major changes are hard to make.</li>
+<li>Our GUI back-end (heavily modified AGUI) is not exactly well written, programmer-friendly, or feature-rich.</li>
+<li>Many of the features and polishing we want to add were not done previously due to their programming complexity.</li>
+</ul>
+<p>
+At the moment we are still early in the project, just defining the style and the concepts. During the next months, I'll try to make a series of FFF talking about the improvements we are making (starting with this one) so you can see how the project progresses, and offer feedback along the way.
+</p>
+<p>
+Everything I mentioned in <a href="https://factorio.com/blog/post/fff-191">FFF-191</a> will be there, but we have even more cool improvements coming to the toolbar that we are working on, so today I'll talk about something else: the new train/locomotive GUI.
+</p>
+<p>
+Disclaimers:
+<ul>
+<li>Everything you see are mockups made by Albert and are not from the game, but we will try to make it look almost identical in game.</li>
+<li>The style (colors and look) is not final. This is the 3rd iteration and Albert is still experimenting with making everything look nice.</li>
+<li>The purpose of these mockups are mostly to define the layout and interaction.</li>
+</ul>
+</p>
+<p>
+This is how the new Locomotive GUI will look. As you notice, apart from the style changes, they way the stations and conditions are shown is very different, but I'd say much more intuitive, informative, and easy to use.
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_01.png">
+</p>
+<p>
+Let's go through a short use case. You click add station and the list of stations appears. You can add a station by clicking on the station in the list or by clicking it in the small map. The map can be zoomed and moved around so you can easily find your station. Also, as you hover over stations in the list, the map will show their location.
+</p>
+<p>
+The stations marked differently are unreachable from the train's current position. This way you can more easily recognize and possibly ignore stations outside of the current network.
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_02.png">
+</p>
+<p>
+Once you click a station, it is added to the schedule, along with a default condition. You can continue adding more stations, or add/edit the conditions for the new station.
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_03.png">
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_04.png">
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_05.png">
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_06.png">
+</p>
+<p>
+Finally a schedule can look something like this. The path of the train will be shown. We will try to paint the path the train is taking at the moment, it will change as the train takes different paths.
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_07.png">
+</p>
+<p>
+The fuel can be accessed from the separate tab and the color of the locomotive can be changed using the color picker.<br/>
+The buttons in top of the map, from left to right are as follows:
+<ul>
+<li>Turn station names on or off.</li>
+<li>Change the angle of the station names.</li>
+<li>Switch to map view.</li>
+<li>Switch to camera view.</li>
+<li>Center view on the train.</li>
+</ul>
+The small 'info' button you see on the right side will be a help button we will use throughout the game to help explain how different GUI work and when their elements mean. We will write more about this in some of the next parts of the FFF GUI update series.
+</p>
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom: 40px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-212_gui-v2_train-schedule-mockup_08.png">
+</p>
+<p>
+We also want to add a neat tool for advanced players. Control-clicking on any point on the locomotive's map (or any station) will add a 'Temporary stop' to it's schedule. The train will try to go as close as it can to that point, wait a few seconds and finally automatically remove the 'Temporary stop' from it's schedule. This is very useful for quick transportation. It also allows you to quickly 'hijack' an existing train and use it to get somewhere, since the 'Temporary stop' will be deleted and the train's normal schedule will be resumed.
+</p>
+<p>
+Another quality of life improvement will be a game option to automatically add some fuel from the player inventory when building vehicles (car, tank or locomotive), making rail transportation as simple as placing a locomotive on a rail, entering it and control-clicking where you want to go.
+</p>
+<p>
+We hope you like the proposed changes. No doubt things will change as we implement and playtest these changes, but we thought it would be interesting to show you an early preview.
+</p>
+<p>
+Finally the million dollar question is when will this be in game? Because it's quite a bit of work we already pushed the GUI update to 0.17. On the bright side, this mean 0.16 will come a bit sooner.
+</p>
+<p>
+Let us know what you think by commenting in our usual topic <a href="https://forums.factorio.com/viewtopic.php?t=53362">at the forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

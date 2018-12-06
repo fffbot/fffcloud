@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #7 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #7
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2013-11-08, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hi guys,</p>
+  <p>we are back here for another Friday update. We marched through the "bugfix hell" to release the 0.7.5 as a stable version in the beginning of the weekend. This allowed us to clear our minds and completely focus on
+  the next release in progress - the 0.8.</p>
+
+  <p>The work on the new trailer is going well. The first prototype started a good discussion <a href="https://forums.factorio.com/forum/viewtopic.php?f=5&t=1603">on the forum</a>. We took a lot of points from that discussion and came up with an updated trailer. It is a very tiring job - keep iterating
+  over the same 2 minutes over and over again, fixing small things, changing the timings, playing with the composition, etc. However the more work we invest in this, the more confident we get about it. Maybe it is a self-dellusion,
+  or it is really getting better. We really want to get it right. One thing is for sure, the result will be on a completely different level than the old trailer. Since the majority of work is done we also got in touch with a French artist from Dijon, who will make the music for the trailer. So far, the reference music for us has been the lively jazz <a href="http://www.youtube.com/watch?v=_e92500w_zw">Twilight in Turkey</a> by Raymond Scott.</p>
+
+  <p>Today we had a good discussion about one of the upcoming features in the 0.8. Repairs and the repairing robots. For a long time there has been no concept of repair in the game. "Need to repair an almost destroyed turret? Sure, just mine it and build it again. Voila here it is - brand new, shiny and shooting." This will change. We came up with the following:
+  </p>
+
+  <p>There will be a new object - the repair kit. This will be a universal tool to repair anything. The repair kit will be produced from some low end materials (like iron plate + electronic circuit). The repair kit will be slowly consumed when used. The player can use the repair kit to repair anything by hand. This is nice, but it is not really a Factorio style. On top of that there will be repairing robots. These can use repair kits to repair anything that is broken. The solution to dispatching the repairing robots will be probably the same as the (yet not implemented) solution to dispatching the logistic robots. There will be a robot tower which will refuel the robots and provide a radio distance for them in which they can operate. By creating multiple of these towers the whole repair system can be automated. The first version will probably be without the robot tower to try the concept out. Oh and of course in the future
+    the repair robots will be able to recreate destroyed objects:)</p>
+
+  <p> One of the biggest changes in the 0.8 will be the new terrain. Maybe now it is a good time to briefly describe how it will be different. There are three main points:
+  <ul>
+    <li> <strong>Everything from 3D</strong> - All the new terrains are based on Blender 3D models. This makes the tiling and creating multiple variations much easier because Albert can use the full power of Blender to change the surface shapes, add tileable noise or run the whole thing through a predefined transformation. He is definitely much happier doing this than fiddling the pixels (that is how the current terrain has been done).
+    </li>
+    <li> <strong> More variations </strong> - At the moment every terrain has only 4 variations of 1x1 tile. This makes an obvious "grid-like" look. The new terrain will challenge this flaw by having multiple tile sizes.
+    At the moment these will be 1x1, 2x2 and 4x4 (the engine can also handle 8x8). The numbers of variations differ based on the terrain type, but on average it is like 16 for every tile size. This means that one kind of the terrain
+    will consist of roughly 50 tiles. Different variations can be assigned different probabilities for the map generation. This will result in more natural look of the terrain.
+    </li>
+    <li> <strong> Biomes </strong> - We plan to introduce a concept of a biom. This is an area of the map where only certain terrains and certain doo-dads can appear (for instance green trees will not appear in the desert). It is not
+    yet sure how much of this will be introduced in 0.8, but it is the direction we will take for the future. </li>
+  </ul>
+
+  <p> Of course making the terrain look better means a lot (a LOT) of work. Albert needs to come up with a good model and textures. Make sure they go along with other terrains and existing structures / machines. Then create enough variations, test the whole thing in the game itself and often iterate the whole process. At the moment he is working on the last terrain for this update - the water. This is especially tricky because of the lighting. He made a nice
+  preview from his experiments. I think that the winner candidate is the blue looking one in the middle.</p>
+
+  <p style="margin:10px;">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-7-water.jpg"/>
+  </p>
+
+  <p> You can find a thread for comments regarding this blog post <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1639">a post on our forum</a>.</p>
+  
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

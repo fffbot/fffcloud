@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #118 - Improving productivity | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #118 - Improving productivity
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-12-25, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello and Merry Christmas,<br/>
+there are no holidays that stop us from informing you about the progress of Factorio development, so enjoy :)
+
+<h4>Steam release date</h4>
+We have been pushing the stem release forward for a pretty long time, but we finally have a definitive release date of Factorio on steam. The date is 25. February, exactly 2 months from now. We planned it to be in January, but we have found out, that we have to provide the Factorio package one month before the release to steam for inspection, and we need some extra time to solve all the little problems in 0.12 release. We also need to prepare the campaign and finish the trailers, so it is all done right.
+
+<h4>Internal gui improvements</h4>
+There are lot of places in Factorio where we need things to align perfectly by stretching some ui element. It was usually annoying and hard thing to do, as we solved that by custom size calculations which didn't even work always perfectly as in this example:
+<p style="margin:auto; margin-top:40px; width:300px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-118-stretchable.png"/>
+</p>
+<br/>
+Here, the way we want it to behave is to just say to the gui to stretch the progress bar to be exactly as long to make the window match. This functionality was now implemented and used on many places. It is another small step to make the gui cleaner and easier to write, this is how it looks in 0.13, it matches exactly:
+<p style="margin:auto; margin-top:40px; width:300px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-118-stretchable-fixed.png"/>
+</p>
+<br/>
+
+<h4>Train stop shows relevant info</h4>
+So simple thing to do and it took us so long to do it. When you open the train station in 0.13, it shows you the list of all trains having the station in their schedule. It also shows part of the schedule and lets you open any of the trains remotely:
+<p style="margin:auto; margin-top:40px; width:300px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-118-train-station-gui.png"/>
+</p>
+<br/>
+
+<h4>Latency state improvements</h4>
+If you didn't know, Factorio uses certain pack of tricks that we call the latency hiding to make it feel more responsive in the multiplayer game. We explained the basics in <a href="https://www.factorio.com/blog/post/fff-83">Friday facts 83</a>.
+As the <a href="https://www.factorio.com/blog/post/fff-115">power switch</a> is going to be added into 0.13, we expect more manual wire manipulation to be done by the players, so we decided to include more of it in the latency hiding.<br/>
+Here is an example of what you can see in a multiplayer game, when you connect wires to a switch:
+<p style="margin:auto; margin-top:40px; width:900px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-118-wires-connected.png"/>
+</p>
+<br/>
+
+But in reality, the game state can still look like this:
+<p style="margin:auto; margin-top:40px; width:900px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-118-wires-not-connected.png"/>
+</p>
+<br/>
+The wires are still not connected as long as the action is not applied, which may be delayed up to 2 seconds (extreme case, but possible, it depends on the latency settings). So the game remembers that you are <i>planning</i> to build two wires, and adds the wire connections to internal list of <i>entities to be connected</i>. This list is then used when rendering the game to trick you into the thinking, that the wires were connected instantly. The similar trick is done when disconnecting wires, the game has a list of <i>entities to be disconnected</i> and avoids drawing wires between points specified in this list. Things might get little bit complicated, when you are disconnecting wires that are only <i>planned to be connected</i> between entities that are only <i>planned to be built</i>, but all of these cases are now working properly in 0.13, and I can confirm, that it feels more comfortable working with wires in multiplayer now. The downside of this kind of work is, that when done perfectly people even don't notice it is there:)<br/>
+
+<h4>Compilation time battle and Fastbuild - Technical</h4>
+<p>
+I complained about compilation times in one of the recent <a href="https://www.factorio.com/blog/post/fff-115">Friday facts</a>, so I had to spend some time improving these to not leave it be empty complains.<br/>
+Factorio has currently more than 1000 cpp files, and the compiler has to process all the header dependencies (including the big precompiled header) in every cpp file, so it is doing a lot of duplicate work. To overcome this, I made a 100 cpp files that only included Factorio cpp files, 10 in each (this is called unity/blob build). I almost halved the compilation time this way, which is already a great productivity boost.<br/>
+Later, I have watched the <a href="https://www.youtube.com/watch?v=qYN6eduU06s">youtube video</a> explaining how are huge AAA games made in C++ without having huge compilation times. This finally convincmed me, that using <a href="http://fastbuild.org/">fastbuild</a> is a good idea. After 3 days of fiddling (and some kind help from Franta, the creator of fastbuild), I created working version of the fastbuild make file that can compile Factorio and all the needed libraries. This improved the compilation time by 15% itself. But mainly, we can configure it to use caching, and distributed builds, which might improve the build times even more. Fast build also have a way to generate visual studio project files. We can now remove these from the repository completely, and just generate them automatically whenever needed. This solves our <a href="http://stackoverflow.com/questions/13459039/is-there-a-way-to-specify-filters-using-wildcards">never ending problems</a> of merge conflicts in Visual studio files as well as missing cpp files in there when it was added by linux/mac programmer. Once we integrate it  in our process fully, we will be able to spend more time by programming Factorio and less by "Compilation fix" commits and waiting for it to compile.
+</p><br/>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/forum/viewtopic.php?t=18709">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

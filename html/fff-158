@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #158 - The end of the 32 bit era | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #158 - The end of the 32 bit era
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-09-30, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+another friday and another Facts. It has been 3 years already without a single friday facts missing. I didn't expect that!
+
+<h4>32 bit</h4>
+Our automated integration test count just reached 800. We have several modes to run these. One of the modes is to generate crc hash values of all the steps, which can be compared with values when the tests are started on different platform, or release type.
+When doing this, I noticed that there are several problems related to difference between 32 and 64 bits and after solving few of them, I realized that doing this kind of work might be actually not useful usage of our time.<br/><br/>
+
+So I made a list of reasons to not have 32 bit support anymore:
+<ul>
+<li>Extra issues related to determinism between 32 bit and 64 bit systems that would have to be solved.</li>
+<li>Release times (compile, upload, updates, server storage space)</li>
+<li>Occasional bugs that we don't notice as no one uses 32 bit system here.</li>
+<li>Confusion of some people that download 32 bit by accident and run out of memory soon.</li>
+</ul>
+
+As steam allows me to check the hardware survey of users playing factorio, I did that and found out that less than 1% of people playing Factorio have 32 bit system. That is not that much considering, that a lot of them have different device capable to run the game as well. I believe, that saving our time so we can spend it on things the 99% of our players appreciate more is the right decision.<br/><br/>
+The conclusion is to disable multiplayer in 32 bit version right away (0.14.10), so we don't have to deal with desync reports related to 32 versus 64 bit systems and since 0.15 we won't release 32 bit version at all.
+
+<h4>Desync report improvement</h4>
+Desyncs are not that common, but it still happens from time to time, and if it is a desync loop (anyone new that joins the game desyncs until server is restarted) it is definitely annoying problem. It is probably caused by last few determinism oversights which are harder to find, but had to be solved anyway. There are 2 fundamental problems with our desync reports now:<br/><br/>
+1) When the desync happens in multiplayer game, the player needs to tell the server that it desynced. This takes time as the packet has to travel to the server. Then the client has to update the game until it is in the same tick as the server at the time of receiving the desync alarm. At this point, client and server have the map in the same tick, and this is the version saved in the desync report. The problem is, that it is quite long time since the first original difference between server and client happened, so huge amount of other differences accumulated as the butterfly effect was spreading the difference. It is mostly nearly impossible the find the original cause of the problem from such a desync report most of the time.<br/>
+We will solve this problem by a change in the server logic. Whenever the server encounters the desync, it will try to check the save-load stability locally. We actually use this in the tests. This means that the server will save the current version of the map, it then loads and saves second instance of the map from it and compares if it stays the same. This report will not contain any accumulated changes from running different version of the save, so only the original cause of the problems will appear in the diff. This will help us to discover the cyclic desync loops, as they are almost always related to the fact that load-save changes some internal state.
+<br/><br/>
+2) We have a special tool that can add human readable tags to the binary files, so we can actually see what kind of data is different. This code is not part of the binary we release, so we have to add these tags to the desync report by loading the save and saving it with the tags. The problem is, that some of the desync issues (especially those related to desync loop) are related to the save-load stability, so the information gets lost in this process. So we will make a change, that in the future versions of Factorio we release will be able to save the desync report in the human readable format directly.<br/><br/>
+I hope that these changes should make it possible for us to solve the rest of the desync problems with much less effort.
+
+<h4>Rails</h4>
+The rail sprites we used had one big problem. To save some video memory we were flipping the pictures:
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-158-vertical-rails-flipped.jpg">
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-158-horizontal-rails-flipped.jpg">
+</p>
+
+The problem is, that as the pictures need to be flippable, they need to be very flat, or it would look too weird. We decided to fix it for 0.15 while doing the high res version of the rails.<br/><br/>
+This is a work in progress of the new rail sprites. Please note that it is at a very raw stage that doesn't even have textures, but it can be used to demonstrate how important it is to have specific pictures for different rotations:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-158-rails-work-in-progress-preview.jpg">
+</p>
+We will show the final version of rails in some of the future friday facts.
+
+<br/><br/>
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/33590">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

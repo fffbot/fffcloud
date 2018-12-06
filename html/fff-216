@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #216 - Paving a path for the GUI update | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #216 - Paving a path for the GUI update
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-11-10, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+I wanted to write about the things I'm improving in our GUI library, but I realized, that the important part is to explain what is the motivation to do so. So let me present the history of Factorio GUI.
+
+<h3> Version 0.X</h3>
+<p>
+Back in the day when Factorio started, I was quite clueless. I needed some GUI library for allegro, and <a href="https://github.com/jmasterx/Agui">agui</a> was the only one I could find, so I started using it. As in most of the story, I didn't really pay much attention to GUI, it was just the pesky part of the code which I needed to work in order for the game to function. There weren't much GUIs back then, and most of them were done by manually placing bunch of elements so it is possible to interact with it. The look and positioning was quite random.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-history.png">
+</p>
+<p>
+The previous strategy stopped being possible quite soon, and we realized that we can't just manually place widgets in a window, so we started to use the layout functionality to build the GUI, so it doesn't break immediately once it contains just a little bit of different data. At that time, it was good.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-history2.png">
+</p>
+
+<h3>Version 0.5</h3>
+<p>
+It is hard to believe now, but at that time, I was insisting, that the GUI is OK, and we don't need to improve it, but luckily, I was persuaded by Albert and Tomas that we need to give the GUI a better look. That was how was the look similar to the current one created. We needed to add hierarchical graphical style system to be able to control the looks and positioning of individual elements, so we did it. We also needed to add several additional functions to the layout mechanism as the need to make these two windows have the same height automatically and similar things. So we made specialised features for that by bending some of the original GUI library code. It usually worked, and when it didn't we made little hacks here and there to make it work. It also created new problems, like the random margins of elements that were supposed to be aligned with something. As all of this was made by unique specific numbers of widths/heights of elements, it could never work right, as all the style values were scaled depending on the resolution.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-history3.png">
+</p>
+<p>
+Here for example, the progress bar style was specified to have a somewhat correct width, and we didn't even care or understand how bad it is.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-history4.png">
+</p>
+
+<h3>Version 0.6</h3>
+<p>
+It was identified at this time, that we need some mechanism to solve these kind of problems, so I created the <i>stretchable</i> functionality. As I was clueless about the library internals, I was afraid to break anything, the usage of it was quite awkward, it had to be used together with the functionality of mechanism from 0.5 to stretch windows to have the same width/height. You needed to set correctly some of the style values and some of the C++ object values to make it work properly. You had to set the stretchable not only the element but all of the parent elements etc. But it worked ...
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-history5.png">
+</p>
+
+<h3>Current day</h3>
+<p>
+Small hacks here and there accumulated. <br/>
+When you use stretch layout and set align to right doesn't work? Well just set the layout to go from right to left and put things in opposite order.<br/>
+Isn't the layout doing what you need? Just calculate the needed dimensions manually and force them in the style.<br/>
+And much more ..
+</p>
+<p>
+New people started joining our team and they didn't know the subtle things you needed to push to make it work and lot of new code was created with even more hacks. The GUI started to be a crazy complex beast. At that time, one of the new programmers wanted to fix some of the hacks. The result was, that he wanted to fix everything, and after 9 months of repeated inability to show anything, he was fired. After that time, GUI was considered even more scary.<br/>
+Things like this started to appear all over the place in the desparate hopes of making it work:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-hack1.png">
+</p>
+<p>
+Some people have even shown their disgust by naming their variables:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-hack2.png">
+</p>
+<h3>GUI refactoring</h3>
+<p>
+Now we are facing the need to make the GUI update (first part was presented in <a href="https://www.factorio.com/blog/post/fff-212">one of the recent fffs</a>). At this point, you have some idea of how painful would it be to just glue the needed additions to our current GUI. It would be painful complexity squared.
+</p>
+<p>
+This is why I decided to roll up my sleeves and just dive into it. I started rewriting and clean-up the core parts of how the layout works. At this is point, I have a branch that has 52k lines of changes compared to master, and the internal workings of the GUI have been revised a lot. A lot of the mechanisms that had to be hacked painfully work automatically and there is much less code and knowledge needed to write the GUI in the new branch. But this also means, that we have to go through every single GUI and remove the previous hacks by the new functionality, which is a lot of work.
+</p>
+<p>
+To aid in the GUI simplification work, we created a simple GUI debug view, to let us quickly see how are the layouts stacked. I will leave it in the game, as it could be also useful for modders when they need to debug their GUI structures. 
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-debug-off.png">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-216-gui-debug-on.png">
+</p>
+<p>
+On top of that, I started to write GUI tests, as GUI layout is the great example of piece of software, where fixing one thing breaks some other without you knowing. These changes will also change the way modders specify GUI structures (mainly related to the align and stretching), but it wouldn't be us if we didn't break mod compatibility in a new release.
+</p>
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/53928">forums</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #26 - How to satisfy achievers | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #26 - How to satisfy achievers
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-03-21, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,
+the spring officially started today here in the Czech republic and it is really beautiful weather here. This is nice, because the "I need to have a break" kind of strolls are much more enjoyable now.
+</p>
+
+<p>
+I don't want you to confuse with terms you don't know, so you can read in this <a href="http://www.gamasutra.com/view/feature/6474/personality_and_play_styles_a_.php?print=1">lengthy article</a> that players can be roughly divided into 4 basic categories Achiever, Explorer, Killer and Socialiser. I believe that I'm 50% achiever 25% explorer and 25% killer, so one of the (many) things I wanted to have for Factorio to be different than just industrially modded Minecraft was to offer the satisfaction for achievers like me. This is the reason why the player is under the pressure of biters that evolve over time instead of having all the time on the world to play and fiddle with factory setups. The achiever wants to fight through the obstacles to get to the goal, but the goal has to be difficult to be meaningful. When I played Starcraft II mission on brutal and I won on the first try, I was dissatisfied, because it was too easy. When I had to fail 3 times to understand the level mechanics and requirements to be able to beat the level after another 2 tries, that was the thing I loved. I loved that I had to think about timings and different approaches to problems and search for combination of the choices that work the best.
+</p>
+
+<p>
+But how to do it? How to satisfy us, achievers, in Factorio? How to do it, so non-achievers or beginners will not be discouraged?
+This is the way I believe should be done in the future:
+<ul>
+<li> Provide much more balanced starting conditions on freeplay (some way of balancing nearby resources to contain the same amounts at least), and provide way to share starting seed so players can compare results on the exact same world.</li>
+<li>Add difficulty settings for the freeplay (they are not now) that would really make a difference in more aspects of the game, like enemy evolution/expansion speed, aggressiveness, pollution spread etc.so finishing on the hardest difficulty would really be a challenge.</li>
+<li>Provide something measurable that could be achieved (apart just finishing the game), trying to minimize the time seems like one of the possible solutions, because I really love the kind of strategic thinking, where every decision  matters.</li>
+<li> Provide achievements. It is quite mainstream these days, and I believe that there is a good reason for it. It just satisfies us, achievers, and gives us directions as long as these achievements really mean something like: Finish the game under X hours on some preset settings. Accumulate 1 000 000 electronic circuits under X hours, or the other way around, accumulate the biggest amount of electronic circuits possible in 3 hours. Score some big amount of points in the tight spot missions. Make online leaderboards of the these on our site (Another use of the accounts already have). I'm sure there is much more we can do in this direction. The more I think about this, the more I want it :)</li>
+</ul>
+</p>
+
+<p>
+The bugfix release of 0.9.4 has been released today and we believe there are just few things to be fixed to have the final stable release so we started to plan for the multiplayer today. We just had a first small meeting and you can see our plan of battle. We will consider it very naive in the upcoming weeks for sure, but better some plan than no plan :)
+</p>
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-26-multiplayer-plan.jpg"/>
+</p>
+
+<p> I'm quite curious what do you think about this, so don't hesitate to comment on <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=2905">our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

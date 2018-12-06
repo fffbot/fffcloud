@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #153 - 0.13 Stable, 0.14 Experimental | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #153 - 0.13 Stable, 0.14 Experimental
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2016-08-26, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,
+</br>
+Albert is back this week, and has resumed his work on the liquid wagon and associated accessories, as well as offering his guidance to some visual related programming tasks. Kuba and Honza are also both back from their respective holidays, and overall the office is feeling much more full than last week.
+<h4>0.13 Stable</h4>
+This week we have declared 0.13.18 as the stable release, which means that any steam users on 0.12 will be automatically updated, as well as standalone version users being prompted to upgrade. From the first 0.13 experimental release there have been some hiccups with the administration and support side. Most of these arise from now requiring a login to access the matching server and mod portal, with interactions between steam and our website being a big source of problems. Since release about 2 months ago, I have answered over 800 support emails, but with a lot of work done to streamline our systems by Tomas and Martin, the recent weeks have been significantly quieter. </br>
+</br>
+Apart from those issues, we've had strong and consistent success is fixing as many bugs as we can, be these small bugs, from the capitalisation of technologies, to big ones, like terrain generation issues. We've also had some time to add a few new features during stabilization, mostly scripting and modding requests, along with other changes to some mechanics. Community feedback has been really valuable to us once again, so thank you all.
+
+<h4>0.14 Experimental </h4>
+Early this afternoon we released version 0.14.0 into experimental testing.This is a small 'major' update, as opposed to the huge major update that was 0.13. You may have heard in a recent <a href="https://www.factorio.com/blog/post/fff-147">Friday</a> <a href="https://www.factorio.com/blog/post/fff-149">facts</a> about the huge multiplayer rewrite Kovarex was undertaking, and at last his work in complete, at only the cost of his sanity. 
+</br>
+</br>
+On Wednesday there was a big test of this new system and seems to work pretty well, I bet that we made a new record by having 67 players in one map at the same time.
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay="" loop="" ><source src="https://cdn.factorio.com/assets/img/blog/fff-153-multiplayer.webm" type="video/webm"></video>
+</p>
+
+You can see the new systems at work, with gameplay uninterrupted while people join, the progress bars for map downloading and catching up, as well as the smooth performance even with a large number of players. We consider this a pretty big success, and feel it is worth it now to release it for testing by the community.
+</br>
+</br>
+So if you're feeling brave, and want to help us out, you can try the new update by selecting it in the steam betas tab, or by enabling experimental updates in the standalone game. If you are just playing in the relaxed solitude of singleplayer, then 0.14 won't feel that much different to 0.13, but might be a good opportunity to test out a collaborative factory. If you do find any bugs, please report them on the <a href="https://forums.factorio.com/viewforum.php?f=7">bug forum</a>, but make sure to check nobody has reported your bug already, by checking the <a href="https://forums.factorio.com/viewforum.php?f=182">confirmed bugs</a> and <a href="https://forums.factorio.com/viewforum.php?f=30">resolved bugs</a> subforums.
+</br>
+</br>
+ If all the reshuffling of the planned features has you somewhat unsure of whats going on, you can check out the updated <a href="https://forums.factorio.com/viewtopic.php?f=3&t=678">roadmap</a>.
+
+<h4> Vehicle equipment grid support </h4>
+Another feature of 0.14 is support for equipment grids in vehicles. Initially none of the base game vehicles have equipment grids, but the hardest part is already done: making them work in vehicles.
+</br>
+</br>
+Vehicles that have equipment grids can use all of the current equipment; tanks can go faster, have shields, provide night vision to any players in them and so on. The only equipment that doesn't function "fully" is the roboport equipment in Locomotives and only because the locomotive has no inventory to store robots or items.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-153-equipment-grids.png">
+</p>
+Cars, Tanks, and Cargo wagons all work fully with the roboport equipment. By default cargo wagons won't deploy robots while the train is in automatic mode and not in station or while under manual control while moving (this can be toggled if that's desired). When a vehicle with a non-empty equipment grid is picked up it retains the equipment so you don't need to re-insert it all when built again.  No doubt modders will go crazy with all the new possibilities, which will help us test and bugfix any potential issues.
+</br>
+</br>
+From the start equipment grids were designed to do far more than they do in armor. With 0.12 came the addition of the Personal roboport equipment, but other than that they haven't had any significant changes or additions. There may be additional equipment modules coming in the future, but for now we are unsure of what functionality they could provide, so we'd like to hear your ideas.
+</br>
+</br>
+
+As always, if you have any comments, suggestions, critiques or otherwise, please let us know on <a href="https://forums.factorio.com/viewtopic.php?f=38&t=31591/">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

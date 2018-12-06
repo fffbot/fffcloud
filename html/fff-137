@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #137 - The release scarecrow | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #137 - The release scarecrow
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-05-06, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+the 1st of June, which is the goal of the 0.13 release is starting to feel uncomfortably close, especially if I want to start play-testing 2 weeks before the release date. There are a lot of bigger and smaller tasks appearing all over the place. It is now the time of moving some of them to the next release again. Many of them are moved like this for years already.
+
+<h4>Czech game of the year</h4>
+I have to finish the Friday facts soon today, as we are going on a trip to Třeboň, where the Czech game of the year ceremony is held. Factorio is nominated on 3 categories, so there is a chance to win something, but mainly, we will have the opportunity to talk and party with other game developers, which doesn't happen often.
+
+<h4>Rapid inserter</h4>
+The final decision has been made and instead of a loader, we will have not heavy, but rapid inserter. To make things straightforward, I decided to limit the <i>inserter stack size bonus</i> to the rapid inserter only. Some people certainly won't like it, as they won't be able to use long handed inserters or burner inserters to take advantage of this bonus, but the advantages outweigh it.
+<ul>
+<li> Streamlined definition of the <i>inserter stack size bonus</i>, now it increases rapid inserter capacity whatever is it doing.
+<li> The rapid inserter will have its specific usages. As the rapid inserter currently waits until its hand is filled with items, it is not clearly better than fast inserter. When the bonus is 5, and it has 4 items in hand, it can wait minutes (or forever) for the last item, which might be undesirable especially with expensive, low throughput items. This implies that rapid inserters will eventually become stuck on mixed belts as long as some explicit mechanism to prevent it won't be there.
+</ul>
+
+To make it useful, we will increase the maximum <i>rapid inserter capacity</i> (instead of <i>inserter stack size bonus</i>) from 4 to 11, so it can hold up to 12 items of the same kind.<br/><br/>
+
+Four fast inserters can be easily matched by one fully upgraded rapid inserter:
+<p style="margin:auto; margin-top:40px; width:345px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-137-rapid-inserter-loading.gif"/>
+</p>
+
+Four fully upgraded rapid inserters can almost fully compress an express belt:
+<p style="margin:auto; margin-top:40px; width:345px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-137-rapid-inserter-unloading.gif"/>
+</p>
+
+<h4>Train station visualizations</h4>
+Another one of the ease of use additions for 0.13, is the train station visualization. Whenever you are building next to a rail that leads to a station, you can see the future train wagon positions. This simplifies the building of the stations a lot.
+<p style="margin:auto; margin-top:40px; width:900px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-137-train-station-helper.jpg"/>
+</p>
+
+The visualization is also helpful when building the train stop. You can immediately see, how many wagons can fit in the platform. It is combined with the indicator of possible train station placements. These are limited by the direction in a similar way as <a href="https://www.factorio.com/blog/post/fff-134">rail signals are</a>. With this you won't build the station on the other side of the rail by accident anymore.
+<p style="margin:auto; margin-top:40px; width:900px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-137-train-station-indicator.jpg"/>
+</p>
+
+<h4>Fanart</h4>
+I encountered this cute picture by ironhand on our forums, and I just had to share it with you.
+<p style="margin:auto; margin-top:40px; width:960px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-137-fanart-picture.jpg" width="960px"/>
+</p>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/24985">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

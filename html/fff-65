@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #65 - Hello from India | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #65 - Hello from India
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-12-19, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello everyone,</p>
+
+<p>
+so this is a bit of a guest post to regular progress reports on Factorio development. As <a href="https://www.factorio.com//blog/post/fff-61">indicated before</a> I have gone to <a href="http://en.wikipedia.org/wiki/Mysore">Mysore</a>, India for a 2-month Yoga study session. It has been three weeks since I have arrived here. I will sum up my observations and feelings in today's Friday Facts.
+</p>
+
+<h4>Xmas approaching</h4>
+<p>
+With Christmas around the corner, I can only imagine how it is back at home. Temperatures below zero, massive shopping for presents, carols being played everywhere and general pre-feast buzz. Not much of it is happening here. Christmas are not really celebrated here (except for the very minor Christian minority). So no presents, no carols. I saw an Xmas tree (or a general small tree with lights) once behind the window. The weather is quite different as well. Though it is officially winter, temperatures are generally slightly above 25 (one can only imagine how hot must it be here in the summer). The only thing that is probably the same as back home is the "buzz". The streets seem always full of people, roads full of cars (and motorcycles, pedestrians and cows as well), shops are filled with people, simply the city is alive all the time.
+</p>
+
+<h4>Indian Impressions</h4>
+<p>
+It is my first time to India so there are new experiences around every other corner. When I took the bus from the <a href="http://en.wikipedia.org/wiki/Bangalore">Bangalore</a> airport to Mysore (more than 2 hours) I couldn't really detach myself from observing the outside scene (and yeah I haven't really slept on the plane the whole night before). The craziness of the traffic, tiny shops all allong the road, palm trees planted on the fields (wtf? :)), a lot of poverty and filth, smiling people waving to me, new (crazy looking) construction sites everywhere, misspelled ("Divorce speed.") or just reality-funny ("No parking, tyres will be deflated") English signs along the road and of course cows everywhere (even jovially walking across/along the road).
+</p>
+
+<p>
+But all this kind of sinks in and after a while becomes as natural as if it has always been experienced like that. I haven't really done much travelling since the Yoga classes schedule is quite intense. But I actually prefer to stay at one place and get to know it well, sometimes even forming relations with local people - chatting with the coconut seller (you get a whole young green coconut with a straw and you drink the inside water - best thing ever), getting the delicious tiny bananas (and papaya) from the same fruit stand every day, meeting the same old Indian lady in the morning on my way to the Yoga class, having your favorite Dosa (typical local food, kind of like a pancake) place, etc.
+</p>
+
+<h4>The Yoga practice</h4>
+<p>
+The reason why I am here is to study Yoga. I have signed up for an intensive course with a teacher I knew from a weekend workshop at Prague. That basically means about 5-6 hours of yoga 6 days a week. From 7:15 a.m. in the morning we have the main lesson bundled with the breathing exercise. This ends before 11 just in time for a small brunch. Then again at 2 p.m. there is a flexibility class (actually I have the feeling of getting less flexible - but that is simply because all the muscles and ligaments are getting a hell of the load). The afternoon / evening is free for regeneration. This all is kind of voluntary, but it is the purpose of my way here across the globe so I strive not to miss a single lesson. The exercises we do are quite intense (not the kind where you lie down and just breathe). It is a dynamic style of yoga known as <a href="http://pranavashya.com/">Prana Vashya Yoga</a>. The guy shown in the link is actually my teacher and yes he can bend back this much (it is almost scary:)).
+</p>
+
+<p>
+Anyway, the result of spending more than 5 hours a day in the Yoga Gym (called the Yoga Shaala) is that I sleep a lot, move about slowly and try to save my energy as much as I can. The schedule gives me the opportunity to spend about 2-3 hours a day doing some work for Factorio which is also good. This way I can stay in touch with the development, help guys in Prague by doing email support and now and then even program something. Last thing I did was the parallel saving / loading in the multiplayer which should resolve the bug with dropouts when connecting to larger maps. As a nice bonus there are now progress bars for when the peer is loading / saving the game so it is much more clear what is happening during connecting to the MP game.
+</p>
+
+<p>
+Here goes a few pictures I have taken. Our Yoga shaala, cows in the park along the way for brunch and a Hindu ceremony to bless the new car with good luck (it is really needed here:)).
+</p>
+
+ <p style="margin:auto; margin-top:20px; margin-bottom: 40px;">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-65-shaala.jpg"/>
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-65-cows.jpg"/>
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-65-ceremony.jpg"/>
+ </p>
+
+<p>
+If you have any kind of a comment, the <a href="https://forums.factorio.com/forum/viewtopic.php?t=7435">thread is ready</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

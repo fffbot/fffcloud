@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #176 - Belts optimization for 0.15 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #176 - Belts optimization for 0.15
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Harkonnen on 2017-02-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hi everyone. About half a year ago whenever I was sitting deeply in Factorio and when I needed to spend time in my phone, I was reading FFF or Factorio forum. Later when I decided to move - I suddenly realized that Wube is the most logical target to apply my crazy mind. All thanks to those FFF and you guys. Now I am writing another FFF myself which, looking back at those times, gives me ripping apart feelings (which I believe is a good thing :)).
+</p>
+
+<h4>macOS developer needed</h4>
+<p>
+We mentioned this quite recently, but it was semi-buried beneath the great nuclear power information. We'd quickly just like to mention again (before you get lost in this meaty FFF) that we're currently searching for a Senior macOS developer to join our team here in Prague. 
+</p>
+<p>
+The role is similar to that of all the other developers on the team (working on new features, fixing bugs etc.), but with a focus on any issues relating to the Mac versions of the game. An ideal candidate would have a great passion for the game, and a strong understand and experience with C++. The full job listing can be found on our website <a href="https://www.factorio.com/job/senior-game-developer">here</a>, and we invite anybody interested to contact us.
+</p>
+
+<h4>Belts optimization</h4>
+<p>
+After initiation process and path of trials with multithreading (<a href="https://www.factorio.com/blog/post/fff-151">more</a>), a solution was achieved which I described briefly on the <a href="https://forums.factorio.com/viewtopic.php?f=5&t=39893&start=60#p238247">forum</a> a few days ago. The next challenge is optimizing the very heart of Factorio - the transport belts.
+</p>
+<p>
+Many of us know that if you are going to build a huge factory, you better put as many underground belts as possible - it just gives more UPS when you start dropping below 60. That happens due to cache coherency and other issues, but it gave us idea of treating sequences of adjacent belts as one single piece, so performance-wise they behave like the underground belt's underground part. kovarex mentioned this <a href="https://www.factorio.com/blog/post/fff-148">here</a>.
+
+</p>
+<p style="margin:auto; margin-top:40px; width: 965px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-148-transport-belt-segments.png"/>
+</p>
+<p>
+However, this is not everything that can be done to belts. For example look at this thing:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-176-simple-movement.gif"/>
+</p>
+<p>
+Currently we move every item on every belt that can move. So if you have 20,000 items on belts in your giga-factory - each of those items will consume CPU to advance its position forward. The thing to notice here is that topology of items on belts does not change all that often - i.e. when a transport belt is not blocked by something, items easily flow without changing relative position to each other, and when that belt gets blocked, that property is still true for items located before that blocked part.
+</p>
+<p>
+So in addition to uniting belts into several consecutive pieces sharing the same array of items, we decided to rethink the way we store their coordinates. We no longer store absolute coordinates of items, instead we store the distance between items. Look at this visualization:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-176-movement-no-red.gif"/>
+</p>
+<p>
+Here blue lines represent the distance between items, and yellow lines represent the initial and final gap to extremes of the cumulative transport line. Most of the time only those yellow things change which asks for an uber-optimization, where for every transport line of like 20-100 belt segments you only increment/decrement those terminal gap sizes, and do not touch items at all! Which technically this means incrementing/decrementing two integers instead of incrementing the position of all 200 items on those belts. The only place you waste performance is rethrowing an item from one sequence to another - that's why we want to keep transport line sequences as long as possible. There is another issue though - it's when belt gets blocked:
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-176-movement-with-red.gif"/>
+</p>
+<p>
+When this happens you don't decrement that yellow part anymore, it's already zero. Instead you decrement size of that last non-zero gap shown with red arrow. It may seem that each time the belt is blocked, you will have to scan that sequence of items to find that last gap (which may be very far away and kill all performance at smelting lines), but here goes the obvious/unobvious kung-fu... <b>whenever a belt compresses - it will stay that way forever</b>. It means that once two items are stuck close together - away from inserters they will stay stuck close forever. This property allows us to cache the index of the last positive gap location, and update it on the fly because <b>that index can never increase, only decrease</b>. So essentially this algorithm becomes amortized constant time with respect to the number of items produced by your factory, multiplied by number of transport lines that the item has to travel.
+</p>
+<p>
+This method however has its implications. You can no longer tell the item position from its index in the transport-line array, you have to iterate all of them first to get there with the sum of all the inter-item distances. The good thing - we never actually used this property, neither did we do any binary searches. The only performance-critical thing affected by such a representation is inserters, but since they need this item-tracking information sequentially with every tick, inserters can easily track what happens inside a transport line (what was moved and what was not last tick), and update the absolute position of a tracked item still at O(1).
+</p>
+<p>
+Also there are dynamic merging/unmerging routines which keep transport lines under inserters or side-loading at some limited range, maybe 9 tiles, while inserter-free lines can be 100 tiles long. These numbers are still to be calibrated. So far overall performance gains on items movement are at x50-100 with that O(1) optimization. Though it's not everything regarding belts, so actual gains are expected to be around x5-x10. Curved and straight belts are all merged together already, the next step will be embedding underground belts as part of a single very long line.
+</p>
+<p>
+In the end only splitters should be the legitimate entities to break transport lines apart, in addition to some big 100-tile long limitation of how long transport line can be for the sake of a player picking/dropping items, rendering and other things to consider. So far factories performing at 25 ups start growing to 35-40 ups just because of that belts optimization, and belts are not everything these factories contain.
+</p>
+<p>
+With 0.15 you will never ever have to build underground belts for the sake of performance :) Factorio's heart is beating nicely now and will not distract from blueprinting the truly important things.
+</p>
+
+<h4>The map download struggle, part 2 (Technical)</h4>
+<p>
+If you remember from the <a href="https://www.factorio.com/blog/post/fff-175">previous FFF</a>, our map downloader was having some extremely rare problems with some mysterious packets that would always get filtered over the Internet. We already had a fix for it, but I was curious what was going on. Thanks to the investigative power of the Factorio community, we found out that all those mysterious packets, before NAT, had a checksum of 0xFFFF. Admalledd from the forum <a href="https://forums.factorio.com/viewtopic.php?p=240435#p240435">sent some hand-crafted packets</a> through his Internet connection and surprise, all packets would go through, except those with a checksum of 0xFFFF or 0x0000. At this point I would just assume this ISP(and some other few ISPs around the world) have some faulty hardware or software that do not handle these special cases of UDP checksums.<br/>
+</p>
+<p>
+We released a 0.14 hotfix release that will include a fix for the map download. It will also fix the <a href="https://forums.factorio.com/viewtopic.php?f=53&t=40375">graphical issues</a> caused by the new Nvidia drivers.
+</p>
+
+<p>
+As usual, let us know what you think <a href="https://forums.factorio.com/viewtopic.php?f=38&t=40790">at the forums</a>.
+</p>
+
+<img src="https://eu2.factorio.com/assets/img/blog/fff-148-transport-belt-segments.png" style="display: none;" />
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

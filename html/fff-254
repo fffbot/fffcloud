@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #254 - No research queue for you | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #254 - No research queue for you
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex, Sanqui on 2018-08-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello, we are really appreciating that the new offices have proper air conditioning...
+</p>
+
+<h3>The research queue <font size="2">(kovarex)</font></h3>
+<p>
+The research queue was one of the planned and implemented features for 0.17. The player could queue up to 5 technologies so the research would flow better. 
+The weird thing about this feature is, that it sounds much better on paper than in reality. 
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-254-research-queue.png">
+</p>
+
+<p>
+I was playing with the research queue for the first time when I was testing the new tutorial/campaign and I noticed a weird thing about it. As I just queued all the 5 possible technologies in the first mission, I had no idea what and when was unlocked, so I was not taking advantage of these things for quite some time. Vaclav played a lot of normal (freeplay) games with the queue, and he also supported me that the feature in reality doesn't make the experience better. After that, we started to reconsider the feature. The breakdown is this:
+</p>
+
+Cons:
+<ul>
+<li>The newly unlocked recipes might be overlooked (It is solvable by some kind of pop-up, but it is far from perfect).</li>
+<li>It removes the joy of looking at the result of the research and of picking a new thing that will be the next one to do.</li>
+<li>It adds to the feeling of just going through a to-do list without having much to say about it.</li>
+<li>The queue has to be changed a lot as the priorities change.</li>
+</ul>
+
+Pros:
+<ul>
+<li>It feels appropriate in some situations, like finishing all remaining green science that I don't care about as I'm not producing blue yet etc.</li>
+<li>It feels okay to queue the repeating upgrade research at times, but as the cost grows quite fast usually, it becomes less and less of a problem.</li>
+</ul>
+
+<p>
+So the overall decision was to remove this feature, on the condition that I have to say that I kovarex, personally, killed it. I am the one to blame :)
+</p>
+
+<h3>Mod portal features 2 <font size="2">(Sanqui)</font></h3>
+<p>
+We have another round of Mod Portal updates for you.
+</p>
+
+<p>
+There is now a new <strong><a href="https://mods.factorio.com/trending">Trending section</a></strong> where you can browse fresh mods that have have seen a surge in downloads recently.  The exact algorithm?  Secret sauce, of course.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-254-trending.png">
+</p>
+
+<p>
+While browsing and searching for mods, you can now filter by game version, with the latest stable version naturally being the default selection.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-254-filtering.png">
+</p>
+
+<p>
+The mod portal gives each mod its own little discussion section. However, rather than being a convenient place for mod authors to communicate with their fans, this could also be a source of annoyance, as some mods have other avenues (forum threads, GitHub...) and the mod portal had to be checked separately.  This has now been alleviated with the new notification system.  Mod authors are automatically subscribed to their mods' discussions, and posters can subscribe to the threads they create or reply to.  Email notifications are off by default, but there's nothing easier than <a href="https://mods.factorio.com/notifications/list">enabling them</a>.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-254-notifications.png">
+</p>
+
+<p>
+To further make the discussions more usable, mod authors and collaborators now have more moderation tools at their hands: they can lock and trash threads, as well as change their titles and category.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-254-moderation.png">
+</p>
+
+<p>
+I will be shifting my focus from the mod portal for now, but feel free to post feedback and feature requests in the <a href="https://forums.factorio.com/viewforum.php?f=189">mod portal section</a> on the forums.
+</p>
+
+<p>
+As always, the pitchforks and flaming torches can be found over on our <a href="https://forums.factorio.com/61897">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

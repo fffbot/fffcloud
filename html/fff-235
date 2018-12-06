@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #235 - 0.16 stable | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #235 - 0.16 stable
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex &amp; Rseding on 2018-03-23, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>0.16 to be declared stable</h3>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; width: 900px; " src="https://cdn.factorio.com/assets/img/blog/fff-235-stable.jpg">
+</p>
+<p>
+Rseding thinks that we have the least amount of bugs in the game we ever had. Mostly because of the automated reporting system and partly because of my pushing of everyone to fix everything before starting other tasks. The 0.16.35 (to be released soon) will be declared stable on Monday, if no critical problems are discovered.
+</p>
+This naturally leads us to:
+
+<h3>0.17 plan</h3>
+Major features of 0.17:
+<ul>
+<li> Mini tutorials (<i>kovarex</i>, <i>Twinsen</i>, <i>Albert</i>, <i>wheybags</i>).</br>We would like to iteratively improve the quality of the tutorials based on our first attempts and cover the rest of the game mechanics by it.</li>
+<li>Improved First Steps campaign and new main campaign (<i>v453000</i>, <i>Albert</i>, <i>wheybags</i>, <i>Ben</i>).</li>
+<li>Gui rewrite. (<i>Twinsen</i>, <i>kovarex</i>, <i>Dominik</i>, <i>Albert</i>).</br>It is both improving the looks of the GUI and changing the way it works. Some of the drafts were already published in <a href="https://www.factorio.com/blog/post/fff-212">FFF-212</a> and <a href="https://www.factorio.com/blog/post/fff-191">FFF-191</a>.</li>
+<li>New graphics back-end, SDL, OpenGL, DX11, v-sync fix, texture streaming, VRAM usage optimizations, shaders (<i>posila</i>, <i>HanziQ</i>, <i>sindri</i>, <i>wheybags</i>).</li>
+<li>Recipe tree GUI (<i>Oxyd</i>).</br>This should be the foundation of some kind of ingame <i>factoriopedia</i>. It should provide the player fast ways to get the answer to questions like: "what is this item used to?" and "What is the graph of recipe dependencies for this".</li>
+<li>Mod integration improvements (<i>HanziQ</i>, <i>Rseding</i>).</br>Mainly extend the feature of syncing mods with save from save loading to multiplayer game joining, mod browsing improvements, which should at least show the mod picture and more smaller things.</li>
+<li>Map Editor improvements, both technical and usability wise (<i>Rseding</i>).</li>
+<li>Map generator improvements and fixes, autoplace specification improvements and documentation (<i>TOGoS</i>).</li>
+<li>High-Resolution sprites for the rest of the game, including few changes to some entities (GFX).</li>
+<li>Final game balancing (<i>kovarex</i>, <i>v453000</i>, <i>Twinsen</i>).</li>
+</ul>
+
+Possibly:
+
+<ul>
+<li>Spidertron (<i>kovarex</i>, GFX)</li>
+<li>Better car handling and car in latency state (<i>Dominik</i>)</li>
+<li>Better fluid physics</li>
+<li>Organised playtesting for the new GUI, campaigns and tutorials before release.</li>
+</ul>
+
+<h3>The big picture</h3>
+0.17 is a 1.0 candidate, but due to all the new rewrites (new GUI, new graphics, new tutorials, new campaigns), it is very likely that there will be unforeseen changes we need to do.  So 0.18 should be a rather short release where we polish the GUI and campaign based on player feedback and also fix any final or long-standing bugs, possibly fix long-standing minor issues and once it becomes stable, it will be declared 1.0 once stabilized.
+
+<h3>Weird crash reports <font size="2">(Rseding91)</font></h3>
+
+<p>
+In 0.16.31 we released a bug fix for a specific modded scenario that involved some heavy refactoring of game logic that checked if an item could be put into a given entity. Once 0.16.31 was live we started to get an unusual amount of crash reports inside the <i>Furnace::canInsert(...)</i> logic which made no sense. I thought maybe my fix somehow broke the furnace logic but I couldn't see how it was possible.
+</p>
+
+<p>
+I spent half an hour theorizing what might be happening but got nowhere. Then I decided to see if any of the other devs might have ideas. Still, we had no idea what could possibly cause it to crash where it was crashing. We finally decided to change our crash log uploading to include minidumps for this specific crash in hopes it would shed some light on the issue.
+</p>
+
+<p>
+From one of these minidumps, we got a look at the raw assembly code causing the crash, which confused things even further, as it said it was executing code that didn't exist in the executable:
+</p>
+
+<pre>00007FF6DA0B13B2 48 8B 8D D8 00 00 00 mov         rcx,qword ptr [rbp+0D8h]  
+00007FF6DA0B13B9 41 B2 01             mov         r10b,1  
+00007FF6DA0B13BC 48 3B 8D E0 00 00 00 cmp         rcx,qword ptr [rbp+0E0h]  
+00007FF6DA0B13C3 74 51                je          Furnace::canInsert+106h (07FF6DA0B1416h)  
+00007FF6DA0B13C5 48 8B 03             mov         rax,qword ptr [rbx]  
+00007FF6DA0B13C8 E9 33 EC E3 FF       jmp         00007FF6D9EF0000  // Jump outside of the Factorio executable
+00007FF6DA0B13CD 90                   nop                           // Padding 
+00007FF6DA0B13CE 90                   nop                           // Padding 
+00007FF6DA0B13CF ??                   ?? ??                         // Illegal instruction - crashes here
+00007FF6DA0B13D0 75 3F                jne         Furnace::canInsert+101h (07FF6DA0B1411h)  
+00007FF6DA0B13D2 0F B7 41 04          movzx       eax,word ptr [rcx+4]  
+00007FF6DA0B13D6 45 32 D2             xor         r10b,r10b  
+</pre>
+
+<p>
+When 0.16.33 went out the number of crashes in <i>Furnace::canInsert(...)</i> dropped by a factor of 15. We changed nothing about how it worked and somehow it was crashing less. After some further discussion this morning, we believe that we've got a plausible explanation as to what is going on:
+</p>
+
+<p>
+Someone probably used something similar to Cheat Engine to cheat by modifying the program memory runtime. In fixing a bug, I refactored how <i>Furnace::canInsert(...)</i> operates enough that the executable now crashed in what ever the cheat engine script was doing. As we released new versions, the people using that script stopped using it because it was crashing their game, and so we stopped getting crash reports.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/58985">forum</a>
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

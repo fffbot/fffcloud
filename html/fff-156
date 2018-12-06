@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #156 - Massive Multiplayer | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #156 - Massive Multiplayer
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-09-16, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hi all,
+</p>
+
+sometimes, writing FFF feels like spitting out blood - there is simply very little to write about. Yet the Factorio blog subscriber crowd is there and waiting ... Sometimes it is the opposite and there is abundance of interesting topics available. Today it is the latter case. Enjoy!
+
+<h3>
+Factorio Massive Multiplayer
+</h3>
+<p>
+So all the effort that Kovarex put to rewriting the Multiplayer for the pure server-client model (communication wise) with added speed optimisations and minimisation of the data sent over network has paid off royally.  Surpassing our wildest estimates it has been actually shown that the latest 0.14 (still experimental atm) can support a couple of hundreds of players in the game (I believe the current record is about 400 players) while still being playable. If I remember correctly, the best case scenario (when Kovarex started with changes) was hoped to be 50 people in the game ...  
+</p>
+
+
+<p>
+<a href="https://www.youtube.com/user/arumba07">Arumba</a> (with <a href="https://www.youtube.com/user/RotNSteejo">Steejo</a> and friends) has started a new stream series where he creates an open game and a bunch of people get together and start building a factory. Below is the first episode which was streamed on Tuesday. There were about 150 people online at one point I believe and still the game was running smooth. Factory grows up really fast (though often in uncontrolled ways) with that amount of players. I personally find interesting all the "social / group" peculiarities arising from this kind of event - ranging from how to organise such a crowd to work together all the way to persuading people not to shoot each other or build useless ghost entities all over the place (because "it is pretty"). 
+</p>
+
+<p style="width:560px; margin: 0px auto;">
+<iframe allowfullscreen="1" frameborder="0" height="316" src="https://youtube.com/embed/LeHEj_sEKnw" width="560"></iframe>
+</p>
+
+<p>
+The series <a href="https://www.youtube.com/watch?v=XXUvN0_7teU">continued yesterday night</a> with couple of people from the office (well from their homes because it was at 2 a.m. local time) joining as well - namely kovarex, twinsen and posila. This time there were some technical problems -  server overload / lags / desyncs - simply because there were crazy amounts of people (those mentioned 400 online players). But it is amazing to see what the technical limits of the game are (could it be even more than 400?). And as a bonus you can hear Twinsen / Robert joining the skype chat with the organisers and sharing some of his insights.
+</p>
+
+<p>
+ I believe Arumba plans to continue with the series (though restricting the amount of people to a reasonable amount) and see how the factory develops. So check out his channel if you are interested in watching / playing with many players. Below is a screenshot from <a href="http://imgur.com/a/xyMF8">the imgur gallery</a> created by one of the players based on the second ("the 400") game - to give you a feel of what you are up to.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-massive-multiplayer.jpg">
+</p>
+
+<p>
+We shall see, but MMORTS could be another area Factorio will venture too. The technical background is more or less there. Now it might be the time to come up with scenarios / game modes that build on the possibility of having hundreds of players in the game. We have already started playing with this with the Team Production Challenge (that is a bit less massive) mentioned in the <a href="https://www.factorio.com/blog/post/fff-155">previous FFF</a> ...
+</p>
+
+
+<h3>
+UI rewrite
+</h3>
+
+<p>
+And now for something completely different. Making a game is a broad topic and often involves elements which end up being overlooked (people often don't notice things until they are not broken). One of the areas in this realm is IMHO good gui design and layout. Honza recently took the challenge to improve our current gui code and prepare it for further gui improvements that he will work on together with Albert. So below he writes about what he has been up to.
+</p>
+
+<p>
+Factorio is a dialog-heavy game, so the GUI code needs to be easy to write.
+At the same time, we want complex GUI layouts that don't break under different translations and mods.
+</p>
+
+<p>
+With that in mind, I've been cleaning up the internal GUI implementation.
+While the old code sometimes needs a lot of persuation to do exactly what we want,
+the new shiny code will use a two-phase layout algorithm:
+</p>
+
+<ol>
+<li>All of the GUI elements look at their contents and report their optimal size and stretching potential.</li>
+<li>GUI containers take whatever space is available and, based on the reports, tell their sub-elements how much they should grow or shrink.</li>
+</ol>
+
+<p>
+Looks simple, but it should solve most of our problems with nested containers.
+</p>
+
+<p>
+We also need to be able to override the automatic stuff: limit the minimum or maximum size, grow only in discrete steps,
+constrain some elements to be the same size, or just set the position and size manually.
+</p>
+
+<p>
+Let's look at a pretty ASCII-art example. The elements A and B start the same, but B grows twice as fast and has its maximum width limited:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-ui-1.png">
+</p>
+
+<p>
+Another example: Here the vowels may not grow, but the width of each block must be the same:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-ui-2.png">
+</p>
+
+<p>
+The last one: we have two buttons that can't stretch, but one must stay centered and one right-aligned (assuming they won't overlap).
+There's a ghost on the left side with the same size as button 2 that makes it possible:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-ui-3.png">
+</p>
+
+<p>
+The GUI containers will also get an overhaul: right now we're using a one-size-fits-all layout with automatic row breaking,
+which is overkill for most uses. The new GUI will use simple rows, columns, and the occasional table.
+</p>
+
+<p>
+There are other things in the works: improved GUI scaling, rich text, data-driven layouts, better line breaking for long texts, or support for right-to-left languages.
+And when all the boring internal stuff is done, you can look forward to a complete GUI facelift.
+</p>
+
+
+<h3>
+Blueprint Library
+</h3>
+<p>
+While 0.14 is getting stable we are already working on 0.15. One of the bigger features there would be the blueprint library. The idea is to allow blueprints (and blueprint books) to be stored outside of the players inventory - in a blueprint library. This way the blueprint (or book) can still be accessed even if player actually removes / loses (i.e. when dying) the item from his inventory. The library will be accessible via a global dialog (in a similar fashion like overview of trains / production statistics / etc.). 
+</p>
+
+<p>
+At the moment we plan to have three basic library sections:
+<ul>
+<li> <strong> Blueprints stored locally in the game. </strong> Here the use case is simply not to lose (as mentioned above) blueprints for the current game when their respective items are lost. </li>
+<li> <strong> Player's personal blueprint collection accessible in all of his games. </strong> Here we are pretty sure (=)) that players will build their own collections of favourite setups which they use over and over. </li>
+<li> <strong> Access to other players' personal blueprint collections in multiplayer games. </strong> This is the same as point 2 but for multiplayer. </li>
+</ul>
+</p>
+
+<p>
+The work on this feature is at the moment in progress so it is a good idea to post ideas (or link existing ideas - hello Factorio ideas & suggestions overflow) on the topic. There will be more detailed information coming in the future (both on the user side as well as challenging technical aspects - yes everything is more work than expected =))) when the work has progressed. 
+</p>
+
+<p>
+The promise of the blueprint library is that it should make blueprints even more useful by removing frustration from losing existing blueprints and repetitive work of creating the same blueprints over and over again. Also who knows, maybe we end up with a Factorio blueprints portal - something like a global database accessible to all the players. That would be an interesting way to share the setups.  
+</p>
+
+<h3>
+Terrain news
+</h3>
+
+<p>
+In one of the <a href="https://www.factorio.com/blog/post/fff-150"> previous FFF editions</a> we have shown first attempts on a new terrain, the red desert. Jurek is still working on this and today you can see how he has progressed. It is not yet finished as we will be tweaking it and adding specific doodads and patches. That means it should get only better=)
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-red-desert-wip-1.jpg">
+</p>
+
+<p>
+And now in an action with some entities:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-156-red-desert-wip-2.jpg">
+</p>
+
+<p>
+If all goes well (that is a big if) you can look forward to a new pump connection to liquid wagon preview in the next FFF episode. That is what Albert has been up to recently.
+</p>
+
+<p>
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/viewtopic.php?t=32783/">our forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

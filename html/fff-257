@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #257 - NPE/Campaign update | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #257 - NPE/Campaign update
+    </h2>
+
+    <div style="font-size: 11px;">Posted by V453000 on 2018-08-24, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+With most of the team away for Gamescom or vacation, I have the pleasure of writing a Friday Facts for you this week.
+</p>
+
+<h3>NPE/Campaign update</h3>
+
+<p>
+As you probably know, I've been working on the New Player Experience (NPE, as we call the new demo + tutorial) and the new Campaign. However we don't want to talk about it too in-depth or be too specific about either of these subjects, purely to not spoil it for the FFF readers, but there is some related news to share.
+</p>
+
+<p>
+The NPE needs a lot of scripting and design work to make sure the new player does not get stuck anywhere because it is a tutorial, and to make sure that it gives a taste of what the game is about because it is also a demo. Since the NPE was the first thing we started, we already have a working version and we have been testing it with people at the office, and also people who have never played Factorio, to get the necessary feedback to polish it further. From what we gather, it seems that the NPE is in a decent state, the main design seems to work very well and we are just improving details and making the map look nice.
+</p>
+
+<p>
+The main campaign design has been completely finished for a while now, we have made a 'geographic' map layout and now we are 'just' implementing it in cooperation with Rseding, who is improving/adding tools for the map editor which makes our work a lot easier and in many cases just makes it possible (love letters, non-genital-shaped candy and other gifts to his address please), just like for any future map creators. It's still going to take quite some time to finish all of this, but the progress is steady and we can't wait to see people play it in 0.17.0.
+</p>
+
+<p>
+One of the things we could really use in the campaign was a terrain that the player can't build on, but can walk on, so we are adding shallow water as a new terrain type. So far it's a cheap solution from our side - it's just a new tileset that is combined with decorative entities to make it look like walkable. Currently we don't plan to use this in freeplay, but if we can find its gameplay purpose and make the terrain generator use it properly, it's not impossible, but for now not a priority.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-257-shallow-water.png">
+</p>
+
+<h3>Finalization of science pack specific technologies</h3>
+
+<p>
+As I already wrote in an earlier <a href="https://www.factorio.com/blog/post/fff-245">FFF</a>, that when working on the design of the NPE and the campaign, it's not rare that we come across something in the game which could work much better just by changing some recipes or technologies.
+</p>
+
+<p>
+As I also wrote in that FFF, all science packs will have their own unlocking technology in 0.17 -  but I did not show or tell how does this apply to Space science pack since you never unlock it as a recipe - you only need satellite and rocket silo for it.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-257-space-science-pack.png">
+</p>
+
+<p>
+At the same time when designing the campaign, we feel that the player should get more an idea of what they're progressing to reasonably early in the game and build towards it. On top of that I really don't like the dynamic in freeplay that you need as soon as you research rocket silo, you immediately have to build all the production lines for the rocket parts at the same time.
+</p>
+
+This results in:
+<ul>
+<li>You no longer win the game by launching a satellite, there is a new "Rocket escape pod" that you launch in a rocket to finish the game. Currently the escape pod has no other use.
+<li>Satellite is unlocked by its own "Space science pack" technology that has rocket silo as a prerequisite.
+<li>Rocket silo technology only unlocks the Rocket silo and the Rocket part item the silo crafts internally.
+<li>Rocket fuel is unlocked by researching its own technology which has Rocketry and Engine as a prerequisite. This means you can get rocket fuel for your vehicles way before the rocket silo.
+<li>Nuclear power is split to Uranium processing and Nuclear power, where Kovarex enrichment process only requires Uranium processing and Rocket fuel so you can get Nuclear fuel for your vehicles without the rocket silo.
+<li>Rocket control unit is unlocked by its own technology which has Production and High tech science pack technologies as a prerequisite. Additionally, Rocket control units are in the recipe for Atomic bomb instead of Processing units.
+<li>Low density structure is unlocked by researching its own technology which has Science pack 3 and Advanced material processing as prerequisites. The Low density structure is also used in multiple advanced personal equipment recipes (mk2 things, Portable fusion reactor, Personal laser defense) instead of steel.
+</ul>
+
+<p>
+We hope that these tweaks and changes will help to smooth out the experience for new players and veterans alike. If you have any suggestions, feedback or comment, we are always happy to hear it over on our <a href="https://forums.factorio.com/62257">forum</a>.
+</p>
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

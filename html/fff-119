@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #119 - Happy 2016 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #119 - Happy 2016
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2016-01-01, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello everyone,
+ <p>
+   we have been lucky that the New Years day happens to be on Friday this year. I am happy to wish you all the best for the 2016 both in the real world as well as in your factory worlds. Let the machines work smoothly, the pollution spread slowly and the biters be merciful.
+ </p>
+
+<h4> Holiday season </h4>
+
+ <p>
+ Many people have been away from the office for the past week. On top of that our attention has often been captured by remaining Christmas pastery or general relaxed atmosphere=) As a result only little work has been done. Kovarex continued in his build process migration to FastBuild, I have been tweaking the Server Browse Games interface for 0.13 and Robert has been fiddling with combinators improvements. Albert came back from the Mediterranean (supposedly Prague has been warmer than most of the Spain recently=)) and he got back to work on the gameplay trailer for the upcoming Steam release. Starting from the next week most of the team should be back and we are getting to "serious" work again.
+ </p>
+
+<h4> Factorio in 2016 </h4>
+
+<p>
+As mentioned in the previous post, we are going to release the game to Steam Early Access on 25th of February 2016. The first version that will appear on steam will obviously be the stable version of 0.12 (still in progress).
+</p>
+
+<p>
+So far this is the most important event on our radar for 2016 (if not for the whole development period so far). This will basically decide what will happen next. We prefer to keep any further plans to minimum until we see how the game is doing on Steam. However, the overall general effort of this year is to bring things together, polish and head towards a version that could be considered 1.0. We don't have a specific date for that except for now almost standard "end of the summer"=).
+</p>
+
+<p>
+One unfortunate news regarding the Steam release is that our marketing and community specialist Betka, is no longer working with us. At the moment we are looking for a replacement. However this probably means that we will have to do the Steam promotion for the game (namely contacting youtubers / bloggers / etc.) ourselves. In this regard we really count on the community to help us actively spread the word before the and during the Steam release.
+</p>
+
+<h4> Community Spotlight</h4>
+
+<p>
+Do you also feel the Christmas are going by too fast and you would like to hold on that fuzzy atmosphere a little bit longer? If so, then check out this nice little <a href="https://forums.factorio.com/forum/viewtopic.php?f=70&t=18324">Christmas mod</a> by Yuoki Industries. It adds some lights and present-like decorations that will give your Factories an appropriate atmosphere for these days.
+</p>
+
+<p style="margin:auto; width: 677px; margin-top:40px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-119-xmas.jpg"/>
+</p>
+
+<p>
+The combinators in the game have a limited effect at the moment. Basically the most interesting part is controlling the lights. Robert is working on extending that a lot.
+Still this was enough for a dedicated Factorio enthusiast to make a following brilliant video. You can compare it with the <a href=
+"https://www.youtube.com/watch?v=pWBjl-jPcVM"> original</a>.
+</p>
+
+<p style="margin:auto; width: 600px; margin-top:40px; margin-bottom: 40px; ">
+<iframe allowfullscreen="1" frameborder="0" height="316.38418079096044" src="https://youtube.com/embed/indN4kcshB0" width="560"></iframe>
+</p>
+
+If there is anything you would like to wish to us for 2016, let us know <a href="https://forums.factorio.com/forum/viewtopic.php?t=18843"/>at our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

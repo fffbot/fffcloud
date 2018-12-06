@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #133 - The train struggle | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #133 - The train struggle
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-04-08, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello Factorio players!
+
+<h4>Steam Account Linking</h4>
+We recently launched a new system on our webpage for linking a Factorio website account with a steam account. This will be used from now on to verify that the user making the key request is legitimate, and it should help reduce the amount of fraud we have been seeing on our website. Another feature of this is that now users who purchased the game on steam, can link their accounts and allow them to download the website versions of the game. This is all in preparation for 0.13 where account will be used to access the modding portal and the multiplayer matching server and the authentication service:
+
+<h4>Authentication service</h4>
+Now, when you are playing a multiplayer game and someone joins, the username he has could be anything he would like. This can be obviously used to cause havoc. To solve this, the servers will have an option  (on by default) to require authentication by the Factorio website before users can connect. This will be essential for implementing the admin system. The plan of the admin system is quite simple, the player starting the game is admin by default, and he can promote other to admins, kick and ban other people.
+
+<h4>The train struggle</h4>
+The promise to solve the irregular size of the train wagons, mainly the difference between vertical and horizontal size, put a lot of wrinkles on our faces. We had countless discussions with Albert about the possible solutions.<br/><br/>
+
+Our goal is to make the vertical and horizontal train stations, to have the same dimensions, something like this:
+<p style="margin:auto; margin-top:40px; width:832px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-horizontal-train-test.png"/>
+</p>
+
+<p style="margin:auto; margin-top:40px; width:384px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-vertical-train-test.png"/>
+</p>
+
+But the problem is the transition between these two directions. The core of the whole problem is, that the Factorio grid is squares, but the game isn't a top down view. The game uses an dimetric projection at an angle of 45 degrees. This means that the top down view of the Factorio tile is actually a rectangle with a dimensions of 1 by 1.414 (square root of 2 ).<br/>
+It was probably a mistake to make it this way, if I could go back in time 4 years and give myself advice to not do it this way, I would, but I have no time machine so we have to live with it as it is.<br/>
+This leads to the problem with trains, when you rotate the train wagon, the vertical variant occupies less tiles, so we compensated for this by making the train tighter in the vertical direction, which results in different lengths of the train stations.<br/>
+<p style="margin:auto; margin-top:40px; width:832px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-distortion.jpg"/>
+</p>
+
+The first solution we thought about, was to just stretch the train secretly as it is rotated. But as the difference is 41%, it would really not be hideable and it would make it look like it was made of rubber.
+<p style="margin:auto; margin-top:40px; width:352px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-train-distorsion-test.gif"/>
+</p>
+
+We were also considering different options, such as a piston in the middle of the train wagons that would extend when it rotates to vertical direction and similar crazy ideas. But nothing really made any sense to us.<br/>
+
+The solution came from the idea to use the gap. The inserter wouldn't be able to access the train in the gap, which would be a clear rule that could be easily applied even when the gap is tiny in the horizontal direction.<br/>
+If we make the length of the wagon 6 and the gap 1, we can make the gap look really tiny in horizontal direction, but extend it in vertical.<br/>
+<p style="margin:auto; margin-top:40px; width:1190px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-train-stop-horizontal.jpg"/>
+</p>
+
+<p style="margin:auto; margin-top:40px; width:377px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-train-stop-vertical.jpg"/>
+</p>
+These are far from perfect, but with some little adjustments, like a connection rod, and slight stretching , it might actually work, which is a big relief.
+
+<h4>Loader part 2</h4>
+I have been thinking about the loader every other day since the last introduction of the idea. There are so many aspects to it, as it affects core parts of the game, and it can potentially destroy a lot of small optimisation puzzles. The main reason why I wanted the loader, is to lower the gap between transport belts and logistic robots in the late game. The solution that I'm considering now is the <i>Heavy Inserter</i>. It would be just a different kind of inserter, that would apply the stack size bonus also when putting things from/to transport belts. Programming wise this is very simple to do, and it would also not drain the precious time of our graphics department.<br/>
+
+Apart the different color/graphics of the inserter it would look as this:<br/>
+<p style="margin:auto; margin-top:40px; width:406px; margin-bottom: 40px; ">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-133-heavy-inserter-test.gif"/>
+</p>
+
+<h4>Ease of use 2</h4>
+In the meantime, we are still adding nice little improvements to the ui. It is now possible to click the alert icon to open the map to the location of the alert. The map now zooms towards the cursor rather than the center of the screen. It is also possible to right-click and drag to move the map around.<br/>
+The blueprint icon can now use both fluid and circuit (virtual) signal icons.<br/> The production statistics now contain the overall sum. It is now also possible to select individual items in the production/electric statistics, to limit the graph to only show these items. As the graph is now, it doesn't show the production for small scale items well, when the production of the other items is so large.<br/><br/>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/23343">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

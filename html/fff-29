@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #29 - So many ideas | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #29 - So many ideas
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-04-11, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+The tradition is to open the friday facts by saying, that the new bugfix release is here, as well as saying that this one is definitely going to be the stable one. But this time we really think that 0.9.8 is going to be the one :).
+</p>
+
+<p>
+We spent very little time with the 0.9 branch as many things for 0.10 are in motion. As we <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=1911"/> already said</a> we planned to start using the automated testing, and this week, Tomas finally achieved to revive the testing suite, so we will slowly cover the source code by tests while working. Not only this is needed for the reasons already said, but we need to test all the otherwise hard to test corner cases in network communication logic that is Kuba giving the basic shape to. I'm now doing the hard work of fixing the small errors in determinism. I play the game, while it is saved periodically, then I have to start the replay wait for diversion from the original and find out why it happened by inspecting the differences in the saves. This is cumbersome process, as some of the inconsistencies are very hard to find, but after a few days and several bugfixes, I was able to replay the first tutorial mission without errors while certainly making a new world record of the time to finish the mission :)
+</p>
+
+<p>
+I gave myself approximately 1.5 hours daily to play computer games, and when playing these and reading Ideas and suggestions on our forums, it gives me so many ideas of what could be done. It is depressing to know, that all of these ideas, even when considering just the good ones, are just not possible to be made. Fight mechanics, alien pets, water-heating/cooling circuits, other planets, supplying orbit, satellites, ending of the game, different vehicles, airplanes, late-game rts controls of building and combat robot minions, equipment (as in armor) based blueprints for combat robots, enemy/neutral/allied survivors, after-landing phase where you have to take care of the people, caves and underground mining, armored trains, 20 different additions to circuit network, nuclear energy that is not just boiler that runs on uranium, 10 different enemies with different types of behaviours and attacks, different types of enemy bases, forests on fire, working eco-system, other downsides of pollution, snow areas with snow particles on machines, rare random Fallout-like encounters, different energy sources, advanced train controls, disasters, flowing rivers, more complex mechanics of armor equipment,  ... I could continue like this for a long time. We have already Ideas & suggestions section on our forums, but it might be nice to have something more organised, so people could add their ideas and vote/discuss what they think should have priority, or maybe there is a way how to do it directly on the forum, ideas?
+</p>
+
+<p>
+I was also thinking, that we might do some kind of technical development blog posts like <a href="http://www.codeofhonor.com/blog/tough-times-on-the-road-to-starcraft"> this one about Starcraft 1</a> as we are certainly facing some interesting challenges or hard decisions from time to time, would anyone be interested in that?
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+The following picture is the new version of basic electric pole. The main reason for the change was to make it less obstruct the view of the tiles behind and to avoid having the cable and the pole fall loosely when the cable has vertical direction.
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-29-electric-pole.jpg"/>
+</p>
+
+<p> We are always eager to learn what you think at <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=3100">our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

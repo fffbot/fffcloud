@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #174 - Mod gui | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #174 - Mod gui
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2017-01-20, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello, a wave of illness has afflicted the team these last few weeks, but things are starting to pick up again. With the collective health of the office back to normal, progress is advancing well on the features for 0.15.
+
+<h3>Mod gui</h3>
+
+<p>
+We offer a lot of freedom to the modders of Factorio, this freedom has been of huge advantage to everyone involved, allowing interesting and fresh mechanics to be implemented with simple Lua script and our API.
+</p>
+
+<p>
+With freedoms comes the fact that we can't control everything the modders want to do. In terms of visual design we have our own GUI elements under lock down, but mods can put things together in any way they like, and with no style guides or templates, we can end up with situations like this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; width: 900px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-174-mod-buttons-1.jpg">
+</p>
+
+<p>
+The player will understand that it isn't really our 'fault' that the buttons are not in a uniform style, but still it's an issue I wanted to try to address.
+</p>
+
+<p>
+Typically a mod Gui will be created something like this:
+</p>
+
+<pre style="width:900px">function create_gui(player)
+  player.gui.left.add
+  {
+    type = "sprite-button",
+    name = "My_mod_button",
+    sprite = "item/my-mod-item",
+    style = "My-mod-button-style"
+  }
+  player.gui.left.add
+  {
+    type = "frame",
+    name = "My_mod_frame",
+    caption = "My mod frame",
+    style = "My-mod-frame-style"
+  }
+end
+</pre>
+
+<p>
+This is very simple, and easy enough to understand, but will require each mod to define their own style, or use the LuaStyle script interface to set their style during the game. The issue of odd styling comes from perhaps there being no built in simple and effective styling mods can use. Another problem is that with multiple mods installed, there is no overall control about how and where the Gui elements interact and 'fight' with one another for space.
+</p>
+
+<p>
+So to begin to help this, I've implemented an optional Lua script that modders can use, which should help unify things, as well as being simple to use for anybody new. 
+</p>
+
+<pre style="width:900px">require("mod-gui")
+function create_gui(player)
+  mod_gui.get_button_flow(player).add
+  {
+    type = "sprite-button",
+    name = "My_mod_button",
+    sprite = "item/my-mod-item",
+    style = mod_gui.button_style
+  }
+  mod_gui.get_frame_flow(player).add
+  {
+    type = "frame",
+    name = "My_mod_frame",
+    caption = "My mod frame",
+    style = mod_gui.frame_style
+  }
+end
+</pre>
+
+<p>
+Which can look something like this:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-174-mod-buttons-2.jpg">
+</p>
+
+<p>
+While this is definitely optional, it really helps to tie together the style of the buttons.The separation of the button and frame flows will help to stop Gui fighting in the main 'left' gui. I'd also be interested in expanding the functionality of the mod-gui utility, so input and feedback from modders will be very helpful.
+</p>
+
+<h3>Stations color</h3>
+
+<p>
+As Vaclav was finishing up the High-res train stop and signal fixes, he enlisted the help of Rseding to add the same color selection for stations as we have for the locomotives.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-174-train-stop-colors.jpg">
+</p>
+
+<p>
+This minor addition really allows for much greater visual distinction between your different stations, and allow matching up your locomotives to their respective stations. There is also support to copy and paste the color from the train stop to the locomotive and vice-versa, so that you will always have a perfect match.
+</p>
+
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/viewtopic.php?f=38&t=40162/">our forums</a>.
+
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

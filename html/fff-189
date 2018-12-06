@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #189 - Specifying the 1.0 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #189 - Specifying the 1.0
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-05-05, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello!
+
+<h4>Bug hunting</h4>
+<p>
+Same as the previous week, we have spent most of our time bug hunting. This time, the disparity between how stable the game felt in our playtesting, and the current 240 bug report count is the biggest I have felt. I guess that this is the tax of having quite a lot of players playing the game, so we just go there and fight these one by one until it is done.
+</p>
+<h4>Specifying the 1.0</h4>
+<p>
+The plan is to finish the 1.0 (and by that I mean the stable version of 1.0) this year. There is just one big or two smaller releases ahead of us before we reach that. This means, that this is the time to decide what stays and what goes for 1.0. The overall plan is to mainly polish and finish what we have so far, with just little feature additions. We went through most of our Trello cards yesterday (And there are LOTS of them) and sorted this out, while the most asked question was: "Is this a new feature?", and the most frequent reaction to "Yes" was to delete the card. The only currently planned gameplay features are the artillery train and (probably) the spidertron.
+</p>
+
+<h4>Balancing changes</h4>
+<p>
+I was sick the last week so I decided to do one more playthrough of Factorio. It made me start a discussion in the office which led to additional balance tweaks:
+</p>
+<b>Altering the science pack recipes</b><br/>
+<p>
+The overall feeling was, that we might have gone little bit too far with all the science pack extensions, so I wanted to make it slightly less expensive. So we changed it that the science pack 3 (the blue one) requires mining drill instead of assembling machine now. The reason for it is, that we usually tend to automate mining drill production at this stage anyway as it crafts slowly and is needed in large quantities. The point of the science packs usually is to guide the player to automate things that he should have automated anyway, and this seems like more natural choice and part of the semi-hidden message of:  "Oh, you want to automate blue science pack, it costs a lot more iron that the previous ones, so you will probably have to mine more, so it is a good time to automate the mining drill production.".
+</p>
+<p>
+The second change is the the pumpjack ingredient in the production science pack (the purple one) being switched with the assembling machine 1 previously used in the blue science pack. The reason for this, is that pumpjacks are not used in higher quantities and people rarely automate it unless it is needed for the science packs. While assemblers are more likely to be automated anyway, so it not only reduces cost, but the average factory complexity (by a very small margin).
+</p>
+
+<b>Decreasing the crafting time of several things</b>
+<p>
+The crafting time of Oil refinery, pumpjack, chemical plant and roboport have been decreased. The reason for high crafting time is almost always to give bigger motivation to automate that specific item. But with pumpjack for example, I just craft it when I need it on place, and it just slows the game down. The slowdown is not enough push to automate the production, so the only effect is the extra time to wait for crafting which makes the game just less fun in my view.
+</p>
+<b>Fast and express belt length increase</b>
+<p>
+This came up when reviewing one of the trello card for possible underground belt length research. It sounds nice until you realize how much problems would it cause with blueprints. Blueprint made with higher research of length wouldn't work with lower one. So we decided to go with the simple way of increasing based on the belt level.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" width = 900px src="https://cdn.factorio.com/assets/img/blog/fff-189-belts-example.png">
+</p>
+</p>
+<h4>Blueprint based gameplay</h4>
+<p>
+This was just an idea, but the more I think about it, the more I like it. Special mode where you start with power armor MK2, personal roboports and construction robots that have the speed and cargo researches finished. Some additional starting items like extra miners or stone furnaces might be also added.
+</p>
+<p>
+The map seed would be predefined, so the map would stay the same every time you start in this mode. The goal would be to try to finish the game as fast as possible this way. What I Imagine, is that people might have set of blueprint books for different stages of the game prepared, they could swiftly change from starting setups, to middle game setups. They could expand the production very fast as it might have been planned out already by few repeated playthroughs. As the manual labor value would be diminished the return on investment of everything would be the king. The great thing about this idea is, that it is very easy to implement, it is just question of adding very simple custom scenario.
+</p>
+<p>
+As always, let us know if you have any thoughts or feedback on our <a href="https://forums.factorio.com/46557">Forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

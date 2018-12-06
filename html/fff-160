@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #160 - Playtesting | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #160 - Playtesting
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-10-14, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,<br/>
+once I <a href="https://www.factorio.com/blog/post/fff-159">changed the science packs for 0.15</a>, I had to do a playtest to have a feel of how the changes affect the game.<br/>
+ I finished it just before writing this post:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-160-playtest.jpg" width="900px">
+</p>
+
+This was the first single player playthrough in a long time, so there was a lot of new findings.
+I also enjoyed all the new features, like blueprint book, auto trash, train conditions etc. These were little things but they helped a lot.
+
+<h4>Finding 1 - the game contains a lot already</h4>
+The game took me 46 hours to finish. I didn't hurry too much, but it is still quite a long time, considering I played the game several times from start to finish already.<br/>
+It is not always so obvious to me when we are doing little iterative additions one by one, but when playing from start to finish, there are a lot of things to do. I like the moments when I have dozens of improvements to do and I need to choose the most important one for the moment. The complete change of playstyle in different phases of the game   (Burner &#x2192; research &#x2192; mass production &#x2192; trains &#x2192; multibelt setups &#x2192; construction robots &#x2192; even bigger mass production &#x2192; automated delivery &#x2192; modules &#x2192; multi platform stations &#x2192; rocket) felt right. The overall feeling was, that we shouldn't add much to the game content anymore or it will become too complex and big for the newcomers. This means, that when we add nuclear power, dirty mining, and a few little things, that will be it for the vanilla part of the game. We can still do the expansion pack with additional stages of the game and space exploration later, but that is a different story. The additional complexity will have to be optionally available via modding, this is why we have the native mod support.<br/>
+There are still a lot of things to be done even if we don't want to drown the player in features, like optimisations to make bigger factories run smoother, as a big part of the fun comes from organizing logistics of huge quantities.
+
+<h4>Finding 2 - The effects of research changes</h4>
+The higher tiers of the research were more expensive and slower (compared to the current 0.14) which I believe is a good thing. Choosing what to research felt more important and as things were unlocked slower. I had enough time to go through almost all the stages of the military options as the game progressed, which felt right.
+
+<h4>Finding 3 - the most needed changes</h4>
+The best way to improve the game as I see it, is to minimise the annoying parts of the gameplay.<br/>
+This is the list of changes for 0.15 I decided to do based on this playthrough:
+<ul>
+  <li>Decrease the bounding box of burner mining drills,chemical plants and pumpjacks so walking in between them is possible.</li>
+  <li>Increase stack sizes of belts,walls and pipes from 50 to 100, this is mainly for the later stage of the game with personal roboports, where making train stations and expansions meant having not enough of belts and walls way too often.</li>
+  <li>Decrease crafting time of some items (engines and pumpjacks 20->10, advanced circuits 8->6)</li>
+<li>Figure some way to have low level personal construction robots earlier in the game.</li>
+<li>Change the oil so the minimum yield is dependent on the starting yield so better fields are also better later on.</li>
+<li>There are more oil fields (compared to 0.13) which is a good change, but setting them up is quite a chore for big ones, so having fewer of them with higher yield would be better.</li>
+<li>MK2 personal roboport is a must, as the limit of 10 robots per roboport is not enough in later stages of the game when building bigger setups.</li>
+<li>Concrete shouldn't be blue science (green only)</li>
+<li>The electric furnace should be somewhat cheaper. (Especially when it is used in science packs now)</li>
+<li>Shift click (ghost placement) should go through trees and rocks as blueprints with shift do.</li>
+<li>Enhancement to the belt building mechanics, so building by dragging makes continuous belt.</li>
+<li>Limit turret creep as it is way too powerful now (especially with personal roboport) with a turret activation time. As it makes the expansion harder, the resource growth from the center should be higher.</li>
+<li>Merging items with different health. - We didn't do the item merging, as we didn't want the player lose his precious items as two 49% items would merge into one, which would prevent the player from repairing both for just a few repair. In reality, I feel that the annoyance of having 8 different stacks of laser turrets/walls in my inventory is not worth the rare possibility of losing an item or two.</li>
+<li>MK2 version of boiler and steam engine. It is going to be a must with the nuclear power, but it should be usable with conventional coal power generation as well.</li>
+</ul>
+
+<h4>Finding 4 - The interactive tips and tricks is a must</h4>
+There are many tricks and shortcuts in the game that make the gameplay so much easier. As we don't want to overwhelm the players with huge tutorials in the start, we need to teach them those as the game progresses. This would be done by the little interactive tutorials that would unlock only when it is relevant. Something like this:
+<ul>
+<li>You build the first locomotive &#x2192; Tutorial to setup a train schedule unlocked.</li>
+<li>You build a second locomotive &#x2192; Tutorial of rail signals unlocked.</li>
+<li>You build 50 rail signals &#x2192; Tutorial of chain signals unlocked.</li>
+<li>You build 10 requester chests &#x2192; Tutorial that copy paste from assembler to requester chest does exactly what you need.</li>
+<li>etc. etc.</li>
+As the tricks would be given to the player in small doses as he plays through the game and mainly when the player is probably just about to use it, we might add lots of these without the fear of overwhelming the player.
+</ul>
+<br/>
+As always, if you have any comments or otherwise, please let us know on <a href="https://forums.factorio.com/34319">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

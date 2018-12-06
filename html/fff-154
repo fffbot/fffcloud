@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #154 - Challenge us | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #154 - Challenge us
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-09-02, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello,
+we are in the phase of finishing the bug report stream, we expect to smoothly transition from the bug fixing phase to the work on 0.15 in the upcoming weeks.
+
+<h4>Team production challenge</h4>
+We talked about the idea in the <a href="https://www.factorio.com/blog/post/fff-152">fff-152</a> and the first version is working now. We tested it in the office, and I found it pretty fun to try outperform the other team, restart, and try to optimise tactics. We have decided to test it publicly now when the <a href="https://www.factorio.com/download/experimental">0.14.3</a> release is out. Just search for the <i>Team production challenge</i> on the matching server and hope to get there before it crashes. Some of us will be there playing it, do you dare to challenge us? :)<br/>
+<br/>
+To make it more practical to host and spread scenarios, we made it possible to host custom scenario directly when hosting a multiplayer game, and also, whenever you load a save game that is a scenario, the original scenario of the game will be saved in your scenario folder, so you can host and spread it further.
+
+<h4>Automation of creation of automated tests</h4>
+Big part of the pain when writing automated test in C++ is to have to guess the positions of entities correctly when building a setup to test, especially if they interact (rails, inserter, belts, etc).
+This is why Michal made an internal mod to generate the C++ code that generates entities based on setup in the game. We can just selected it like this:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-154-test-making-mod.gif">
+</p>
+And the scripts generates the C++ code to create the entities, which we copy in the code and work with.
+<pre style="width:970px">Rail* curvedRail1 = scenario.addEntity<Rail>("curved-rail", RealPosition(2, -4), Direction::SouthEast);
+Rail* straightRail1 = scenario.addEntity<Rail>("straight-rail", RealPosition(-1, -5), Direction::East);
+Rail* straightRail2 = scenario.addEntity<Rail>("straight-rail", RealPosition(1, -5), Direction::East);
+Rail* straightRail3 = scenario.addEntity<Rail>("straight-rail", RealPosition(3, -5), Direction::East);
+RailSignal* railSignal1 = scenario.addEntity<RailSignal>("rail-signal", RealPosition(-1.5, -3.5), Direction::West);
+Rail* straightRail4 = scenario.addEntity<Rail>("straight-rail", RealPosition(5, -1), Direction::NorthEast);
+RailSignal* railSignal2 = scenario.addEntity<RailSignal>("rail-signal", RealPosition(3.5, -1.5), Direction::NorthWest);
+</pre>
+It has saved us a lot of frustration already.
+
+<h4>The high res pack (for 0.15)</h4>
+We shown the high res graphics almost 2 years ago in <a href="https://www.factorio.com/blog/post/fff-64">fff-64</a>. We have been busy with other things since then, but we finally found manpower (thanks to Vaclav) to go back and improve some of the existing graphics. This is the comparison of the old and new belts, the difference might not be so clear to see on the first sight as they are moving fast, but once I zoomed in and compared to some other low res entities in game, I suddenly wanted everything to be high res.
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<table>
+<tr><td>
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-154-belts-loop-normal-res.gif">
+</td><td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</td><td>
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-154-belts-loop-high-res.gif">
+</td></tr></table>
+</p>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/32053">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #250 - Dead end conclusion | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #250 - Dead end conclusion
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan, Twinsen on 2018-07-06, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>Mod portal features <font size="2">(Klonan)</font></h3>
+<p>
+Sanqui has been quite effective these last weeks getting stuck in with the mod portal, so we have some interesting additions to talk about.
+</p>
+<b>Mod deprecation</b>
+<p>
+A modder can mark a mod as deprecated, which indicates they are no longer updating or maintaining it. The typical case is a mod will add something relevant for the current version of the game (E.G, a mod to scan the players starting area), and then an update to the base game makes the mod obsolete. Just deleting the mod could potentially cause problems for people playing an older version, people might ask what has happened to it etc.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-250-deprecated.png">
+</p>
+
+<p>
+Marking as deprecated will keep the mod up on the portal, but it will be hidden from any public searches. This way people downloading using 'Sync mods with save' feature can keep playing, while new players won't stumble upon a mod that is no longer useful or up to date. It also preserves the downloads and discussions in case the author wants to revive it later.
+</p>
+
+<b>Collaborators</b>
+
+<p>
+It is often the case, that a mod author will want someone else to help them maintain and manage their mod, for instance if they are going on holiday when a major release is coming out. The way it has worked in the past, another modder would have to come and upload an updated version of the mod under their own name. Now a modder can set another player as a 'collaborator', which means they can help out will all the maintenance of the mod. Collaborators can do everything the author can do, except add or remove collaborators.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-250-collaborators.png">
+</p>
+
+<p>
+You might also spot the other feature, transferring mod ownership. This lets the author give the mod completely to a collaborator, in the case that they are no longer interested in working on the mod at all.
+</p>
+
+<b>Discussions notice</b>
+
+<p>
+Mod authors can now display a notice above their mod page discussions, informing the users of any useful information. For example, an author might prefer you to report bugs on their GitHub page, so the notice will inform users of where they should go. An additional option allows the author to disable the discussions completely, in the case they have their own forum/thread somewhere for discussions.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-250-discussions.png">
+</p>
+
+<p>
+If you have any ideas for an improvement to the mod portal, please let us know on our <a href="https://forums.factorio.com/viewforum.php?f=189">Mod portal discussion subforum</a>.
+</p>
+
+<h3>Blueprints - Proposal Zero <font size="2">(Twinsen)</font></h3>
+<p>
+I feel that none of the propositions in the <a href="https://factorio.com/blog/post/fff-249">previous Friday Facts</a> were really that great. We spent some more time thinking about the blueprints and the blueprint library while going through the player feedback, and we are now agreeing on what I like to call Proposal Zero, because it was the first idea and the first mockup I ever made related to this subject. Put simply, blueprints stay as items, and the blueprint library becomes a regular inventory, like a chest (that is of course accessible across all your saves).
+</p>
+
+<p>
+The idea goes together well with the "quickbar is an action bar" idea explained in the <a href="https://www.factorio.com/blog/post/fff-191">FFF-191</a>. The details and mockups for the action bar are taking shape, so expect more about it in a future FFF. 
+</p>
+
+<p>
+When working on GUIs, I like to create design documents where I try to explain how something works as objectively and as complete as possible. It ends up sounding like a boring legal document, but it helps force me to think of all the corner cases and possibly find problems. I will use this opportunity to also tell you how we usually work on the GUI. Here is what I have written so far:
+
+<div style="
+    padding: 10px;
+    margin: 0 0 10.5px;
+    font-size: 13px;
+    line-height: 21px;
+    text-shadow: none;
+    background-color: #f7f7f7;
+    border: 1px solid #1c1e22;
+    font-family: Menlo,Monaco,Consolas,'Courier New',monospace;
+    font-size: 12px;
+    color: #000000;">
+
+Blueprints and blueprint library Proposition Zero:
+<ul>
+
+<li>In the text below, Blueprinting Tool = Blueprint, Blueprint book or deconstruction planner. Library = Blueprint Library. Book = Blueprint Book.</li>
+
+<li>Blueprinting Tools stay as items, they interact consistently throughout the game.</li>
+
+<li>The blueprint library: One window with one grid of large (or small?) spaces. The grid expands infinitely on a row-by-row basis (if any item is placed in any slot of the last row, a new row is added). This grid act almost identically as a chest. Items can be manually moved there, or fast transferred using any of the shortcuts that work for normal inventories (see comment below). This inventory grid can only hold blueprints, books or deconstruction planners.</li>
+
+<li>Special behavior: when picking up a Blueprinting Tool from the blueprint library, it is replaced with a "hand". This means that when pressing Q to drop it, it is not returned to the player inventory, instead, back to that slot in the blueprint library. This is so blueprints can easily be used directly from the library.</li>
+
+<li>The functionality of automatic blueprint library sharing in multiplayer is removed. The "shared blueprints" panel is removed. Blueprints and blueprint books in multiplayer will be shared by manually trading the items or by linking them in the chat. Blueprints or books linked in the chat can be clicked to pick up a copy that can be used as a normal item.</li>
+
+<li>Every Blueprinting Tool will have a unique identifier, so every blueprint item is unique, even if it has the same contents.</li>
+
+<li>The blueprint editing interface (the UI that opens when you right-click a blueprint) will have 2 new buttons:
+   <ul>
+   <li>Reassign: assign new contents to this blueprint. This is helpful when you want to update a blueprint and leave it in the same place in the player inventory, blueprint library or action bar.</li>
+
+   <li>Duplicate: create a new blueprint with a different unique identifier, but the same contents, and place it in the player cursor. This can be useful when players want to take a copy of a blueprint from the library to edit, experiment with or remove buildings from, without changing the original blueprint.</li>
+
+   </ul></li>
+
+<li>Shortcuts to Blueprinting Tools can be created from the player inventory or from the blueprint library to the action bar:
+   <ul>
+   <li>Right clicking a shortcut to a Blueprinting Tool will open the blueprint editing interface, as if it was right clicked in its original location.</li>
+
+   <li>If a Blueprinting Tool is moved between the library and the player inventory, the shortcut in the action bar remains valid and unchanged.</li>
+
+   <li>If the Blueprinting Tool is moved outside any of these inventories (e.g., placed in a chest, or given to another player), the shortcut will become greyed out and cannot be interacted with, only cleared. If the Blueprinting Tool is placed back in the player inventory or blueprint library, the shortcut becomes valid again.</li>
+
+   <li>If the Blueprinting Tool is removed (or destroyed) from the library, and a different game is loaded that had a shortcut to that Blueprinting Tool, the shortcut will become greyed out forever, and it can only be cleared. This is to give feedback that there used to be a Blueprinting Tool there.</li>
+
+   <li>If a Blueprinting Tool is explicitly destroyed using the trash button, the shortcut will become greyed out forever and it can only be cleared. This is to keep consistency with the two rules above.</li>
+
+   </ul></li>
+
+<li>Blueprint books will work very similarly to the library: it will be an inventory which can hold only blueprints (maybe also deconstruction planners?).</li>
+
+<li>Blueprint books will have the same sparse grid where you can arrange the contents as you like. 'Shift + Mouse Wheel' will move to the next/previous non-empty slot.</li>
+
+<li>Blueprint books will not have any special behavior or interactions while in the library, right clicking them will open the book in a separate window, possibly closing the Library. Clicking them will pick them up to the cursor.</li>
+
+<li>Blueprinting Tools are created using buttons in the Library. Blueprint string importing will also be there.</li>
+
+<li>Quick Copy pasting will be done using new copy-paste functions that work almost identically to blueprints. Pressing 'Ctrl + C' will place a copy tool, similar to a blueprint in the cursor. You can use this select a number of entities to copy. Pressing 'Ctrl + V' will place a quick paste tool in the cursor, similar to a blueprint with items. You can use this to place as many copies of the things you copied as you like.</li>
+
+<li>The quick copy and quick paste tools are not items. Pressing Q will simply clear the cursor and not return anything to the inventory.</li>
+
+<li>The quick copy and quick paste buttons will also be shown in the main GUI, next to the action bar. Hovering over the paste button will show a tooltip of the blueprint that is currently in the 'clipboard'.</li>
+
+</ul>
+
+Comments:
+<ul>
+<li>Being able to use all the fast transfer shortcuts in the blueprint library makes it very consistent with a chest, but can lead to very nasty situations where one accidental click can transfer all the blueprints and books to your inventory, completely screwing the order and organization you had in the grid. At the same time "transfer everything" can be something some players might use often if they don't have many books.</li>
+</ul>
+Other:
+<ul>
+<li>The blueprint editor GUI should allow you to zoom and pan around to better inspect it. You can add buildings while holding an item or ghost item from the action bar; for convenience a small interface will give you the possibility to place any ghost item in the cursor. This is intended for quick corrections. Things like connecting cables or changing entity settings will not be possible; for bigger changes use the Reassign button.</li>
+
+<li>The blueprint library button will be disabled until bots are researched or until any item is added to the library for the first time. This means less GUIs for new players to get lost in, also less of an invitation to use the controversial string importing at the beginning for the game.</li>
+</ul>
+</div>
+
+</p>
+
+<p>
+Usually I create a very crude and simplified MS Paint mockup of any changed GUIs.
+<p style="text-align: center; margin:auto; margin-top:10px; margin-bottom:20px;">
+<img style="vertical-align: top; width:50%;" src="https://cdn.factorio.com/assets/img/blog/fff-250-blueprint-library-3.png">
+</p>
+
+<p>
+I use all this, the design document and mockup, to present the idea to the other devs, make some changes, and if we all mostly agree with it, all this goes to Albert so he can more thoroughly design the look and arrange all the GUI elements. There is usually a lot of back end forth between us so we can properly tie UI and UX together. After the mockup is finished, one of the programmers, usually Oxyd, Dominik or I(Twinsen) start putting it in game, with the help of kovarex who makes sure AGUI has all the new functionality we need in the back-end. After we have the interaction in the game and we are able to play with it, there is of course further tweaking.
+</p>
+
+<p>
+Well, the process I wrote about is the ideal case, in reality every different part of the UI is done slightly differently, especially since we are still at the beginning and we are still trying to figure out the concepts of the GUI, but I hope we will be able to use this pipeline to go though the GUI like butter.
+</p>
+
+<p>
+Let us know what you think of the proposed changes to blueprint on our <a href="https://forums.factorio.com/61398">Forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

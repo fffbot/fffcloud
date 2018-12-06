@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #82 - Optimisations | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #82 - Optimisations
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-04-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello factorio builders,<br/>
+I hope you enjoy lists and numbers, because you are going to be fed by these today :).
+</p>
+
+<h4>The 0.11 has been declared stable</h4>
+<p>
+We know it is not perfect, but it got to a point, where the remaining problems are subtle or  specific to a certain hardware/software configuration or specific mods. The marathon of 22 releases in the 0.11 is finally over, so we can fully concentrate on the new stuff.
+</p>
+<br/>
+
+<h4>The team expansion</h4>
+<p>
+The recent calls for additional programmers had its results and we now feel, that the amount of people is starting to be enough for this stage of Wube software. This is the list of the people that work on the game sorted by the time of joining our ranks:
+<ul>
+<li><b>kovarex</b> full-time: The founder, mainly programming, managing programming and generating game ideas.</li>
+<li><b>slpwnd(Tomas)</b> full-time: The co-founder, mainly programming and managing, Tomas also takes care of most of the legal stuff, and shaves of the senseless ideas of kovarex.</li>
+<li><b>Albert</b> double full-time: <b>The</b> graphics guy, he is with us from the beginning.</li>
+<li><b>cube</b> full-time: Programmer and technical expert.</li>
+<li><b>Pavel</b> full-time: The graphics department reinforcement.</li>
+<li><b>Daniel</b> part-time: He is Composing the music and sounds for Factorio in the UK.</li>
+<li><b>Rseding91</b> part-time: Programmer from the US, he is working only remotely.</li>
+<li><b>Twinsen (Robert)</b> full-time: Programmer from Romania, he moved to Prague.</li>
+<li><b>Leon</b> part-time: Artist from Netherlands, he is doing the theme-art.</li>
+<li><b>Martin</b> part-time: Programmer, he joined us recently.</li>
+<li><b>Michal</b> part-time: Programmer, he is going to join us in two weeks.</li>
+</ul>
+It is going to be 11 people already! I can really feel the speed-up, as several big changes are being prepared at the same time, let's see how well can we coordinate.
+</p>
+<br/>
+<h4>The 0.12 todo list progress</h4>
+<p>
+Let's sum up what we promised for 0.12:
+<ul>
+<li><b>Multiplayer enhancments (lag hiding, better pvp/forces support)</b><br/>
+<i>Tomas is working on the lag hiding and it seems to have nice results, you can expect detailed description of it in the next fff.</i></li>
+<li><b>First part of the endgame content. (Build rocket and send it to space).</b><br/>
+<i>Robert finished the silo and rocket launching logic, the remaining part is to figure out the recipes for the rocket parts and details of the rocket assembling in the silo.</i>
+<li><b>Chain signals for trains</b> (<a href="https://www.factorio.com/blog/post/fff-81">More</a>)<br/>
+<i>Martin is still working on those, lot of details have to be finished, the work on the integration tests and graphics is supposed start next week.</i></li>
+<li><b>Combinator and more circuit logic</b> (<a href="https://www.factorio.com/blog/post/fff-66">The plans</a>)<br/>
+<i>We had a few talks about the combinator, we have some basic idea and we are discussing the details, Robert will start working on these soon.</i></li>
+<li><b>Personal roboport</b><br/>
+<i>0% progress</i></li>
+<li><b>Optimisation of the game simulation speed (mainly transport belt simulation)</b></br>
+<i>I (kovarex) work on it, more details in the next paragraph.</i></li>
+<li><b>New graphics of combat robots.</b> (<a href="https://cdn.factorio.com/assets/img/blog/fff-54-battlebots.jpg">The preview</a>)<br/>
+<i>Basically ready to be merged in to the main branch.</i></li>
+<li><b>Steam integration</b><br/><i>This is not technically part of 0.12 as we plan to go to the steam when the 0.12 is stable, but this time we decided to postpone it no more.</i></li>
+</ul>
+The list isn't so scary after all, so my optimistic estimate for 0.12 is 1.5 months from now, while slpwnd estimates 2.5 months from now. I know he is going to be right, but I still prefer to be optimistic and I also prefer to be pushed by deadlines.
+</p>
+
+<br/>
+<h4>The optimisations</h4>
+<p>
+For me, the beginning of the new major release development is usually tied to the game optimisation. The game could never be optimised too much, as every factory can be expanded. This is especially important now, when the multiplayer is in the game, as more players build more stuff, obviously.
+</p>
+
+<p>
+Most of the time, the biggest drain of the game update logic is the transport belts. There are usually many of these, and their logic was straightforward, but very inefficient. Every item on the transport belt was individual in-game entity with collision box and position. Once the item on the transport belt was supposed to move forward, all the nearby items (all in the 2X2 tile area) had to be checked for collision. There can be a lot of items nearby, especially if there is another transport belt next to the existing one so it can result in huge amount of checks.<br/><br/>
+There are 18 items to be checked for collision in this curve for every individual movement:<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-82-belts-old.jpg"/>
+</p>
+<br/><br/>
+<p>
+For 0.12, I completely rewrote the internal logic of all the transport belt related entities (belt, underground belt, splitter). The items on the belts are no longer represented as individual entities. These are just very simple internal structures moving on small invisible "rails". Once the item on the transport belt is supposed to move, only the item in front of it has to be checked for distance.<br/><br/>
+Movement of the item just requires to check the item in front of it, instead of checking collision with 18 different entities.
+<img src="https://cdn.factorio.com/assets/img/blog/fff-82-belts-new.jpg"/><br/>
+The other advantage of this rewrite is, that we can now fully control the density of the belts and other properties without ever being worried of the belts being stuck, like in this <a href="https://forums.factorio.com/forum/viewtopic.php?f=7&t=3162">bug report</a>.
+The overall optimisation of this change was roughly 20% time reduction on the testing factory.
+</p>
+
+<p>
+That combined with some other things we have done for 0.12, the update time is now reduced by 28% compared to 0.11. My dream would be to get to 50% so 0.12 would allow double factory sizes, but it is obviously harder and harder to optimise the game. On the other hand, it is more fun now, as it is starting to be more challenging.
+</p>
+
+I have been asked what is the distribution of the entity update time, so here are the results for the first 20 entities on the <a href="https://forums.factorio.com/forum/viewtopic.php?t=9129">standard factory</a>
+<table style="border-spacing: 10px 0px;border-collapse: separate;">
+<tr><td><b>Entity<b/></td><td style="text-align:right"><b>Update time</b></td><td><b>Plans</b></td></tr>
+<tr><td>Inserter</td><td style="text-align:right">18.01%</td><td><i>Reduce redundant vector rotations by precalculations.</td></tr>
+<tr><td>Transport Belt</td><td style="text-align:right">12.44%</td><td><i>Improve cache locality and activation/deactivation logic.</td></tr>
+<tr><td>Smoke</td><td style="text-align:right">9.66%</td><td><i>Shorten lifespan of the train smoke, custom simplification of it's movement logic.</i></td></tr>
+<tr><td>Crafting Machine</td><td style="text-align:right">6.97%</td><td><i>(furnaces/assemblers/chemical plants/refineries). Implement the sleep/wakeup logic for these.</i></td></tr>
+<tr><td>Solar Panel</td><td style="text-align:right">4.11%</td><td><i>Merge solar panels into groups internally when they are in the same network.</i></td><td></td></tr>
+<tr><td>Fluid Box</td><td style="text-align:right">3.68%</td><td></td></tr>
+<tr><td>Mining Drill</td><td style="text-align:right">3.40%</td><td></td></tr>
+<tr><td>Unit</td><td style="text-align:right">3.33%</td><td></td></tr>
+<tr><td>Underground Belt</td><td style="text-align:right">2.80%</td><td></td></tr>
+<tr><td>Logistic Robot</td><td style="text-align:right">2.60%</td><td></td></tr>
+<tr><td>Splitter</td><td style="text-align:right">2.31%</td><td></td></tr>
+<tr><td>Accumulator</td><td style="text-align:right">1.58%</td><td></td></tr>
+<tr><td>Lamp</td><td style="text-align:right">1.47%</td><td></td></tr>
+<tr><td>Roboport</td><td style="text-align:right">1.21%</td><td></td></tr>
+<tr><td>Boiler</td><td style="text-align:right">0.47%</td><td></td></tr>
+<tr><td>Particle</td><td style="text-align:right">0.40%</td><td></td></tr>
+<tr><td>Vehicle</td><td style="text-align:right">0.31%</td><td></td></tr>
+<tr><td>Generator</td><td style="text-align:right">0.28%</td><td></td></tr>
+</table>
+
+<br/>
+<p> The thread for your comments and opinions is ready <a href="https://forums.factorio.com/forum/viewtopic.php?t=9928">at our forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

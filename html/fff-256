@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #256 - The little things 3 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #256 - The little things 3
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Klonan on 2018-08-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello,</br>
+A bunch of us will be travelling to Gamescom next week as visitors, if you see anybody wearing a Factorio t-shirt, it might very well be one of us. We don't have a booth or exhibit this year, as we don't want to take any focus away from the development of the game.
+</p>
+
+<h3>Catalyst fixes</h3>
+
+<p>
+When we first released 0.15, we allowed Kovarex enrichment to use productivity modules. It very quickly became clear this doesn't work, as when the extra products were produced, it would output an additional 41 U-235, even though 40 of them were used as ingredients. An additional problem is that the 40 U-235 used as ingredients was shown as consumed in the production stats, and 41 as produced, even though really only 1 U-235 is produced. We added a fix for the production stats, but had more pressing concerns so we moved on.
+</p>
+
+<p>
+However one of our source access members, Nexela, saw the potential, and decided to develop the concept more fully. With his work and some final integration tweaks from kovarex, we now have a proper catalyst system for the recipes in the game. What this means is that productivity will only apply on the count of produced items which are not also ingredients, with the enrichment process example, the bonus production will only give 1 U-235, not 41. This also means that Coal Liquefaction has been somewhat nerfed, so we might take a look at rebalancing it.
+</p>
+
+<p>
+For modders: Catalyst ingredients are automatically calculated when the recipes are loaded, or can be manually assigned by putting `catalyst_amount = ...` in the ingredient and/or product definition.
+</p>
+
+<h3>Items not spilling on belts</h3>
+
+<p>
+We've all had the situation, where you are swapping out your armor and you accidentally spill your inventory all over the place. It is often not so hard to clean up, you can just use a filtered deconstruction planner to select the items on the ground. However if the items drop onto belts, the clean-up can be significantly more troublesome, as the items are swept away into the heart of the factory.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-256-drop-on-belts.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-256-drop-on-belts.webm" 
+          type='video/webm'/>
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-256-thumb.png">
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<p>
+It's not the biggest and most pressing issue in the world, but the result of this one misclick can result in a large amount of unfair annoyance. So just as a small tweak to the spill logic, in 0.17 if you do end up spilling your beans, they won't land on your spaghetti:
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<video autoplay muted loop playsinline>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-256-no-drop-on-belts.mp4"
+          type='video/mp4'/>
+  <source src="https://cdn.factorio.com/assets/img/blog/fff-256-no-drop-on-belts.webm" 
+          type='video/webm'/>
+Webm/Mp4 playback not supported on your device.
+</video>
+</p>
+
+<h3>Tile ghost tweak</h3>
+
+<p>
+We have all had the notion, that once we have a good and powerful network of Roboports and Construction robots set up, we would very much like to start paving the whole world with concrete. This is generally a slow process, but since it is automated, who cares about that.
+</p>
+
+<p>
+However there was an issue, when you placed down a blueprint for something actually important, the bots would be too busy processing the tile orders to notice. This is due to the way we internally structure the construction orders, essentially we just put all the ghosts in a big list, and work through it to check if we can build the ghost. The problem is that for performance reasons, we only process a small number of these orders each tick, and with a list that is quite large, it can take quite some time to process the new blueprint you just placed down.
+</p>
+
+<p>
+In 0.17, we have split this list into two, one for tile ghosts, and one for entity ghosts. This doesn't solve all the cases where blueprints will have quite some delay before building, but it solves the most typical case we see. We did a similar improvement a while back with the personal Roboports, where they independently check for nearby ghosts, outside of the global (per force) construction queue.
+</p>
+
+<h3>Belt Immunity Equipment</h3>
+
+<p>
+In the later game there is often an annoyance when trying to work around your overgrown belt jungle. It especially just leads to misclicks and a lot of hassle for something that doesn't really add much value to the gameplay at that stage. So the simple solution, in 0.17, there is a piece of armor equipment you can equip, that will make your character immune to belts.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top; " src="https://cdn.factorio.com/assets/img/blog/fff-256-belt-immunity-equipment.png">
+</p>
+
+<p>
+As always, lets us know what you think on our <a href="https://forums.factorio.com/62139">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

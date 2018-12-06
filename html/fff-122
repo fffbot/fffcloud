@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #122 - Better Circuit Network I | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #122 - Better Circuit Network I
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Robert on 2016-01-22, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+This week's Friday Facts is brought to you by Robert aka Twinsen aka that Romanian dude aka the Combinator guy. I'll be talking about the improvements that have been done so far in 0.13 to the circuit network.</br>
+</p>
+<br/>
+<h4>Graphical improvements</h4>
+<p>
+The previous combinators were quite big. Having a bunch of them connected close to each other didn't look nice and was hard to understand, so Vaclav made a couple of improvements to the sprites, including making them smaller.<br/>
+The constant combinator can now also be rotated so you can make the connections easier to see and understand.<br/>
+And short wires are rendered better.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-combinator-graphics-before.png"/>
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-combinator-graphics-after.png"/>
+</p>
+<p>
+Combinators will show some info in alt mode. Showing all the necessary information in such a small space is tricky, so for now some icons are shown, including input and output arrows.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+    <img src="https://cdn.factorio.com/assets/img/blog/fff-122-alt-mode.png"/>
+</p>
+
+
+<h4>General improvements</h4>
+<p>
+The constant combinators were often used to turn some logic on and off. Now there is an on/off switch in the gui to make this a bit simpler. It's has a small light on it to show that
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-alt-constant-combinator-on-off.png"/>
+</p>
+
+<p>
+Lamp colors can now be changed. The way it's done is by sending a color signal to the lamp. When the condition inside the lamp passes, instead of lighting up white, it will use that color.
+Other possibilities were sending RGB codes or setting a specific condition for each color, but I decided for the simple option.
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-lamp.png"/>
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-lamps.gif"/>
+</p>
+
+<p>
+Apart from that:
+<ul>
+<li>Added more virtual signals.</li>
+<li>Roboport is connectable to the circuit network. It sends the logistic network contents.</li>
+<li>Requester chest's requested items can be set automatically from the circuit network.</li>
+<li>The power switch  <a href="https://www.factorio.com//blog/post/fff-115" target="_blank">you already know about</a>.</li>
+</ul>
+</p>
+
+
+
+<h4>Combinator and circuit network design concepts</h4>
+<p>
+I would like to talk a bit about some of the rules I created for myself when designing the way combinators and circuit network works.
+</p>
+<p>
+The main purpose of the circuit network is to make it easy to do basic factory logic like "start this pump when petroleum gas < heavy oil + light oil". Simple comparisons and simple arithmetic.
+</p>
+<p>
+An <b>intended</b> side effect is that you can fairly easily make a <a href="https://en.wikipedia.org/wiki/Turing_completeness" target="_blank">turing machine</a>. If you want to geek out and create <a href="https://forums.factorio.com/forum/viewtopic.php?f=8&t=15113" target="_blank">a computer that calculates prime numbers</a> you can do it, but this is not the main function of the combinators.
+</p>
+<p>
+I also have kind of a design rule to try not add new entities in the game(not just combinator entities, entities in general), for a number of reasons:
+</p>
+<ul>
+<li>It's easier to get into the game without being overwhelmed by an unreasonable amount of content.</li>
+<li>One of the core fun things about Factorio is that you can combine few things in many ways. It's fun when you discover that you can use or connect an entity in many different ways.</li>
+<li>Cleaner toolbar and inventory.</li>
+<li>In the end game, some people like to have a factory that makes all the possible entities in the game. Too many entities means unreasonably big manufacturing location.</li>
+</ul>
+
+<p>
+Keeping these things in mind it's a rather hard decision to add new types of combinators in game. Many people have asked for logic combinators, bit combinators, timers, etc. But because of the reasons mentioned above, I believe it is not worth it.
+</p>
+<p>
+Finally, I know there is no real incentive to understand and use the circuit network, it's not part of the core gameplay, you can finish the game without it with no problems. I have no problem with that, I see the circuit network as a way to geek out and fine tune your factory even further if you feel the need to.
+<p>
+
+<h4>To be continued...</h4>
+<p>
+There is still a big change coming to the circuit network that I didn't talk about yet. Stay tuned next Friday for more details...<br/>
+Also keep in mind that I will try to connect more entities to the circuit network before 0.13 is out.
+</p>
+
+<h4>Community Spotlight</h4>
+<p>
+Last week, someone posted on the forum asking why the splitter is working in a seemingly weird way. So the community started to investigate the way the splitters work and somehow managed to create an item sorter using just belts and splitters. One of the designs is shown below:<br/>
+</p>
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px; ">
+  <img src="https://cdn.factorio.com/assets/img/blog/fff-122-splitter-sorter.gif"/>
+</p>
+<p>
+You can read all about it <a href="https://forums.factorio.com/forum/viewtopic.php?f=18&t=19114" target="_blank">in the forum topic</a>.<br/>
+When we saw this in the office it even took us a while to understand how they work. In the meantime, someone made <a href="https://www.youtube.com/watch?v=FQGFhebyrSI" target="_blank">a video</a> explaining it.<br/>
+The whole idea is based on the fact that splitter works <b>per item type</b>. It remembers where it sent the last item of a specific type and <b>tries</b> to send it in the opposite direction next time. By taking advantage of this internal state, sorters can be made.<br/>
+It works like this since very long ago. This was implemented to prevent the fact that in some situations, the two lanes of a belt (with one item type on each) would be split in two belts with one item type each. But as someone noticed, this leads to 
+<a href="https://forums.factorio.com/forum/viewtopic.php?p=123107#p123107" target="_blank">other small problems</a>.<br/>
+In light of all this information, we are considering changing the way splitter works. Possibly by making have an internal state per transport belt lane instead of per item. It will split each lane of each belt equally to the output.
+</p>
+<br/>
+<p>For comments and suggestions, feel free to PM me or comment <a href="https://forums.factorio.com/forum/viewtopic.php?t=19409">at the forums</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

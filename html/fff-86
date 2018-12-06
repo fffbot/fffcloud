@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #86 - Trees | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #86 - Trees
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-05-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+<p>
+it is a great weather here. The weather is actually so nice, that I
+had to take 4 day vacation last week. It was a paragliding
+vacation placed in Italy, Basano. It was my first proper flying with
+the "Factorio" paraglide and the experience was extra fantastic. I was
+able to turn off the programming/Factorio part of the brain for the
+time, which is very hard to achieve usually. This allowed me to
+recharge and clear the head so I can work on Factorio with the full
+enthusiasm again.
+</p>
+
+<h4>Trees</h4>
+Alberts to-do list is very tight these days, but it didn't stop him
+from expanding it voluntarily. The trees are completely redone for
+0.12. The main difference is, that the tree graphics has separated
+leafs and trunk. This allows us to have progression levels of the tree
+from healthy to just a naked trunk.</br>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-86-tree-health.jpg"/><br/>
+It also allows us to use different colors for one tree variant, which
+helps us to save the graphics requirements.<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-86-tree-colors.jpg"/><br/>
+This gives us a lot of combinations for single tree variation. We have
+10 variations for every tree family and 8 tree families, so the
+overall amount of variations is huge (exactly 5120):<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-86-tree-variants.jpg"/><br/>
+Another advantage of it is, that we can play with the color of the
+leaves as the game progresses. We plan to make a rule, that high
+pollution levels can make the tree not only loose some leafs, but it
+can also change the leaf color towards grey. This is one of the first
+steps towards the environment destruction we would like to see in the
+game.<br/>
+The tree destruction and mining were also tweaked. The tree emits leaf
+particles (of the same color as the tree) whenever the player hits it
+with the axe. When the tree is destroyed or mined, it leaves a stump
+and different kind of branch particles. This is much cheaper (graphics
+memory wise) than having separate animation of the tree falling down,
+but the feeling of the game interaction is enhanced a lot.
+<h4>Release automation</h4>
+The release automation is finally finished. The proverb "Everything
+takes longer than expected" applies here as well. The small touch is
+the special icon of the <a
+href="https://forums.factorio.com/forum/memberlist.php?mode=viewprofile&u=7177">FactorioBot</a>
+user on the forum. He will automatically make the release posts and
+move bug reports from "Solved for the new release" to "resolved".<br/>
+This is a dependency graph of tasks of the deploy script:<br/>
+<img src="https://cdn.factorio.com/assets/img/blog/fff-86-deploy-job-graph.svg"/><br/>
+<h4>Concrete paths</h4>
+The programming part of the concrete tiles building/removing is
+finished. Albert is now working on the graphics tile-set. The concrete
+is made out of stone + iron ore (cement) and water. I was actually
+trying to investigate how cement is made, which brought me to a <a
+href="https://www.youtube.com/watch?v=n-Pr1KTVSXo&feature=youtu.be&t=193">youtube
+video</a> that contains a machine looking very Factorio-like. This
+machine tempts me a lot to  put some specialised machine (for the
+cement->concrete creation) into the game instead of just using the
+assembling machine again. Considering the huge to-do lists of everyone, it
+will most probably not make it to 0.12, but it might be done for 0.13
+as we really need some new machine type with slightly different
+mechanics.
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=12358">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

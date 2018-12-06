@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #97 - Greenlight preparations | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #97 - Greenlight preparations
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2015-07-31, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,<br/>
+I will start today's Factorio friday facts with a famost quote:<br/>
+<i>Only two things are infinite. The universe and the Factorio map. But i'm unsure about the Factorio map.</i><br/>
+Albert Einstein.
+</p>
+
+<h4>0.12.2 is already recommended</h4>
+The 0.12 version stabilisation goes better then expected, there are still lot of bugs to be fixed, but they are mostly system specific, annoyances or desync problems. There is nothing really game breaking for vast majority of people, so it is quite probable that the (kovarex) stable will come several weeks from now. This means, that if you want for semi-stable release of Factorio, this is the time.<br/><br/>
+
+<h4>Greenlight campaign preparations</h4>
+As we have said many times already, we will start to attack the Steam once the 0.12 gets stable. But to make it right, we need to be ready, we especially need:
+<ul>
+<li>Proper set of screenshot to replace some of the very outdated ones on our <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=125195010">steam concept page</a>,  you can submit your own screenshot <a href="https://forums.factorio.com/forum/viewtopic.php?t=14355">on our forums</a> if you want to.</li>
+<li>The achievements set. We started the <a href="https://www.reddit.com/r/factorio/comments/3cwv58/factorio_achievements_proposals/">Factorio achievement proposal topic on reddit</a>, where you can spill your creative ideas.</li>
+<li>We are considering to re-record the trailer, it might have basically the same content, but we might do several tweaks here and there to make it nicer, like gates and floors usage + other details we added to the game. It could be also uploaded as 60 FPS video as youtube started to support it officially.</li>
+<li> Proper greenlight texts and list of media sources to spam with our campaign.</li></ul> All of this together might take some months, but not many, so stay tuned.<br/><br/>
+
+<h4>Graphics department switches</h4>
+Pavel have been working for us about a year, but the cooperation with him was not as smooth as we wished for, so we had to decide to find a replacement. We have a first serious candidate already. His main job is visualisation of road constructions and he is also a passionate Open TTD modder. He will come for a test period two weeks from now, so we will tell his name if the test period is a success :). His first test task is going to be the power switch entity for 0.13. This is the working sketch of the power switch by Albert:<br/>
+
+<p style="margin:10px auto; width:900px;">
+       <img style="display:block; margin:auto;" src="https://cdn.factorio.com/assets/img/blog/fff-97-power-switch-sketch.jpg">
+</p><br/><br/>
+
+<h4>Factorio advertisement in the sky</h4>
+We never took the advertisement very seriously (maybe we should in the future), so the first official ad of Factorio is quite unusual. You can see how I was promoting Factorio in the Macedonian hills. Don't spoil my hope, that some of the Macedonian Wood workers in the hills bought Factorio because of this :)
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 900px; ">
+  <iframe width="560"
+          height="316"
+          frameborder="0"
+          allowfullscreen="1"
+          style="display:block; margin:auto;"
+          src="https://www.youtube.com/embed/v1HbJ9Jy8uQ">
+  </iframe>
+</p>
+
+<p> Let us know if you have had fun with the 0.12.0 so far <a href="https://forums.factorio.com/forum/viewtopic.php?t=14359"> at our forums</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

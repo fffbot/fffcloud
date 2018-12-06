@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #209 - Optimisation is a way of life | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #209 - Optimisation is a way of life
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2017-09-21, <a href="/blog/">all posts</a></div>
+
+    <p>
+    I need to make a confession.<br/>
+I'm addicted.<br/>
+Addicted to optimisation.<br/>
+I earned some money by the game ... you know .. I could just .. I don't know .. play games and ... have some leisure time, but do you know what would be the problem? I would have to think about some Factorio optimisations I wanted to do anyway.<br/>
+When I go to bed in the evening, I think about cache locality and data structures. I dream about ways to reorganize structures to minimize the amount of data needed to be read to perform Factorio logic. When I walk in the park, i visualize the tricks that could be done to decrease data and logic dependencies. This usually only stops when I see how many bugs need to be fixed after release when lot of changes are done.<br/>
+
+<h4>Electric network optimisation</h4>
+The electric network optimisation for 0.16 was simple in principle. We currently have one continuous buffer of electric connector data stored in the electric network. It needs to be iterated twice (first for calculation, second for power distribution).
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-209-previous-electric-network-organisation.png">
+</p>
+
+The change was to categorize energy connector data by the prototype:
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-209-categorizing-electric-energy-sources.png">
+</p>
+It adds another layer of indirection when something needs to be added/removed from the network, but that happens quite rarely. The advantage is, that all the prototype specific values, like <i>inputFlowLimit</i>, <i>outputFlowLimit</i> etc. can be accessed once at the beginning of the processing of one category, which (together with other size squishing), results in a much smaller memory layout, which results in faster iteration of the algorithm.<br/>
+The conclusion is that electric network transfers are more than twice as fast compared to 0.15.
+
+<h4>Smoke optimisation</h4>
+Smoke already had the first iteration of optimisation <a href="https://www.factorio.com/blog/post/fff-84">125 weeks ago</a>. But Factorio is many times faster since than, so smoke started to appear in our profiling again.<br/>
+The problem was that even creating the smoke object and registering it on the map was slowing the game down. The plan was to make something we internally call TrivialSmoke. The Trivial smoke data size is 32 bytes which is quite small compared to the previous "smoke as entity" size of 256 bytes. It contains only the most basic data squashed as much as possible, and it is stored in a continuous piece of memory on the chunk it was created.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-209-trivial-smoke-buffer.png">
+</p>
+As the updates happen in regular intervals (120 ticks), it is always guaranteed, that the smokes to be updated this tick are at the beginning of the buffer, I don't have to check the rest. The same buffer is used for update and for render, so these objects don't need any other references to it.<br/>
+It is similar to the <i>Chunk update planner</i> mentioned in <a href="https://www.factorio.com/blog/post/fff-161">fff-161</a>, just flattened.
+The result is, as expected, that the smoke creation/update/removal times were significantly reduced.
+
+<h4>The logistic bots dilemma</h4>
+The dilemma is, whether to use similar approach to the logistic bots as for the smoke. This would mean that logistic bots would be created/updated/removed very fast and their memory footprint would decrease a lot, but they wouldn't be regular entities any more. They couldn't be mined (which could be for the better actually), couldn't be attacked or damaged by anything (which again, would be welcomed by some players). I'm quite sure that it shouldn't apply for the construction robots, as they are more related to the fighting part of the game, but logistic robots aren't.<br/>
+The dilemma is, whether changing the game rules like this <i>just</i> for optimisation isn't going too far.
+
+<h4>Running total</h4>
+I benchmarked a huge save of Vaclav (<a href="https://imgur.com/a/qDDs1">https://imgur.com/a/qDDs1</a>), and it can already run 2.4 times faster in 0.16 compared to 0.15 so we met our "2 times faster release" quota,
+ but I'm afraid that this won't stop the addiction.<br/>
+
+<h4>Stone path update</h4>
+Almost all of the terrain has been updated for 0.16, which includes the high-res update of it. We will certainly cover the terrain/trees/decals improvements in future FFF. Here I would like to present the new version of the stone path terrain made by Ernestas. It is inspired (as many things in Factorio) by the eastern style of pavements, and I'm starting to be a fan of his work.
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom: 20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-209-stone-path.png">
+</p>
+
+<p>
+As always, let us know your thoughts, ideas and feedback on our <a href="https://forums.factorio.com/52875">forum</a>.
+</p>
+
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

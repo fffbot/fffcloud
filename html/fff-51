@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #51 - First MP Game | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #51 - First MP Game
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Tomas on 2014-09-12, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello Factoriators,</p>
+
+<p>
+greeting from rainy Prague. Bad weather makes perfect environment for making good development progress and that is imho exactly we did this week. Just before we start I have to share this <a href="http://imgur.com/3ynoWed">picture</a> I came across when checking out Factorio subreddit. I find it super funny. The Factorio subreddit has an active community and it is becoming a good alternative to the forums.
+</p>
+
+<h4> 10 >= 10 </h4>
+<p>
+ The <a href="https://forums.factorio.com/forum/viewtopic.php?f=3&t=5760">0.10.10 was released today</a>. It is yet another attempt at a stable 0.10.x release so we can finally close down this chapter and completely move on to the work in the master branch. The 0.10.x is historically first release where number of bugfix releases will be higher than the release number. Let's hope this will not become a rule:)
+</p>
+
+<h4> Multiplayer Progress </h4>
+<p>
+This week has seen some good progress in our master branch. Cube has been busy with optimizing the effective throughput we can get when sharing the maps over the network. The change that should bring the biggest effect is switching from polling the incoming socket once a tick (every 1/60th of a second) to running a separate thread that will block on the incoming socket. The advantage here is that when the map provider receives a request for a certain block from the map it will respond immediately and not wait till the next tick (as it is now).
+</p>
+
+<p>
+Another bigger task we have done is something called the desync recovery. The thing is that the determinism desyncs will be quite frequent in the beginning. It would be rather annoying for the players if their game would just stop/crash now and then complaining about determinism problems. Here comes in the desync recovery mechanism. If the desync is detected (based on regular <a href="https://www.factorio.com/blog/post/fff-47">CRC checking</a>) then the player(s) who is desynced will automatically reconnect to the game. This effectively means that the game pauses, desynced player's Factorio redownloads the map from the others and then all players can continue playing as if nothing happened. As a bonus there is a desync report generated (containing log file, reference and desynced save and replay file) that should help us in figuring out what the problem was.
+</p>
+
+<h4> First Multiplayer Game </h4>
+<p>
+Our efforts have culminated yesterday when me and Kovarex had a regular half an hour LAN game. Until now it was all about tests and 20 seconds lasting mini attempts. This was actually the very first real game we tried.
+</p>
+
+<p>
+ So we made a constrained map without enemies and basically played through the initial phase of the game all the way to automating the research for red and green science packs. It was a great fun. Building the factory in two people, dividing tasks, shouting at each other over the room (we will definitely need some in game marking/planning tool), getting each other in the way. It is really amazing to see couple of month's efforts work out like this. </p>
+</p>
+
+<p>
+There were still some quirks with setting up the connection between different systems (here OSX and Win), but these will be solved soon. Also we had quite a few determinism desyncs (probably related to inventory manipulations). But because of the desync recovery feature mentioned above these were a mere small annoyance for the gameplay experience. The end of the game came when Cube tried to connect as well and Factorio crashed deep in Windows socket code:)
+</p>
+
+<h4> Tank and the Masks </h4>
+<p>
+The model for the new tank is finished. Now we need to actually integrate it functionally in the game. Recently the graphics department has had an upper hand - there are already a few assets finished that need some programming efforts to appear in the game. This is quite a new situation for us:) The reason for this is basically a lot of programming time we have allocated to the multiplayer and bugfixing.
+</p>
+
+<p>
+The new tank already contains masks for different player colors as you can see on the image below. Mask is a layer containing certain parts of the image in greyscale. This layer is then tinted by the engine and the effect is that entity can be cheaply displayed in different colors. With the multiplayer coming we will need to revisit a few existing entities to create masks for them, namely the car, turrets, walls. It might be surprising to see walls in the list, but the reason is that otherwise the player could mine the enemy walls (really fast) instead of destroying them.
+</p>
+
+<p>
+Using masks is also interesting for the modders. Because they can create new types of the entity with very little effort. We have already made changes to the engine in master branch that pretty much any animation can integrate masks. The biggest gain we can picture now would be for expensive animations like biters (and other enemy units coming in the future).
+</p>
+
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 768px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-51-tank-masks.jpg"/>
+</p>
+
+<p>
+Let us know what you think <a href="https://forums.factorio.com/forum/viewtopic.php?f=38&t=5761">at our forums</a>.
+</p>
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

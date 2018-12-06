@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #54 - Bug in bug reporting of other bug | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #54 - Bug in bug reporting of other bug
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2014-10-03, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello,</p>
+<p>
+as you could get from the caption, the work during the week was pretty frustrating at times, but the more rewarding it felt when the problems were finally fixed. This time I decided to give you another peek to our different kind of bug battles.
+</p>
+
+<h4> The hardest bug solved this week</h4>
+To describe this bug I need to first explain the system.
+
+Lets say you need to save the relations (arrows) between the objects as in the diagram.
+The rocket is aiming the player, the player is mining the resource as well as the mining drill. The working sound watches the mining drill and the mining drill targets the result chest.
+<p>
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 402px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-54-diagram1.png"/>
+</p>
+
+To be able to do that, we give a number to every object that is a target of some arrow, then instead of the arrow we just save the number. When the game is reloaded, the numbers can be used to setup the arrows again.
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 402px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-54-diagram2.png"/>
+</p>
+
+But what if this kind of arrow is used for something like working sound of the entity? It can be problematic, because the working sound is not part of the game state, and two players in multiplayer hear different machines as they are on different locations. This results in different numbers for the object, making the save different -> desynchronisation.
+<p style="margin:auto; margin-top:20px; margin-bottom: 40px; width: 402px; ">
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-54-diagram3.png"/>
+</p>
+
+This one took us quite some time to find, because there was error in the desynchronisation reporting code, it removed the player from the map before making the desynchronisation report, so we were inspecting the wrong bug (missing player in one of the games) most of the time. So basically it was a bug in bug reporting of other bug.
+But once the problem was addressed the fix was very easy, and we are one step closer to reliable multiplayer game, although we can't really know how many steps are still needed to be done :)
+</p>
+
+<h4> Tests are starting to kick-in</h4>
+<p>
+We spent part of our working time on writing the unit + integration tests, and it is quite obvious that we should have started with that earlier. There are so many things that are so easy to test automatically. Good example of test that have great ratio of coverage versus work needed to write is test that iterates through all the entities specified in the game. It tries to create every entity, save it, load it, and check if the state of it is exactly preserved. So simple thing and it helped to find 2 bugs we created in the past 2 weeks already. Apart the functionality the tests are able to store the crc checksum values of the key points in test scenarios to a file, so we can run the same tests on different computers to check that the tests run exactly the same on different systems and hardware. It might get very helpful in the future, where we could package the test binary into the standard Factorio installation, so players can test whether Factorio is working correctly on their system.
+</p>
+
+<h4>The work on the content additions</h4>
+<p>
+Míra finished the refactoring, that merged most of the game functionality of Furnace and Assembling machine. The problem was, that the only conceptual difference between those two is, that Furnace chooses the recipe automatically, while assembling machine needs the recipe to be set by the user. Apart saving the code duplications, it will increase mod options mainly as it will allow the furnace to have all the functionality of assembling machine, like pipe connections, configurable working visualisations and different inventory sizes.
+</p>
+<p>
+Kuba started to work on the changes to make the tank possible (In the meantime, when he is not fixing multiplayer code). The simple version of it is working, but there needs to be done a lot of small details. And we also need to figure out, how expensive should it be to make :)
+</p>
+<p>
+I (kovarex) am supposed to start working on the gates, which includes the implementation of the special code for the merging of wall/gates shadows to avoid strange looking shadow overlaps. But as I'm cooperating on the multiplayer bug hunting mainly the work on it can start later then I expected, but I still believe we can squeeze it to 0.11 :)
+</p>
+
+<p>
+  This is the work in progress of rework of the flying robot graphics. Looks like a great improvement to me :)
+   <img src="https://cdn.factorio.com/assets/img/blog/fff-54-battlebots.jpg"/>
+</p>
+
+<p> The regular comment thread <a href="https://forums.factorio.com/forum/viewtopic.php?t=6031">at our forums</a> is ready.
+ 
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #134 - Signal placement indicator | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #134 - Signal placement indicator
+    </h2>
+
+    <div style="font-size: 11px;">Posted by kovarex on 2016-04-15, <a href="/blog/">all posts</a></div>
+
+    <p>
+    Hello Factorio players!
+
+<h4>The fast progress report</h4>
+Cube is working on the udp download rate with high packet loss. Michal and Vaclav are tweaking the flamethrower mechanics (You will like this one). Robert is working on the circuit network improvements. Tomas is working on the authentication service. Albert is preparing the new train graphics which will solve the horizontal/vertical inconsistency explained <a href="https://www.factorio.com/blog/post/fff-133">in the last Friday facts</a>. Ondra is implementing control interface of the headless server and Martin is mainly cooperating on the integration of the mod portal.
+Most of these topics will be described in detail in a future Friday facts once they are finished.
+
+<h4>Welcome Mishka</h4>
+Miska is our now project manager on a testing period. We (Tomas and Me) decided to delegate some of our responsibilities to someone else, so we have more time for programming and game design. Her responsibilities will be to keep the track of the ongoing projects in Wube, help us to optimize our working processes, help with administrative and business tasks, possibly help us to optimize the bug fixing process and other similar tasks.
+
+<h4>Signal placement indicator</h4>
+Let me explain the process of a small task I decided to do during Sunday afternoon for 0.13, which grew to a week of work.<br/>
+The problem with signal building, is that it is not clear where can the signal be built, especially on turns like this:
+<p style="margin:auto; margin-top:40px; width:419px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-turn-without-helper.jpg"/>
+</p>
+So the first obvious step was to show the possible positions of the signal placement, to spare the player searching for those by moving the cursor around. The indicator shows only positions around the cursor (20 tiles radius) and it looks like this.
+<p style="margin:auto; margin-top:40px; width:463px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-turn-with-helper.jpg"/>
+</p>
+
+This is a nice improvement already, but once we have it, we can go further.
+
+The typical misunderstanding, is that people don't understand why is this signal blinking:
+<p style="margin:auto; margin-top:40px; width:400px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-non-working-signal.gif"/>
+</p>
+
+Signals as well as junctions always divide rails into segments. A segment is a rail with one beginning and one end, with no junctions and these segments are grouped into blocks. Two distinct blocks need to have signals on the border with the other blocks, and can't have any collisions with rails of another block. This is to make sure that a train on one block can never collide with a train on another block.
+
+<p style="margin:auto; margin-top:40px; width:319px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-segment-division.png"/>
+</p>
+
+The problem with the junction, is that the curved rail collides with both the left and right segments, so it merges all of the segments into one block. This renders the signal to be useless, as it is not dividing anything.
+
+<p style="margin:auto; margin-top:40px; width:307px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-segments-not-divided.png"/>
+</p>
+
+Placing signals on these positions makes no sense, so I extended the indication and building checks, to not allow the building of useless signals in junctions. This also makes it perfectly clear, what is the closest safe location after a junction to build the signal:
+
+<p style="margin:auto; margin-top:40px; width:776px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-junction-signal-placement-limitation.jpg"/>
+</p>
+
+Once I was done with that, I remembered another annoying issue that arises when building signals. The direction problems. One small and <a href="http://imgur.com/i4Gw154">often hard to find error</a> can cause a lot of confusion. It is especially important with a one way rail system, which is used by most people in the late game stage. 
+Signals like this make no sense, as there is no exit point from the center segment:
+<p style="margin:auto; margin-top:40px; width:610px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-wrong-signaling.png"/>
+</p>
+
+So I decided, that it won't be possible to place a signal in the opposite direction as long as there is no exit from the block in that direction. The signal can be always upgraded to a 2-way signal, by building a signal on the opposite side (the grey marks). As long as it is not done, the indicator will only show the placement on the correct side of the rail and won't allow incorrect placements by accident. This is especially useful when signaling junctions like this:
+<p style="margin:auto; margin-top:40px; width:820px; margin-bottom: 40px;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-134-signaling-final-version.jpg"/>
+</p>
+
+From the little testing I did, this is going to be one of those changes that will make us wonder, how could we play without it before?<br/><br/>
+
+As always, let us know what you think on <a href="https://forums.factorio.com/23717">our forums</a>.
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

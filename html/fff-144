@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #144 - The gfx report | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #144 - The gfx report
+    </h2>
+
+    <div style="font-size: 11px;">Posted by albert on 2016-06-24, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>
+Hello Factorians, 
+</p>
+
+<p>
+Most of the week has been spent by tweaking and fixing stuff that keeps coming up for the Monday release. Even though things seem to work reasonably well for us a lot of the reported issues are to be expected. Especially regarding the Matching Server and the Mod Portal. It is quite tricky to test these things in our limited environment. So please keep calm and report the bugs=)
+</p>
+
+<p>
+Some time ago we came up with an idea of involving more people from the team in writing Friday Facts than just kovarex or tomas. The motivation was to take off quite some responsibility from our shoulders but also to give other team members the opportunity to present their work - which we believe can be interesting to the readers. So slowly, posts written mostly by other developers (related to what they currently work on) started appearing. We would like to go in this one even further. So today, the post is written by Albert, our art director, who will give some introduction into the project from the point of view of the graphics creation and where he is going to steer the project art-wise in the future.
+</p>
+
+<h4>
+The process
+</h4>
+
+<p>
+Factorio is made in a way that I consider very organic. What I mean is that we have a general plan, a goal. But in the way of approaching this goal we are able to sit and watch, and see how it goes and tweak it if necessary.
+</p>
+
+<p>
+Always with the intention of being honest with the project and ourselves, in a realistic way, we see if the plan is working or not. 
+Normally it works but not fully 100%. Or it works just on paper but it won't work in the reality. 
+So at that point is where we need to accomplish the plan by having modifications and inserting unexpected additions.
+</p>
+
+<p>
+These unexpected additions can be the difference in between bad, regular, good or fantastic. 
+So they are very important for all of us. One significant example of what I mean is the entire train system. 
+After having it working since long and playing with it and observing how you players use it, we come out with huge improvements and additions. 
+I'm not saying that the entire train system is now perfect, but it is much better. I hope you will feel it (see the comparison below). 
+</p>
+
+<p>
+After all that time of development, and experimenting, Factorio is in a stage where we can see less or more easily how to improve it, and this is the point I wanted to get in.
+</p>
+
+<p>
+The plans for the future visuals can be separated in 4 main branches:
+
+<h4>
+1. Graphical User Interface (GUI)
+</h4>
+
+<p>
+Let's face it, we can do it better, and we want to. GUI shouldn't be improvised anymore, now we have the big picture. I'm going to be focused in this task together with Jan, our new programmer who has shown the skills and sensitivity to take care of this delicate matter. Together and with the feedback of the entire team we will rethink and re-shape the whole GUI in order to go for the final version. 
+</p>
+
+<h4>
+2. High resolution graphics
+</h4>
+
+<p>
+Kovarex said long time ago that we are preparing the engine for playing in high-res. Since then, every new entity we do is designed and rendered for having 2 versions: normal and HR. 
+
+Now, we have to move backwards in order to have the old entities like inserters, transport-belts, pipes, terrains, doodads, and a huge etc., in HR also.
+
+This is not a matter of just render it in double resolution, many things won't work with double size because the original design was meant to be just normal resolution.
+</p>
+
+<p>
+This can be bad, but I prefer to take it in the good way because now we have the chance to improve the design of many of the old entities and give them the modern and final direction we want for the game. So this subject is divided into re-render in HR and redesign old entities also.
+
+There' another subcategory in this subject, the icons. The plan is to to have all the icons in HR.
+</p>
+
+<h4>
+3. Terrain and environment
+</h4>
+
+<p>
+The actual terrain we use now is fine to me, but we would like to expand it in order to get more variety in the final picture.
+Jurek is our new 3d artist, he started this week in the studio and he's now playing and experimenting with terrain in order to get this variety of environment we want for the game. Good luck for Jurek : )
+</p>
+
+<h4>
+4. New entities
+</h4>
+
+<p>
+The studio is plenty of programmers, really, if you go to the toilette or the kitchen or anywhere, you will find some programmer there doing programmer stuff. That's great because the huge task of bug-fixing can be covered by a big part of them, and the game designer - kovarex - can be free to invent and prototype new entities. 
+This means a stream of tasks for the graphic department. This will be covered by Vaclav and me, So I will take the concept and work on it, and once it is ready, Vaclav can work on 3d for making it real and introduce it into the game.
+</p>
+
+<p>
+Until here the big picture of the general plan for the art side of Factorio, we can cover them in more detail, and probably we will. Also there's some other secondary tasks but it looks that the GFX reports will happen more often, so let's take them for another day. 
+</p>
+
+<p>
+Also do not expect to have all this ready immediately, we would love to have them ASAP, but if something I learned from Factorio is that there's no easy stuff. What it looks easy, probably will take more than what you expect. So no promises, but very good intentions.
+</p>
+
+<p style="margin:auto;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-144-the-gfx-report.jpg" alt="Trains comparison">
+<p>
+
+<p>
+If you want to comment anything about the ideas above exposed, please use the regular channel <a href="http://forums.factorio.com/27008">in the forums</a> as always.
+Thanks for the interest and see you in future posts.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>

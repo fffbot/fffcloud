@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #143 - Matching server and UDP NAT punching | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #143 - Matching server and UDP NAT punching
+    </h2>
+
+    <div style="font-size: 11px;">Posted by cube on 2016-06-17, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <p>Hello all,</p>
+
+<h4>About 0.13.0</h4>
+<p> The hype for the upcoming 0.13.0 release has been growing. There are two news I can give you at the moment. As usual one is "bad" and the other is "good". So let's start with the bad one. The release has been postponed. Now the good one. The release has a fixed and specific date now (as opposed to "yeah soonish ..."). The date is 27th of June (a week from Monday). This is a hard deadline. Basically unless something very unexpected happens (i.e. the office being hit by the meteor and our release server not surviving the impact=)) that is when the release will be.  
+</p>
+
+<p> 
+There are a few good reasons for us to postpone the release.
+<ul>
+<li> The NAT punching (see the rest of the post) has been just finished and we need to do some testing of it.</li>
+<li> <a href="https://www.factorio.com/blog/post/fff-141">The mod portal</a> requires some final tweaks to be at least basically functional. </li>
+<li> Issues are still being found during internal playtesting. </li>
+<li>kovarex is away for holidays and in his words "he prefers to relax without worrying about all the bug reports coming up after the release"</li>
+</ul>
+</p>
+
+<p>
+Just to share one of the many many issues / details that we came across during the playtesting. Below you can see a debugging visualisation for the smoke animation. Michal (posila) has been using it to figure out if the smoke animation is not getting stuck (which it was) and if the sprites are being drawn in the proper order (z axis wise).
+</p>
+
+<p style="margin:auto;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-143-smoke-debugging.jpg" alt="Smoke debuggin">
+<p>
+
+<h4>Matching server</h4>
+
+<p>In <a href="https://www.factorio.com//blog/post/fff-139">FFF 139</a> we talked about
+a matching server that is going to be integrated in 0.13.0.
+The matching server will allow you to mark your multiplayer game as public and
+announce it to other players, you know how it usually works.</p>
+
+<p>Tomas implemented the server and it's counterpart in Factorio itself, but we
+didn't get around to testing it as a whole for a long time.
+Eventually (while still not testing the feature), we figured that the server will
+not work for us here at the office, because we are hopelessly behind NAT (and with
+UPnP disabled, before you even ask).
+This realisation made us move the "NAT punching" card from "Ideas for 0.14" to "Priority".</p>
+
+<h4>NAT punching and how it works</h4>
+
+<p>When a client wants to connect to a server, the server needs to somehow announce
+its IP address and port for the client to connect to.
+For a web server this is done using DNS (and pre-determined port numbers), for
+Factorio multiplayer the matching server has the same role.</p>
+
+<p>With the server behind NAT there are two problems.</p>
+
+<p>First there is no way for the server to determine its IP address and port without
+external help and the IP address and port might not be the same for everyone on
+the internet.<p>
+
+<p>To solve this we have yet another two servers (<a href="https://twitter.com/codinghorror/status/506010907021828096">called pingpong1 and pingpong2</a>!).
+When a server starts it asks both of them "What is my IP address?".
+If we get an answer from both and the answers are the same, it means that the address
+received should work for all other clients on the internet.
+If we receive only one of the answers or if the answers differ, then something is
+wrong and you're out of luck :-)</p>
+
+<p style="margin:auto;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-143-get-own-ip.png" alt="Starting a game">
+</p>
+
+<p>The second problem is that most NATs in use will not allow an incoming packet
+unless there have already been some data sent to the address and port that originated
+the packet. After some time</p>
+
+<p>We avoid this problem by keeping a connection open between the game server and
+pingpong with periodic keepalive packets.
+When a client wants to connect to the server through matching server, it first
+sends a message to the server through pingpong which makes the game server send
+a first packet to the client and open the mapping in its NAT.
+
+<p style="margin:auto;">
+<img src="https://cdn.factorio.com/assets/img/blog/fff-143-connection-request.png" alt="Starting a game">
+<p>
+
+<p>The behavior we use is actually a specialised version of <a href="https://en.wikipedia.org/wiki/STUN">STUN</a>
+and <a href="https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment">ICE</a>
+adapted to run over Factorio protocol.
+And it looks like it's working :).
+Unfortunately it will not work under all circumstances (we expect about 70%), but
+better than nothing, right? :-).</p>
+
+<p>The comment thread <a href="https://forums.factorio.com/26831">at our forums</a> is ready.</p>
+
+<p>
+Next FFF edition will most probably be written by Albert about recent changes and progress in our graphics department. 
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>
