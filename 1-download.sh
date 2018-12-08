@@ -1,9 +1,10 @@
 #!/bin/bash
 
-cd html
+BASEDIR=html
 
 for i in {1..272}; do
-  if [[ ! -f fff-${i} ]]; then
-    wget https://factorio.com/blog/post/fff-${i} || echo ${i} failed >> ./failures.log
+  OUTFILE=${BASEDIR}/fff-${i}.html
+  if [[ ! -f ${OUTFILE} ]]; then
+    curl -o ${OUTFILE} https://factorio.com/blog/post/fff-${i} || echo ${i} failed >> ./download-failures.log
   fi
 done
