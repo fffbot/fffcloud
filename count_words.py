@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+import json
 import os
 import re
 import sys
+from collections import OrderedDict
 
 word_regex = re.compile('[^a-zA-Z]')
 
@@ -55,7 +57,11 @@ def count_words(text):
 
 
 def sort_by_values(d):
-    return [(k, d[k]) for k in sorted(d, key=d.get, reverse=True)]
+    sorted_list = sorted(d.items(), key=lambda x: x[1], reverse=True)
+    result = OrderedDict()
+    for (k,v) in sorted_list:
+        result[k] = v
+    return result
 
 
 def counts_to_str(d):
@@ -91,8 +97,7 @@ if __name__ == '__main__':
         data = infile_handle.read()
 
     title = extract_title(data)
-    out = counts_to_str(sort_by_values(count_words(strip_tags(clip(data)).strip())))
+    sorted_counts = sort_by_values(count_words(strip_tags(clip(data)).strip()))
 
     with open(outfile, 'w') as outfile_handle:
-        outfile_handle.write("#title: " + title + "\n\n")
-        outfile_handle.write(out)
+        json.dump({'title': title, 'counts': sorted_counts}, fp=outfile_handle, indent=2)
