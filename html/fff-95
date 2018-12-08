@@ -241,15 +241,15 @@ This is also the first release that was fully automated. The output of the actua
 [ OK ] Running pngcrush                                                                                                                                                                                                                        
 [ OK ] Updating backers.json                                                                                                                                                                                                                   
 [ OK ] Updating locale                                                                                                                                                                                                                         
-[ OK ] Connectng to ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c3a1b6aaafa783f2f3edf3edf3edf2">[email&#160;protected]</a>:2201                                                                                                                                                                                                  
-[ OK ] Making test data directory                                                                                                                                                                                                              
-[ OK ] Connectng to ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="214544514d4e58614454100f474042554e53484e0f424e4c">[email&#160;protected]</a>:22                                                                                                                                                                                           
-[ OK ] Connectng to ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1a625a75687b747d7f">[email&#160;protected]</a>:22                                                                                                                                                                                                          
-[ OK ] Connectng to ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="debcabb7b2ba9eefeef0eef0eef0ef">[email&#160;protected]</a>:2200                                                                                                                                                                                                  
-[ OK ] Commiting prepared data                                                                                                                                                                                                                 
-New commit: 25cb2e4fd16efa0bc6c32aad2de33bc84c8f87e7 Preparing release of version 0.12.0                                                                                                                                                       
-[ OK ] Updating build version                                                                                                                                                                                                                  
-[ OK ] Making non-demo data directory                                                                                                                                                                                                          
+[ OK ] Connectng to ssh://build@10.0.0.1:2201
+[ OK ] Making test data directory
+[ OK ] Connectng to ssh://deploy@eu1.factorio.com:22
+[ OK ] Connectng to ssh://x@orange:22
+[ OK ] Connectng to ssh://build@10.0.0.1:2200
+[ OK ] Commiting prepared data
+New commit: 25cb2e4fd16efa0bc6c32aad2de33bc84c8f87e7 Preparing release of version 0.12.0
+[ OK ] Updating build version
+[ OK ] Making non-demo data directory
 [ OK ] Making linux 32bit alpha build                                                                                                                                                                                                          
 [ OK ] Making osx 64bit alpha build                                                                                                                                                                                                            
 [ OK ] Making windows 32bit alpha build                                                                                                                                                                                                        
