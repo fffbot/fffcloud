@@ -46,6 +46,21 @@
             margin: 0;
             padding: 0;
         }
+
+        #cloud-vis {
+            margin: 25px;
+        }
+
+        h1 {
+            font: 18pt bold serif;
+            margin: 0 10px 0 0;
+            padding: 0;
+            border-bottom: 1px solid black;
+        }
+
+        h1 a, h1 a:link, h1 a:visited {
+            text-decoration: none;
+        }
     </style>
     <script>
         const _config = {
@@ -54,9 +69,9 @@
             'spiral': 'archimedean' /*rectangular*/,
             'scale': 'log' /*log/sqrt/linear*/,
             'max': 250,
-            'angle-count': 5,
-            'angle-from': -60,
-            'angle-to': 60
+            'angle-count': 1,
+            'angle-from': -90,
+            'angle-to': 90
         };
 
         function config(key) {
@@ -67,13 +82,16 @@
             return val;
         }
 
-        function createLi(text, href) {
+        function createLink(text, href) {
             const link = document.createElement('A');
             link.setAttribute('href', href);
             link.innerHTML = text;
+            return link;
+        }
 
+        function createLi(element) {
             const li = document.createElement('LI');
-            li.appendChild(link);
+            li.appendChild(element);
             return li;
         }
 
@@ -118,20 +136,22 @@
         }
 
         function showCloudFor(num) {
-            const cloud = document.getElementById('cloud');
+            const title = document.getElementById('fff-title');
 
             if (num === 'overview' || num === '') {
-                cloud.innerText = 'Overview :)';
+                title.innerText = 'Overview :)';
 
-                fillWordList(sumCounts(_data).entries());
+                //fillWordList(sumCounts(_data).entries());
             } else {
                 const entry = _data[num];
                 if (!entry || !entry.counts) {
-                    cloud.innerText = 'No FFF found for ' + num;
+                    title.innerText = 'No FFF found for ' + num;
                     return;
                 }
 
-                cloud.innerText = 'Would show cloud for ' + num + ' (' + entry.title + ')';
+                //caption.innerText = 'Would show cloud for ' + num + ' (' + entry.title + ')';
+                const link = createLink(entry.title, '#' + num);
+                title.innerHTML = '<a href="#' + num + '">' + entry.title + '</a>';
 
                 fillWordList(Object.entries(entry.counts));
             }
@@ -152,7 +172,13 @@
                     allWords.push(word);
                 }
             }
-            parseText(allWords.join(' '));
+            let txt = allWords.join(' ');
+            console.log('text length:', txt.length, 'array size: ', allWords.length);
+            parseText(txt);
+        }
+
+        function word_progress() {
+            console.log('arguments', arguments);
         }
 
         function loadData() {
@@ -165,115 +191,37 @@
                     Object.keys(data).sort((a, b) => parseInt(b, 10) - parseInt(a, 10)).forEach(num => {
                         const entry = data[num];
                         const title = entry.title;
-                        fffList.appendChild(createLi(title, '#' + num));
+                        fffList.appendChild(createLi(createLink(title, '#' + num)));
                     });
 
                     handleHashChange();
                 })
                 .catch(error => {
                     console.log('error!', error);
-                    const cloud = document.getElementById('cloud');
-                    cloud.innerText = 'Error loading word count data: ' + error;
+                    document.getElementById('fff-title').innerText = 'Error loading word count data: ' + error;
                 });
         }
 
         window.addEventListener("hashchange", handleHashChange, false);
         let _data;
-        loadData();
+        window.onload = () => loadData();
 
     </script>
 </head>
 
 <body>
 
-<div>
-    <style>
-        body {
-            position: relative;
-            font-family: "Helvetica Neue", sans-serif;
-            width: 960px;
-            margin: auto;
-            margin-bottom: 1em;
-            margin-top: 20px;
-        }
-        #presets a { border-left: solid #666 1px; padding: 0 10px; }
-        #presets a.first { border-left: none; }
-        #keyword { width: 300px; }
-        #fetcher { width: 500px; }
-        #keyword, #go { font-size: 1.5em; }
-        #text { width: 100%; height: 100px; }
-        p.copy { font-size: small; }
-        #form { font-size: small; position: relative; }
-        hr { border: none; border-bottom: solid #ccc 1px; }
-        a.active { text-decoration: none; color: #000; font-weight: bold; cursor: text; }
-        #angles line, #angles path, #angles circle { stroke: #666; }
-        #angles text { fill: #333; }
-        #angles path.drag { fill: #666; cursor: move; }
-        #angles { text-align: center; margin: 0 auto; width: 350px; }
-        #angles input, #max { width: 42px; }
-    </style>
-
-    <div id="vis"></div>
-
-    <form id="form">
-
-        <p style="position: absolute; right: 0; top: 0" id="status"></p>
-
-        <div style="text-align: center">
-            <div id="presets"></div>
-            <div id="custom-area">
-                <p><label for="text">Paste your text below!</label>
-                <p><textarea id="text"></textarea>
-                    <button id="go" type="submit">Go!</button>
-            </div>
-        </div>
-
-        <hr>
-
-        <div style="float: right; text-align: right">
-            <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
-            <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
-                <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
-            <p><label>Download:</label>
-                <button id="download-svg">SVG</button><!-- |
-    <a id="download-png" href="#">PNG</a>-->
-        </div>
-
-        <div style="float: left">
-            <p><label>Spiral:</label>
-                <label for="archimedean"><input type="radio" name="spiral" id="archimedean" value="archimedean" checked="checked"> Archimedean</label>
-                <label for="rectangular"><input type="radio" name="spiral" id="rectangular" value="rectangular"> Rectangular</label>
-            <p><label for="scale">Scale:</label>
-                <label for="scale-log"><input type="radio" name="scale" id="scale-log" value="log" checked="checked"> log n</label>
-                <label for="scale-sqrt"><input type="radio" name="scale" id="scale-sqrt" value="sqrt"> √n</label>
-                <label for="scale-linear"><input type="radio" name="scale" id="scale-linear" value="linear"> n</label>
-            <p><label for="font">Font:</label> <input type="text" id="font" value="Impact">
-        </div>
-
-        <div id="angles">
-            <p><input type="number" id="angle-count" value="5" min="1"> <label for="angle-count">orientations</label>
-                <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
-                <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
-        </div>
-
-        <hr style="clear: both">
-
-        <p style="float: right"><a href="about/">How the Word Cloud Generator Works</a>.
-        <p style="float: left">Copyright &copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>. The generated word clouds may be used for any purpose.
-
-    </form>
-
-</div>
-
 <div class="container">
     <div class="ffflist panel">
         <ul id="fff-list" style="border: 1px solid green">
-            <li><a href="#overview">[Overview]</a></li>
+            <li><a href="#overview">Overview of all pages</a></li>
         </ul>
     </div>
 
     <div class="cloud panel" id="cloud">
-        Loading data...
+        <h1 id="fff-title">Loading...</h1>
+        <div id="status"></div>
+        <div id="cloud-vis"></div>
     </div>
 
     <div class="wordlist panel">
@@ -292,9 +240,9 @@
 </div>
 
 
-</body>
-</html>
-
-
 <script src="ext/www.jasondavies.com_d3.min.js"></script>
 <script src="ext/www.jasondavies.com_wordcloud_cloud.min.js"></script>
+
+
+</body>
+</html>
