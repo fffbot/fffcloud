@@ -104,10 +104,27 @@
         tr.excluded {
             color: dimgray;
         }
+
+        .footer {
+            margin-top: 30px;
+            border-top: 1px solid black;
+            font-size: 9pt;
+        }
+
+        .noscript {
+            text-align: center;
+            font: 20pt bold serif;
+            color: #cc0000;
+            border: 1px solid #cc0000;
+            padding: 20px;
+            margin: 10px;
+        }
     </style>
 </head>
 
 <body>
+
+<noscript><div class="noscript">Sorry, you need to enable Javascript to view the word cloud.</div></noscript>
 
 <div class="container">
     <div class="ffflist panel">
@@ -120,6 +137,12 @@
         <h1 id="fff-title">Loading...</h1>
         <div id="status"></div>
         <div id="cloud-vis"></div>
+
+        <div class="footer">
+            This page made by fffbot (<a href="https://github.com/fffbot/fffcloud">Github</a> | <a href="https://old.reddit.com/user/fffbot">Reddit</a>).
+            Word cloud script &copy; Jason Davies, taken from: <a href="https://www.jasondavies.com/wordcloud/">jasondavies.com/wordcloud</a>.<br>
+            This page is in no way affiliated with Factorio or Wube Software. Find and buy Factorio on <a href="https://www.factorio.com/">www.factorio.com</a>.
+        </div>
     </div>
 
     <div class="wordlist panel">
