@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Factorio Friday Facts Wordcloud</title>
+    <meta name="description" content="View Wordclouds for Factorio Friday Facts blog posts.">
+    <meta name="author" content="fffbot">
+    <style>
+        body {
+            font: 10pt sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+        }
+
+        .panel {
+            flex-basis: auto;
+            flex-grow: 0;
+            flex-shrink: 1;
+            align-self: auto;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .ffflist {
+            border: 1px solid red;
+        }
+
+        .cloud {
+            border: 1px solid green;
+        }
+
+        .wordlist {
+            border: 1px solid purple;
+        }
+
+        .ffflist > ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        function createLi(text, href) {
+            const link = document.createElement('A');
+            link.setAttribute('href', href);
+            link.innerHTML = text;
+
+            const li = document.createElement('LI');
+            li.appendChild(link);
+            return li;
+        }
+
+        function handleHashChange() {
+            const num = location.hash.trim().substr(1);
+            showCloudFor(num);
+        }
+
+        function clear(element) {
+            while (element.lastChild) {
+                element.removeChild(element.lastChild);
+            }
+        }
+
+        function cell(text) {
+            const cell = document.createElement('TD');
+            cell.innerText = text;
+            return cell;
+        }
+
+        function row(word, count) {
+            const wordCell = cell(word);
+            const countCell = cell(count);
+
+            const row = document.createElement('TR');
+            row.appendChild(wordCell);
+            row.appendChild(countCell);
+            return row;
+        }
+
+        function sumCounts(data) {
+            const countsByWord = new Map();
+
+            Object.values(data).forEach(item => {
+                Object.entries(item.counts).forEach(([word, count]) => {
+                    const cur = countsByWord.get(word) || 0;
+                    countsByWord.set(word, cur + count);
+                });
+            });
+
+            return countsByWord;
+        }
+
+        function showCloudFor(num) {
+            const cloud = document.getElementById('cloud');
+
+            if (num === 'overview' || num === '') {
+                cloud.innerText = 'Overview :)';
+
+                fillWordList(sumCounts(_data).entries());
+            } else {
+                const entry = _data[num];
+                if (!entry || !entry.counts) {
+                    cloud.innerText = 'No FFF found for ' + num;
+                    return;
+                }
+
+                cloud.innerText = 'Would show cloud for ' + num + ' (' + entry.title + ')';
+
+                fillWordList(Object.entries(entry.counts));
+            }
+
+            window.scroll(0, 0);
+        }
+
+        function fillWordList(entries) {
+            const sorted = new Map([...entries].sort((a, b) => b[1] - a[1]));
+
+            const wordList = document.getElementById('wordlist-table-body');
+            clear(wordList);
+
+            for (const [word, count] of sorted.entries()) {
+                wordList.appendChild(row(word, count));
+            }
+        }
+
+        function loadData() {
+            fetch('all-counts.json')
+                .then(resp => resp.ok ? resp.json() : Promise.reject(resp.statusText))
+                .then(data => {
+                    _data = data;
+
+                    const fffList = document.getElementById('fff-list');
+                    const keys = Object.keys(data);
+                    keys.sort((a, b) => {
+                        const anum = parseInt(a, 10);
+                        const bnum = parseInt(b, 10);
+                        return anum - bnum;
+                    });
+                    keys.forEach(num => {
+                        const entry = data[num];
+                        const title = entry.title;
+                        fffList.appendChild(createLi(title, '#' + num));
+                    });
+
+                    handleHashChange();
+                })
+                .catch(error => {
+                    console.log('error!', error);
+                    const cloud = document.getElementById('cloud');
+                    cloud.innerText = 'Error loading word count data: ' + error;
+                });
+        }
+
+        window.addEventListener("hashchange", handleHashChange, false);
+        let _data;
+        window.setTimeout(loadData, 1000);
+
+    </script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="ffflist panel">
+        <ul id="fff-list" style="border: 1px solid green">
+            <li><a href="#overview">[Overview]</a></li>
+        </ul>
+    </div>
+
+    <div class="cloud panel" id="cloud">
+        Loading data...
+    </div>
+
+    <div class="wordlist panel">
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Word</th>
+                <th>Count</th>
+            </tr>
+            </thead>
+            <tbody id="wordlist-table-body">
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+</body>
+</html>
