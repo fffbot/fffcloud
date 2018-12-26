@@ -138,13 +138,7 @@
                     _data = data;
 
                     const fffList = document.getElementById('fff-list');
-                    const keys = Object.keys(data);
-                    keys.sort((a, b) => {
-                        const anum = parseInt(a, 10);
-                        const bnum = parseInt(b, 10);
-                        return anum - bnum;
-                    });
-                    keys.forEach(num => {
+                    Object.keys(data).sort((a, b) => parseInt(b, 10) - parseInt(a, 10)).forEach(num => {
                         const entry = data[num];
                         const title = entry.title;
                         fffList.appendChild(createLi(title, '#' + num));
@@ -161,7 +155,7 @@
 
         window.addEventListener("hashchange", handleHashChange, false);
         let _data;
-        window.setTimeout(loadData, 1000);
+        loadData();
 
     </script>
 </head>
