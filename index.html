@@ -25,22 +25,33 @@
             flex-grow: 1;
             flex-shrink: 1;
             align-self: auto;
-            /*width: 100%;*/
-            padding: 10px;
         }
 
         .ffflist {
-            border: 1px solid red;
+            margin-top: 30px;
             max-width: 1200px;
         }
 
         .cloud {
-            border: 1px solid green;
         }
 
         .wordlist {
-            border: 1px solid purple;
-            width: 500px;
+            margin-top: 30px;
+        }
+
+        .wordlist table {
+            margin-left: auto;
+            margin-right: 0;
+            border-spacing: 0;
+            border-collapse: separate;
+        }
+
+        .wordlist table td {
+            padding: 2px;
+        }
+
+        .wordlist table tr:hover td {
+            background-color: #f0f0f0;
         }
 
         .wordlist table tbody td.cell-word {
@@ -58,7 +69,8 @@
         }
 
         .ffflist > ul > li {
-            line-height: 1.5em;
+            text-indent: -20px;
+            padding-left: 20px;
         }
 
         #cloud-vis {
@@ -68,12 +80,17 @@
         a:link, a:visited {
             text-decoration: none;
         }
+        
+        a:hover {
+            text-decoration: underline;
+        }
 
         h1 {
             font: 18pt bold serif;
             margin: 0 10px 0 0;
             padding: 0;
             border-bottom: 1px solid black;
+            height: 30px;
         }
 
         th {
@@ -94,7 +111,7 @@
 
 <div class="container">
     <div class="ffflist panel">
-        <ul id="fff-list" style="border: 1px solid green">
+        <ul id="fff-list">
             <li><a href="#overview">Overview of all pages</a></li>
         </ul>
     </div>
@@ -106,8 +123,7 @@
     </div>
 
     <div class="wordlist panel">
-        <label for="show-excluded"><input type="checkbox" id="show-excluded"> Show excluded words</label>
-        <table border="1">
+        <table>
             <thead>
             <tr>
                 <th>Word</th>

@@ -2,26 +2,12 @@
 
 const _data = {data: null};
 
-function getData() {
-    if (_data.data) {
-        return _data.data;
-    }
-}
-
-function setData(newData) {
-    _data.data = newData;
-}
-
-function createLink(text, href) {
+function createLink(text, href, target) {
     const link = document.createElement('A');
     link.setAttribute('href', href);
     link.innerHTML = text;
+    target && (link.target = target);
     return link;
-}
-
-function refreshCurrentPage() {
-    const num = location.hash.trim().substr(1);
-    showCloudFor(num);
 }
 
 function clear(element) {
@@ -30,27 +16,12 @@ function clear(element) {
     }
 }
 
-function cell(text, className = '', title = '') {
+function cell(text, className, title = '') {
     const cell = document.createElement('TD');
     cell.innerText = text;
     cell.className = className;
     cell.title = title;
     return cell;
-}
-
-function row(word, count) {
-    const stop = isStopWord(word);
-    const wordCell = cell((stop ? '✗' : '✓') + ' ' + word, 'cell-word', word);
-    // ✓
-    const countCell = cell(count, 'cell-count');
-
-    const row = document.createElement('TR');
-    if (stop) {
-        row.className = 'excluded';
-    }
-    row.appendChild(wordCell);
-    row.appendChild(countCell);
-    return row;
 }
 
 function sumCounts(data) {
@@ -66,14 +37,17 @@ function sumCounts(data) {
     return countsByWord;
 }
 
-function showCloudFor(num) {
+function render() {
+    const num = location.hash.trim().substr(1);
+
     const title = document.getElementById('fff-title');
-    const data = getData();
+    const data = _data.data;
 
+    let items;
     if (num === 'overview' || num === '') {
-        title.innerText = 'Overview :)';
+        title.innerText = 'Overview of all pages';
 
-        fillWordList(sumCounts(_data).entries());
+        items = sumCounts(data).entries();
     } else {
         const entry = data[num];
         if (!entry || !entry.counts) {
@@ -81,18 +55,14 @@ function showCloudFor(num) {
             return;
         }
 
-        //caption.innerText = 'Would show cloud for ' + num + ' (' + entry.title + ')';
-        const link = createLink(entry.title, '#' + num);
-        title.innerHTML = '<a href="#' + num + '">' + entry.title + '</a>';
+        clear(title);
+        title.appendChild(createLink(entry.title, 'https://www.factorio.com/blog/post/fff-' + num, '_blank'));
 
-        fillWordList(Object.entries(entry.counts));
+        items = Object.entries(entry.counts);
     }
 
+    fillWordList(items);
     window.scroll(0, 0);
-}
-
-function isStopWord(word) {
-    return stopWords.test(word.toLowerCase());
 }
 
 function fillWordList(entries) {
@@ -103,9 +73,15 @@ function fillWordList(entries) {
 
     const allWords = [];
     for (const [word, count] of sorted.entries()) {
+        const stopWord = stopWords.test(word.toLowerCase());
 
-        wordList.appendChild(row(word, count));
-        if (isStopWord(word)) {
+        const row = document.createElement('TR');
+        stopWord && (row.className = 'excluded');
+        row.appendChild(cell((stopWord ? '✗' : '✓') + ' ' + word, 'cell-word', word));
+        row.appendChild(cell(count, 'cell-count'));
+        wordList.appendChild(row);
+
+        if (stopWord) {
             continue;
         }
 
@@ -113,8 +89,8 @@ function fillWordList(entries) {
             allWords.push(word);
         }
     }
-    let txt = allWords.join(' ');
-    wordcloud_parseText(txt);
+
+    wordcloud_parseText(allWords.join(' '));
 }
 
 function populateFffList(data) {
@@ -122,8 +98,7 @@ function populateFffList(data) {
     Object.keys(data).sort((a, b) => parseInt(b, 10) - parseInt(a, 10)).forEach(num => {
         const li = document.createElement('LI');
         const title = data[num].title;
-        const x = title.includes('-') ? title.replace('Friday Facts ', '') : title;
-        li.appendChild(createLink(x, '#' + num));
+        li.appendChild(createLink(title.includes('-') || title.includes('#84 ') ? title.replace('Friday Facts ', '') : title, '#' + num));
         fffList.appendChild(li);
     });
 }
@@ -132,21 +107,18 @@ function loadData() {
     fetch('all-counts.json')
         .then(resp => resp.ok ? resp.json() : Promise.reject(resp.statusText))
         .then(data => {
-            setData(data);
+            _data.data = data;
             populateFffList(data);
-            refreshCurrentPage();
+            render();
         })
         .catch(error => {
+            console.error('Error loading data', error);
             document.getElementById('fff-title').innerText = 'Error loading word count data: ' + error;
         });
 }
 
-window.addEventListener("hashchange", refreshCurrentPage, false);
+window.addEventListener("hashchange", render, false);
 window.onload = () => {
-    document.getElementById('show-excluded').addEventListener('change', e => {
-        console.log('change', e.target.checked);
-    });
-
     window.addEventListener('resize', e => {
         //console.log('resize', e);
         const w = window.innerWidth;
