@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friday Facts #274 - New fluid system 2 | Factorio</title>
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/factorio.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="/blog/rss" rel="alternate" title="Recent Blog Posts" type="application/atom+xml">
+    <meta name="viewport" content="width=device-width">
+    
+    
+ </head>
+ <body style="background: rgb(22, 22, 22) url(/static/img/stressed_linen_texture.png) repeat 0 0;'">
+  <div class="container header" style="margin-top: 30px;">
+
+    <!-- top row -->
+   <div class="row" style="margin-bottom: 30px;">
+     <div class="span4">
+       <a href="/"><img src="/static/img/factorio-logo.png" style="margin-top: 10px;"/></a>
+     </div>
+    <div class="span8 span8-navbar" style="margin-top: 10px;">
+     <div class="user-controls">
+      
+           <a href="/login">log in</a>
+           <a href="/signup">sign up</a>
+      
+     </div>
+
+     
+
+      
+
+     <div class="navbar">
+      <ul class="nav">
+        
+          
+            <li >
+
+            
+              <a href=/
+                 
+              > Home </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/store
+                  style="color: #ff7200;" 
+              > Merch </a>
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/game-overview"
+                
+                role="button">
+                Game
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/starter-page>
+                      Starter Page
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/screenshots>
+                      Screenshots
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/videos>
+                      Videos
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/content>
+                      Content
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/modding>
+                      Modding
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/team>
+                      Team
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li  class="custom-dropdown" >
+
+            
+
+              <a class="custom-dropdown-toggle"
+                data-toggle="dropdown"
+                href="/support-overview"
+                
+                role="button">
+                Support
+              </a>
+
+              <ul class="custom-dropdown-menu" role="menu">
+                
+                  <li role="presentation">
+                    <a href=/help>
+                      Help
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/faq>
+                      FAQ
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/press-and-youtube>
+                      Press and Youtube
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/community>
+                      Community
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/partners>
+                      Partners
+                    </a>
+                  </li>
+                
+                  <li role="presentation">
+                    <a href=/credits>
+                      Credits
+                    </a>
+                  </li>
+                
+              </ul>
+
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=https://forums.factorio.com/
+                 
+              > Forums </a>
+            
+
+            </li>
+        
+          
+            <li >
+
+            
+              <a href=/contact
+                 
+              > Contact </a>
+            
+
+            </li>
+        
+
+      </ul>
+     </div>
+     </div>
+    </div>
+   </div>
+  <div class="container">
+    <noscript>
+      <div class="alert alert-block alert-error" style="font-weight: bold; ">
+        Javascript is required for proper functioning of these web pages.
+      </div>
+    </noscript>
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+
+<div class="row">
+  <div class="span12 blog-post">
+    <h2 style="margin-top: 20px; margin-bottom:5px;">
+      Friday Facts #274 - New fluid system 2
+    </h2>
+
+    <div style="font-size: 11px;">Posted by Dominik, Klonan, kovarex on 2018-12-21, <a href="/blog/">all posts</a></div>
+
+    <p>
+    <h3>New Fluid system 2 <font size="2">(Dominik)</font></h3>
+<p>Hi Factorians,</p>
+
+<p>
+Here is Dominik, with an update on the fluids. This time it is pretty much finished so I can tell you facts instead of just speculations. You will find how the new algorithm will work and some new handy usability features.
+</p>
+
+<p>
+In <a href="https://factorio.com/blog/post/fff-260">FFF-260</a> I wrote about how it all started, why we are doing it and what the plan is. There was a huge response from you all and I want to thank everyone for their contributions. Let me apologise to redditors, as at the beginning I started responding on the forums and when I realized there is reddit too, there were too many comments for me to handle.
+</p>
+
+<p>
+The forum users produced many ideas on how the system could work. About third of them was a fluid teleportation, many where known but many were entirely new and interesting. What intrigued me was the large variety of backgrounds they came from - differents kinds of engineers (mechanical, CS, electrical, ...), mathematicians, physicists, and even people with real pipes hands on experience. I won’t go through them here, you can find them on the forums or reddit. There were two proposals on the forum though that were so good that they made it into the game - from quinor and TheYeast.
+</p>
+
+<p>
+Both of these proposals were very similar and kinda similar to the previous game logic. What it shares is that the mechanic still uses fluid physics simulation and volume in a pipe as a base for the movement calculation. As a result, not much changes on the first glance. What they add though is an emphasis on the fluid network update being independent on the current state (i.e. updating one pipe only depends on state from the last tick) and is therefore independent on evaluation order, which was one of the big pains of the old model that led to sometimes ridiculous junction behavior. Difference between these two was rather small - quinor’s version allowed perfect throughput with 3 passes over the fluidboxes (fluidbox is the thing managing fluids for entities, so I will talk about them), while Yeast’s one was 2 pass with ¼ throughput. What was outstanding though is that TheYeast, a physicist, supported the model with a nice theoretical background and what’s more, he made an amazing <a href="https://jsfiddle.net/TheYeast/c9d2azjo/show">JS simulator</a> to test and compare various modification of the model. Because that extra pass in quinor’s version was too high a price for the perfect throughput, I went with TheYeast’s two pass one.
+</p>
+
+<p>
+Since the old algorithm only used a single pass run by entities for the update, I first needed to overhaul the whole system to allow accommodating the new one. Going from one pass to two passes necessarily means higher complexity, so we made a big effort to optimize everything we could to make sure we will still end up faster than 0.16. Kovarex wrote about it in <a href="https://factorio.com/blog/post/fff-271">FFF-271</a>.
+</p>
+
+<h4>The new algorithm</h4>
+
+<p>
+The new algorithm follows realistic wave equations. It works with two variables.
+<ol>
+<li>The volume of a fluid in a fluidbox (FB) and the corresponding column height.
+<li>The flow speed in a connection between fluidboxes.
+</ol>
+The exact behavior then depends on two constants:
+<ul>
+<li>C^2 - corresponds to the mass of the liquid. Affects how quickly changes (waves) propagate.
+<li>Friction - affects how quickly throughput drops with pipe length.
+</ul>
+The first good news is that these variables can now be set for fluids separately so different behaviour can be achieved. E.g. crude oil pipeline will require some pumps while steam will be totally fine.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-fluid-friction.gif"/>
+</p>
+
+<p>
+The two pass algorithm for one update (leaving out many details) is then as follows:
+<ol>
+<li>Update flow speeds on all connections
+<br>A. d = difference of fluid column (input has always 0 and output has max)
+<br>B. d *= c^2
+<br>C. (mechanism for damping waves)
+<br>D. Flow speed += d
+<br>E. Clamp the flow to take max ¼ of contents (otherwise we could get below 0 - remember that we only use last tick information); fluid can go over max temporarily.
+<li>Move the fluids along all connections
+<br>A. Just move 'speed' amount of fluid from one FB to another
+</ol>
+</p>
+
+<p>
+This algorithm is so simple and works so well, and also requires only very small changes, that it was a clear winner. The main downside is that it can only move ¼ of FB content in one tick, so FBs are enlarged to compensate. Another is that the fluids may seem to travel quite slowly into an empty pipe, but that is actually quite realistic and looks nice. The third issue might be some waves and oscillations, which are a result of the realistic model, and are very small with the current dampening model. This could be limited even further by introducing continuous fluid production/consumption, but it does not seem necessary at the moment. 
+</p>
+
+<p>
+What you get over 0.16 is that the fluids now behave correctly and intuitively, performance is consistent (pipes to ground won’t help you with throughput anymore), different fluids actually move differently.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-fluid-splitting.gif"/>
+</p>
+
+<p>
+As a small but handy improvement, you can now see flow rate information in the entity info of each pipe.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-fluid-info.png"/>
+</p>
+
+<p>
+My big thanks go to quinor and mainly TheYeast for coming up with the model and doing a lot of work with me on tuning it and finding improvements to make the behaviour as nice as it is now. In case you are interested in more detail, see TheYeast’s <a href="https://forums.factorio.com/search.php?author_id=35849&sr=posts">forum posts</a> and <a href="https://jsfiddle.net/TheYeast/c9d2azjo">simulator source code</a>.
+</p>
+
+<h4>Efficiency</h4>
+
+<p>
+The overhauls and optimisations in <a href="https://factorio.com/blog/post/fff-271">FFF-271</a> cut the update time by some 50% and up to 10x on some high-end CPUs. 
+</p>
+
+<p>
+Introducing the new algorithm made it immediately 30% slower. Long story short, through various fixes, including a small change that made the algorithm 1 pass again, this increase was cut down to 15%. So the overall result is that the fluid update is still a lot faster than it was before. I am still debating the segment merging, as it is not that simple and it would cost the simulation some detail. It is a low priority at this point compared to other parts of the update time.
+</p>
+
+<h4>Fluid Mixing</h4>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-gone.png"/>
+</p>
+
+<p>
+That’s right. No more fluid mixing.<br>
+Once an empty fluid system (connected network of fluidboxes - pipes, crafting machines etc.) touches either a fluid or a fluid filter, the system is locked onto that fluid. It is then not possible to connect it to another system with a different fluid. There are quite a few actions which can result in merging systems, so each needed to be checked:
+<ul>
+<li>Building an entity with fluidboxes (Eg. pipes, pumps, storage tanks)
+<li>Setting a recipe with a fluid input/output
+<li>Rotating an entity
+</ul>
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-no-mixing.gif"/>
+</p>
+
+<p>
+ In order to use the system for a different fluid, the system must first be reset - by draining its fluid and removing all the filters.
+</p>
+
+<p>
+Please note that old saves have to work with this so if your save currently contains some fluid mixing setup, it will be automatically fixed upon loading it. This will be done during migration either by removing some fluids, unsetting recipes, or destroying entities if need be.
+</p>
+
+<h3>macOS developer needed <font size="2">(Klonan)</font></h3>
+
+<p>
+At the start of this week our long time macOS maintainer and web admin HanziQ let us know he was leaving the team and moving on to other projects. He has been part of the Factorio team for nearly 4 years, and in that time has contributed a lot to the game and community. We all wish him the best in his future endeavours.
+</p>
+
+<p>
+HanziQ leaving, along with the departure of our other macOS developer Jiří, means we currently have nobody on the team to work with and maintain the macOS version of the game. This is a pretty significant issue, as we have the largely untested GFX engine rewrite due to be released with 0.17. If you know anybody who may be able to help us fill this position, please direct them to our <a href="https://factorio.com/job/macos-game-developer">macOS developer job listing</a>.
+</p>
+
+<h3>Steam keys direct from us <font size="2">(Klonan)</font></h3>
+
+<p>
+We have long sold the game through our own website, which involves receiving a code and then registering an account etc. I have received quite some community feedback, and from this feedback we have decided to start selling Steam keys directly through our site. On the buy page you will be given the choice of a Website key or Steam key.
+</p>
+
+<p style="text-align: center; margin:auto; margin-top:20px; margin-bottom:20px;">
+<a href="https://factorio.com/buy">
+<img style="vertical-align: top;" src="https://cdn.factorio.com/assets/img/blog/fff-274-buy-steam-key.png"/>
+</a>
+</p>
+
+<p>
+We hope this will be more convenient for a lot of people, especially for those wanting to gift a copy of the game this holiday season.
+</p>
+
+<h3>Steam awards 2018 <font size="2">(Klonan)</font></h3>
+
+<p>
+The <a href="https://store.steampowered.com/SteamAwards/2018/">Steam awards 2018</a> voting has begun, and Factorio is nominated for 'Most fun with a machine'. There are also 2 other Czech games nominated for the same category, so the country is quite well represented.
+</p>
+
+<h3>Animal named after the game <font size="2">(kovarex)</font></h3>
+
+<p>
+A new species of scorpion <i>Neobuthus Factorio</i> was just identified and classified. My father has a hobby of going (not only) to dangerous places and identifying undiscovered species of scorpions and spiders. He offered to name one of his classifications after the game for fun. You can find the full publication <a href="http://www.kovarex.com/scorpio/pdf/2018o-Neobuthus_271.pdf">here</a>.
+</p>
+
+<p>
+As always, let us know what you think on our <a href="https://forums.factorio.com/64009">forum</a>.
+</p>
+    </p>
+
+
+
+    <div class="footer">
+
+      <div class="footer-copyright">
+          Copyright © 2015 - 2018 Wube Software - all rights reserved.
+        </div>
+        <div class="footer-menu">
+
+          
+
+          <a href="/terms-of-service" style="font-size: 11px;"> Terms of Service </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/privacy-policy" style="font-size: 11px;"> Privacy </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/imprint" style="font-size: 11px;"> Imprint </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/presskit" style="font-size: 11px;"> Presskit </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/faq" style="font-size: 11px;"> FAQ </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/blog/rss" style="font-size: 11px;"> RSS </a>
+          <span style="font-size: 11px;"> | </span>
+          
+
+          <a href="/jobs" style="font-size: 11px;">
+            Jobs
+          </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  <script src="/static/js/raphael-min.js" type="text/javascript"></script>
+  <script src="/static/js/factorio.min.js" type="text/javascript"></script>
+  <script src="/static/lightbox/js/lightbox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-115167276-1']);
+        _gaq.push(['_trackPageview']);
+        (function()
+        {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+  </script>
+ </body>
+</html>
