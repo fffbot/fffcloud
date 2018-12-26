@@ -21,16 +21,17 @@
         }
 
         .panel {
-            flex-basis: auto;
-            flex-grow: 0;
+            flex-basis: content;
+            flex-grow: 1;
             flex-shrink: 1;
             align-self: auto;
-            width: 100%;
+            /*width: 100%;*/
             padding: 10px;
         }
 
         .ffflist {
             border: 1px solid red;
+            max-width: 1200px;
         }
 
         .cloud {
@@ -39,6 +40,15 @@
 
         .wordlist {
             border: 1px solid purple;
+            width: 500px;
+        }
+
+        .wordlist table tbody td.cell-word {
+            word-wrap: break-word;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width: 200px;
         }
 
         .ffflist > ul {
@@ -47,8 +57,16 @@
             padding: 0;
         }
 
+        .ffflist > ul > li {
+            line-height: 1.5em;
+        }
+
         #cloud-vis {
             margin: 25px;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
         }
 
         h1 {
@@ -58,155 +76,18 @@
             border-bottom: 1px solid black;
         }
 
-        h1 a, h1 a:link, h1 a:visited {
-            text-decoration: none;
+        th {
+            text-align: left;
+        }
+        
+        td.cell-count {
+            text-align: right;
+        }
+
+        tr.excluded {
+            color: dimgray;
         }
     </style>
-    <script>
-        const _config = {
-            'per-line': false,
-            'font': 'sans-serif',
-            'spiral': 'archimedean' /*rectangular*/,
-            'scale': 'log' /*log/sqrt/linear*/,
-            'max': 250,
-            'angle-count': 1,
-            'angle-from': -90,
-            'angle-to': 90
-        };
-
-        function config(key) {
-            const val = _config[key];
-            if (val === undefined) {
-                throw new Error('Invalid config key ' + key);
-            }
-            return val;
-        }
-
-        function createLink(text, href) {
-            const link = document.createElement('A');
-            link.setAttribute('href', href);
-            link.innerHTML = text;
-            return link;
-        }
-
-        function createLi(element) {
-            const li = document.createElement('LI');
-            li.appendChild(element);
-            return li;
-        }
-
-        function handleHashChange() {
-            const num = location.hash.trim().substr(1);
-            showCloudFor(num);
-        }
-
-        function clear(element) {
-            while (element.lastChild) {
-                element.removeChild(element.lastChild);
-            }
-        }
-
-        function cell(text) {
-            const cell = document.createElement('TD');
-            cell.innerText = text;
-            return cell;
-        }
-
-        function row(word, count) {
-            const wordCell = cell(word);
-            const countCell = cell(count);
-
-            const row = document.createElement('TR');
-            row.appendChild(wordCell);
-            row.appendChild(countCell);
-            return row;
-        }
-
-        function sumCounts(data) {
-            const countsByWord = new Map();
-
-            Object.values(data).forEach(item => {
-                Object.entries(item.counts).forEach(([word, count]) => {
-                    const cur = countsByWord.get(word) || 0;
-                    countsByWord.set(word, cur + count);
-                });
-            });
-
-            return countsByWord;
-        }
-
-        function showCloudFor(num) {
-            const title = document.getElementById('fff-title');
-
-            if (num === 'overview' || num === '') {
-                title.innerText = 'Overview :)';
-
-                //fillWordList(sumCounts(_data).entries());
-            } else {
-                const entry = _data[num];
-                if (!entry || !entry.counts) {
-                    title.innerText = 'No FFF found for ' + num;
-                    return;
-                }
-
-                //caption.innerText = 'Would show cloud for ' + num + ' (' + entry.title + ')';
-                const link = createLink(entry.title, '#' + num);
-                title.innerHTML = '<a href="#' + num + '">' + entry.title + '</a>';
-
-                fillWordList(Object.entries(entry.counts));
-            }
-
-            window.scroll(0, 0);
-        }
-
-        function fillWordList(entries) {
-            const sorted = new Map([...entries].sort((a, b) => b[1] - a[1]));
-
-            const wordList = document.getElementById('wordlist-table-body');
-            clear(wordList);
-
-            const allWords = [];
-            for (const [word, count] of sorted.entries()) {
-                wordList.appendChild(row(word, count));
-                for (let i = 0; i < count; i++) {
-                    allWords.push(word);
-                }
-            }
-            let txt = allWords.join(' ');
-            console.log('text length:', txt.length, 'array size: ', allWords.length);
-            parseText(txt);
-        }
-
-        function word_progress() {
-            console.log('arguments', arguments);
-        }
-
-        function loadData() {
-            fetch('all-counts.json')
-                .then(resp => resp.ok ? resp.json() : Promise.reject(resp.statusText))
-                .then(data => {
-                    _data = data;
-
-                    const fffList = document.getElementById('fff-list');
-                    Object.keys(data).sort((a, b) => parseInt(b, 10) - parseInt(a, 10)).forEach(num => {
-                        const entry = data[num];
-                        const title = entry.title;
-                        fffList.appendChild(createLi(createLink(title, '#' + num)));
-                    });
-
-                    handleHashChange();
-                })
-                .catch(error => {
-                    console.log('error!', error);
-                    document.getElementById('fff-title').innerText = 'Error loading word count data: ' + error;
-                });
-        }
-
-        window.addEventListener("hashchange", handleHashChange, false);
-        let _data;
-        window.onload = () => loadData();
-
-    </script>
 </head>
 
 <body>
@@ -225,6 +106,7 @@
     </div>
 
     <div class="wordlist panel">
+        <label for="show-excluded"><input type="checkbox" id="show-excluded"> Show excluded words</label>
         <table border="1">
             <thead>
             <tr>
@@ -236,13 +118,11 @@
             </tbody>
         </table>
     </div>
-
 </div>
 
-
+<script src="fffcloud.js"></script>
 <script src="ext/www.jasondavies.com_d3.min.js"></script>
 <script src="ext/www.jasondavies.com_wordcloud_cloud.min.js"></script>
-
 
 </body>
 </html>
