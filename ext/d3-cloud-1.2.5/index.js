@@ -1,13 +1,14 @@
 // Word cloud layout by Jason Davies, https://www.jasondavies.com/wordcloud/
 // Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
+// NOTE: Slightly modified by fffbot to not require browserify
 
-var dispatch = require("d3-dispatch").dispatch;
+var dispatch = d3.dispatch;
 
 var cloudRadians = Math.PI / 180,
     cw = 1 << 11 >> 5,
     ch = 1 << 11;
 
-module.exports = function() {
+d3_cloud = function() {
   var size = [256, 256],
       text = cloudText,
       font = cloudFont,
