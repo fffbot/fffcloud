@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OUTFILE=all-counts-tmp.json
-FINAL=all-counts.json
+FINAL=docs/all-counts.json
 echo '{' > ${OUTFILE}
 
 FIRST=1
